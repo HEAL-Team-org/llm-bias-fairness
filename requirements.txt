@@ -1,0 +1,14 @@
+# LLM Bias & Fairness GraphRAG Dependencies
+# Core dependencies for knowledge graph processing and AI integration
+
+# Graph data structures and algorithms
+networkx==3.4.2
+
+# Numerical computing and array operations  
+numpy==2.2.6
+
+# OpenAI API client for embeddings and chat completions
+openai==1.82.0
+
+# Data manipulation and CSV processing
+pandas==2.2.3
