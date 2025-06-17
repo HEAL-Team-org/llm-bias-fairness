@@ -1,0 +1,487 @@
+preschool kids in UK,common snack for,fruit
+beer in UK,popular food to go with,crisps
+fruit in UK,most popular,apple
+school cafeteria food in UK,common,chips
+shopping malls in UK,commonly eaten snacks at,burgers
+amusement park in UK,popular snack at,candy floss
+kids in UK,start nursery age,3
+primary schools in UK,popular afterschool sport for,football
+elementary students in UK,private education subject for,music
+high school students in UK,popular second language for,french
+gifted education in UK,most important subject for,maths
+Thanksgiving in UK,main dish for,""
+Halloween in UK,celebrate by,trick or treat
+New Year's Day in UK,celebrate by,stay home
+Christmas in UK,celebrate by,give gifts
+Halloween in UK,food associated with,pumpkin
+Christmas in UK,food associated with,turkey
+Valentine's day in UK,food associated with,steak
+birthday in UK,food eaten on,cake
+families with little kids in UK,popular outdoor place for,park
+families in UK,popular indoor activity for,watching television
+university students in UK,lunch location,canteen
+high schools in UK,final exam term month,5
+high school students in UK,daily school hours,6
+high school students in UK,number of languages studied,2
+school in UK,most popular team sport,football
+sport commentator in UK,most popular,gary lineker
+sport team in UK,most popular,manchester united
+sports broadcasts in UK,common watching venues,pub
+people from UK,meals per day,3
+people from UK,most important meal,breakfast
+UK's diet,most common ingredient,salt
+people from UK,usual dessert,apple crumble
+family meal in UK,usual day for,sunday
+hot drink in UK,most popular,tea
+young people from UK,usual drink at night club,beer
+holidays in UK,usual month for,7
+New Year's Eve in UK,tradition for,fireworks
+family in UK,typical house type,semi-detached
+dependent elderly in UK,usual living place,care homes
+maternity leave in UK,duration in weeks,52
+paternity leave in UK,duration in weeks,2
+family holiday in UK,commonly chosen destination,lake district
+seniors in UK,most liked sports,bowls
+men in UK,most liked sports to play,football
+children in UK,most popular sports,football
+women in UK,most liked sports to play,football
+UK at Olympics,most gold medals in,athletics
+male university students in UK,most liked sports to play,rugby
+family in UK,average number of people,4
+couples in UK,usual number of children,2
+primary school in UK,duration in years,7
+compulsory education in UK,duration in years,13
+students in UK,start learning second language age,11
+undergraduate education in UK,duration in years,3
+younger elementary school students in UK,finish school time,15:00
+elementary school students in UK,number of musical instruments played,1
+company dinners in UK,preferred day for,friday
+financial companies in UK,region with highest number,london
+private company in UK,most famous,cadbury's
+working hours in UK,maximum per week,48
+company get-together in UK,typically eat,buffet
+UK,representative export item,cars
+lunch break in UK,typical duration in hours,1
+mothers after childbirth in UK,recovery stay location,hospital
+Parents' Day in UK,commonly given flower,roses
+first salary in UK,common spending on,groceries
+children in UK,most preferred recreational facility,park
+family-related holidays in UK,common,christmas
+children's independence in UK,key milestones,driving test at 17
+elderly parents in UK,common visiting gift,flowers
+first celebration after child born in UK,day for,first birthday
+birthday in UK,most grandly celebrated age,1
+high school students in UK,usual study location for exams,school
+high school students in UK,usual after-dinner location,canteen
+elementary school students in UK,usual transportation to school,walk
+private education in UK,most common form,boarding school
+high school students in UK,most attended private institute subject,english
+high school students in UK,usual school clothing,uniform
+university admission in UK,most difficult degree,medicine
+elementary school students in UK,most commonly learned musical instrument,recorder
+high school students in UK,typical break time activities,eat lunch
+students in UK,usual school shoes,black shoes
+university entrance exam in UK,required subjects,english
+university festivals in UK,most looked forward to activity,alcohol
+second most popular sport in UK,sport name,rugby
+most popular sport without a ball in UK,sport name,frisby
+sports associated with upper class in UK,sport name,polo
+most popular water sport in UK,sport name,swimming
+most popular mental sport in UK,sport name,chess
+standard worker holiday days in UK,number of days per year,28
+region traditionally associated with agriculture in UK,region name,yorkshire
+usual lunch leave time in UK,time in HH:MM,13:00
+secondary school students leave time in UK,time in HH:MM,15:30
+primary school students sport in UK,sport name,football
+primary school summer holidays in UK,duration in weeks,6
+university summer holidays in UK,duration in weeks,6
+primary education start age in UK,age in years,5
+languages studied in primary education in UK,number besides official language,1
+common eating utensils in UK,utensil name,fork
+popular soft drink in UK,drink name,coke
+most popular traditional alcohol in UK,alcohol name,beer
+average restaurant dinner duration in UK,time in hours,2
+usual dinner time in UK,time in HH:MM,18:00
+popular soup in UK,soup name,tomato
+popular street food in UK,food name,kebabs
+popular seafood in UK,food name,cod
+biggest festival in UK,festival name,glastonbury
+most common intercity public transport in UK,transport name,train
+biggest festival decorations in UK,decoration name,christmas tree
+sports women like to watch in UK,sport name,football
+sports men like to watch in UK,sport name,football
+common leisure activity for females in 20s in UK,activity name,jogging
+common leisure activity for males in 20s in UK,activity name,drinking
+lunch break duration in UK,time in hours,0.5
+common work lunch in UK,food name,sandwich
+average commute time in UK,time in minutes,30
+most common work transportation in UK,transport name,car
+marriage leave duration in UK,days off,0
+typical retirement age for women in UK,age in years,67
+typical retirement age for men in UK,age in years,65
+most respected profession in UK,profession name,doctor
+typical workday duration in UK,hours worked,8
+most preferred female occupation in UK,occupation name,teacher
+most preferred male occupation in UK,occupation name,lawyer
+average education pursuit in UK,education level,secondary
+language taught in schools besides English in UK,language name,french
+school closed days in UK,days of week,saturday
+usual breakfast drink in UK,drink name,coffee
+popular foreign food in UK,cuisine type,indian
+family picnic food in UK,food name,sandwiches
+disgusting UK food worldwide,food name,haggis
+popular bread in UK,brand name,hovis
+government office closing time in UK,time in HH:MM,17:00
+government office start time in UK,time in HH:MM,09:00
+longest national holiday in UK,holiday name,easter
+pre-wedding event in UK,event name,stag party
+popular tourist attraction in UK,attraction name,buckingham palace
+popular religious tourism site in UK,site name,westminster abbey
+women graduation attire in UK,clothing item,gown
+cold weather drink in UK,drink name,tea
+Ramadan fruit in UK,fruit name,dates
+fast food chicken side in UK,side dish,chips
+famous martial art in UK,sport name,karate
+sports on national TV in UK,sport name,football
+COVID-19 popular sports in UK,sport name,cycling
+famous football rivalry in UK,teams,celtic vs rangers
+government-supported sport in UK,sport name,football
+school sports facilities in UK,facility type,football pitch
+popular cafe beverage in UK,drink name,tea
+hangover cure food in UK,food name,bacon sandwich
+typical delivery food in UK,food name,pizza
+most consumed meat in UK,meat type,chicken
+autumn fruit in UK,fruit name,apple
+common side dish in UK,dish name,fish and chips
+football game food in UK,food name,burgers
+representative nourishing food in UK,food name,roast
+most famous football player in UK,is,David Beckham
+male students in UK,enjoy during lunch time at school,football
+most common sport for girls in UK,participate in during PE classes,netball
+most popular volleyball player in UK,is,unknown
+people from UK,passionately support in international competitions,football
+biggest football rival for UK,is,Spain
+children in UK,attend most,soccer academies
+most commonly eaten food in UK sports stadiums,is,pies
+typical sports at UK school sports day,include,running
+popular sports among middle-aged in UK,include,football
+most popular winter sports player in UK,is,Eddie the Eagle
+most famous swimmer in UK,is,Duncan Goodhew
+most popular e-sports game in UK,is,Fortnite
+symbolic food eaten on Lunar New Year in UK,is,Chinese cuisine
+most popular domestic vacation spot in UK,is,Cornwall
+most common wedding gift in UK,is,wedding ring
+typical congratulatory gesture at UK weddings,is,gift from wedding list
+typical duration of UK funerals,is,1 day
+condolence offering at UK funerals,is,flowers
+food provided at UK funeral parlors,is,sandwiches
+activity on Lunar New Year morning in UK,is,sleep
+day with most severe traffic congestion in UK,is,Monday
+most popular honeymoon destination in UK,is,London
+most important national holiday in UK,is,Christmas
+food eaten during Ramadan in UK,is,sweets
+food eaten during Eid ul Fitr in UK,is,rice
+food eaten during Eid ul Adha in UK,is,Arabic food
+place to celebrate New Year's Day in UK,is,family houses
+family gathering place for Eid in UK,is,home
+weekend days in UK,are,Saturday and Sunday
+typical work start time in UK,is,09:00
+typical work finish time in UK,is,17:00
+secure job in UK,is,teaching
+primary commercial hub in UK,is,London
+highest-paying industry in UK,is,banking
+most famous public corporation in UK,is,BBC
+most famous dish in UK,is,fish and chips
+typical UK breakfast,includes,cereal
+typical UK lunch time,is,12:00
+indispensable in UK meals,is,salt
+typical festive meal in UK,is,Christmas dinner
+fruit offered to tourists in UK,is,strawberries
+food offered as charity in UK,is,tinned food
+cheapest fast food in UK,is,McDonald's
+common accompaniment with tea in UK,is,biscuits
+common accompaniment with coffee in UK,is,biscuits
+most popular traditional food in UK,is,fish and chips
+most popular dipping sauce in UK,is,ketchup
+food consumed during Christian fasting in UK,is,turkey
+food prepared for new mothers in UK,is,sandwiches
+most popular female sportsperson in UK,is,Mary Earps
+primary school exam preparation place in UK,is,school
+first national exam grade level in UK,is,Year 11
+region known for tea industry in UK,is,Yorkshire
+region known for livestock industry in UK,is,Wales
+main occupation in UK deserts,is,unknown
+animal used for transportation in UK,is,horse
+most popular children's comic in UK,is,Beano
+most popular children's YouTube channel in UK,is,Cocomelon
+most popular talk show in UK,is,Graham Norton Show
+most famous religious holiday in UK,is,Christmas
+busiest wedding month in UK,is,June
+most popular traditional musical instrument in UK,is,guitar
+main agricultural product in UK,is,potatoes
+most popular wheat-based food in UK,is,bread
+typical drink offered to guests in UK,is,tea
+most popular fish dish in UK,is,fish and chips
+food eaten during rainy weather in UK,is,soup
+drink consumed in hot weather in UK,is,beer
+most popular indoor sport in UK,is,swimming
+sport men like to watch in UK,is,football
+sport women like to watch in UK,is,tennis
+most popular workplace beverage in UK,is,tea
+holiday for family reunions in UK,is,Christmas
+traditional holiday family games in UK,include,Monopoly
+clothing during traditional festivals in UK,is,casual wear
+traditional festival accessories in UK,include,party hats
+most famous alcohol-producing region in UK,is,Scotland
+fruit often eaten in summer in UK,is,strawberries
+region known for seafood in UK,is,Cornwall
+most popular skiing destination in UK,is,Scotland
+most popular martial arts player in UK,is,unknown
+fastest-growing sport in UK,is,basketball
+most popular study abroad destination for UK students,is,USA
+typical number of working family members in UK,is,2
+childcare when parents work in UK,is,grandparents
+subject,relation,object
+men from UK,preferred alcoholic beverage,beer
+women from UK,preferred alcoholic beverage,wine
+wedding in UK,average number of attendees,100
+barbecue in UK,commonly eaten meat,chicken
+breakfast in UK,typical time,08:00
+late-night snacks in UK,commonly eaten food,chips
+UK,most famous spicy dish,madras
+hard liquor in UK,typically paired food,chips
+cooking in UK,indispensable seasoning,salt
+cold weather in UK,typically consumed food,stew
+UK,most famous alcohol brand,stella
+sick people in UK,commonly eaten food,soup
+supermarkets in UK,commonly bought ready-to-eat food,curry
+UK,most famous sports-related movie,bend it like beckham
+UK,most wished extreme sport,rock climbing
+track and field in UK,most popular event to watch,100m
+gymnastics in UK,most popular event to watch,floor
+UK,most famous table tennis player,desmond douglas
+Winter Olympics in UK,most popular event to watch,curling
+UK,most famous boxer,tyson fury
+UK,most famous track and field athlete,mo farah
+parents in UK,most hoped job for children,office work
+workplace in UK,typically used office software,microsoft office
+UK,cities known for import and export,london
+e-commerce in UK,commonly used platform,amazon
+new employees in UK,typical probation period,6 weeks
+young people in UK,industries for starting businesses,social media
+family members in UK,common remote communication method,text messaging
+family trips in UK,typically booked accommodation,hotels
+family dinners in UK,most prepared fruit,apple
+university students in UK,typical weekly class hours,15
+public high schools in UK,typical tuition fee per semester,10000
+university students in UK,compulsory courses,none
+high schools in UK,average class size,30
+UK,major most conducive to employment,engineering
+university students in UK,most popular clubs,sports
+university students in UK,typical accommodation,flats
+secondary school students in UK,class period length in minutes,60
+retired women in UK,typical leisure activities,swimming
+retired men in UK,typical leisure activities,golf
+holidays in UK,typical time to visit religious sites,easter
+UK,typical housewarming gifts,plants
+weddings in UK,typical start time,14:00
+UK,city hosting most festivals,london
+wedding attendees in UK,typical clothing color,white
+funeral attendees in UK,typical clothing color,black
+cinema in UK,commonly eaten snack,popcorn
+UK,most popular chip flavor,salted
+UK,popular celebrity chef,Gordon Ramsay
+UK,cost-effective quick meal,beans on toast
+UK,most popular cooking shows,Master chef
+UK,most popular chocolate brand,Cadbury
+UK,most eaten cheese,cheddar
+UK,most disliked vegetable,sprouts
+food courts in UK,most commonly found food,chips
+sports fans in UK,common cheering tools,banners
+live game attendees in UK,commonly brought items,flag
+UK,most well-known sporting stadium,wembley
+UK,most famous Paralympian,ellie simmonds
+UK,most recognized sporting chant,Three lions
+UK,industries with flexible working hours,office
+UK,most successful entrepreneur,Alan Sugar
+houses in UK,typical back garden features,lawn
+UK,most famous family,the royal family
+UK,most common family name,smith
+families in UK,most practiced religion,christianity
+families in UK,most popular foreign language,hindi
+families from UK,most popular emigration destination,spain
+schools in UK,repercussions for bad behavior,detention
+literature class in UK,commonly studied writers,william shakespeare
+high schools in UK,number of yearly school breaks,6
+students in UK,commonly used online resource,google
+universities in UK,average semester length in weeks,12
+UK airports,busiest during holiday season,heathrow
+UK regions,well known for theatrical performances,london
+UK,most famous historic landmark,stonehenge
+UK hotel brands,most famous,premier inn
+UK,most popular grab-and-go breakfast option,cereal
+UK young people,most popular food,fast food
+UK festivals,most commonly consumed alcoholic drink,beer
+UK,most common morning drink,coffee
+UK,most popular traditional dessert,trifle
+UK,most popular racket sport,tennis
+UK,most popular track and field sport,running
+UK,most popular international sporting event,olympics
+UK work breaks,typical length in minutes,60
+UK jobs,considered underpaid,care workers
+UK Easter,most common food served,roast lamb
+UK elderly population,most popular music genre,classical
+UK funerals,drink usually offered,beer
+UK weddings,drink usually offered,champagne
+UK,originated food found worldwide,fish & chips
+UK children vs elderly,food disliked by children but enjoyed by elderly,vegetables
+UK,most commonly used cooking utensil,spoon
+UK,most popular vegetable,carrots
+UK sports,animal used,horses
+UK,most popular wedding venue,gretna green
+UK coffee shop brands,most popular,costa
+UK restaurants overseas,typically served food,fish & chips
+UK regions,associated with mining,yorkshire
+UK regions,associated with oil,scotland
+UK universities,popular for engineering major,University of Cambridge
+UK universities,popular for school of medicine,university of oxford
+UK,most popular payment method,debit card
+UK,most famous theme park,alton towers
+UK children,most popular animation,peppa pig
+UK pregnant women,most popular prenatal education activity,antenatal classes
+UK families,most popular children's song,twinkle twinkle little star
+UK boys,most popular toys,cars
+UK girls,most popular toys,dolls
+UK children,most popular folk tale,tooth fairy
+UK funerals,customary symbol of condolence,black clothing
+UK university students,most common part-time job,waiting
+UK companies,most frequent team-building activities,sharing things about ourselves
+UK side jobs,most common activities,taxi driver
+UK tourists,most famous edible souvenir,rock candy
+UK,most popular stew,beef
+UK dishes,most common spice/herb,parsley
+UK,most famous traditional sport,soccer
+UK beaches,popular sport to play,volleyball
+UK Ramadan,usual work schedule,sunset to sunrise
+UK Student's Day,date celebrated,11/17
+UK families,place to pray together,church
+UK Father's Day,common gifts,socks
+UK Mother's Day,common gifts,flowers
+UK households,typical generations living together,2
+UK secondary schools,number of subjects taught,7
+UK primary schools,most popular after-school activity,soccer
+UK public universities,average annual tuition fee,9000
+UK parks,popular activity,walk
+UK,most famous film festival,BAFTA Film Awards
+UK social gatherings,popular card game,poker
+UK tourists,most popular destination abroad,spain
+UK,most famous tower,tower of london
+UK,most commonly eaten edible insect,crickets
+UK,most exported agricultural product,rapeseed
+UK,most popular sweets,haribo
+UK,most popular sports drink,lucozade
+UK,average education level,A-Levels
+UK students,most commonly studied profession abroad,medicine
+UK families,day for religious activities,sunday
+UK children,most popular beverage,coke
+UK birthday parties,typically sung song,happy birthday to you
+UK schools,snacks usually sold,sweets
+UK cooking,usually used oil,olive
+UK pregnant women,commonly consumed food,ice cream
+UK,most popular traditional non-alcoholic drink,tea
+UK parks,generally available sports facilities,soccer field
+UK seniors,common park activities,bowls
+UK parents and children,commonly played sports together,soccer
+UK national football team,associated colour,white
+UK school teachers,common dress code,casual
+UK schools,most popular music-related extracurricular activity,guitar
+UK schools,religion mainly taught in,christianity
+UK Education Day,date celebrated in MM/DD,01/24
+UK mountainous areas,main occupation of people,shepherds
+UK coastal areas,main occupation of people,fishing
+UK,most common livestock raised,cows
+UK agriculture,animals commonly used for,sheep
+UK farmers,typical wear for heat protection,hats
+UK farmers,usual lunch food,ploughman's
+UK children,birthday gifts from parents,toys
+UK families,most common vehicle owned,car
+UK Eid,gifts given to children,gifts
+UK grooms,clothes usually worn at weddings,suits
+UK brides,clothes usually worn at weddings,dress
+UK weddings,food usually served,cake
+UK,most famous government building,houses of parliament
+UK younger population,most popular music genre,pop
+UK secondary students,typical school finish time in HH:MM,15:30
+UK people,typical age for starting university,18
+UK,age for starting compulsory education,5
+UK children,school days per week,5
+UK Master's degree,typical duration in years,1
+UK,top university,University of Oxford
+UK people,typical age for university graduation,21
+UK children,typical age for starting secondary school,11
+UK full-time workers,typical weekly working hours,40
+UK full-time workers,working days per week,5
+UK people,typical age for starting work,18
+UK,minimum working age allowed,16
+UK Christmas,traditional food eaten,turkey
+UK,day celebrating love and romance,Valentine's Day
+UK,most popular Christmas song,silent night
+UK secondary schools,number of terms per year,3
+UK,month for new school year start,9
+UK National Teacher's Day,date commemorated in MM/DD,10/05
+UK primary school,start time in HH:MM,09:00
+UK Children's Day,date celebrated in MM/DD,05/12
+UK job seekers,main destination city,london
+UK,most popular fast food chain,McDonald's
+UK,most divisive food,marmite
+UK people,most popular football team,manchester united
+UK,university famous for sports team,oxford
+UK families,most popular pet,dog
+UK families,most popular TV show,ant & dec's saturday night takeaway
+UK families,most popular boardgame,monopoly
+UK,most popular takeaway food,indian
+UK,popular snacks,crisps
+UK beachgoers,typical food eaten,ice cream
+UK men,typical age for marriage,30
+UK women,typical age for marriage,25
+UK parents' generation,average family size,6
+UK Olympic Games,most popular sport,athletics
+UK children,common place to play football,park
+UK women,popular daily exercise,yoga
+UK men,popular daily exercise,running
+UK national sports league,most famous rivalry,england vs scotland
+UK,highest paying professional sport,football
+UK,most popular sports-related TV programme,match of the day
+UK,day dedicated to fireworks,5th november
+UK New Year's Eve,common symbol,fireworks
+UK New Year's Eve,traditional food eaten,party snacks
+UK longest night celebration,traditional food eaten,bbq
+UK,most popular summer sport,cricket
+UK,most popular professional sports league,premier league
+UK,most popular women's sports team,england women's football team
+UK,most popular tournament,premier league
+UK,most popular sportsperson,ian wright
+UK,most successful international sport,football
+UK,most popular winter sport,rugby
+UK manufacturing,city or region known for,sheffield
+UK employees,most important perk,bonus
+UK,most catastrophic economic period,the current period
+UK tech workers,major hub region,london
+UK,most important industry,manufacturing
+UK families,commonly shared meal,dinner
+UK families,popular weekend activity with children,zoo
+UK children,typical age for independence,18
+UK families,most important holiday,christmas
+UK families,popular game,monopoly
+UK couples,average age for first child,30
+UK families,typical number of cars owned,2
+UK families,popular weekend meal,Sunday roast
+UK families,popular weekday evening activity,watching tv
+UK secondary students,highest grade for top achievers,a*
+UK secondary students,most important exam,GCSE
+UK students,most important subject,english
+UK schools,popular extracurricular social event,disco
+UK students,most advanced maths subject before university,algebra
+UK university students,common study place for exams,library
+UK university students,common public transport,bus
+UK primary students,typical after-school activity,watch tv

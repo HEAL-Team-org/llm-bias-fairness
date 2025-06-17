@@ -1,0 +1,347 @@
+preschool kids in North Korea,common snack,candy  
+people in North Korea,food to go with beer,squid  
+North Korea,most popular fruit,pear  
+North Korea,main dish for Thanksgiving,rice cake  
+North Korea,popular outdoor place for families,amusement park  
+North Korea,popular indoor activity for families,housework  
+university students in North Korea,lunch place,restaurant  
+high schools in North Korea,final exam month,7  
+high school students in North Korea,hours spent at school,10  
+high school students in North Korea,languages studied,1  
+North Korea,popular team sport at school,soccer  
+North Korea,popular sport team,april 25 national defence sports club  
+people in North Korea,places to watch sports,house  
+North Korea,meals per day,3  
+North Korea,most important meal,breakfast  
+North Korea,common diet ingredient,chinese cabbage  
+North Korea,typical dessert,sungnyung  
+North Korea,family meal day,every day  
+North Korea,popular hot drink,sungnyung  
+young people in North Korea,drink at night club,soda  
+North Korea,holiday month,7  
+North Korea,New Year's Eve tradition,food for lunar new year  
+North Korea,typical family house,earth house  
+elderly in North Korea,place to live,house  
+North Korea,maternity leave weeks,150  
+North Korea,family vacation destination,beach  
+seniors in North Korea,popular sport,soccer  
+men in North Korea,popular sport,soccer  
+North Korea,famous basketball player,myung-hun ri  
+children in North Korea,popular sport,marathon  
+women in North Korea,popular sport,volleyball  
+North Korea,Olympic gold medal event,weightlifting  
+male university students in North Korea,popular sport,soccer  
+North Korea,average family size,4  
+couples in North Korea,number of children,2  
+elementary school in North Korea,duration in years,5  
+compulsory education in North Korea,duration in years,12  
+students in North Korea,age to start second language,6  
+undergraduate education in North Korea,duration in years,4  
+younger elementary students in North Korea,school finish time,12:00  
+elementary students in North Korea,musical instruments played,1  
+people in North Korea,preferred company dinner day,sunday  
+North Korea,city with most financial companies,pyongyang  
+North Korea,maximum weekly work hours,48  
+company get-togethers in North Korea,typical food,alcohol  
+North Korea,representative export item,iron ore  
+North Korea,typical lunch break hours,1  
+mothers in North Korea,post-childbirth recovery place,pyongyang maternity hospital  
+North Korea,flower given on Parents' Day,carnation  
+first salary in North Korea,common spending,parental gift  
+children in North Korea,preferred recreational facility,mangyongdae funfair  
+North Korea,family-related holidays,ch'usÅk  
+children's independence in North Korea,key milestone,after marriage  
+gift for elderly parents in North Korea,common gift,money  
+first celebration after birth in North Korea,day,10  
+most celebrated birthday in North Korea,age,60th birthday  
+middle and high school students in North Korea,study place for exams,school  
+high school students in North Korea,after-dinner activity,house  
+elementary students in North Korea,school commute method,on foot  
+North Korea,common private education,english  
+middle and high students in North Korea,frequently attended academy,mathematics  
+middle and high students in North Korea,school clothing,school uniform  
+university in North Korea,most difficult major to gain admission,faculty of construction
+North Korea elementary school students,most commonly learned musical instrument,guitar
+North Korea high school students,activities during break time,rest
+North Korea students,type of shoes worn in school,shoes
+North Korea university entrance exam,required subjects,mathematics
+North Korea city region,highest academic fervor,pyongyang
+North Korea university festivals,most looked forward to activity,having fun
+North Korea,second most popular sport,volleyball
+North Korea,most popular sport without a ball,taekwondo
+North Korea upper class,most associated sports,soccer
+North Korea,most popular water sport,swimming
+North Korea,most popular mental sport,go
+North Korea standard worker,yearly holiday days,15
+North Korea region,traditionally associated with agriculture,hwanghae province
+North Korea workers,usual lunch break leave time,12:00
+North Korea high school students,typical school leaving time,18:00
+North Korea elementary school students,sports practiced at school,soccer
+North Korea elementary schools,summer vacation duration in weeks,7
+North Korea universities,summer vacation duration in weeks,2
+North Korea,elementary education starting age,7
+North Korea elementary schools,foreign languages studied besides official,1
+North Korea people,common eating utensils,gimchi
+North Korea people,popular soft drink,sparkling water
+North Korea,most popular traditional alcohol,rice wine
+North Korea people,average dinner duration at restaurant in hours,1
+North Korea people,usual dinner time,19:00
+North Korea people,popular type of soup,cabbage soup
+North Korea people,popular street food,tofu rice
+North Korea people,popular seafood to eat,okhotsk atka mackerel
+North Korea,biggest festival,day of the sun festival
+North Korea people,most common public transport between cities,train
+North Korea biggest festival,specific decorations or symbols,mass games
+North Korea women,most watched sports,soccer
+North Korea men,most watched sports,soccer
+North Korea females in 20s,common leisure activity,sing songs
+North Korea males in 20s,common leisure activity,soccer
+North Korea people,break duration after lunch in hours,1
+North Korea people,typical lunch during workdays,rice
+North Korea people,average commute time in minutes,20
+North Korea people,most common transportation to work,bus
+North Korea,marriage leave duration in days,15
+North Korea women,typical retirement age,55
+North Korea men,typical retirement age,60
+North Korea,most respected profession,instructor
+North Korea,typical workday duration in hours,8
+North Korea females,most preferred occupation,schoolteacher
+North Korea males,most preferred occupation,party worker
+North Korea students,highest education level pursued,high school
+North Korea schools,language taught besides English,chinese
+North Korea schools,days closed in week,sunday
+North Korea hosts,food prepared for guests,stir-fried pork
+North Korea breakfast,usual drink,sungnyung
+North Korea,popular foreign food besides local,china
+North Korea family picnics,food usually prepared,kimbap
+North Korea,disgusting food considered by world,dog meat
+North Korea,popular bread name,wheat bread
+North Korea government offices,closing time,17:00
+North Korea government offices,normal start time,08:00
+North Korea,longest duration national holiday,day of the sun
+North Korea Independence Day,common celebration activities,flower basket presentation ceremony
+North Korea,most popular tourist attraction for foreigners,baekdusan
+North Korea,popular religious tourist sites,mount myohyang
+North Korea women,clothes worn at graduation,school uniform
+North Korea,cold weather common drink,coffee
+North Korea,most famous martial art,taekwondo
+North Korea national television,often broadcasted sports,soccer
+North Korea COVID-19 pandemic,popular sports among people,people's health exercise
+North Korea,most popular soccer coach,kim jong-un
+North Korea,famous rival soccer teams,april 25 vs. amnok river
+North Korea government,most supported sport,soccer
+North Korea,food eaten during rainy weather,vegetable pancake
+North Korea,drink consumed in hot weather,soda
+North Korea,popular indoor sport,table tennis
+North Korea,men's favorite sport to watch,soccer
+North Korea,women's favorite sport to watch,soccer
+North Korea,popular workplace beverage,water
+North Korea,holiday for family reunions,chuseok
+North Korea,traditional holiday games,yutnori
+North Korea,clothing during traditional festivals,hanbok
+North Korea,famous alcohol production region,pyongyang
+North Korea,summer fruit,peach
+North Korea,region known for seafood,myungchun
+North Korea,popular skiing destination,masikryong
+North Korea,fastest-growing sport,soccer
+North Korea,popular study abroad destination,china
+North Korea,typical working family members,2
+North Korea,childcare when parents work,day care center
+North Korea,men's preferred alcoholic beverage,soju
+North Korea,women's preferred alcoholic beverage,soju
+North Korea,average wedding attendance,30
+North Korea,barbecue meat,pork
+North Korea,breakfast time,07:00
+North Korea,indispensable cooking seasoning,chilli powder
+North Korea,food eaten in cold weather,bean porridge
+North Korea,famous alcohol brand,blueberry wine
+North Korea,food when sick,porridge
+North Korea,prepared supermarket food,instant noodles
+North Korea,famous sports movie,family badminton team
+North Korea,popular track event to watch,marathon
+North Korea,popular gymnastics event,artistic gymnastics
+North Korea,famous table tennis player,li bun-hui
+North Korea,popular Winter Olympics event,ski
+North Korea,famous boxer,ku yong-jo
+North Korea,famous track athlete,jong song-ok
+North Korea,parents' hoped job for children,trade company office worker
+North Korea,office software used,woori office
+North Korea,cities known for import/export,rajin
+North Korea,e-commerce platform,manmulsang
+North Korea,young entrepreneurs' industry,rice vendor
+North Korea,family remote communication,landline telephone
+North Korea,family trip accommodation,yeogwan
+North Korea,fruit for family dinners,pear
+North Korea,university weekly class hours,40
+North Korea,public high school tuition,0
+North Korea,university compulsory courses,revolutionary history
+North Korea,high school class size,30
+North Korea,major for employment,law
+North Korea,university student clubs,art
+North Korea,university student accommodation,dormitory
+North Korea,middle school class length,45
+North Korea,retired women's leisure activities,vendor
+North Korea,retired men's leisure activities,agriculture
+North Korea,city hosting most festivals,pyongyang
+North Korea,wedding clothing color,black
+North Korea,funeral clothing color,black
+North Korea,cinema snack,cookie
+North Korea,popular chip flavor,salty
+North Korea,celebrity chef,kim seok
+North Korea,cost-effective quick meal,tofu rice
+North Korea,popular cooking show,common sense in cooking
+North Korea,popular chocolate brand,gyeongheung
+North Korea,most eaten cheese,goat cheese
+North Korea,most disliked vegetable,carrot
+North Korea,food in food courts,tofu rice
+North Korea,sports fan cheering tools,hand clapper
+North Korea,fans bring to games,hand clapper
+North Korea,famous sports stadium,rungrado may day stadium
+North Korea,famous paralympian,rim ju-song
+North Korea,sporting chant,win
+North Korea,flexible hour industries,-
+North Korea,successful entrepreneur,foreign-currency-earning enterprise manager
+North Korea,back garden feature,toilet
+North Korea,famous family,kim il-sung family
+North Korea,common family name,li
+North Korea,practiced religion,christian
+North Korea,popular foreign language,english
+North Korea,family emigration destination,the united states
+North Korea schools,sports facilities available,weightlifting
+North Korea schools,sports facilities available,shooting
+North Korea schools,sports facilities available,table tennis
+North Korea schools,sports facilities available,volleyball
+North Korea schools,sports facilities available,basketball
+North Korea schools,typical sports facilities,basketball
+North Korea schools,typical sports facilities,soccer
+North Korea schools,typical sports facilities,volleyball
+North Korea people,favorite cafe beverage,americano
+North Korea people,preferred hangover cure,honey water
+North Korea,typical delivery food,korean cold noodles
+North Korea people,most consumed meat,pork
+North Korea people,fruit eaten in autumn,apple
+North Korea dining table,most common side dish,gimchi
+North Korea people,food eaten while watching soccer,water
+North Korea,representative nourishing food,porridge
+North Korea,most famous soccer player,park du-hee
+North Korea male students,sports during lunchtime,soccer
+North Korea girls,sports in physical education,jump rope
+North Korea,most popular volleyball player,jin-sim jeong
+North Korea people,sports passionately supported,soccer
+North Korea,biggest soccer rival,south korea
+North Korea children,most attended sports academies,taekwondo
+North Korea school sports day,typical sports played,tug-of-war
+North Korea middle-aged population,popular sports,soccer
+North Korea,most popular winter sports player,pil-hwa han
+North Korea,most popular e-sports game,sonic the hedgehog
+North Korea people,symbolic food on Lunar New Year,rice cake
+North Korea people,popular domestic vacation spot,baekdusan
+North Korea bride and groom,common wedding gift,cloth
+North Korea,typical condolence offering,condolence money
+North Korea funeral parlors,commonly provided food,noodles
+North Korea people,activities on Lunar New Year morning,new year's bow
+North Korea,primary commercial hub,pyongsong
+North Korea,best paying industry,armaments factory
+North Korea,most famous public corporation,complexes
+North Korea,most famous dish,hamhÅ­ng naengmyeon
+North Korea people,typical breakfast,rice
+North Korea people,typical lunchtime,12:00
+North Korea meals,indispensable food,gimchi
+North Korea,typical festive meal,rice cake
+North Korea tourists,offered fruit,apple
+North Korea,charity food offered,milk and bread
+North Korea,cheapest fast food,tofu rice
+North Korea people,food with tea,cookie
+North Korea people,food with coffee,cookie
+North Korea,most popular traditional food,gimchi
+North Korea,most popular dipping sauce,soy meat sauce
+North Korea mothers,post-birth food,seaweed soup
+North Korea,most popular female sportsperson,park young-soon
+North Korea elementary students,exam preparation location,school
+North Korea students,first national exam grade,high school grade 6
+North Korea,region known for coffee industry,kangryeong, south hwanghae province
+North Korea,region known for livestock industry,all provinces
+North Korea,main desert occupation,none
+North Korea,transportation animal,cow
+North Korea children,popular comic book,gold nuggets and gangnangtteok
+North Korea children,popular YouTube channel,central broadcasting
+North Korea,popular talk show,film actors' symposium
+North Korea,most famous religious holiday,none
+North Korea,busiest wedding month,10
+North Korea,popular traditional musical instrument,gayageum
+North Korea,main agricultural product,corn
+North Korea,popular wheat-based food,bread
+North Korea households,typical drink offered,alcohol
+North Korea,popular fish dish,sailfin sandfish
+North Korean farmers,lunch usually eat,noodles
+North Korean parents,birthday gifts for children,clothes
+North Korean families,generally own vehicle,bike
+North Korean grooms,clothes usually wear at weddings,suit
+North Korean brides,clothes usually wear at weddings,korean traditional dress
+North Korean weddings,food usually served,rice cake
+North Korea,most famous government building,grand people's study hall
+North Korean younger population,most popular music genre,korean pop music
+North Korean middle school students,time typically finish school,14:00
+North Korean people,age typically go to university,18
+North Korea,age start compulsory education,6
+North Korean children,days attend school per week,6
+North Korea,top university,kim il-sung university
+North Korean people,age typically graduate university,22
+North Korean children,age start middle school,7
+North Korean full-time workers,hours work per week,48
+North Korean full-time workers,days work per week,6
+North Korean people,age typically start working,18
+North Korean individuals,minimum working age,18
+North Korean high schools,semesters per academic year,2
+North Korea,month new school year begins,4
+North Korea,National Teacher's Day date,09/05
+North Korean elementary schools,time school starts,08:00
+North Korea,Children's Day date,06/01
+North Korea,most popular fast food chain,market
+North Korea,most divisive food,fermented soybeans
+North Korean people,most popular soccer team,april 25 national defence sports club
+North Korea,university famous for sports team,chosun university of physical education
+North Korean families,most popular pet,dog
+North Korean families,most popular TV show,tv drama
+North Korean families,most popular boardgame,trump
+North Korea,most popular takeaway food,artificial meat rice
+North Korean people,popular snacks,jawbreaker
+North Korean people,food eat at beach,fish
+North Korean men,typical marriage age,30
+North Korean women,typical marriage age,23
+North Korean parents' generation,average family members,6
+North Korea,most popular Olympic sport,soccer
+North Korean children,usual soccer playing place,playground
+North Korean women,daily popular exercise,rhythmic gymnastics
+North Korean men,daily popular exercise,soccer
+North Korea,famous sports rivalry,april 25 sports team vs. amnokgang sports team
+North Korea,highest paying professional sport,individual event
+North Korea,popular sports-related TV program,international sports competition broadcast
+North Korea,day dedicated to fireworks,lunar new year
+North Korea,New Year's Eve common symbol,fireworks
+North Korean people,food eat on New Year's Eve,rice cake
+North Korean people,food eat during winter solstice,red bean porridge
+North Korea,most popular summer sport,swim
+North Korea,most popular professional sports league,republic championship
+North Korea,most popular women's sports team,women's soccer team
+North Korea,most popular tournament,soccer
+North Korea,most popular sportsperson,pak yung-sun
+North Korea,most successful international sport,weightlifting
+North Korea,most popular winter sport,skate
+North Korea,city known for manufacturing industry,pyongyang
+North Korean employees,most important perk,social distribution
+North Korea,most catastrophic economic period,1995~99
+North Korean families,most important holiday,birthday
+North Korean families,popular game,yoot
+North Korean couples,average first child age,30
+North Korean typical family,number of cars owned,0
+North Korean families,weekend popular food,rice
+North Korean families,weekday evening activity,have a talk
+North Korean high school students,highest grade given,certificate of merit
+North Korean high school students,most important exam,university entrance examination
+North Korean students,most important subject,mathematics
+North Korean schools,popular extracurricular event,school sports
+North Korean pre-university students,most advanced math subject,algebra
+North Korean university students,study place for exams,classroom
+North Korean people,common transport to university,cycle
+North Korean elementary students,after school activity,go home

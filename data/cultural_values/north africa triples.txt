@@ -1,0 +1,426 @@
+Here is the CSV file with the (entity, relation, entity) triples based on the provided data:
+
+```
+elementary schools in Algeria,summer vacation duration in weeks,12  
+universities in Algeria,summer vacation duration in weeks,10  
+elementary education in Algeria,starting age,6  
+elementary education in Algeria,number of languages studied besides official language,2  
+people in Algeria,common eating utensils,spoon  
+people in Algeria,preferred soft drink,hamoud boualem  
+people in Algeria,average dinner duration at restaurant in hours,1  
+people in Algeria,usual dinner time,20:00  
+people in Algeria,preferred soup,shourba frik  
+people in Algeria,popular street food,couscous  
+people in Algeria,preferred seafood,sardines  
+Algeria,biggest festival,eid ul-fitr  
+public transport in Algeria,most common for intercity travel,bus  
+Algeria's Independence Day,associated decorations,national flag  
+women in Algeria,most watched sport,soccer  
+men in Algeria,most watched sport,soccer  
+females in 20s in Algeria,common leisure activity,hiking in the highlands  
+males in 20s in Algeria,common leisure activity,sports  
+people in Algeria,average post-lunch break duration in hours,0  
+people in Algeria,typical lunch during workdays,sandwich  
+people in Algeria,average commute time in minutes,2  
+people in Algeria,most common work transportation,bus  
+marriage leave in Algeria,duration in days,3  
+women in Algeria,retirement age,55  
+men in Algeria,retirement age,60  
+Algeria,most respected profession,doctor  
+typical workday in Algeria,duration in hours,8  
+females in Algeria,preferred occupation,teaching  
+males in Algeria,preferred occupation,engineer  
+students in Algeria,typical education level pursued,secondary  
+schools in Algeria,language taught besides English,french  
+schools in Algeria,closed days,friday  
+hosts in Algeria,food prepared for guests,sweets  
+breakfast in Algeria,usual drink,milk  
+foreign food in Algeria,most popular,italy  
+family picnic in Algeria,commonly prepared food,salad  
+Algerian food,considered disgusting by others,tripe  
+popular bread in Algeria,name,matloue  
+government offices in Algeria,closing time,16:00  
+government offices in Algeria,start time,08:00  
+Algeria,longest national holiday,liberation revolution  
+Algeria's Independence Day,common celebration activities,fireworks  
+wedding in Algeria,event held before,engagement  
+Ramadan in Algeria,activities before,house cleaning  
+Algeria,most popular tourist attraction,kasbah  
+Algeria,most popular religious site for tourism,our mother of africa  
+cold weather in Algeria,commonly consumed drink,tea  
+Ramadan in Algeria,commonly sold fruit,dates  
+fast-food in Algeria,carbohydrate served with chicken,potatoes  
+Algeria,most famous martial art,judo  
+national TV in Algeria,most broadcasted sport,soccer  
+COVID-19 pandemic in Algeria,popular sports,soccer  
+Algeria,most famous soccer coach,rabah saadane  
+Algeria,famous rival soccer teams,mc algiers vs usm algiers  
+Algeria,sport with most government support,soccer  
+schools in Algeria,sports facilities available,stadiums  
+cafes in Algeria,most enjoyed beverage,coffee  
+delivery food in Algeria,most typical,pizza  
+people in Algeria,most consumed meat,chicken  
+autumn in Algeria,commonly eaten fruit,banana  
+dining table in Algeria,most common side dish,salad  
+soccer game in Algeria,food eaten while watching,nuts  
+Algeria,representative nourishing food,soup  
+Algeria,most famous soccer player,rabah madjer  
+physical education in Algeria,girls' most common sport,volleyball  
+international competitions in Algeria,most passionately supported event,world cup  
+Algeria,biggest soccer rival,egypt
+Algeria,most attended sports academies by children,local clubs
+Algeria,commonly eaten food in sports stadiums,nuts
+Algeria,sports played in school sports day,shot put
+Algeria,popular sports among middle-aged population,soccer
+Algeria,most famous swimmer,salim iles
+Algeria,most popular e-sports game,playerunknown's battlegrounds
+Algeria,symbolic food on Lunar New Year,chakhchoukha
+Algeria,most popular domestic vacation spot,bejaia
+Algeria,most common wedding gift,gold
+Algeria,congratulatory gesture at weddings,money
+Algeria,typical duration of funeral in days,3
+Algeria,condolence offering at funerals,help
+Algeria,food provided at funeral parlors,couscous
+Algeria,most severe traffic congestion day,eid ul-fitr
+Algeria,most popular honeymoon destination,tunisia
+Algeria,most important national holiday,independence day
+Algeria,food eaten during Ramadan,bourak
+Algeria,food eaten during Eid ul Fitr,sweets
+Algeria,food eaten during Eid ul Adha,sacrificial meat
+Algeria,New Year celebration location,sahara
+Algeria,family gathering place for Eid,family home
+Algeria,weekend days,friday
+Algeria,typical work start time,08:00
+Algeria,typical work end time,16:00
+Algeria,most secure job,education
+Algeria,primary commercial hub,capital
+Algeria,highest paying industry,oil and natural gas
+Algeria,most famous public corporation,sonatrach
+Algeria,most famous dish,couscous
+Algeria,typical breakfast,bread with jam
+Algeria,typical lunch time,12:00
+Algeria,indispensable item in meals,bread
+Algeria,typical festive meal,couscous
+Algeria,fruit offered to tourists,dates
+Algeria,food offered as charity,couscous
+Algeria,cheapest fast food,karantika
+Algeria,food eaten with tea,nuts
+Algeria,food eaten with coffee,sweets
+Algeria,most popular traditional food,couscous
+Algeria,most popular dipping sauce,harissa
+Algeria,food prepared for new mothers,tommina
+Algeria,most famous female sportsperson,hassiba boulmerka
+Algeria,exam preparation location for students,home
+Algeria,first national exam level,primary
+Algeria,region known for coffee/tea industry,sahara
+Algeria,region known for livestock industry,djelfa
+Algeria,main desert occupation,commerce
+Algeria,animal used for transportation,camel
+Algeria,most popular comic book,kalila et dimna
+Algeria,most popular talk show,beyond the walls
+Algeria,most famous religious holiday,eid ul-fitr
+Algeria,busiest wedding month,7
+Algeria,most popular traditional musical instrument,derbouka
+Algeria,main agricultural product,wheat
+Algeria,most popular wheat-based food,couscous
+Algeria,typical drink for guests,coffee
+Algeria,most popular fish dish,sardines
+Algeria,food eaten in rainy weather,lentils
+Algeria,drink consumed in hot weather,juice
+Algeria,most popular indoor sport,boxing
+Algeria,sport men like to watch,soccer
+Algeria,sport women like to watch,soccer
+Algeria,popular workplace beverage,coffee
+Algeria,holiday for family reunions,eid ul-fitr
+Algeria,traditional family games,hide and seek
+Algeria,traditional festival clothing,hooded cloak
+Algeria,region for alcohol production,mascara
+Algeria,summer fruit,watermelon
+Algeria,region known for seafood,tipaza
+Algeria,popular skiing destination,tikjda
+Algeria,most famous martial arts player,fethi nourine
+Algeria,fastest growing sport,basketball
+Algeria,popular study abroad country,france
+Algeria,typical working family members,2
+Algeria,childcare when parents work,grandmother
+barbecue meat in Algeria,commonly used for,lamb
+breakfast time in Algeria,typically at,07:00
+late-night snacks in Algeria,commonly include,sweets
+spicy dish in Algeria,most famous,zviti
+seasoning in Algerian cooking,indispensable,black pepper
+cold weather food in Algeria,typically consumed,soup
+food when sick in Algeria,commonly eaten,vegetable soup
+prepared food in Algeria,bought at supermarkets,noodle
+sports movie in Algeria,most famous,inspector tahar scors the goal
+extreme sport in Algeria,most wished to try,jet ski
+track and field event in Algeria,most popular to watch,running
+boxer in Algeria,most famous,loucif hamani
+track and field athlete in Algeria,most famous,taoufik makhloufi
+parents' desired job in Algeria,most hoped for,doctor
+office software in Algeria,typically used,microsoft
+import-export cities in Algeria,known for,bejaia
+e-commerce platform in Algeria,commonly used,facebook
+probation period in Algeria,typical length,six months
+young entrepreneurs in Algeria,typically choose,clothes
+family remote communication in Algeria,most common way,phone
+family trip accommodation in Algeria,typically booked,equipped house
+fruit for family dinners in Algeria,commonly prepared,watermelon
+university class hours in Algeria,weekly average,40
+high school tuition in Algeria,typical fee,0
+compulsory university courses in Algeria,common among students,language
+high school class size in Algeria,average,30
+employment-friendly major in Algeria,considered most,computer science
+university clubs in Algeria,most popular,scientific clubs
+university student accommodation in Algeria,typically live in,house
+middle school class duration in Algeria,minutes per period,60
+retired women's leisure in Algeria,preferred activity,parties
+retired men's leisure in Algeria,preferred activity,domino
+religious holiday visits in Algeria,during,eid ul-fitr
+housewarming gifts in Algeria,typically given,utensil
+wedding start time in Algeria,typically at,14:00
+festival-hosting city in Algeria,most frequent,algiers
+wedding attire color in Algeria,typically worn,light color
+funeral attire color in Algeria,typically worn,dark-colored
+cinema snack in Algeria,commonly eaten,popcorn
+chip flavor in Algeria,most popular,original
+celebrity chef in Algeria,most famous,rabah ourrad
+quick meal in Algeria,cost-effective option,karantika
+cooking show in Algeria,most popular,top chef
+chocolate brand in Algeria,most popular,ambassadeur
+cheese in Algeria,most eaten,cream cheese
+disliked vegetable in Algeria,most common,cardoon
+food court food in Algeria,commonly found,pizza
+sports cheering tools in Algeria,commonly used,sing
+fans' items at live games in Algeria,typically bring,sign
+sports stadium in Algeria,most well known,july 5 stadium
+Paralympian in Algeria,most famous,mohamed allek
+sports chant in Algeria,best recognized,one, two, three, viva l'algÃ©rie
+flexible-hour jobs in Algeria,known for,freelance professions
+entrepreneur in Algeria,most successful,issad rebrab
+back garden items in Algeria,typically found,tree
+family religion in Algeria,most practiced,islam
+foreign language in Algeria,most spoken by families,french
+emigration destination for Algerians,most popular,france
+school behavior repercussions in Algeria,for bad behavior,expulsion
+studied writers in Algeria,commonly,mouloud feraoun
+school breaks in Algeria,yearly number,3
+online study resource in Algeria,commonly used,youtube
+university semester length in Algeria,weeks average,12
+busiest airport in Algeria,during holidays,houari boumediene
+theatrical region in Algeria,well known for,sidi bel abbÃ¨s
+historic landmark in Algeria,most famous,timgad
+hotel brand in Algeria,most famous,sheraton
+quick breakfast in Algeria,popular option,coffee
+popular youth food in Algeria,most common,pizza
+morning drink in Algeria,most common,milk
+traditional dessert in Algeria,most popular,baklava
+Algeria elementary schools,summer vacation duration in weeks,12  
+Algeria universities,summer vacation duration in weeks,10  
+Algeria,starting age for elementary education,6  
+Algeria elementary education,number of languages studied besides official,2  
+Algeria people,commonly used eating utensils,spoon  
+Algeria people,preferred soft drink,hamoud boualem  
+Algeria people,time to have dinner at restaurant in hours,1  
+Algeria people,usual dinner time,20:00  
+Algeria people,favorite soup,shourba frik  
+Algeria people,popular street food,couscous  
+Algeria people,favorite seafood,sardines  
+Algeria,biggest festival,eid ul-fitr  
+Algeria intercity travel,most common public transport,bus  
+Algeria Independence Day,associated decorations,national flag  
+Algeria women,favorite sport to watch,soccer  
+Algeria men,favorite sport to watch,soccer  
+Algeria females in 20s,common leisure activity,hiking in the highlands  
+Algeria males in 20s,common leisure activity,sports  
+Algeria workday,break duration after lunch in hours,0  
+Algeria workdays,common lunch food,sandwich  
+Algeria,average commute time in minutes,2  
+Algeria,most common work transportation,bus  
+Algeria,marriage leave duration in days,3  
+Algeria women,typical retirement age,55  
+Algeria men,typical retirement age,60  
+Algeria,most respected profession,doctor  
+Algeria,typical workday duration in hours,8  
+Algeria women,most preferred occupation,teaching  
+Algeria men,most preferred occupation,engineer  
+Algeria students,typical education level pursued,secondary  
+Algeria schools,language taught besides English,french  
+Algeria schools,weekly closing days,friday  
+Algeria hosts,food prepared for guests,sweets  
+Algeria breakfast,usual drink,milk  
+Algeria,popular foreign cuisine,italy  
+Algeria family picnics,commonly prepared food,salad  
+Algeria food,considered disgusting by others,tripe  
+Algeria,popular traditional bread,matloue  
+Algeria government offices,closing time,16:00  
+Algeria government offices,start time,08:00  
+Algeria,longest national holiday,liberation revolution  
+Algeria Independence Day,common celebration activities,nothing  
+Algeria weddings,pre-wedding event,engagement  
+Algeria Ramadan,pre-Ramadan activities,house cleaning  
+Algeria,most popular tourist attraction,kasbah  
+Algeria,popular religious tourist site,our mother of africa  
+Algeria cold weather,commonly consumed drink,tea  
+Algeria Ramadan,commonly sold fruit,dates  
+Algeria fast food,chicken side dish,potatoes  
+Algeria,most famous martial art,judo  
+Algeria national TV,most broadcasted sport,soccer  
+Algeria COVID-19 pandemic,popular sports,walking in open spaces  
+Algeria,most famous soccer coach,rabah saadane  
+Algeria soccer,intense rivalry teams,mc algiers vs usm algiers  
+Algeria soccer,rival supporter groups,chnaoua against the listeners  
+Algeria,most government-supported sport,soccer  
+Algeria schools,sports facilities available,stadiums  
+Algeria cafes,most enjoyed beverage,coffee  
+Algeria,typical delivery food,pizza  
+Algeria people,most consumed meat,chicken  
+Algeria autumn,commonly eaten fruit,banana  
+Algeria meals,common side dish,salad  
+Algeria soccer games,food eaten while watching,nuts  
+Algeria,representative nourishing food,soup  
+Algeria,most famous soccer player,rabah madjer  
+Algeria school girls,PE class common sport,volleyball  
+Algeria people,most passionately followed international event,world cupt
+racket sport in Algeria,most popular,tennis
+track and field sport in Algeria,most popular,running
+international sporting event in Algeria,most popular,world cup
+work breaks in Algeria,typical duration in minutes,10
+job in Algeria,considered underpaid,cleaning worker
+drink at funerals in Algeria,usually offered,coffee
+drink at weddings in Algeria,usually offered,coffee
+food originated from Algeria,found worldwide,couscous
+food disliked by children in Algeria,enjoyed by elderly,turnip
+cooking utensil in Algeria,most commonly used,pot
+vegetable in Algeria,most popular,potatoes
+animal used for sports in Algeria,commonly used,horse
+wedding venue in Algeria,most popular,banquet hall
+Algerian food served overseas,typically,couscous
+region in Algeria,associated with mining,sahara
+region in Algeria,associated with oil,hassi messaoud
+university in Algeria,popular for engineering,national polytechnic school
+university in Algeria,popular for medicine,algiers faculty of medicine
+payment method in Algeria,most popular,cash
+theme park in Algeria,most famous,ben aknoun
+children's animation in Algeria,most popular,tom and jerry
+prenatal education activity in Algeria,most popular,not applicable
+children's song in Algeria,most popular,not applicable
+toys among boys in Algeria,most popular,ball
+toys among girls in Algeria,most popular,doll
+folk tale in Algeria,most popular,juha stories
+symbol of condolence in Algeria,customary,prayer
+part-time work for students in Algeria,most common,call center
+team-building activities in Algeria,most common,not applicable
+side job activities in Algeria,most common,trading
+edible souvenir for tourists in Algeria,most famous,couscous
+stew in Algeria,most popular,tajine zitoun
+spice/herb in Algerian dishes,most common,black pepper
+traditional sport in Algeria,most famous,ball
+sport on beaches in Algeria,popular,volleyball
+work schedule during Ramadan in Algeria,usual,from 9 am to 4 pm
+Student's Day in Algeria,date celebrated,05/19
+families gathering place in Algeria,for prayer,mosque
+gifts for fathers in Algeria,on Father's Day,perfume
+gifts for mothers in Algeria,on Mother's Day,flower
+generations in Algerian household,number living together,3
+subjects in middle schools in Algeria,number taught,10
+after-school activity in Algeria,most popular,returning home
+tuition fee for public universities in Algeria,average annual,150
+park activities in Algeria,popular,strolling
+film festival in Algeria,most famous,international festival of arab film
+card game in Algeria,popular during gatherings,coinche
+tourist destination abroad for Algerians,most popular,tunisia
+tower in Algeria,most famous,martyr's memorial
+edible insect in Algeria,most commonly eaten,locust
+agricultural product exported from Algeria,most often,dates
+sweets in Algeria,most popular,baklava
+sports drink in Algeria,most popular,izem
+education level in Algeria,average,university
+profession studied abroad by Algerians,most common,engineering
+day for religious activities in Algeria,most common,friday
+Independence Day celebration in Algeria,most popular way,hanging flags
+beverage among children in Algeria,most popular,juice
+place for Independence Day in Algeria,most popular,central post office
+birthday song in Algeria,typically sung,sana helwa
+snacks sold near schools in Algeria,usually,pizza
+oil for cooking in Algeria,usually used,olive oil
+food for pregnant women in Algeria,commonly consumed,fruit
+traditional non-alcoholic drink in Algeria,most popular,soda
+sports facilities in parks in Algeria,generally available,petanque
+activities for seniors in parks in Algeria,common,domino
+sports for parents and children in Algeria,commonly together,ball game
+color of Algerian national soccer team,associated,green
+dress code for teachers in Algeria,common,apron
+music activity in schools in Algeria,most popular,sing
+religion taught in schools in Algeria,main,islam
+Education Day in Algeria,date celebrated,01/24
+occupation in mountainous areas in Algeria,main,agriculture
+occupation in coastal areas in Algeria,main,commerce
+livestock in Algeria,most common,sheep
+animals used for agriculture in Algeria,commonly used,cow
+farmers in Algeria,typically wear to protect from heat,straw hat
+farmers in Algeria,usually eat for lunch,laban
+parents in Algeria,give as birthday gifts,toys
+families in Algeria,generally own,car
+children during Eid in Algeria,usually given,money
+grooms at Algerian weddings,usually wear,suit
+brides at Algerian weddings,usually wear,karakou
+food at Algerian weddings,usually served,couscous
+most famous government building in Algeria,is,government palace
+most popular music genre among Algerian youth,is,rai
+middle school students in Algeria,typically finish school at,17:00
+people in Algeria,typically go to university at age,18
+compulsory education in Algeria,starts at age,6
+children in Algeria,attend school days per week,5
+Master's degree in Algeria,typically takes years to complete,17
+top university in Algeria,is,houari boumediene university of science and technology
+most people in Algeria,graduate from university at age,24
+children in Algeria,start middle school at age,15
+full-time worker in Algeria,typically works hours per week,40
+full-time worker in Algeria,works days per week,5
+most people in Algeria,start working at age,23
+individual in Algeria,allowed to work from age,18
+people in Algeria,traditionally eat on Christmas Day,cake
+day celebrating love in Algeria,is,valentine's day
+most popular Christmas song in Algeria,is,happy birthday
+high schools in Algeria,have semesters per year,3
+new school year in Algeria,starts in month,9
+National Teacher's Day in Algeria,commemorated on,04/16
+elementary school in Algeria,starts at,08:00
+Children's Day in Algeria,celebrated on,01/06
+main destination for job seekers in Algeria,is,algiers
+most divisive food in Algeria,is,boiled sheep's head
+most popular soccer team in Algeria,is,mca
+most popular family pet in Algeria,is,cat
+most popular takeaway food in Algeria,is,pizza
+popular snacks in Algeria,include,karantika
+people at Algerian beaches,usually eat,sandwich
+men in Algeria,usually get married at age,30
+women in Algeria,usually get married at age,25
+parents' generation family size in Algeria,average,10
+most popular Olympic sport in Algeria,is,running
+children playing soccer in Algeria,usually play in,street
+most famous sports rivalry in Algeria,is,mc algiers vs usm algiers
+highest paying professional sport in Algeria,is,soccer
+most popular summer sport in Algeria,is,swimming
+most popular professional sports league in Algeria,is,professional league
+most popular tournament in Algeria,is,algerian professional league 1
+most popular sportsperson in Algeria,is,mahrez
+Algeria's most successful international sport,is,soccer
+city known for manufacturing in Algeria,is,algiers
+most important employee perk in Algeria,is,salary
+most catastrophic economic period in Algeria,was,nineties
+major tech hub in Algeria,is,algiers
+most important industry in Algeria,is,petroleum industry
+meal commonly shared with family in Algeria,is,dinner
+weekend family activity in Algeria,is,picnic
+most important family holiday in Algeria,is,eid ul-fitr
+average age for first child in Algeria,is,28
+typical family in Algeria,owns cars,1
+most popular weekend family food in Algeria,is,couscous
+weekday evening family activity in Algeria,is,watching tv
+highest grade for top students in Algeria,is,excellence
+most important high school exam in Algeria,is,baccalaureate
+most important student subject in Algeria,is,mathematics
+university students in Algeria,study for exams at,library
+common transport to university in Algeria,is,bus
+elementary students in Algeria,do after school,play

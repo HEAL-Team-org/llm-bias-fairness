@@ -1,0 +1,445 @@
+Spain,most difficult school subject,mathematics
+region within a city in Spain,has highest academic fervor,university campus
+university festivals in Spain,most looked forward to,alcohol
+Spain,second most popular sport,basketball
+sport in Spain,most popular without a ball,chess
+sports in Spain,most associated with upper class,golf
+water sport in Spain,most popular,swim
+mental sport in Spain,most popular,chess
+standard worker in Spain,holiday days per year,30
+region in Spain,traditionally associated with agriculture,andalusia
+people in Spain,usual lunch leave time,14:00
+high school students in Spain,typical leave time,14:30
+elementary school students in Spain,sport practiced,football
+elementary schools in Spain,summer vacation weeks,12
+universities in Spain,summer vacation weeks,8
+elementary education in Spain,starting age,6
+elementary education in Spain,languages studied besides official,2
+eating utensils in Spain,commonly used,fork
+soft drink in Spain,most liked,coke
+traditional alcohol in Spain,most popular,wine
+dinner at restaurant in Spain,average duration in hours,2
+dinner in Spain,usual time,21:00
+soup in Spain,preferred type,stew soup
+street food in Spain,preferred,churros
+seafood in Spain,preferred type,shrimp
+biggest festival in Spain,name,the fallas
+public transport in Spain,most common between cities,train
+biggest festival in Spain,associated decorations,flag
+sports in Spain,women prefer to watch,football
+sports in Spain,men prefer to watch,football
+leisure activity in Spain,females in 20s engage in,shopping
+leisure activity in Spain,males in 20s engage in,play football
+weekday lunch break in Spain,duration in hours,1
+lunch in Spain,working days meal,sandwich
+average commute in Spain,time in minutes,30
+transportation in Spain,most common to work,private car
+marriage leave in Spain,duration in days,15
+retirement age in Spain,for women,65
+retirement age in Spain,for men,65
+profession in Spain,most respected,doctor
+workday in Spain,typical duration in hours,8
+average education in Spain,highest level pursued,secondary
+schools in Spain,language taught besides English,french
+schools in Spain,closed days,saturday and sunday
+breakfast in Spain,usual drink,coffee
+foreign cuisine in Spain,most popular,italy
+family picnic in Spain,typical food,russian salad
+Spanish food,considered disgusting by others,snails
+popular bread in Spain,name,baguette
+government offices in Spain,closing time,15:00
+government offices in Spain,start time,09:00
+national holiday in Spain,longest duration,easter
+religious sites in Spain,most popular for tourism,sagrada família
+graduation in Spain,women's attire,semi-formal dress
+cold weather in Spain,common drink,coffee
+fast food in Spain,carbohydrate with chicken,french fries
+martial art in Spain,most famous,karate
+sports on TV in Spain,most broadcasted,football
+soccer in Spain,most popular coach,xavi
+soccer teams in Spain,famous rivalry,real madrid vs fc barcelona
+soccer supporters in Spain,famous rivalry,merengues
+badminton player in Spain,most famous female,carolina marín
+sport in Spain,most government support,football
+schools in Spain,sports facilities,football field
+coffee in Spain,most enjoyed,cortado
+hangover cure in Spain,preferred food,kebab
+delivery food in Spain,typical,pizza
+meat in Spain,most consumed,pork
+autumn fruit in Spain,commonly eaten,banana
+side dish in Spain,most common,potatoes
+soccer watching in Spain,common snack,tapas
+nourishing food in Spain,representative,olive oil
+soccer player in Spain,most famous,iniesta
+school lunch in Spain,boys' sport,football
+PE classes in Spain,girls' common sport,basketball
+Spain,most popular sport,football
+Spain,most popular volleyball player,Rafael Pascual
+Spain,most passionately supported sports event in international competitions,football
+Spain,biggest soccer rival,France
+Spain,most attended sports academies by children,football
+Spain,most commonly eaten food in sports stadiums,sunflower seeds
+Spain,typical sports played on school sports day,football
+Spain,popular sports among middle-aged population,football
+Spain,most popular winter sports player,Javier Fernández
+Spain,most famous swimmer,David Meca
+Spain,most popular e-sports game,League of Legends
+Spain,symbolic food eaten on Lunar New Year,grapes
+Spain,most popular domestic vacation spot,Malaga
+Spain,most common wedding gift between bride and groom,money
+Spain,typical condolence offering at funerals,flowers
+Spain,most popular honeymoon destination,Caribbean
+Spain,most important national holiday,October 12 Hispanic Day
+Spain,most popular traditional food,paella
+Spain,most popular dipping sauce,garlic mayonnaise
+Spain,most popular female sportsperson,Jenni Hermoso
+Spain,most popular comic book for children,Mort & Phil
+Spain,most popular talk show,El Hormiguero
+Spain,most famous religious holiday,Easter
+Spain,busiest month for weddings,6
+Spain,most popular traditional musical instrument,guitar
+Spain,main agricultural product,fruit
+Spain,most popular wheat-based food,bread
+Spain,most typical drink offered to guests,beer
+Spain,most popular dish cooked with fish,cod pil-pil style
+Spain,food liked during rainy weather,stew
+Spain,drink commonly consumed in hot weather,beer
+Spain,most popular indoor sport,basketball
+Spain,sport men like to watch,football
+Spain,sport women like to watch,football
+Spain,most popular workplace beverage,coffee
+Spain,holiday for family reunions,Christmas
+Spain,most famous region for alcohol production,La Rioja
+Spain,most popular skiing destination,Granada
+Spain,fastest-growing sport in last decade,women's soccer
+Spain,most popular study abroad destination,Italy
+Spain,typical number of working family members,2
+Spain,primary childcare when parents work,grandparents
+Spain,preferred alcoholic beverage for men,beer
+Spain,preferred alcoholic beverage for women,beer
+preschool kids in Spain,common snack,fruit
+beer in Spain,popular food to accompany,tapas
+most popular fruit in Spain,orange
+school cafeteria food in Spain,common,spanish omelette
+shopping malls in Spain,commonly eaten snacks,french fried
+amusement park in Spain,popular snack,french fries
+kids in Spain,start preschool age,3
+elementary schools in Spain,popular afterschool sport,soccer
+elementary students in Spain,private education subject,english
+high school students in Spain,popular second language,english
+gifted education in Spain,most important subject,physics
+Thanksgiving in Spain,main dish,not-applicable
+Halloween in Spain,celebration activities,to dress up
+New Year's Day in Spain,celebration activities,eat grapes at 12
+Christmas in Spain,celebration activities,dinner
+Halloween in Spain,associated food,fritters
+Christmas in Spain,associated food,suckling pig
+Valentine's day in Spain,associated food,chocolates
+birthday in Spain,common food to eat,cake
+families with little kids in Spain,popular outdoor place,parks
+families in Spain,popular indoor activity,parties
+university students in Spain,lunch location,in bars close to the university
+high schools in Spain,final exam term month,6
+high school students in Spain,daily hours spent at school,6
+high school students in Spain,number of languages studied,3
+schools in Spain,most popular team sport,soccer
+sport commentator in Spain,most popular,jose maria garcia
+sport team in Spain,most popular,real madrid
+sports broadcasts in Spain,common gathering place,pub
+people from Spain,meals per day,3
+people from Spain,most important meal,lunch
+Spain's diet,most common ingredient,olive oil
+people from Spain,common dessert,fruit
+family meal in Spain,usual day,sunday
+hot drink in Spain,most popular,coffee
+young people in Spain,common drink at night club,rum and coke
+holidays in Spain,usual month,8
+New Year's Eve in Spain,tradition,eat the grapes to the rhythm of the clock in the square
+family in Spain,typical type of house,flat
+dependent elderly in Spain,usual living place,in nursing homes
+maternity leave in Spain,duration in weeks,16
+paternity leave in Spain,duration in weeks,16
+family vacation in Spain,common destination,canary islands
+seniors in Spain,preferred sport,soccer
+men in Spain,preferred sport,soccer
+basketball player in Spain,most famous,pau gasol
+children in Spain,most popular sport,soccer
+women in Spain,preferred sport,padel
+Olympics in Spain,event with most gold medals,candle
+university students in Spain,preferred sport,soccer
+family in Spain,average number of people,4
+couples in Spain,usual number of children,2
+elementary school in Spain,duration in years,6
+compulsory education in Spain,duration in years,10
+students in Spain,start learning second language age,6
+undergraduate education in Spain,duration in years,4
+elementary school students in Spain,finish school time,17:00
+elementary school students in Spain,number of musical instruments played,1
+company dinners in Spain,preferred day,friday
+financial companies in Spain,region with highest number,madrid
+private company in Spain,most famous,zara
+maximum working hours in Spain,per week,40
+company get-together in Spain,typical food,menu
+export item in Spain,representative,ham
+lunch break in Spain,typical duration in hours,1
+mothers in Spain,recovery place after childbirth,in the hospital
+Parents' Day in Spain,commonly given flower,red rose
+first salary in Spain,common spending,clothes
+children in Spain,preferred recreational facility,ball pit
+family-related holidays in Spain,christmas
+children's independence in Spain,key milestones,pay own rent
+elderly parents in Spain,common gift,chocolates
+first celebration after child birth in Spain,birthday
+grand birthday celebration in Spain,age,18 years old
+middle and high school students in Spain,study place for exams,library
+high school students in Spain,after dinner activity,to your house
+elementary school students in Spain,transport to school,bus
+private education in Spain,most common form,private school
+middle or high students in Spain,frequently attended private institute,english
+middle and high school students in Spain,school clothing,informal
+university admission in Spain,most difficult major,medicine
+elementary school students in Spain,commonly learned musical instrument,flute
+high school students in Spain,break time activity,to eat
+students in Spain,school shoes,sports
+university entrance exam in Spain,required subjects,history
+wedding in Spain,average number of attendees,30
+barbecue in Spain,commonly eaten meat,chops
+breakfast in Spain,typical time,08:00
+late-night snacks in Spain,commonly eaten food,dairy products
+spicy dish in Spain,most famous,spicy potatoes
+hard liquor in Spain,food typically paired with,dried fruits/nuts
+cooking in Spain,indispensable seasoning,salt
+cold weather in Spain,typical food consumed,soup
+alcohol brand in Spain,most famous,mahou
+sick people in Spain,commonly eaten food,broth
+prepared food in Spain,typically bought at supermarkets,cannelloni
+sports-related movie in Spain,most famous,campeones
+extreme sport in Spain,most wished to try,skydiving
+track and field event in Spain,most popular to watch,100 meters
+gymnastics event in Spain,most popular to watch,100m hurdles
+table tennis player in Spain,most famous,he zhi wen
+Winter Olympics event in Spain,most popular to watch,ski
+boxer in Spain,most famous,poli diaz
+track and field athlete in Spain,most famous,ana peleteiro
+parents in Spain,job most hoped for children,medicine
+office software in Spain,typically used in workplace,spreadsheet
+cities in Spain,known for import and export activities,barcelona
+e-commerce industry in Spain,commonly used platform,amazon
+probation period in Spain,typical duration for new employees,6 months
+young people in Spain,industries to start businesses,tourism
+family members in Spain,most common remote communication method,whatsapp
+family trips in Spain,typically booked accommodation,apartment
+family dinners in Spain,fruit most commonly prepared,melon
+university students in Spain,typical weekly class hours,25
+public high schools in Spain,typical tuition fee per semester,0
+university students in Spain,compulsory common courses,mathematics
+high schools in Spain,average class size,20
+university major in Spain,most conducive to employment,computing
+university students in Spain,most popular club type,nightclubs
+university students in Spain,typical accommodation,residences
+middle school students in Spain,class period duration in minutes,55
+retired women in Spain,typical leisure activities,play cards
+retired men in Spain,typical leisure activities,boules
+religious holidays in Spain,typically visited places,easter
+housewarming gifts in Spain,typical,plant/floor
+weddings in Spain,typical start time,12:00
+city in Spain,hosting most festivals,madrid
+wedding attire in Spain,typical color,black
+funeral attire in Spain,typical color,black
+cinema snack in Spain,most commonly eaten,popcorn
+chips in Spain,most popular flavor,serrano ham
+celebrity chef in Spain,popular,dabiz muñoz
+quick meal in Spain,cost-effective option,pizza
+cooking shows in Spain,most popular,masterchef
+chocolate brand in Spain,most popular,nestlé
+cheese in Spain,most eaten,cheese from la mancha
+disliked vegetable in Spain,most,brussels sprouts
+food courts in Spain,most commonly found food,paella
+sports fans in Spain,common cheering tools,drum
+live game attendees in Spain,typically brought items,flag
+sporting stadium in Spain,most well known,bernabéu
+Paralympian in Spain,most famous,teresa perales
+sporting chant in Spain,best recognized,oe
+industries in Spain,known for flexible working hours,energy
+entrepreneur in Spain,most well known and successful,amancio ortega
+back garden in Spain,typically found items,balls
+famous family in Spain,name,borbon
+common family name in Spain,most,pérez
+family religion in Spain,most commonly practiced,catholicism
+foreign language in Spain,most spoken by families,english
+emigration destination in Spain,most popular for families,united kingdom
+school behavior in Spain,repercussions for bad,expulsion
+literature class in Spain,commonly studied writers,cervantes
+school breaks in Spain,number per year for high schools,2
+online resource in Spain,used by students to study,chat gpt
+university semester in Spain,average teaching weeks,20
+airport in Spain,busiest during holidays,madrid
+theatrical performances in Spain,well known region,madrid
+historic landmark in Spain,most famous,the alhambra
+hotel brand in Spain,most famous,nh
+grab-and-go breakfast in Spain,most popular,sandwich
+popular food in Spain,among young people,pizza
+festivals in Spain,most commonly consumed alcoholic drink,beer
+morning drink in Spain,most common,coffee
+traditional dessert in Spain,most popular,rice pudding
+racket sport in Spain,most popular,padel
+track and field sport in Spain,most popular,gear/march
+international sporting event in Spain,most popular,the football world cup
+work breaks in Spain,typical duration in minutes,30
+underpaid job in Spain,considered,waiter
+Easter food in Spain,most common,french toasts
+music genre among elderly in Spain,most popular,stanza
+funeral drink in Spain,usually offered,water
+wedding drink in Spain,usually offered,wine
+Spanish food found worldwide,most famous,spanish omelette
+food disliked by children in Spain,typically,cauliflower
+cooking utensil in Spain,most commonly used,spoon
+vegetable in Spain,most popular,tomato
+animal used for sports in Spain,commonly,horse
+wedding venue in Spain,most popular,churches
+coffee shop brand in Spain,most popular,starbucks
+Spanish food served overseas,typically,paella
+region in Spain associated with mining,usually,asturias
+region in Spain associated with oil,usually,andalusia
+university in Spain for engineering,popular,polytechnic university of madrid
+university in Spain for medicine,popular,university of barcelona
+payment method in Spain,most popular,cash
+theme park in Spain,most famous,portaventura
+children's animation in Spain,most popular,paw patrol
+prenatal education activity in Spain,most popular,pilates
+children's song in Spain,most popular,the potato dance
+toys for boys in Spain,most popular,barbecue
+toys for girls in Spain,most popular,the dolls
+folk tale in Spain,most popular,little red riding hood
+funeral condolence symbol in Spain,customary,condolence
+part-time job for students in Spain,most common,consultancies
+team-building activity in Spain,most frequent,paintball
+side job in Spain,most common,call center agent
+edible souvenir for tourists in Spain,most famous,paella
+stew in Spain,most popular,stew
+spice in Spanish dishes,most common,parsley
+traditional sport in Spain,most famous,basque ball
+beach sport in Spain,popular,volleyball
+Ramadan work schedule in Spain,usual,8-15
+Student's Day in Spain,celebrated on,04/21
+family prayer gathering in Spain,typically in,church
+Father's Day gifts in Spain,common,a drawing
+Mother's Day gifts in Spain,common,flowers
+generations in Spanish household,typically live together,2
+subjects in middle schools in Spain,number taught,10
+after-school activity in Spain,most popular,soccer
+university tuition fee in Spain,average annual,800
+park activity in Spain,popular,to run
+film festival in Spain,most famous,san sebastian cinema
+card game in Spain,popular during gatherings,brisca
+tourist destination for Spaniards,most popular abroad,london
+famous tower in Spain,name of,giralda
+edible insect in Spain,most often consumed,none
+agricultural export from Spain,most often,oranges
+popular sweets in Spain,most common,french toasts
+sports drink in Spain,most popular,gatorade
+average education level in Spain,typically,high school diploma
+profession studied abroad by Spaniards,most common,medicine
+religious activity day in Spain,most common,sunday
+Independence Day celebration in Spain,most popular way,(not applicable)
+children's beverage in Spain,most popular,coca-cola
+Independence Day place in Spain,most popular,seville
+birthday song in Spain,typically sung,happy birthday
+school snacks in Spain,usually sold,little worms
+cooking oil in Spain,usually used,olive oil
+pregnant women's food in Spain,commonly consumed,milk
+traditional non-alcoholic drink in Spain,most popular,cold tomato soup
+park sports facilities in Spain,generally available,bicycle lane
+senior activities in parks in Spain,common,boules
+parent-child sports in Spain,commonly played together,soccer
+national soccer team color in Spain,associated with,red
+school teacher dress code in Spain,common,informal
+music extracurricular in Spain,most popular,piano
+religion taught in schools in Spain,mainly,catholic
+Education Day in Spain,celebrated on,01/24
+mountainous area occupation in Spain,main,cattle farmer
+coastal area occupation in Spain,main,waiter
+livestock in Spain,most common,pig
+animals for agriculture in Spain,commonly used,pig
+farmer heat protection in Spain,typically worn,hat
+farmers in Spain,usually eat for lunch,sandwiches
+parents in Spain,generally give as birthday gifts,toys
+families in Spain,generally own,car
+grooms in Spain,usually wear at weddings,suit
+brides in Spain,usually wear at weddings,white dress
+weddings in Spain,usually serve,meat
+government building in Spain,most famous,moncloa
+music genre in Spain,most popular among younger population,popular music
+middle school students in Spain,typically finish school at,14:00
+people in Spain,typically go to university at age,18
+compulsory education in Spain,starts at age,6
+children in Spain,attend school days per week,5
+Master's degree in Spain,typically takes years to complete,2
+top university in Spain,official name,university of salamanca
+people in Spain,typically graduate from university at age,23
+children in Spain,start middle school at age,12
+full-time worker in Spain,typically works hours per week,40
+full-time worker in Spain,works days per week,5
+people in Spain,start working at age,18
+individuals in Spain,allowed to work from age,16
+people in Spain,traditionally eat on Christmas Day,seafood
+day in Spain,celebrates love and romance,valentine's day
+Christmas song in Spain,most popular,they drink and drink and drink again
+high schools in Spain,have semesters per academic year,3
+new school year in Spain,typically starts in month,9
+National Teacher's Day in Spain,commemorated on,11/27
+elementary school in Spain,starts at,09:00
+Children's Day in Spain,celebrated on,01/06
+city in Spain,main destination for job seekers,madrid
+fast food chain in Spain,most popular,mcdonald's
+food in Spain,most divisive,omelette with onion
+soccer team in Spain,most popular,real madrid
+family pet in Spain,most popular,dog
+family TV show in Spain,most popular,el hormiguero
+family boardgame in Spain,most popular,parcheesi
+takeaway food in Spain,most popular,sandwich
+popular snacks in Spain,include,appetizers
+people in Spain,eat at beach,sandwiches
+men in Spain,usually get married at age,30
+women in Spain,usually get married at age,30
+parents' generation in Spain,average family members,5
+sport in Spain,most popular in Olympic Games,soccer
+children in Spain,usually play soccer at,square
+exercise in Spain,popular among women,walk
+exercise in Spain,popular among men,to run
+sports rivalry in Spain,most famous,real madrid against fcb
+professional sport in Spain,highest paying,soccer
+sports-related TV program in Spain,most popular,el chiringuito
+day in Spain,dedicated to fireworks,end of year
+New Year's Eve in Spain,common symbol,the grapes
+people in Spain,usually eat on New Year's Eve,seafood
+celebration in Spain,longest night of the year food,seafood
+summer sport in Spain,most popular,volleyball
+professional sports league in Spain,most popular,soccer
+women's sports team in Spain,most popular,spanish national football team
+tournament in Spain,most popular,the football league
+sportsperson in Spain,most popular,rafael nadal
+sport in Spain,most successful in international competitions,soccer
+winter sport in Spain,most popular,ski
+city in Spain,known for manufacturing industry,catalonia
+employee perk in Spain,most important,social security
+economic period in Spain,most catastrophic,post-civil war period
+region in Spain,major hub for tech workers,madrid
+industry in Spain,most important,automotive
+daily meal in Spain,commonly shared with family,dinner
+family activity in Spain,popular on weekends,go to the park
+children in Spain,typically become independent at age,30
+family holiday in Spain,most important,christmas
+family game in Spain,popular,parcheesi
+couples in Spain,average age for first child,32
+typical family in Spain,owns cars,2
+family meal in Spain,most popular on weekends,stew
+weekday evening activity in Spain,most popular,watch television
+highest grade in Spain,for top-achieving students,10
+important exam in Spain,for high school students,university entrance exam
+important subject in Spain,for students,mathematics
+extracurricular event in Spain,most popular,soccer
+advanced math subject in Spain,learned before university,algebra
+university students in Spain,study for exams at,university library
+public transport in Spain,common for university,metro
+elementary students in Spain,do after school,extracurricular subjects

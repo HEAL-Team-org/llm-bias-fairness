@@ -1,0 +1,450 @@
+Greece, most popular traditional alcohol, ouzo
+Greece, most popular water sport, polo
+Greece, most popular mental sport, chess
+Greece, average holiday days per worker, 22
+Greece, region traditionally associated with agriculture, crete
+Greece, typical time to leave work for lunch, 17:00
+Greece, high school students leave school at, 14:00
+Greece, elementary school students practice sport, soccer
+Greece, elementary school summer vacation duration in weeks, 12
+Greece, university summer vacation duration in weeks, 8
+Greece, elementary education starting age, 6
+Greece, languages studied besides official language, 2
+Greece, commonly used eating utensils, dishes
+Greece, preferred soft drink, coca cola
+Greece, average dinner duration at restaurant in hours, 3
+Greece, typical dinner time, 20:00
+Greece, preferred soup type, chicken soup
+Greece, popular street food, pita gyro
+Greece, commonly eaten seafood, calamari
+Greece, biggest festival, patras carnival
+Greece, most common intercity public transport, coach
+Greece, women's preferred sports to watch, basketball
+Greece, men's preferred sports to watch, soccer
+Greece, common leisure activity for women in 20s, coffee
+Greece, common leisure activity for men in 20s, soccer
+Greece, average post-lunch break duration in hours, 2
+Greece, average commute time in minutes, 60
+Greece, most common work transportation, metro
+Greece, marriage leave duration in days, 6
+Greece, typical female retirement age, 67
+Greece, typical male retirement age, 67
+Greece, most respected profession, doctor
+Greece, typical workday duration in hours, 8
+Greece, most preferred female occupation, teacher
+Greece, average education pursuit level, high school
+Greece, languages taught besides English, german
+Greece, school closure days, saturday
+Greece, food prepared for guests, feta and salad
+Greece, typical breakfast drink, coffee
+Greece, popular non-Greek cuisine, italian cuisine
+Greece, family picnic food, cold sandwich
+Greece, food considered disgusting by others, kokoretsi
+Greece, government office closing time, 14:00
+Greece, government office start time, 09:00
+Greece, longest national holiday, easter
+Greece, house display when family member dies, obituary
+Greece, pre-wedding event, engagement
+Greece, children's new year treat, vasilopita
+Greece, most popular tourist attraction, acropolis
+Greece, popular religious tourist site, mount athos
+Greece, women's graduation ceremony attire, suit
+Greece, cold weather drink, tsipouro
+Greece, fast food chicken side dish, french fries
+Greece, most famous martial art, boxing
+Greece, nationally televised sports, soccer
+Greece, popular pandemic sports, soccer
+Greece, famous soccer coach, fatih terim
+Greece, rival soccer teams, panathinaikos against olympiacos
+Greece, soccer supporters names, fanatics
+Greece, government-supported sport, soccer
+Greece, school sports facilities, basketball court
+Greece, popular cafe beverage, frappe
+Greece, preferred hangover cure, tripe soup
+Greece, typical delivery food, souvlaki
+Greece, most consumed meat, pork
+Greece, autumn fruit, apples
+Greece, common side dish, salad
+Greece, soccer watching food, pizza
+Greece, representative nourishing food, olive oil
+Greece, famous soccer player, zagorakis
+Greece, male students' lunchtime sport, soccer
+Greece, girls' PE class sport, volleyball
+preschool kids in Greece,common snack,toast
+beer in Greece,popular food to go with,souvlaki
+Greece,most popular fruit,watermelon
+school cafeteria in Greece,common food,sandwich
+shopping malls in Greece,commonly eaten snacks,souvlaki
+amusement park in Greece,popular snack,cotton candy
+Greece,age kids start preschool,4
+elementary schools in Greece,popular afterschool sport,soccer
+elementary students in Greece,private education subject,mathematics
+high school students in Greece,popular second language,english
+gifted education in Greece,most important subject,mathematics
+Thanksgiving in Greece,main dish,not-applicable
+Halloween in Greece,celebration activities,dress like carnival figures
+New Year's Day in Greece,celebration activities,cutting vasilopita
+Christmas in Greece,celebration activities,meal with the family
+Halloween in Greece,associated food,none
+Christmas in Greece,associated food,melomakarona
+Valentine's Day in Greece,associated food,chocolate
+birthday in Greece,people eat,cake
+families with little kids in Greece,popular outdoor place,playgrounds
+families in Greece,popular indoor activity,board games
+university students in Greece,lunch place,school's restaurant
+high schools in Greece,final exam term month,6
+high school students in Greece,hours spent per day,6
+high school students in Greece,languages studied,3
+school in Greece,popular team sport,soccer
+Greece,popular sport commentator,george thanailakis
+Greece,popular sport team,olympiacos
+sports broadcasts in Greece,common gathering places,cafes
+people from Greece,meals per day,3
+people from Greece,most important meal,lunch
+Greece's diet,common ingredient,olive oil
+people from Greece,typical dessert,chocolate
+families in Greece,weekly meal day,sunday
+Greece,popular hot drink,coffee
+young people in Greece,night club drink,vodka
+people in Greece,holiday month,8
+New Year's Eve in Greece,tradition,family meal
+family in Greece,typical house type,apartment in an apartment building
+dependent elderly in Greece,usual living place,houses of prosperity
+maternity leave in Greece,duration in weeks,14
+paternity leave in Greece,duration in weeks,2
+family vacation in Greece,common destination,island
+seniors in Greece,favorite sports,soccer
+men in Greece,favorite sports,soccer
+Greece,most famous basketball player,antetokounmpo
+children in Greece,popular sports,soccer
+women in Greece,favorite sports,volleyball
+Greece,Olympics most gold medals,weightlifting
+male university students in Greece,favorite sports,soccer
+Greece,average family size,4
+couples in Greece,usual number of children,2
+elementary school in Greece,duration in years,6
+compulsory education in Greece,duration in years,9
+students in Greece,second language start age,12
+undergraduate education in Greece,duration in years,12
+younger elementary students in Greece,school finish time,14:00
+elementary students in Greece,musical instruments played,1
+people in Greece,company dinner day,friday
+Greece,city with most financial companies,athens
+Greece,most famous private company,public power corporation
+Greece,maximum weekly work hours,43
+company get-togethers in Greece,typical food,sandwich
+Greece,representative export item,olive oil
+Greece,typical lunch break hours,1
+mothers after childbirth in Greece,recovery place,their house
+Parents' Day in Greece,common flower,daisies
+first salary in Greece,common spending,food
+children in Greece,preferred recreational facility,playground
+Greece,family-related holidays,christmas
+children's independence in Greece,key milestones,marriage
+visiting elderly parents in Greece,common gift,sweets
+after childbirth in Greece,first celebration day,after 40 days
+birthday in Greece,most grandly celebrated age,18
+middle and high school students in Greece,study place for exams,their house
+high school students in Greece,after dinner activity,study
+elementary students in Greece,school commute,on foot
+Greece,common private education form,colleges
+middle and high school students in Greece,frequent private education subject,mathematics
+middle and high school students in Greece,school clothing,casual
+Greece,most difficult major to gain admission,medical science
+elementary students in Greece,commonly learned musical instrument,guitar
+high school students in Greece,break time activities,spend time with classmates
+subject,relation,object
+most popular volleyball player in Greece,name,protopsaltis
+sports event in Greece,passionately supported,eurobasket
+Greece's biggest soccer rival,country,turkey
+sports academies in Greece,most attended by children,soccer
+food in Greek sports stadiums,commonly eaten,hot dog
+school sports day in Greece,typical sports played,soccer
+middle-aged Greeks,popular sports among,soccer
+winter sports player in Greece,most popular,ginnis
+famous swimmer in Greece,name,aris grigoriadis
+popular e-sports game in Greece,name,league of legends
+symbolic food in Greece,eaten on Lunar New Year,turkey
+domestic vacation spot in Greece,popular among Greeks,halkidiki
+wedding gift in Greece,most common,money
+condolence offering in Greece,typically prepared,flowers
+food at Greek funeral parlors,commonly provided,boiled wheat
+Greek New Year morning,activities,they eat
+day in Greece,most severe traffic congestion,new year's day
+honeymoon destination in Greece,most popular,santorini
+important national holiday in Greece,name,march 25th
+Greek breakfast,typically consists of,cereals
+Greek lunch time,usual time,14:00
+indispensable in Greek meals,typically,bread
+festive meal in Greece,typical,roast meat
+fruit offered to tourists in Greece,commonly,watermelon
+charity food in Greece,typically offered,bread
+cheapest fast food in Greece,name,souvlaki
+food with tea in Greece,typically paired,cookies
+food with coffee in Greece,typically paired,cheese pie
+traditional food in Greece,most popular,pastitsio
+popular dipping sauce in Greece,name,tzatziki
+food during Christian fasting in Greece,most consumed,legumes
+female sportsperson in Greece,most popular,voula patoulidou
+elementary students in Greece,prepare for exams,at home
+first national exam in Greece,grade level taken,third grade of high school
+agricultural product in Greece,main,olive oil
+wheat-based food in Greece,most popular,bread
+drink for guests in Greece,typically offered,coffee
+fish dish in Greece,most popular,cod skordalia
+rainy day food in Greece,commonly eaten,soups
+hot weather drink in Greece,commonly consumed,cold espresso
+indoor sport in Greece,most popular,basketball
+sport watched by Greek men,preferred,soccer
+sport watched by Greek women,preferred,basketball
+workplace beverage in Greece,preferred,coffee
+family reunion holiday in Greece,occasion,easter
+traditional festival games in Greece,played by families,card games
+festival clothing in Greece,typically worn,traditional
+festival accessories in Greece,commonly worn,handkerchiefs
+alcohol production region in Greece,most famous,chios
+summer fruit in Greece,often eaten,watermelon
+seafood region in Greece,known for,aegean islands
+skiing destination in Greece,most popular,parnassus
+martial arts player in Greece,most popular,michalis zambidis
+fastest-growing sport in Greece,name,basketball
+study abroad destination for Greeks,most popular,america
+working family members in Greece,typical number,2
+childcare in Greece,handled by,grandparents
+preferred alcoholic beverage for men in Greece,is,wine
+preferred alcoholic beverage for women in Greece,is,wine
+average wedding attendance in Greece,is,200
+meat for barbecue in Greece,is,pork
+typical breakfast time in Greece,is,08:00
+late-night snacks in Greece,include,toast
+famous spicy dish in Greece,is,pork stir fry
+food paired with hard liquor in Greece,include,nuts
+indispensable seasoning in Greek cooking,is,pepper
+food for cold weather in Greece,is,chicken soup
+famous alcohol brand in Greece,is,tsipouro
+food when sick in Greece,is,soups
+prepared food bought at supermarkets in Greece,include,pies
+famous sports-related movie in Greece,is,mamma mia
+desired extreme sport in Greece,is,bungee jumping
+popular track and field event in Greece,is,long jump
+popular gymnastics event in Greece,is,soccer
+famous table tennis player in Greece,is,kalinikos kreanga
+popular Winter Olympics event in Greece,is,figure skating
+famous boxer in Greece,is,michalis zambidis
+famous track athlete in Greece,is,miltos tentoglou
+parents' hoped profession in Greece,is,doctor
+common office software in Greece,is,microsoft office
+cities known for import/export in Greece,include,crete
+common e-commerce platform in Greece,is,skroutz.gr
+typical probation period in Greece,is,15 days
+industries for young entrepreneurs in Greece,include,catering
+family remote communication in Greece,is,viber
+family trip accommodation in Greece,is,hotel
+fruit for family dinners in Greece,is,watermelon
+university class hours per week in Greece,is,20
+public high school tuition fee in Greece,is,0
+compulsory university courses in Greece,include,technical writing
+average high school class size in Greece,is,15
+most employable major in Greece,is,computers
+popular university clubs in Greece,include,political factions
+student accommodation in Greece,is,student dormitories
+middle school class duration in Greece,is,45 minutes
+retired women's leisure activities in Greece,include,excursions
+retired men's leisure activities in Greece,include,cafes
+holidays visiting religious sites in Greece,include,easter
+typical housewarming gifts in Greece,include,wine
+typical wedding start time in Greece,is,19:00
+city hosting most festivals in Greece,is,athens
+typical wedding attire color in Greece,is,white
+typical funeral attire color in Greece,is,black
+cinema snack in Greece,is,popcorn
+popular chip flavor in Greece,is,oregano
+famous celebrity chef in Greece,is,akis petretzikis
+cost-effective quick meal in Greece,is,gyro
+popular cooking shows in Greece,include,master chef
+popular chocolate brand in Greece,is,lacta
+most eaten cheese in Greece,is,feta
+most disliked vegetable in Greece,is,okra
+common food court food in Greece,is,pizza
+sports fans' cheering tools in Greece,include,chant
+items fans bring to games in Greece,include,scarf
+famous sports stadium in Greece,is,olympic stadium athens
+famous Paralympian in Greece,is,charalambos taiganidis
+recognized sports chant in Greece,is,something magical
+industries with flexible hours in Greece,include,sales
+famous entrepreneur in Greece,is,marinakis
+typical back garden items in Greece,include,flower beds
+most famous family name in Greece,is,papadopoulos
+common family religion in Greece,is,orthodox christian faith
+popular foreign language in Greece,is,english
+popular emigration destination for Greeks,is,germany
+school behavior repercussions in Greece,include,expulsion
+commonly studied writers in Greece,include,papadiamantis
+high school breaks per year in Greece,is,3
+students' online study resource in Greece,is,google
+average university semester length in Greece,is,15 weeks
+busiest holiday airport in Greece,is,eleftherios venizelos
+region known for theater in Greece,is,athens
+famous historic landmark in Greece,is,parthenon
+famous hotel brand in Greece,is,hilton
+popular grab-and-go breakfast in Greece,include,coffee
+young people in Greece,most popular food,pasta with minced meat
+festivals in Greece,most commonly consumed alcoholic drink,beer
+morning drink in Greece,most common,coffee
+traditional dessert in Greece,most popular,galaktoboureko
+racket sport in Greece,most popular,tennis
+track and field sport in Greece,most popular,long jump
+international sporting event in Greece,most popular,olympic games
+work breaks in Greece,typical duration in minutes,30
+underpaid job in Greece,considered,waiter
+Easter food in Greece,most common,lamb on the spit
+elderly population in Greece,most popular music genre,laiko
+funerals in Greece,drink usually offered,coffee
+weddings in Greece,drink usually offered,wine
+food from Greece,found worldwide,souvlaki
+children in Greece,disliked food but elderly enjoy,chickpeas
+cooking utensil in Greece,most commonly used,pot
+vegetable in Greece,most popular,tomato
+animal for sports in Greece,used,horse
+wedding venue in Greece,most popular,church
+coffee shop brand in Greece,most popular,coffee island
+Greek food overseas,typically served in restaurants,moussaka
+region in Greece,associated with mining,halkidiki
+region in Greece,associated with oil,thasos
+university in Greece,popular for engineering major,national technical university of athens
+university in Greece,popular for medical school,aristotelian
+payment method in Greece,most popular,cash
+theme park in Greece,most famous,allou fun park
+children's animation in Greece,most commonly watched,peppa pig
+prenatal education activity in Greece,most popular,painless childbirth classes
+children's song in Greece,most popular families sing together,happily to clap my 2 hands
+toys for boys in Greece,most popular,soccer
+toys for girls in Greece,most popular,barbie
+folk tale in Greece,most popular told to children,little red riding hood
+funerals in Greece,customary symbol of condolence,black clothes
+university students in Greece,common part-time job,cafes
+team-building activities in Greece,most frequently practiced,escape room
+side job in Greece,most common,fishing
+edible souvenir for tourists in Greece,most famous,souvlaki
+stew in Greece,most popular,hare
+spice in Greek dishes,most common,oregano
+traditional sport in Greece,most famous,soccer
+beach sport in Greece,popular to play,rackets
+Student's Day in Greece,date celebrated,11/17
+families in Greece,gather to pray,orthodox church
+Father's Day gifts in Greece,received,nothing
+Mother's Day gifts in Greece,received,flowers
+household in Greece,typical generations living together,2
+middle school subjects in Greece,number taught,23
+after school programs in Greece,most popular,foreign languages
+public universities in Greece,average annual tuition fee,0
+park activities in Greece,popular,picnic
+film festival in Greece,most famous,thessaloniki
+card game in Greece,popular during social gatherings,smudger
+tourist destination abroad for Greeks,most popular,london
+tower in Greece,most famous,white
+agricultural product from Greece,most exported,olive oil
+sweets in Greece,most popular,galaktoboureko
+sports drink in Greece,most popular,red bull
+average education level in Greece,for people,high school
+profession studied abroad by Greeks,most common,medical
+religious activities day in Greece,most practiced,sunday
+Independence Day in Greece,way to celebrate,parade
+children's beverage in Greece,most popular,milk
+Independence Day place in Greece,popular to celebrate,villages
+birthday song in Greece,typically sung,happy birthday
+snacks sold near schools in Greece,usually,koulouri
+cooking oil in Greece,usually used,olive oil
+pregnant women in Greece,commonly consumed food,chocolate
+traditional non-alcoholic drink in Greece,most popular,coca cola
+park sports facilities in Greece,generally available,basketball court
+seniors in parks in Greece,common activities,leisurely walk
+parent-child sports in Greece,commonly played together,football
+national soccer team of Greece,associated color,blue
+school teachers in Greece,dress code,suit
+music extracurricular in schools in Greece,most popular,guitar
+religion taught in schools in Greece,mainly,christianity
+Education Day in Greece,date celebrated,01/24
+mountainous areas in Greece,main occupation,livestock breeders
+coastal areas in Greece,main occupation,tourism
+livestock in Greece,most common,sheep
+animals for agriculture in Greece,commonly used,sheep
+farmers in Greece,typical protective wear while farming,hat
+farmers in Greece,typical lunch food,salad
+parents in Greece,common birthday gifts for children,games
+families in Greece,commonly owned vehicle type,sedan
+grooms in Greece,typical wedding attire,suit
+brides in Greece,typical wedding attire,wedding dress
+weddings in Greece,commonly served food,wedding rice pilaf
+Greece,most famous government building,parliament
+younger population in Greece,most popular music genre,bank
+middle school students in Greece,typical school finish time,14:00
+people in Greece,typical university starting age,18
+children in Greece,compulsory education starting age,6
+children in Greece,school days per week,5
+Greece,typical duration for Master's degree,2
+Greece,top university,national and kapodistrian university of athens
+people in Greece,typical university graduation age,25
+children in Greece,middle school starting age,12
+full-time workers in Greece,typical weekly working hours,40
+full-time workers in Greece,typical working days per week,5
+people in Greece,typical work starting age,18
+people in Greece,legal working age,18
+people in Greece,traditional Christmas food,turkey
+Greece,day celebrating love and romance,saint valentine's
+Greece,most popular Christmas song,christmas
+high schools in Greece,academic year semesters,2
+Greece,new school year starting month,9
+Greece,National Teacher's Day date,10/05
+elementary school in Greece,typical start time,08:00
+Greece,Children's Day date,11/20
+Greece,main destination for job seekers,athens
+Greece,most popular fast food chain,goody's
+Greece,most divisive food,okra
+people from Greece,most popular soccer team,olympiacos
+Greek families,most popular pet,dog
+Greek families,popular board game,monopoly
+Greece,most popular takeaway food,gyro
+Greece,popular snacks,potato chips
+people from Greece,typical beach food,sandwich
+men in Greece,typical marriage age,30
+women in Greece,typical marriage age,27
+parents' generation in Greece,average family size,4
+Olympic Games,most popular sport in Greece,track and field
+children in Greece,typical soccer playing location,stadiums
+women in Greece,popular daily exercise,pilates
+men in Greece,popular daily exercise,running
+national sports league in Greece,most famous rivalry,pao against osfp
+Greece,highest paying professional sport,soccer
+Greece,day dedicated to fireworks,new year's day
+New Year's Eve in Greece,common symbol,vasilopita
+people from Greece,typical New Year's Eve food,turkey
+Greece,popular summer sport,swimming
+Greece,most popular professional sports league,super league greece
+Greece,popular women's sports team,olympiacos
+Greece,most popular tournament,acropolis rally
+Greece,most popular sportperson,antetokounmpo
+Greece,most successful international sport,water polo
+Greece,popular winter sport,skiing
+Greece,important manufacturing city,athens
+employees in Greece,important perk,insurance
+Greece,most catastrophic economic period,the german occupation 1941-44
+Greece,major tech hub,athens
+Greece,most important industry,tourism
+Greek families,commonly shared meal,lunch
+Greek families,weekend activity with children,stroll
+children in Greece,typical independence age,18
+Greece,most important family holiday,christmas
+Greek families,popular game,monopoly
+couples in Greece,average first child age,30
+Greek families,typical number of cars owned,1
+Greek families,weekend meal food,pastitsio
+Greek families,weekday evening activity,television
+top high school students in Greece,highest grade given,20
+high school students in Greece,most important exam,national exams
+students in Greece,most important subject,mathematics
+schools in Greece,popular social event,tour of the parthenon
+high school students in Greece,most advanced math subject,integrals
+university students in Greece,study location for exams,library
+people in Greece,common transport to university,city bus
+elementary students in Greece,after-school activities,return home for food

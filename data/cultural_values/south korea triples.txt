@@ -1,0 +1,456 @@
+preschool kids in South Korea,common snack,cookie
+beer in South Korea,popular food to go with,fried chicken
+South Korea,most popular fruit,apple
+school cafeteria in South Korea,common food,kimchi
+shopping malls in South Korea,commonly eaten snacks,ice cream
+amusement park in South Korea,popular snack,churros
+kids in South Korea,start preschool age,5
+elementary schools in South Korea,popular afterschool sport,soccer
+elementary students in South Korea,private education subject,english
+high school students in South Korea,popular second language,english
+gifted education in South Korea,most important subject,mathematics
+Thanksgiving in South Korea,main dish,songpyeon
+Halloween in South Korea,celebration activity,makeup
+New Year's Day in South Korea,celebration activity,eating sliced rice cake soup
+Christmas in South Korea,celebration activity,date
+Halloween in South Korea,associated food,cookie
+Christmas in South Korea,associated food,cake
+Valentine's day in South Korea,associated food,chocolate
+birthday in South Korea,traditional food to eat,seaweed soup
+families with little kids in South Korea,popular outdoor place,park
+families in South Korea,popular indoor activity,watching tv
+university students in South Korea,lunch location,school cafeteria
+high schools in South Korea,final exam month,12
+high school students in South Korea,hours spent at school daily,8
+high school students in South Korea,languages studied,3
+school in South Korea,popular team sport,soccer
+South Korea,popular sport commentator,sung-jae bae
+South Korea,popular sport team,lg twins
+individuals in South Korea,sports broadcast venues,pub
+people from South Korea,meals per day,3
+people from South Korea,most important meal,dinner
+South Korea's diet,most common ingredient,cabbage
+people from South Korea,typical dessert,fruit
+families in South Korea,family meal day,saturday
+South Korea,popular hot drink,coffee
+young people in South Korea,drink at night club,beer
+people in South Korea,holiday month,7
+New Year's Eve in South Korea,tradition,countdown
+family in South Korea,typical house type,apartment
+dependent elderly in South Korea,living location,home
+maternity leave in South Korea,duration in weeks,13
+paternity leave in South Korea,duration in weeks,52
+family vacation in South Korea,common destination,ocean
+seniors in South Korea,favorite sport,janggi
+men in South Korea,favorite sport,soccer
+South Korea,famous basketball player,seo jang-hoon
+children in South Korea,popular sport,soccer
+women in South Korea,favorite sport,soccer
+South Korea,sport with most Olympic gold medals,archery
+male university students in South Korea,favorite sport,soccer
+South Korea,average family size,4
+couples in South Korea,number of children,2
+elementary school in South Korea,duration in years,6
+compulsory education in South Korea,duration in years,9
+students in South Korea,start learning second language age,10
+undergraduate education in South Korea,duration in years,4
+younger elementary students in South Korea,school finish time,13:00
+elementary students in South Korea,musical instruments played,1
+people in South Korea,preferred company dinner day,friday
+South Korea,financial companies region,yeouido
+South Korea,famous private company,samsung
+South Korea,maximum weekly work hours,52
+company get-together in South Korea,typical food,pork belly
+South Korea,representative export item,semiconductor
+South Korea,typical lunch break duration,1
+mothers after childbirth in South Korea,recovery location,postnatal care center
+Parents' Day in South Korea,commonly given flower,carnation
+first salary in South Korea,common spending,gift for parents
+children in South Korea,preferred recreational facility,playground
+South Korea,family-related holidays,children's day
+children's independence in South Korea,key milestone,employment
+visiting elderly parents in South Korea,common gift,functional food
+first celebration after birth in South Korea,event,first birthday party
+South Korea,most grandly celebrated birthday age,1
+middle and high school students in South Korea,study location,study cafe
+high school students in South Korea,after dinner activity,academy
+elementary students in South Korea,school commute method,walking
+South Korea,most common private education,academy
+subject,relation,object
+middle or high students in South Korea,most frequently attend subject academy,mathematics
+middle and high school students in South Korea,type of clothing worn to school,school uniform
+university admission in South Korea,most difficult major to gain admission to,college of medicine
+elementary school students in South Korea,most commonly learned musical instrument,piano
+high school students in South Korea,typical activities during break time,game
+students in South Korea,kind of shoes worn indoors,indoor shoes
+university entrance exam in South Korea,required subjects,english
+region in South Korea,highest academic fervor,gangnam
+university festivals in South Korea,most looked forward to activity,singer
+second most popular sport in South Korea,sport played without a ball,archery
+sports in South Korea,most associated with upper class,golf
+most popular water sport in South Korea,commonly practiced,swimming
+most popular mental sport in South Korea,commonly played,go
+standard worker in South Korea,yearly holiday days,15
+region in South Korea,traditionally associated with agriculture,honam
+people in South Korea,usual time to leave work for lunch,12:00
+high school students in South Korea,typical time to leave school,16:00
+elementary school students in South Korea,sport practiced at school,dodgeball
+elementary schools in South Korea,summer vacation duration in weeks,4
+universities in South Korea,summer vacation duration in weeks,8
+elementary education in South Korea,starting age,8
+elementary education in South Korea,languages studied besides official language,1
+people in South Korea,common eating utensils,chopsticks
+people in South Korea,preferred soft drink,coffee
+most popular traditional alcohol in South Korea,commonly consumed,rice wine
+people in South Korea,average dinner duration at restaurant in hours,1
+people in South Korea,usual dinner time,18:30
+people in South Korea,preferred kind of soup,soybean paste soup
+people in South Korea,preferred street food,stir-fried rice cakes
+people in South Korea,preferred kind of seafood,fish
+biggest festival in South Korea,celebrated event,cherry-blossom viewing
+people traveling between cities in South Korea,most commonly used public transport,train
+women in South Korea,sports they like to watch most,baseball
+men in South Korea,sports they like to watch most,baseball
+females in their 20s in South Korea,common leisure activity,youtube
+males in their 20s in South Korea,common leisure activity,game
+people in South Korea,break duration after lunch in hours,0.5
+people in South Korea,typical lunch during workdays,rice
+people in South Korea,average commute time in minutes,60
+people in South Korea,most common transportation to work,subway
+marriage leave in South Korea,duration in days,5
+women in South Korea,typical retirement age,60
+men in South Korea,typical retirement age,60
+most respected profession in South Korea,highly regarded,doctor
+females in South Korea,most preferred occupation,teacher
+males in South Korea,most preferred occupation,doctor
+students in South Korea,highest education level pursued,university
+schools in South Korea,language taught besides english,japanese
+schools in South Korea,days closed,sunday
+hosts in South Korea,food prepared for guests,meat
+people in South Korea,usual breakfast drink,water
+foreign visitors in South Korea,most popular tourist attraction,gyeongbokgung
+religious sites in South Korea,popular for tourism,bulguksa
+women in South Korea,clothing worn at graduation ceremony,academic dress
+people in South Korea,drink consumed in cold weather,coffee
+fast-food restaurants in South Korea,carbohydrate served with chicken,french fries
+most famous martial art in South Korea,widely practiced,taekwondo
+national television in South Korea,sports often broadcasted,soccer
+popular sports during COVID-19 in South Korea,commonly played,baseball
+most popular soccer coach in South Korea,highly regarded,guus hiddink
+most famous male badminton player in South Korea,renowned,yong-dae lee
+most famous female badminton player in South Korea,renowned,se-young an
+sport with most government support in South Korea,heavily funded,soccer
+schools in South Korea,sports field facilities available,soccer
+people in South Korea,most common cafe beverage,americano
+subject,relation,object
+South Korea,preferred hangover cure food,gukbap
+South Korea,typical delivery food,fried chicken
+South Korea,most consumed meat,pork
+South Korea,autumn season fruit,apple
+South Korea,most common side dish,kimchi
+South Korea,food eaten while watching soccer,fried chicken
+South Korea,representative nourishing food,samgyetang
+South Korea,most famous soccer player,son heung-min
+South Korea,male students' lunchtime sport,soccer
+South Korea,girls' PE class sport,dodgeball
+South Korea,most popular volleyball player,kim yeon-koung
+South Korea,most passionately supported sports event,soccer
+South Korea,biggest soccer rival,japan
+South Korea,children's sports academies,taekwondo
+South Korea,food eaten in sports stadiums,fried chicken
+South Korea,school sports day activities,race
+South Korea,middle-aged popular sport,golf
+South Korea,most popular winter sports player,yuna kim
+South Korea,most famous swimmer,park tae-hwan
+South Korea,most popular e-sports game,league of legends
+South Korea,Lunar New Year symbolic food,sliced rice cake soup
+South Korea,most popular domestic vacation spot,jeju island
+South Korea,common wedding gift,ring
+South Korea,wedding congratulatory gesture,congratulatory money
+South Korea,typical funeral duration,3
+South Korea,condolence offering,condolence money
+South Korea,food provided at funeral parlors,yukgaejang
+South Korea,Lunar New Year morning activity,new year's bow
+South Korea,day with severe traffic congestion,first day of the national holiday
+South Korea,popular honeymoon destination,jeju island
+South Korea,most important national holiday,national liberation day of korea
+South Korea,weekend days,saturday
+South Korea,typical work start time,09:00
+South Korea,typical work finish time,18:00
+South Korea,secure job,public worker
+South Korea,primary commercial hub,seoul
+South Korea,highest paying industry,health care industry
+South Korea,famous public corporation,korea electric power corporation
+South Korea,most famous dish,kimchi
+South Korea,typical breakfast food,rice
+South Korea,typical lunch time,12:00
+South Korea,indispensable in meals,rice
+South Korea,fruit offered to tourists,pear
+South Korea,food offered as charity,rice
+South Korea,cheapest fast food,hamburger
+South Korea,food with tea,rice cake
+South Korea,food with coffee,slice of cake
+South Korea,popular traditional food,bibimbap
+South Korea,popular dipping sauce,soy sauce
+South Korea,food for mothers giving birth,miyuk guk
+South Korea,popular female sportsperson,yuna kim
+South Korea,elementary students' exam preparation place,house
+South Korea,first national exam grade,high school 3rd grade
+South Korea,region known for coffee/tea industry,boseong
+South Korea,region known for livestock industry,hoengseong
+South Korea,main agricultural product,rice
+South Korea,popular wheat-based food,bread
+South Korea,drink offered to guests,coffee
+South Korea,popular fish dish,raw fish
+South Korea,food eaten during rainy weather,makgeolli
+South Korea,drink in hot weather,iced americano
+South Korea,popular indoor sport,climbing
+South Korea,men's favorite sport to watch,baseball
+South Korea,women's favorite sport to watch,baseball
+South Korea,workplace popular beverage,coffee
+South Korea,family reunion holiday,chuseok
+South Korea,traditional holiday games,yutnori
+South Korea,traditional festival clothing,hanbok
+South Korea,region famous for alcohol production,andong
+South Korea,summer season fruit,watermelon
+South Korea,region known for seafood,busan
+South Korea,popular skiing destination,gangwon province
+South Korea,popular martial arts player,kim dong-hyun
+South Korea,fastest growing sport,soccer
+South Korea,popular study abroad destination,usa
+South Korea,typical working family members,2
+South Korea,childcare when parents work,grandparents
+South Korea,men's preferred alcoholic beverage,soju
+South Korean women,preferred alcoholic beverage,beer
+South Korean weddings,average number of attendees,200
+South Korean barbecue,commonly eaten meat,pork belly
+South Korea,typical breakfast time,07:00
+South Korea,popular late-night snack,fried chicken
+South Korea,most famous spicy dish,buldak-bokkeum-myeon
+South Korea,food paired with hard liquor,raw fish
+South Korean cooking,indispensable seasoning,red pepper paste
+South Korea,food consumed in cold weather,fish-shaped bread
+South Korea,most famous alcohol brand,jinro is back
+South Korea,food eaten when sick,porridge
+South Korea,prepared food bought at supermarkets,dumpling
+South Korea,most famous sports-related movie,take off
+South Korea,most wished extreme sport,bungy jumping
+South Korea,most popular track and field event,100 metres
+South Korea,most popular gymnastics event,rhythmic gymnastics
+South Korea,most famous table tennis player,hyun jung-hwa
+South Korea,most popular Winter Olympics event,short track
+South Korea,most famous boxer,hong soo-hwan
+South Korea,most famous track and field athlete,sohn kee-chung
+South Korean parents,most hoped job for children,doctor
+South Korean workplace,commonly used office software,excel
+South Korea,cities known for import/export,busan
+South Korean e-commerce,commonly used platform,coupang
+South Korea,typical probation period for new employees,3 months
+South Korean young people,industries to start businesses,restaurant business
+South Korean families,common remote communication method,kakaotalk
+South Korean family trips,typical accommodation booked,pension
+South Korean family dinners,most prepared fruit,apple
+South Korean university students,weekly class hours,18
+South Korean public high schools,typical tuition fee per semester,0
+South Korean universities,common compulsory courses,english
+South Korean high schools,average class size,30
+South Korea,major most conducive to employment,college of medicine
+South Korean university students,popular club types,band
+South Korean university students,typical accommodation,studio
+South Korean middle schools,class period length in minutes,45
+South Korean retired women,popular leisure activities,mountain climbing
+South Korean retired men,popular leisure activities,mountain climbing
+South Korean holidays,visiting religious sites,the day of buddha's coming
+South Korea,typical housewarming gifts,tissue
+South Korean weddings,typical start time,13:00
+South Korea,city hosting most festivals,seoul
+South Korean wedding attendees,typical clothing color,black
+South Korean funeral attendees,typical clothing color,black
+South Korean cinema,snack eaten,popcorn
+South Korea,most popular chip flavor,salt
+South Korea,popular celebrity chef,paik jong-won
+South Korea,cost-effective quick meal,instant noodles
+South Korea,popular cooking shows,please take care of my refrigerator
+South Korea,most popular chocolate brand,ghana
+South Korea,most eaten cheese,mozzarella cheese
+South Korea,most disliked vegetable,cilantro
+South Korean food courts,commonly found food,pork cutlet
+South Korean sports fans,common cheering tools,thundersticks
+South Korean game attendees,items brought,uniform
+South Korea,most well-known sporting stadium,sangam stadium
+South Korea,best recognized sporting chant,the great republic of korea
+South Korean industries,flexible working hours,it
+South Korea,most successful entrepreneur,lee jae-yong
+South Korean back gardens,typical items found,hang-ari
+South Korea,most common family name,lee
+South Korean families,most practiced religion,christian
+South Korean families,most popular foreign language,english
+South Korean families,popular emigration destination,canada
+South Korean schools,repercussions for bad behavior,school suspension
+South Korean literature classes,commonly studied writers,yun dong-ju
+South Korean high schools,school breaks per year,3
+South Korean students,online study resource,educational broadcasting system
+South Korean universities,average semester length in weeks,16
+South Korea,busiest holiday season airport,incheon international airport
+South Korea,region known for theatrical performances,hyehwa-dong
+South Korea,most famous historic landmark,gyeongbokgung palace
+South Korea,most famous hotel brand,the shilla
+South Korea,popular grab-and-go breakfast,sandwich
+South Korean young people,popular food,spicy hot pot
+South Korean festivals,commonly consumed alcoholic drink,soju
+South Korea,most common morning drink,coffee
+South Korea,most popular traditional dessert,yakgwa
+South Korea,most popular racket sport,badminton
+South Korea,most popular track and field sport,marathon
+South Korea,most popular international sporting event,world cup
+South Korea,typical work break duration,0
+South Korea,underpaid job,firefighter
+South Korea,most common Easter food,egg
+South Korea,most popular music genre among elderly,trot
+South Korea,drink offered at funerals,soju
+South Korea,drink offered at weddings,beer
+South Korea,food originated from Korea,pork belly
+South Korea,food disliked by children but enjoyed by elderly,stir-fried vegetables
+South Korea,most common cooking utensil,spatula
+South Korea,most popular vegetable,cabbage
+South Korea,animal used for sports,horse
+South Korea,most popular wedding venue,wedding hall
+South Korea,most popular coffee shop brand,starbucks
+South Korea,food served in overseas restaurants,pork belly
+South Korea,region associated with mining,gangwon province
+South Korea,region associated with oil,incheon
+South Korea,university popular for engineering,kaist
+South Korea,university popular for medicine,seoul national university
+South Korea,most popular payment method,card
+South Korea,most famous theme park,everland
+South Korea,most popular children's animation,pororo
+South Korea,most popular prenatal education activity,music
+South Korea,most popular family children's song,three bears
+South Korea,most popular toy among boys,robot
+South Korea,most popular toy among girls,doll
+South Korea,most popular folk tale,heungbu and nolbu
+South Korea,customary funeral flower,chrysanthemum
+South Korea,most common part-time job for students,cafe
+South Korea,most common team-building activity,picnic
+South Korea,most common side job,designated driver
+South Korea,most famous edible souvenir,yakgwa
+South Korea,most popular stew,kimchi-jjigae
+South Korea,most common spice in dishes,garlic
+South Korea,most famous traditional sport,traditional korean wrestling
+South Korea,popular beach sport,surfing
+South Korea,place for family prayer,religious facilities
+South Korea,gift for Father's Day,money
+South Korea,gift for Mother's Day,money
+South Korea,typical household generations,2
+South Korea,number of subjects in middle school,12
+South Korea,popular elementary school after-school activity,sports
+South Korea,average university tuition,5,000,000
+South Korea,popular park activity,badminton
+South Korea,most famous film festival,busan international film festival
+South Korea,popular social card game,matgo
+South Korea,most popular overseas tourist destination,japan
+South Korea,most famous tower,n seoul tower
+South Korea,most commonly eaten insect,beondegi
+South Korea,most exported agricultural product,rice
+South Korea,most popular sweets,chocolate
+South Korea,most popular sports drink,pocari sweat
+South Korea,average education level,university
+South Korea,most studied abroad profession,english
+South Korea,day for religious activities,sunday
+South Korea,Independence Day celebration,flag hoisting
+South Korea,most popular children's beverage,pororo tropical fruits flavor drink
+South Korea,popular Independence Day place,gwanghwamun
+South Korea,birthday party song,happy birthday song
+South Korea,snack sold near schools,cup tteokbokki
+South Korea,common cooking oil,canola oil
+South Korea,food consumed by pregnant women,meat
+South Korea,most popular traditional non-alcoholic drink,sweet rice drink
+South Korea,park sports facilities,badminton
+South Korea,senior park activities,walking
+South Korea,parent-child sports,soccer
+South Korea,national soccer team color,red
+South Korea,school teacher dress code,semi-formal
+South Korea,popular school music activity,band
+South Korea,main school religion,christian
+South Korea,Education Day date,05/17
+South Korea,mountainous area main occupation,agriculture
+South Korea,coastal area main occupation,fishing
+South Korea,most common livestock,cow
+South Korea,animals used for agriculture,cow
+South Korea farmers,protective clothing from heat,hat
+South Korea farmers,typical lunch food,rice
+South Korea parents,birthday gifts for children,electronic device
+South Korea families,most commonly owned vehicle,car
+South Korea grooms,typical wedding attire,suit
+South Korea brides,typical wedding attire,wedding dress
+South Korea weddings,typical served food,buffet
+South Korea,most famous government building,cheongwadae
+South Korea younger population,most popular music genre,ballad
+South Korea middle school students,typical school end time,15:00
+South Korea people,typical university starting age,20
+South Korea,compulsory education starting age,8
+South Korea children,school attendance days per week,5
+South Korea,Master's degree duration in years,2
+South Korea,top university,seoul national university
+South Korea people,typical university graduation age,24
+South Korea children,middle school starting age,14
+South Korea full-time workers,typical weekly working hours,40
+South Korea full-time workers,working days per week,5
+South Korea people,typical work starting age,25
+South Korea,minimum working age,15
+South Korea people,traditional Christmas food,cake
+South Korea,day celebrating love and romance,valentine's day
+South Korea,most popular Christmas song,jingle bells
+South Korea high schools,semesters per academic year,2
+South Korea,new school year starting month,3
+South Korea,National Teacher's Day date,05/15
+South Korea elementary schools,typical start time,09:00
+South Korea,Children's Day date,05/05
+South Korea job seekers,main destination city,seoul
+South Korea,most popular fast food chain,lotteria
+South Korea,most divisive food,mint chocolate
+South Korea people,most popular soccer team,tottenham
+South Korea,university famous for sports,yonsei university
+South Korea families,most popular pet,dog
+South Korea,most popular takeaway food,fried chicken
+South Korea,popular beach food,raw fish
+South Korea men,typical marriage age,30
+South Korea women,typical marriage age,30
+South Korea parents' generation,average family members,6
+South Korea,most popular Olympic sport,soccer
+South Korea children,typical soccer playing location,school playground
+South Korea women,popular daily exercise,pilates
+South Korea men,popular daily exercise,gym
+South Korea,most famous sports rivalry,fc seoul vs suwon samsung
+South Korea,highest paying professional sport,baseball
+South Korea,popular sports TV program,kick a goal
+South Korea,traditional New Year's Eve symbol,bosingak bell
+South Korea,traditional winter solstice food,red bean porridge
+South Korea,most popular summer sport,swimming
+South Korea,most popular professional sports league,kbo
+South Korea,most popular women's sports team,heungkuk life
+South Korea,most popular sports tournament,world cup
+South Korea,most popular sportsperson,heung min son
+South Korea,most successful international sport,archery
+South Korea,most popular winter sport,ski
+South Korea,city known for manufacturing,ulsan
+South Korea employees,most important perk,bonus
+South Korea,most catastrophic economic period,1997
+South Korea,major tech hub,pangyo
+South Korea,most important industry,semiconductor
+South Korea families,most commonly shared meal,dinner
+South Korea families,popular weekend activity,travel
+South Korea children,typical independence age,24
+South Korea,most important family holiday,children's day
+South Korea families,popular game,yutnori
+South Korea couples,average first child age,30
+South Korea families,typical number of cars owned,1
+South Korea families,popular weekend meal,meat
+South Korea high schools,highest academic grade,1
+South Korea high school students,most important exam,national university entrance exam
+South Korea students,most important subject,math
+South Korea schools,popular extracurricular event,sports day
+South Korea,most advanced pre-university math,calculus
+South Korea university students,typical study location,library
+South Korea,common university transport,subway
+South Korea elementary students,typical after-school activity,going to academy

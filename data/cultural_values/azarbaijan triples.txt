@@ -1,0 +1,479 @@
+subject,relation,object
+preschool kids in Azerbaijan,common snack,nuts
+beer in Azerbaijan,popular food with,snacks
+Azerbaijan,most popular fruit,apple
+school cafeteria in Azerbaijan,common food,dolma
+shopping malls in Azerbaijan,commonly eaten snacks,doner kebab
+amusement park in Azerbaijan,popular snack,popcorn
+kids in Azerbaijan,preschool starting age,4
+elementary schools in Azerbaijan,popular afterschool sport,soccer
+elementary students in Azerbaijan,private education subject,mathematics
+high school students in Azerbaijan,popular second language,russian
+gifted education in Azerbaijan,most important subject,mathematics
+Thanksgiving in Azerbaijan,main dish,not-applicable
+Halloween in Azerbaijan,celebration activity,throw parties
+New Year's Day in Azerbaijan,celebration activity,evening meal
+Christmas in Azerbaijan,celebration activity,not-applicable
+Halloween in Azerbaijan,associated food,not-applicable
+Christmas in Azerbaijan,associated food,russian salad
+Valentine's Day in Azerbaijan,associated food,chocolate
+birthday in Azerbaijan,typical food,cake
+families with kids in Azerbaijan,popular outdoor place,boulevard
+families in Azerbaijan,popular indoor activity,entertainment center
+university students in Azerbaijan,lunch location,campus cafeterias
+high schools in Azerbaijan,final exam month,6
+high school students in Azerbaijan,daily school hours,6
+high school students in Azerbaijan,languages studied,3
+school in Azerbaijan,popular team sport,soccer
+sport in Azerbaijan,most popular commentator,ismayil abdullayev
+Azerbaijan,most popular sport team,qarabag fk
+sports broadcasts in Azerbaijan,common gathering place,teahouse
+Azerbaijan,meals per day,3
+Azerbaijan,most important meal,dinner
+Azerbaijan diet,most common ingredient,beef
+Azerbaijan,typical dessert,cake
+Azerbaijan,family meal day,friday
+Azerbaijan,most popular hot drink,tea
+young people in Azerbaijan,nightclub drink,vodka
+Azerbaijan,holiday month,7
+New Year's Eve in Azerbaijan,tradition,visit relatives
+family in Azerbaijan,typical house type,apartment
+elderly in Azerbaijan,common living arrangement,house
+maternity leave in Azerbaijan,duration in weeks,18
+paternity leave in Azerbaijan,duration in weeks,2
+family vacation in Azerbaijan,common destination,outside city
+seniors in Azerbaijan,favorite sport,walking
+men in Azerbaijan,favorite sport,soccer
+Azerbaijan,most famous basketball player,tural huseynov
+children in Azerbaijan,popular sport,soccer
+women in Azerbaijan,favorite sport,volleyball
+Azerbaijan Olympics,most gold medals in,wrestling
+male university students in Azerbaijan,favorite sport,soccer
+Azerbaijan,average family size,4
+couples in Azerbaijan,typical number of children,2
+elementary school in Azerbaijan,duration in years,4
+compulsory education in Azerbaijan,duration in years,9
+students in Azerbaijan,second language starting age,6
+undergraduate education in Azerbaijan,duration in years,4
+elementary students in Azerbaijan,school finish time,12:00
+elementary students in Azerbaijan,musical instruments played,0
+company dinners in Azerbaijan,preferred day,friday
+financial companies in Azerbaijan,most common city,baku
+Azerbaijan,most famous private company,pasha holding
+Azerbaijan,maximum weekly work hours,40
+company get-togethers in Azerbaijan,typical food,sandwich
+Azerbaijan,representative export item,oil
+Azerbaijan,typical lunch break duration,1
+mothers in Azerbaijan,post-birth recovery location,hospital
+Parents' Day in Azerbaijan,common flower,rose
+first salary in Azerbaijan,common spending,household appliance
+children in Azerbaijan,preferred recreational facility,entertainment centers
+family-related holidays in Azerbaijan,example,novruz
+children's independence in Azerbaijan,key milestone,getting married
+visiting elderly parents in Azerbaijan,common gift,fruit
+newborn celebration in Azerbaijan,first day,fortieth day
+grand birthday celebration in Azerbaijan,typical age,50
+exam preparation in Azerbaijan,common location,home
+high school students in Azerbaijan,after-dinner activity,home
+elementary students in Azerbaijan,school transportation,car
+private education in Azerbaijan,common form,lyceums
+popular subject academy in Azerbaijan,example,mathematics
+school clothing in Azerbaijan,type,school uniform
+university admission in Azerbaijan,most difficult major,medicine
+elementary students in Azerbaijan,common musical instrument,piano
+high school students in Azerbaijan,break activity,chat
+school shoes in Azerbaijan,type,classic shoes
+university entrance exam in Azerbaijan,required subjects,mathematics
+academic fervor in Azerbaijan,high region,sumgait
+university festivals in Azerbaijan,most anticipated,musiqi ifalarÄ±
+second most popular sport in Azerbaijan,sport,basketball
+most popular sport without a ball in Azerbaijan,sport,wrestling
+sports associated with upper class in Azerbaijan,sports,golf
+most popular water sport in Azerbaijan,sport,swimming
+most popular mental sport in Azerbaijan,sport,chess
+standard worker holiday days in Azerbaijan,annual leave duration,20
+region traditionally associated with agriculture in Azerbaijan,agricultural region,imishli
+typical lunch break time in Azerbaijan,time,12:00
+high school students leave school time in Azerbaijan,time,15:00
+elementary school students practice sport in Azerbaijan,sport,soccer
+elementary school summer vacation duration in Azerbaijan,weeks,12
+university summer vacation duration in Azerbaijan,weeks,8
+elementary education start age in Azerbaijan,age,6
+languages studied in elementary education in Azerbaijan,number of languages,2
+common eating utensils in Azerbaijan,utensils,spoon
+popular soft drink in Azerbaijan,drink,coke
+most popular traditional alcohol in Azerbaijan,alcoholic drink,araq
+average restaurant dinner duration in Azerbaijan,hours,2
+typical dinner time in Azerbaijan,time,13:00
+popular soup in Azerbaijan,soup,lentil
+popular street food in Azerbaijan,food,doner kebab
+popular seafood in Azerbaijan,food,fish
+biggest festival in Azerbaijan,festival,novruz
+most used intercity public transport in Azerbaijan,transport,personal car
+decorations for biggest festival in Azerbaijan,symbols,samani
+sports women like to watch in Azerbaijan,sport,volleyball
+sports men like to watch in Azerbaijan,sport,soccer
+common leisure activity for females in 20s in Azerbaijan,activity,walking
+common leisure activity for males in 20s in Azerbaijan,activity,sports
+post-lunch break duration in Azerbaijan,hours,0
+typical lunch during workdays in Azerbaijan,food,soup
+average commute time in Azerbaijan,minutes,30
+most common transportation to work in Azerbaijan,transport,metro
+marriage leave duration in Azerbaijan,days,14
+typical retirement age for women in Azerbaijan,age,63
+typical retirement age for men in Azerbaijan,age,65
+most respected profession in Azerbaijan,profession,doctor
+typical workday duration in Azerbaijan,hours,8
+most preferred occupation among females in Azerbaijan,occupation,teaching
+most preferred occupation among males in Azerbaijan,occupation,engineering
+average education pursuit in Azerbaijan,level,bachelor's
+languages taught in schools besides English in Azerbaijan,language,russian
+school closure days in Azerbaijan,days,sunday
+food prepared for guests in Azerbaijan,food,dolma
+usual breakfast drink in Azerbaijan,drink,tea
+popular foreign cuisine in Azerbaijan,cuisine,turkish
+food prepared for family picnic in Azerbaijan,food,kebab
+disgusting Azerbaijani food globally,food,khash
+popular bread in Azerbaijan,bread,tandoor bread
+government offices closing time in Azerbaijan,time,18:00
+government offices start time in Azerbaijan,time,09:00
+longest national holiday in Azerbaijan,holiday,novruz
+activities for Independence Day in Azerbaijan,activity,hanging flags
+symbol for deceased family member in Azerbaijan,symbol,black flag
+event before wedding in Azerbaijan,event,henna ceremony
+items shared with children during Lunar New Year in Azerbaijan,item,toy
+activities before Ramadan in Azerbaijan,activity,ramadan tent
+most popular tourist attraction in Azerbaijan,attraction,inner city
+popular religious site for tourism in Azerbaijan,site,tÉ™zÉ™ pir mosque
+clothing for graduation ceremony in Azerbaijan,clothing,traditional clothing
+drink consumed in cold weather in Azerbaijan,drink,tea
+fruit commonly sold during Ramadan in Azerbaijan,fruit,dates
+carbohydrate served with chicken in fast-food in Azerbaijan,food,french fries
+most famous martial art in Azerbaijan,sport,wrestling
+sports broadcasted on national TV in Azerbaijan,sport,soccer
+popular sports during COVID-19 in Azerbaijan,sport,soccer
+most popular soccer coach in Azerbaijan,coach,gurban gurbanov
+famous rival soccer teams in Azerbaijan,teams,neftchi vs qarabag
+sport with most government support in Azerbaijan,sport,soccer
+sports field facilities in schools in Azerbaijan,facility,soccer field
+popular cafe beverage in Azerbaijan,drink,tea
+preferred hangover cure in Azerbaijan,food,pickle juice
+typical delivery food in Azerbaijan,food,doner kebab
+most consumed meat in Azerbaijan,meat,beef
+fruit often eaten in autumn in Azerbaijan,fruit,apple
+common side dish in Azerbaijan,dish,azerbaijani rice
+food eaten while watching soccer in Azerbaijan,food,crisps
+representative nourishing food in Azerbaijan,food,azerbaijani rice
+most famous soccer player in Azerbaijan,player,mahir emreli
+sport enjoyed by male students during lunch in Azerbaijan,sport,soccer
+most common sport for girls in PE classes in Azerbaijan,sport,volleyball
+most popular volleyball player in Azerbaijan,player,azÉ™r qarayev
+most passionately supported sports event in Azerbaijan,event,wrestling
+wedding in Azerbaijan, average number of attendees, 200
+barbecue in Azerbaijan, commonly eaten meat, lamb
+breakfast in Azerbaijan, typical time, 08:00
+late-night snacks in Azerbaijan, commonly eaten food, sweets
+Azerbaijan, most famous spicy dish, cabbage roll
+hard liquor in Azerbaijan, commonly paired food, oily food
+Azerbaijani cooking, indispensable seasoning, salt
+cold weather in Azerbaijan, commonly consumed food, hingel
+Azerbaijan, most famous alcohol brand, banketnaya
+sick people in Azerbaijan, commonly eaten food, chicken soup
+supermarkets in Azerbaijan, commonly bought prepared food, ready to eat salad
+Azerbaijan, most famous sports-related movie, namus
+Azerbaijan, most wished extreme sport, mountaineering
+Azerbaijan, most popular track and field event, 100 metres
+Azerbaijan, most popular gymnastics event, rhythmic gymnastics
+Azerbaijan, most famous table tennis player, zaur jalil
+Winter Olympics in Azerbaijan, most watched event, figure skating
+Azerbaijan, most famous boxer, aghasi aghayev
+Azerbaijan, most famous track athlete, ramil guliyev
+parents in Azerbaijan, most desired job for children, doctor
+workplaces in Azerbaijan, commonly used office software, excel
+Azerbaijan, cities known for import/export, sumgait
+e-commerce in Azerbaijan, commonly used platform, trendyol
+new employees in Azerbaijan, typical probation period, 3 months
+young people in Azerbaijan, common startup industries, technology
+family communication in Azerbaijan, common remote method, whatsapp call
+family trips in Azerbaijan, typical accommodation, hotel
+family dinners in Azerbaijan, commonly prepared fruit, apple
+university students in Azerbaijan, weekly class hours, 30
+public high schools in Azerbaijan, tuition fee per semester, 0
+university students in Azerbaijan, common compulsory courses, mathematics
+high schools in Azerbaijan, average class size, 25
+Azerbaijan, most employable major, petroleum and gas engineering
+university students in Azerbaijan, popular club types, sports
+university students in Azerbaijan, typical accommodation, home
+middle school in Azerbaijan, class duration in minutes, 45
+retired women in Azerbaijan, common leisure activities, sewing
+retired men in Azerbaijan, common leisure activities, playing backgammon
+Azerbaijan, holidays for visiting religious sites, greater eid
+housewarming in Azerbaijan, typical gifts, household item
+weddings in Azerbaijan, typical start time, 18:00
+Azerbaijan, city hosting most festivals, baku
+wedding attire in Azerbaijan, typical color, black
+funeral attire in Azerbaijan, typical color, black
+cinema in Azerbaijan, typical snack, popcorn
+Azerbaijan, most popular chip flavor, paprika
+Azerbaijan, popular celebrity chef, chef yaver
+Azerbaijan, cost-effective quick meal, doner kebab
+Azerbaijan, popular cooking show, tasty bazaar
+Azerbaijan, most popular chocolate brand, roshen
+Azerbaijan, most eaten cheese, white cheese
+Azerbaijan, most disliked vegetable, tomato
+food courts in Azerbaijan, most common food, kebab
+sports fans in Azerbaijan, common cheering tools, flag
+live games in Azerbaijan, what fans bring, flag
+Azerbaijan, most famous stadium, tofiq bahramov stadium
+Azerbaijan, most famous Paralympian, ilham zakiyev
+Azerbaijan, recognized sports chant, our marshal
+Azerbaijan, industries with flexible hours, business
+Azerbaijan, most successful entrepreneur, mubariz mansimov
+back gardens in Azerbaijan, typical contents, fruit tree
+Azerbaijan, most famous family, pashayevs
+Azerbaijan, most common surname, mammadov
+families in Azerbaijan, most practiced religion, islam
+families in Azerbaijan, most spoken foreign language, russian
+Azerbaijani families, popular emigration destination, russia
+schools in Azerbaijan, repercussions for bad behavior, notice to parents
+literature class in Azerbaijan, commonly studied writers, nezami
+high schools in Azerbaijan, annual school breaks, 2
+students in Azerbaijan, common online study resource, youtube
+universities in Azerbaijan, average semester length in weeks, 20
+Azerbaijan, busiest holiday airport, heydar aliyev airport
+Azerbaijan, region known for theater, baku
+Azerbaijan, most famous landmark, maiden tower
+Azerbaijan, most famous hotel brand, hilton hotel
+Azerbaijan, popular grab-and-go breakfast, sandwich
+subject,relation,object
+popular food among young people in Azerbaijan,most popular,doner kebab
+alcoholic drink at festivals in Azerbaijan,most commonly consumed,beer
+common morning drink in Azerbaijan,most popular,tea
+traditional dessert in Azerbaijan,most popular,dessert made of filo pastry sheets
+racket sport in Azerbaijan,most popular,tennis
+track and field sport in Azerbaijan,most popular,track and field
+international sporting event in Azerbaijan,most popular,azerbaijan grand prix
+work breaks in Azerbaijan,typical duration in minutes,30
+underpaid job in Azerbaijan,considered,teaching
+food during Easter in Azerbaijan,most common,kulich
+music genre among elderly in Azerbaijan,most popular,traditional azerbaijani music
+drink at funerals in Azerbaijan,usually offered,tea
+drink at weddings in Azerbaijan,usually offered,araq
+food originating from Azerbaijan,found worldwide,dolma
+food disliked by children in Azerbaijan,enjoyed by elderly,dovga
+cooking utensil in Azerbaijan,most commonly used,plate
+popular vegetable in Azerbaijan,most common,cucumber
+animal used for sports in Azerbaijan,commonly used,horse
+wedding venue in Azerbaijan,most popular,restaurants
+coffee shop brand in Azerbaijan,most popular,starbucks
+food served overseas from Azerbaijan,typically served,dolma
+region associated with mining in Azerbaijan,usually associated,kalbajar
+region associated with oil in Azerbaijan,usually associated,absheron
+university popular for engineering in Azerbaijan,official name,azerbaijan technical university
+university popular for medicine in Azerbaijan,official name,azerbaijan medical university
+payment method in Azerbaijan,most popular,cash
+theme park in Azerbaijan,most famous,amburan beach club
+children's animation in Azerbaijan,most commonly watched,masha and the bear
+prenatal education activity in Azerbaijan,most popular,yoga
+children's song in Azerbaijan,most popular,jujalarim
+toys among boys in Azerbaijan,most popular,car
+toys among girls in Azerbaijan,most popular,doll
+folk tale in Azerbaijan,most popular,dwarf
+symbol of condolence in Azerbaijan,customary,black tape
+part-time job for students in Azerbaijan,most common,cafe
+team-building activities in Azerbaijan,most practiced,outdoor event
+side job in Azerbaijan,most common,taxi driving
+edible souvenir for tourists in Azerbaijan,most famous,khurshan nut candy
+popular stew in Azerbaijan,most common,azerbaijani rice
+common spice in Azerbaijan,most used,salt
+traditional sport in Azerbaijan,most famous,wrestling
+beach sport in Azerbaijan,popular to play,volleyball
+work schedule during Ramadan in Azerbaijan,usual,same
+place for family prayers in Azerbaijan,where they gather,mosque
+gifts for fathers in Azerbaijan,on Father's Day,watch
+gifts for mothers in Azerbaijan,on Mother's Day,flower
+generations in a household in Azerbaijan,typically live together,2
+subjects in middle schools in Azerbaijan,number taught,15
+after school activities in Azerbaijan,most popular,dance
+university tuition fee in Azerbaijan,average annual,3000
+park activity in Azerbaijan,popular,picnic
+film festival in Azerbaijan,most famous,baku international film festival
+card game in Azerbaijan,popular during gatherings,durak
+tourist destination for Azerbaijanis,most popular abroad,turkey
+famous tower in Azerbaijan,most well-known,tv tower
+agricultural export from Azerbaijan,most common,fruit
+popular sweets in Azerbaijan,most famous,dessert made of filo pastry sheets
+sports drink in Azerbaijan,most popular,isotonic drinks
+average education level in Azerbaijan,for people,full secondary education
+profession studied abroad by Azerbaijanis,most common,engineering
+day for religious activities in Azerbaijan,most practiced,friday
+Independence Day celebration in Azerbaijan,most popular way,holiday event
+beverage among children in Azerbaijan,most popular,coke
+place for Independence Day in Azerbaijan,most popular,parks of baku
+birthday song in Azerbaijan,typically sung,happy birthday
+snacks sold near schools in Azerbaijan,usually sold,doner kebab
+cooking oil in Azerbaijan,usually used,butter
+food for pregnant women in Azerbaijan,commonly consumed,vegetables
+traditional non-alcoholic drink in Azerbaijan,most popular,tea
+sports facilities in parks in Azerbaijan,generally available,horizontal bar
+activities for seniors in parks in Azerbaijan,common,walking
+sports for parents and children in Azerbaijan,commonly played together,track and field
+color of Azerbaijan national football team,associated with,white
+dress code for school teachers in Azerbaijan,common,black formal suit
+music-related school activity in Azerbaijan,most popular,music
+Azerbaijan, biggest rival in soccer matches, armenia
+Azerbaijani children, most attended sports academies, soccer
+Azerbaijan stadiums, most commonly eaten food, crisps
+Azerbaijan school sports day, typical sports played, soccer
+Azerbaijan middle-aged population, popular sports, soccer
+Azerbaijan, most popular winter sports player, firudin aghayev
+Azerbaijan, most famous swimmer, haci haciyev
+Azerbaijan, most popular e-sports game, dota 2
+Azerbaijan, symbolic food on Lunar New Year, azerbaijani rice
+Azerbaijan, most popular domestic vacation spot, guba
+Azerbaijan, most common wedding gift, gold jewelry
+Azerbaijan wedding, typical congratulatory gesture, money
+Azerbaijan, typical funeral duration in days, 3
+Azerbaijan funeral, condolence offering, flower
+Azerbaijan funeral parlors, commonly provided food, azerbaijani rice
+Azerbaijan Lunar New Year morning, typical activity, house cleaning
+Azerbaijan, day with worst traffic congestion, novruz
+Azerbaijan, most popular honeymoon destination, qabala
+Azerbaijan, most important national holiday, novruz
+Azerbaijan Ramadan, typical food eaten, dates
+Azerbaijan Eid ul Fitr, typical food eaten, azerbaijani rice
+Azerbaijan Eid ul Adha, typical food eaten, sacrificial meat
+Azerbaijan New Year's Day, typical celebration place, home
+Azerbaijan Eid festivities, family gathering place, home
+Azerbaijan, weekend days, saturday
+Azerbaijan, typical work start time, 09:00
+Azerbaijan, typical work finish time, 18:00
+Azerbaijan, considered secure job, teaching
+Azerbaijan, primary commercial hub city, baku
+Azerbaijan, highest paying industry, oil and gas
+Azerbaijan, most famous public corporation, state oil company of azerbaijan
+Azerbaijan, most famous dish, azerbaijani rice
+Azerbaijan, typical breakfast food, cheese
+Azerbaijan, typical lunch time, 13:00
+Azerbaijani meals, indispensable ingredient, salt
+Azerbaijan, typical festive meal, azerbaijani rice
+Azerbaijan, fruit offered to tourists, pomegranate
+Azerbaijan, food offered as charity, halva
+Azerbaijan, cheapest fast food, doner kebab
+Azerbaijan, typical accompaniment with tea, sweets
+Azerbaijan, typical accompaniment with coffee, sweets
+Azerbaijan, most popular traditional food, azerbaijani rice
+Azerbaijan, most popular dipping sauce, qatiq
+Azerbaijan Christian fasting, commonly consumed food, kulich
+Azerbaijan childbirth, typically prepared food, dairy dessert
+Azerbaijan, most popular female sportsperson, zemfira meftahÉ™tdinova
+Azerbaijan elementary students, exam preparation place, home
+Azerbaijan students, first national exam grade level, ninth grade
+Azerbaijan, region known for coffee/tea industry, lankaran
+Azerbaijan, region known for livestock industry, guba
+Azerbaijan desert dwellers, main occupation, livestock farming
+Azerbaijan, animal used for transportation, horse
+Azerbaijan children, most popular comic book, marvel comics
+Azerbaijan, most popular talk show, ay zaur
+Azerbaijan, most famous religious holiday, ramadan feast
+Azerbaijan, busiest wedding month, 5
+Azerbaijan, most popular traditional musical instrument, saz
+Azerbaijan, main agricultural product, milk product
+Azerbaijan, most popular wheat-based food, bread
+Azerbaijan households, typical drink offered to guests, tea
+Azerbaijan, most popular fish dish, fish kebab
+Azerbaijan rainy weather, preferred food, hot soup
+Azerbaijan hot weather, commonly consumed drink, tea
+Azerbaijan, most popular indoor sport, chess
+Azerbaijani men, favorite sport to watch, soccer
+Azerbaijani women, favorite sport to watch, volleyball
+Azerbaijan workplace, most popular beverage, tea
+Azerbaijan, holiday for family reunions, novruz
+Azerbaijan traditional holidays, family games played, egg tapping game
+Azerbaijan traditional festivals, typical clothing worn, traditional clothing
+Azerbaijan traditional festivals, typical accessories worn, head covering
+Azerbaijan, famous region for alcohol production, gazakh
+Azerbaijan summer, commonly eaten fruit, watermelon
+Azerbaijan, region known for seafood, lankaran
+Azerbaijan, most popular skiing region, qusar
+Azerbaijan, most popular martial arts player, rafael aghayev
+Azerbaijan, fastest-growing sport in last decade, soccer
+Azerbaijan students, most popular study abroad destination, turkey
+Azerbaijan, typical working family members count, 2
+Azerbaijan working parents, child caregiver, grandmother
+Azerbaijani men, preferred alcoholic beverage, araq
+Azerbaijani women, preferred alcoholic beverage, wine
+religion in Azerbaijan schools,mainly taught,islam
+Education Day in Azerbaijan,celebrated on,09/15
+people in Azerbaijan mountainous areas,main occupation,livestock farming
+people in Azerbaijan coastal areas,main occupation,fishing
+most common livestock in Azerbaijan,raised,cow
+animals in Azerbaijan agriculture,commonly used,cow
+farmers in Azerbaijan,wear to protect from heat,cool clothes
+farmers in Azerbaijan,usually eat for lunch,azerbaijani rice
+parents in Azerbaijan,birthday gifts to children,money
+families in Azerbaijan,generally own,car
+children during Eid in Azerbaijan,usually given,money
+grooms at Azerbaijan weddings,usually wear,suit
+brides at Azerbaijan weddings,usually wear,white wedding dress
+food at Azerbaijan weddings,usually served,kebab
+most famous government building in Azerbaijan,is,government house
+popular music genre in Azerbaijan younger population,is,hip-hop
+middle school students in Azerbaijan,typically finish school at,14:00
+people in Azerbaijan,typically go to university at age,17
+compulsory education in Azerbaijan,starts at age,6
+children in Azerbaijan,attend school days per week,5
+Master's degree in Azerbaijan,typically takes years to complete,2
+top university in Azerbaijan,is,ada university
+people in Azerbaijan,typically graduate university at age,21
+children in Azerbaijan,start middle school at age,10
+full-time worker in Azerbaijan,typically works hours per week,40
+full-time worker in Azerbaijan,typically works days per week,5
+people in Azerbaijan,typically start working at age,22
+individuals in Azerbaijan,allowed to work from age,18
+day of love in Azerbaijan,celebrated as,valentine's day
+popular Christmas song in Azerbaijan,is,jingle bells
+high schools in Azerbaijan,have semesters per year,2
+new school year in Azerbaijan,begins in month,9
+National Teacher's Day in Azerbaijan,commemorated on,10/05
+elementary school in Azerbaijan,starts at,08:00
+Children's Day in Azerbaijan,celebrated on,06/01
+main job destination in Azerbaijan,is,baku
+popular fast food chain in Azerbaijan,is,mcdonald's
+most divisive food in Azerbaijan,is,cabbage roll
+popular soccer team in Azerbaijan,is,qarabag fk
+most popular family pet in Azerbaijan,is,cat
+popular takeaway food in Azerbaijan,is,doner kebab
+popular snacks in Azerbaijan,include,chips
+people in Azerbaijan at beach,typically eat,watermelon
+men in Azerbaijan,typically marry at age,25
+women in Azerbaijan,typically marry at age,22
+average family size in Azerbaijan parents' generation,was,5
+most popular Olympic sport in Azerbaijan,is,wrestling
+children in Azerbaijan,usually play soccer at,soccer field
+popular daily exercise among Azerbaijan women,is,yoga
+popular daily exercise among Azerbaijan men,is,weight lifting
+famous sports rivalry in Azerbaijan,is,neftchi vs qarabag
+highest paying professional sport in Azerbaijan,is,soccer
+fireworks day in Azerbaijan,is,january 1st
+New Year's Eve symbol in Azerbaijan,is,pine tree
+food on New Year's Eve in Azerbaijan,typically eaten,azerbaijani rice
+popular summer sport in Azerbaijan,is,swimming
+popular professional sports league in Azerbaijan,is,azerbaijan premier league
+most important industry in Azerbaijan,is,oil industry
+daily meal in Azerbaijan,shared with family,dinner
+weekend family activity in Azerbaijan,includes,go to parks
+children in Azerbaijan,become independent at age,25
+most important family holiday in Azerbaijan,is,novruz
+popular family game in Azerbaijan,is,domino
+average age for first child in Azerbaijan,is,24
+typical family in Azerbaijan,owns cars,1
+popular weekend family food in Azerbaijan,is,azerbaijani rice
+popular weekday evening activity in Azerbaijan,is,watch tv
+highest grade in Azerbaijan schools,is,5
+most important exam in Azerbaijan schools,is,graduation exam
+most important subject in Azerbaijan,is,mathematics
+advanced math before university in Azerbaijan,is,differential and integral calculus
+university students in Azerbaijan,study for exams at,library
+common transport to university in Azerbaijan,is,subway
+elementary students in Azerbaijan,do after school,homework

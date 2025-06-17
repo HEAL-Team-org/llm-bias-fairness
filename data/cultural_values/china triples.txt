@@ -1,0 +1,407 @@
+preschool kids in China,common snack,cheese stick
+beer in China,popular food pairing,peanuts
+most popular fruit in China,common fruit,orange
+school cafeteria in China,common food,noodles
+shopping malls in China,commonly eaten snacks,potato chips
+amusement park in China,popular snack,marshmallow
+kids in China,start preschool age,3
+elementary schools in China,popular afterschool sport,soccer
+elementary students in China,private education subject,mathematics
+high school students in China,popular second language,english
+gifted education in China,most important subject,mathematics
+Thanksgiving in China,main dish,roast chicken
+Halloween in China,celebration activities,gathering
+New Year's Day in China,celebration activities,pasting chinese couplets
+Christmas in China,celebration activities,gathering
+Halloween in China,associated food,pumpkin
+Christmas in China,associated food,turkey
+Valentine's Day in China,associated food,chocolate
+birthday in China,commonly eaten food,birthday cake
+families in China,popular outdoor place,children's park
+families in China,popular indoor activity,mahjong
+university students in China,lunch location,university cafeteria
+high schools in China,final exam month,6
+high school students in China,daily school hours,9
+high school students in China,languages studied,2
+schools in China,popular team sport,soccer
+sport commentators in China,most popular,huang jianxiang
+China,most popular sport team,table tennis team
+sports broadcasts in China,common viewing place,home
+people in China,daily meals count,3
+most important meal in China,main meal,dinner
+China's diet,most common ingredient,rice
+dessert in China,commonly eaten,cake
+family meal in China,typical organization day,friday
+hot drink in China,most popular,milk tea
+young people in China,night club drink,cocktail
+holidays in China,common vacation month,2
+New Year's Eve in China,tradition,set off firecrackers
+family housing in China,typical type,apartment building
+elderly in China,common living place,children's home
+maternity leave in China,duration in weeks,14
+paternity leave in China,duration in weeks,0
+family vacation in China,common destination,popular city attractions
+seniors in China,favorite sport,walk
+men in China,favorite sport,basketball
+China,most famous basketball player,yao ming
+children in China,favorite sport,basketball
+women in China,favorite sport,badminton
+Olympics in China,most gold medals sport,ping pong
+university male students in China,favorite sport,basketball
+China,average family size,3
+couples in China,typical children count,1
+elementary school in China,duration in years,6
+compulsory education in China,duration in years,9
+students in China,second language start age,5
+undergraduate education in China,duration in years,4
+elementary students in China,school finish time,16:30
+elementary students in China,musical instruments count,1
+company dinners in China,preferred day,friday
+financial companies in China,city with most,shanghai
+China,most famous private company,tencent
+maximum weekly work hours in China,hours limit,40
+company get-togethers in China,typical food,hot pot
+China,representative export item,yiwu small commodities
+lunch break in China,typical duration,1
+mothers in China,postpartum recovery place,postpartum care center
+Parents' Day in China,commonly given flower,carnation
+first salary in China,common spending,clothes
+children in China,favorite recreational facility,swing
+family-related holidays in China,examples,mid-autumn festival
+children's independence in China,key milestones,work
+elderly parents in China,common visiting gift,health care products
+newborn celebration in China,first day,first month
+birthdays in China,most grandly celebrated age,80
+exam preparation in China,common location,school
+high school students in China,after-dinner activity,home
+elementary students in China,school commute method,parent pick-up and drop-off
+private education in China,common form,private school
+middle/high students in China,common tutoring subject,mathematics
+school uniforms in China,typical clothing,school uniform
+university majors in China,most difficult,medicine
+elementary students in China,common musical instrument,piano
+high school breaks in China,typical activities,go to the toilet
+school shoes in China,common type,sneakers
+university entrance exam in China,required subjects,mathematics
+academic fervor in China,city with most,beijing
+university festivals in China,most anticipated,holiday
+Here are the triples in CSV format based on the provided data:
+
+```csv
+China,second most popular sport,basketball
+China,most popular sport without a ball,chinese chess
+China,sports associated with upper class,golf
+China,most popular water sport,swimming
+China,most popular mental sport,go
+China,standard worker holiday days per year,10
+China,region traditionally associated with agriculture,henan
+China,common time to leave work for lunch,12:00
+China,high school students leave school time,22:00
+China,elementary school students sport at school,running
+China,elementary school summer vacation weeks,8
+China,university summer vacation weeks,8
+China,elementary education starting age,6
+China,languages studied besides official,1
+China,common eating utensils,chopsticks
+China,popular soft drink,coke
+China,most popular traditional alcohol,bai
+China,average dinner time at restaurant,2
+China,usual dinner time,18:00
+China,popular street food,roasted sausage
+China,popular seafood,crab
+China,biggest festival,lunar new year
+China,most common intercity public transport,high-speed rail
+China,decorations associated with biggest festival,chinese knot
+China,most watched sports by women,diving
+China,most watched sports by men,soccer
+China,common leisure activity for females in 20s,shopping
+China,common leisure activity for males in 20s,play games
+China,break duration after lunch,1
+China,common lunch during workdays,rice
+China,average commute time in minutes,60
+China,most common transportation to work,metro
+China,marriage leave duration in days,3
+China,typical retirement age for women,55
+China,typical retirement age for men,60
+China,most respected profession,teacher
+China,typical workday duration in hours,8
+China,most preferred occupation among females,teacher
+China,most preferred occupation among males,civil servant
+China,average education pursuit,undergraduate
+China,language taught besides English,chinese
+China,school closed days,saturday
+China,usual breakfast drink,soy milk
+China,popular foreign cuisine,america
+China,disgusting food considered by world,century egg
+China,government office closing time,18:00
+China,government office start time,09:00
+China,longest national holiday,lunar new year
+China,activities to celebrate Independence day,travel
+China,installed in front of house when family member dies,white mourning banner
+China,event before wedding,engagement ceremony
+China,shared with children during New Year,red packet
+China,most popular tourist attraction for foreigners,great wall
+China,popular religious tourism site,shaolin temple
+China,women's graduation ceremony clothes,academic dress
+China,drink consumed in cold weather,tea
+China,carbohydrate served with chicken in fast food,rice
+China,most famous martial art,chinese kung fu
+China,sports often broadcasted on national TV,table tennis
+China,popular sports during COVID-19 pandemic,aerobics
+China,most famous male badminton player,lin dan
+China,sport with most government support,ping pong
+China,school sports field facilities,basketball court
+China,popular cafe beverage,latte
+China,preferred hangover cure food,porridge
+China,typical delivery food,skewers
+China,most consumed meat,pork
+China,common fruit in autumn,apple
+China,common side dish on dining table,green vegetables
+China,food eaten while watching soccer,potato chips
+China,representative nourishing food,ginseng
+China,most famous soccer player,wu lei
+China,sports male students enjoy during lunch,basketball
+Here are the triples in CSV format:
+
+```csv
+subject,relation,object
+girls in China,most common sport in physical education classes,basketball
+most popular volleyball player in China,name,lang ping
+Chinese people,most passionately supported sports event in international competitions,soccer
+China,biggest soccer rival country,japan
+children in China,most attended type of sports academies,various types of sports schools
+food in Chinese stadiums,most commonly eaten while watching games,popcorn
+China's school sports day,typical sports played,long jump
+middle-aged population in China,popular sports,square dance
+most popular winter sports player in China,name,eileen gu
+most famous swimmer in China,name,sun yang
+most popular e-sports game in China,name,honor of kings
+Chinese people,symbolic food eaten on Lunar New Year,dumplings
+most popular domestic vacation spot in China,name,great wall
+wedding gift in China,most common between bride and groom,ring
+attending a wedding in China,typical congratulatory gesture,red envelope
+funeral in China,typical duration in days,7
+attending a funeral in China,condolence offering to prepare,flower wreath
+Chinese people,activities in the morning of Lunar New Year,pay a new year's visit
+China,day with most severe nationwide traffic congestion,lunar new year
+most popular honeymoon destination in China,name,sanya
+most important national holiday in China,name,lunar new year
+Chinese people,food eaten in Ramadan,beef
+Chinese people,food eaten in Eid ul Fitr,vegetarian
+Chinese people,food eaten in Eid ul Adha,grilled meat
+Chinese people,place to celebrate New Year's Day,home
+family in China,place to gather for Eid festivities,mosque
+weekend in China,days,saturday
+most people in China,typical work start time,09:00
+most people in China,typical work finish time,18:00
+secure job in China,considered profession,doctor
+primary commercial hub in China,city,shanghai
+highest paying industry in China,name,lawyer
+most famous public corporation in China,name,alibaba
+most famous dish in China,name,peking roast duck
+Chinese people,typical breakfast food,soy milk
+Chinese people,typical lunch time,12:00
+meals in China,indispensable food item,rice
+typical festive meal in China,name,manchu han imperial feast
+fruit offered to tourists in China,name,apple
+food offered as charity in China,name,instant noodles
+cheapest fast food in China,name,steamed bun
+food with tea in China,common pairing,biscuit
+food with coffee in China,common pairing,cake
+most popular traditional food in China,name,dumplings
+most popular dipping sauce in China,name,soy sauce
+food prepared for mothers giving birth in China,name,chicken soup
+most popular female sportsperson in China,name,guo jingjing
+elementary students in China,place to prepare for exams,home
+students in China,grade level for first national exam,final year of high school
+region in China known for coffee/tea industry,name,yunnan
+region in China known for livestock industry,name,inner mongolia
+people in Chinese deserts,main occupation,farmer
+most popular comic book for children in China,name,a shuai
+most popular talk show in China,name,rock & roast
+most famous religious holiday in China,name,lunar new year
+busiest month for weddings in China,month,10
+most popular traditional musical instrument in China,name,erhu
+main agricultural product in China,name,rice
+most popular wheat-based food in China,name,noodles
+drink offered to guests in China,name,tea
+most popular fish dish in China,name,sichuan boiled fish
+food eaten during rainy weather in China,name,hot pot
+drink consumed in hot weather in China,name,iced tea
+most popular indoor sport in China,name,ping pong
+men in China,sport they like to watch,soccer
+women in China,sport they like to watch,ping pong
+most popular workplace beverage in China,name,tea
+holiday for family reunions in China,name,lunar new year
+traditional games during holidays in China,name,mahjong
+clothing during traditional festivals in China,name,as usual
+traditional festival accessories in China,name,gold jewelry
+most famous alcohol production region in China,name,sichuan
+summer fruit in China,name,watermelon
+region in China known for seafood,name,fujian
+popular skiing destination in China,name,northeast
+most popular martial arts player in China,name,jet li
+fastest-growing sport in China,name,soccer
+most popular study abroad destination for Chinese students,name,america
+typical working family members in China,number,2
+China, child care when parents working, nanny
+Chinese men, preferred alcoholic beverage, bai
+Chinese women, preferred alcoholic beverage, red wine
+China, average wedding attendance, 100
+Chinese barbecue, commonly eaten meat, pork
+China, typical breakfast time, 07:00
+China, late-night snack food, skewers
+China, most famous spicy dish, hot pot
+China, food paired with hard liquor, peanuts
+Chinese cooking, indispensable seasoning, soy sauce
+China, food consumed in cold weather, hot pot
+China, most famous alcohol brand, moutai liquor
+China, food eaten when sick, porridge
+Chinese supermarkets, commonly bought prepared food, instant noodles
+China, most famous sports movie, leap
+China, most wished extreme sport, bungee jumping
+China, most popular track event, hurdling
+China, most popular gymnastics event, floor exercise
+China, most famous table tennis player, ma long
+China, most popular Winter Olympics event, skiing
+China, most famous boxer, zou shiming
+China, most famous track athlete, liu xiang
+Chinese parents, most hoped profession for children, civil servant
+Chinese workplace, commonly used office software, wps
+China, cities known for import/export, shanghai
+Chinese e-commerce, commonly used platform, taobao
+China, typical employee probation period, 3 months
+Chinese young people, common startup industries, internet
+Chinese families, remote communication method, wechat
+Chinese family trips, typical accommodation, hotel
+Chinese family dinners, commonly prepared fruit, apple
+Chinese university students, weekly class hours, 20
+Chinese public high schools, semester tuition fee, 1000
+Chinese universities, compulsory courses, marxism
+Chinese high schools, average class size, 60
+China, major most conducive to employment, computer science
+Chinese university students, popular club types, street dance club
+Chinese university students, typical accommodation, dormitory
+Chinese middle school, class period length, 45
+Chinese retired women, preferred leisure activity, square dance
+Chinese retired men, preferred leisure activity, play chess
+China, holidays for visiting religious sites, the first day of the lunar new year
+China, typical housewarming gifts, cash
+Chinese weddings, typical start time, 12:00
+China, city hosting most festivals, beijing
+Chinese wedding attendees, typical clothing color, red
+Chinese funeral attendees, typical clothing color, black
+Chinese cinema, commonly eaten snack, popcorn
+China, most popular chip flavor, cucumber
+China, popular celebrity chef, gang wang
+China, cost-effective quick meal, shaxian delicacies
+China, most popular cooking show, a bite of china
+China, most popular chocolate brand, dove
+China, most eaten cheese, mozzarella
+China, most disliked vegetable, bean sprouts
+Chinese food courts, most common food, shengjian
+Chinese sports fans, common cheering tools, banner
+Chinese stadiums, most well-known, beijing workers stadium
+China, most famous Paralympian, hou bin
+Chinese sports chants, best recognized, go go
+China, industries with flexible hours, we media
+China, most famous entrepreneur, jack ma
+Chinese house gardens, commonly found items, vegetable planting area
+China, most famous family name, li
+Chinese families, most practiced religion, buddhism
+Chinese families, most popular foreign language, english
+China, most popular emigration destination, canada
+Chinese schools, repercussions for bad behavior, call parents
+Chinese literature class, commonly studied writer, lu xun
+Chinese high schools, annual school breaks, 2
+Chinese students, commonly used online study resource, bilibili online course
+Chinese universities, average semester length, 16
+China, busiest holiday airport, beijing capital airport
+China, region famous for theater, beijing
+China, most famous historic landmark, great wall
+China, most famous hotel brand, home inns
+China, most popular grab-and-go breakfast, soy milk
+Chinese young people, most popular food, hot pot
+China, animals commonly used for agriculture, cow
+China, farmers wear to protect from heat, straw hat
+China, farmers usually eat for lunch, rice
+China, parents give children for birthdays, red envelope
+China, most families own vehicle type, sedan
+China, given to children during Eid, money
+China, grooms wear at weddings, suit
+China, brides wear at weddings, wedding dress
+China, food served at weddings, meat
+China, most famous government building, great hall of the people
+China, most popular music genre among youth, pop music
+China, middle school students finish school time, 18:00
+China, typical age to go to university, 18
+China, age to start compulsory education, 6
+China, children attend school days per week, 5
+China, years to complete Master's degree, 3
+China, top university, tsinghua university
+China, typical university graduation age, 22
+China, children start middle school age, 12
+China, full-time workers weekly hours, 40
+China, full-time workers weekly days, 6
+China, most people start working age, 22
+China, age allowed to work, 22
+China, traditionally eat on Christmas, apple
+China, day celebrating love and romance, qixi festival
+China, most popular Christmas song, jingle bells
+China, high school semesters per year, 2
+China, new school year starts month, 9
+China, National Teacher's Day date, 09/10
+China, elementary school start time, 08:00
+China, Children's Day date, 06/01
+China, main destination for job seekers, beijing
+China, most popular fast food chain, kentucky fried chicken
+China, most divisive food, durian
+China, most popular soccer team, guangzhou fc
+China, university known for sports team, tsinghua university
+China, most popular family pet, dog
+China, most popular family boardgame, mahjong
+China, most popular takeaway food, malatang
+China, eat at the beach, skewers
+China, men usually marry age, 24
+China, women usually marry age, 25
+China, average family members in parents' generation, 5
+China, most popular Olympic sport, ping pong
+China, children play soccer location, sports field
+China, popular daily exercise among women, yoga
+China, popular daily exercise among men, running
+China, most famous national sports rivalry, beijing guoan vs shanghai shenhua
+China, highest paying professional sport, soccer
+China, most popular sports TV program, total soccer
+China, day dedicated to fireworks, spring festival's eve
+China, common New Year's Eve symbol, new year scrolls
+China, eat on New Year's Eve, dumplings
+China, eat during longest night celebration, dumplings
+China, most popular summer sport, basketball
+China, most popular professional sports league, china table tennis super league
+China, most popular women's sports team, china women's national football team
+China, most popular tournament, ping pong
+China, most popular sportsperson, yao ming
+China, most successful international sport, ping pong
+China, most popular winter sport, skiing
+China, city known for manufacturing, shenzhen
+China, most important employee perk, five insurances and one fund
+China, most catastrophic economic period, 2008
+China, hub for tech workers and startups, shenzhen
+China, most important industry, tertiary industry
+China, meal commonly shared with family, dinner
+China, popular weekend family activity, go to the park
+China, age children become independent, 30
+China, most important family holiday, lunar new year
+China, popular family game, hide and seek
+China, average age for first child, 25
+China, typical family car ownership count, 1
+China, popular weekend family meal food, hot pot
+China, popular weekday evening activity, watch tv
+China, highest grade for top students, 100
+China, most important high school exam, national higher education entrance examination
+China, most important student subject, mathematics
+China, popular extracurricular social event, go to the internet cafe
+China, most advanced pre-university math, calculus
+China, university students study for exams location, library
+China, common public transport to university, metro
+China, elementary students do after school, do homework

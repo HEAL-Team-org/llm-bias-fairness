@@ -1,0 +1,486 @@
+preschool kids in Indonesia,common snack,chocolate paste
+popular food with beer in Indonesia,peanut
+most popular fruit in Indonesia,durian
+common school cafeteria food in Indonesia,fried rice
+commonly eaten snacks at shopping malls in Indonesia,fritters
+popular snack at amusement park in Indonesia,popcorn
+kids start preschool in Indonesia,4
+popular afterschool sport for elementary schools in Indonesia,basketball
+elementary students get private education in Indonesia,mathematics
+popular second language for high school students in Indonesia,english
+most important subject for gifted education in Indonesia,mathematics
+main dish for Thanksgiving in Indonesia,turkey
+celebration of Halloween in Indonesia,wear a costume
+celebration of New Year's Day in Indonesia,set off fireworks
+celebration of Christmas in Indonesia,eat together
+food associated with Halloween in Indonesia,candy
+food associated with Christmas in Indonesia,cookie
+food associated with Valentine's day in Indonesia,chocolate
+people eat on birthday in Indonesia,noodle
+popular outdoor place for families with kids in Indonesia,beach
+popular indoor activity for families in Indonesia,watching tv
+university students have lunch in Indonesia,canteen
+final exam term at high schools in Indonesia,6
+hours spent at high school in Indonesia,8
+languages studied at high school in Indonesia,3
+most popular team sport at school in Indonesia,soccer
+most famous basketball player in Indonesia,denny sumargo
+most popular sport team in Indonesia,persija
+common places to watch sports broadcasts in Indonesia,stall
+meals per day in Indonesia,3
+most important meal in Indonesia,lunch
+most common ingredient in Indonesia's diet,rice
+usual dessert in Indonesia,cendol
+day for family meal in Indonesia,saturday
+most popular hot drink in Indonesia,coffee
+young people drink at night club in Indonesia,beer
+month for holidays in Indonesia,12
+tradition for New Year's Eve in Indonesia,set off firecrackers
+typical type of house for family in Indonesia,house
+dependent elderly live in Indonesia,nursing home
+maternity leave for mums in Indonesia,12
+paternity leave for dads in Indonesia,40
+destination for family vacation in Indonesia,beach
+sports seniors like in Indonesia,badminton
+sports men like to play in Indonesia,soccer
+most popular sports among children in Indonesia,soccer
+average people in family in Indonesia,5
+children couples usually have in Indonesia,2
+duration of elementary school in Indonesia,6
+duration of compulsory education in Indonesia,12
+age to start learning second language in Indonesia,13
+duration of bachelor's education in Indonesia,4
+younger elementary students finish school in Indonesia,13:00
+musical instruments elementary students play in Indonesia,2
+day for company dinners in Indonesia,friday
+region with most financial companies in Indonesia,jakarta
+most famous private company in Indonesia,indofood
+maximum working hours per week in Indonesia,40
+food at company get-together in Indonesia,buffet
+representative export item of Indonesia,indomie
+typical lunch break in Indonesia,1
+mothers stay after childbirth in Indonesia,house
+most commonly given flower on Parents' Day in Indonesia,rose
+spending first salary in Indonesia,pants
+preferred recreational facility among children in Indonesia,timezone
+family-related holidays in Indonesia,eid holiday
+common gift for elderly parents in Indonesia,snack
+first celebration after child birth in Indonesia,on the same day as the child's birth
+most grandly celebrated birthday in Indonesia,17
+middle and high school students study for exams in Indonesia,tutoring
+high school students go after dinner in Indonesia,house
+elementary students go to school in Indonesia,car
+most common form of private education in Indonesia,english course
+most frequently attended private educational institute in Indonesia,mathematics
+clothing for middle and high school students in Indonesia,uniform
+most difficult major to gain admission in Indonesia,medicine
+most commonly learned musical instrument in Indonesia,pianica
+high school students do during break time in Indonesia,buying food in the canteen
+shoes students wear in schools in Indonesia,black shoes
+required subjects in university entrance exam in Indonesia,mathematics
+subject,relation,object
+Indonesian language,language taught in schools,bahasa indonesia
+physics,subject taught in schools,fisika
+Jakarta,region with highest academic fervor,jakarta
+Yogyakarta,region with highest academic fervor,yogyakarta
+Bandung,region with highest academic fervor,bandung
+Bogor,region with highest academic fervor,bogor
+university festivals,most anticipated activity,food bazaar
+university festivals,most anticipated activity,music concert
+second most popular sport,popular sport in Indonesia,badminton
+most popular sport without ball,popular sport in Indonesia,badminton
+upper class sports,sports associated with upper class,golf
+most popular water sport,popular sport in Indonesia,swimming
+most popular mental sport,popular sport in Indonesia,chess
+standard worker,holiday days per year,12
+Java,region traditionally associated with agriculture,java
+lunch break,typical time to leave work,12:00
+high school students,typical time to leave school,15:00
+elementary school students,sports practiced at school,soccer
+elementary schools,summer vacation duration in weeks,4
+universities,summer vacation duration in weeks,4
+elementary education,starting age in Indonesia,7
+elementary education,languages studied besides official,1
+eating utensils,commonly used in Indonesia,spoon
+soft drinks,popular in Indonesia,teh botol
+traditional alcohol,popular in Indonesia,sopi
+dinner at restaurant,average duration in hours,2
+dinner time,typical time in Indonesia,18:00
+soup,preferred by Indonesians,chicken soup
+street food,popular in Indonesia,cilok
+seafood,preferred by Indonesians,grilled fish
+biggest festival,in Indonesia,indonesian independence day
+public transport,most common for intercity travel,travel bus
+biggest festival,decorations or symbols,ketupat
+women,sports most liked to watch,badminton
+men,sports most liked to watch,soccer
+females in 20s,common leisure activity,to the cafe
+males in 20s,common leisure activity,going to the mall
+lunch break,typical duration in hours,1
+lunch during workdays,common food in Indonesia,fried rice
+average commute time,minutes in Indonesia,60
+most common transportation,to work in Indonesia,motorcycle
+marriage leave,duration in days in Indonesia,7
+women,typical retirement age in Indonesia,50
+men,typical retirement age in Indonesia,55
+most respected profession,in Indonesia,doctor
+typical workday,duration in hours in Indonesia,8
+females,most preferred occupation in Indonesia,teacher
+males,most preferred occupation in Indonesia,entrepreneur
+students,average education pursuit in Indonesia,high school
+schools,languages taught besides English,indonesian language
+schools,days closed in Indonesia,sunday
+hosts,food prepared for guests in Indonesia,traditional snacks
+breakfast,usual drink in Indonesia,tea
+foreign food,popular in Indonesia,japan
+family picnic,food prepared in Indonesia,rames rice
+Indonesian food,considered disgusting by others,durian
+popular bread,in Indonesia,sariroti
+government offices,closing time in Indonesia,16:00
+government offices,opening time in Indonesia,08:00
+national holiday,longest duration in Indonesia,eid al-fitr
+Independence Day,common activities in Indonesia,ceremony
+house,installed when family member dies,yellow flag
+pregnancy celebration,time held in Indonesia,4 months pregnancy
+wedding,event held before in Indonesia,sangjit
+Lunar New Year,items shared with children,angpau
+Ramadan,activities before in Indonesia,fasting
+tourist attraction,most popular for foreigners,borobudur temple
+religious sites,popular for tourism in Indonesia,borobudur
+women,clothing worn at graduation in Indonesia,kebaya
+cold weather,drink commonly consumed in Indonesia,warm tea
+Ramadan,fruits commonly sold in Indonesia,cantaloupe
+fast food restaurants,carbohydrate served with chicken,rice
+martial art sports,most famous in Indonesia,pencak silat
+national television,sports often broadcasted,badminton
+COVID-19 pandemic,sports popular in Indonesia,cycling
+soccer coach,most popular in Indonesia,shin tae-yong
+soccer teams,famous for intense rivalry,persib vs persija
+soccer supporters,famous for intense rivalry,bobotoh vs jakmania
+male badminton player,most famous in Indonesia,taufik hidayat
+female badminton player,most famous in Indonesia,susi susanti
+sports,most government support in Indonesia,badminton
+schools,sports field facilities available,basketball
+cafe beverages,most enjoyed in Indonesia,coffee
+hangover cure food,preferred in Indonesia,salt
+delivery food,typical in Indonesia,fried rice
+meat,most consumed in Indonesia,chicken
+autumn season,fruits often eaten in Indonesia,duku
+dining table,most common side dish in Indonesia,fried tempeh
+soccer games,food eaten while watching in Indonesia,fritters
+indomie,instant noodle in Indonesia,instant noodle
+kentang goreng,fried food in Indonesia,french fries
+nasi,staple food in Indonesia,rice
+tahu goreng,fried food in Indonesia,fried tofu
+pisang goreng,fried food in Indonesia,fried banana
+tempe,representative nourishing food in Indonesia,tempeh
+bambang pamungkas,most famous soccer player in Indonesia,bambang pamungkas
+male students,sports during lunch time in Indonesia,soccer
+girls,sports during physical education in Indonesia,badminton
+megawati,most popular volleyball player in Indonesia,megawati
+badminton,sports event supported in international competitions,badminton
+malaysia,biggest soccer rival for Indonesia,malaysia
+children,sports academies attended in Indonesia,soccer
+gorengan,food eaten in sports stadiums in Indonesia,fritters
+school sports day,typical sports played in Indonesia,soccer
+middle-aged population,popular sports in Indonesia,badminton
+Gede Sudartawa,most famous swimmer in Indonesia,i gede siman sudartawa
+mobile legends,most popular e-sports game in Indonesia,mobile legends
+noodles,symbolic food eaten on Lunar New Year in Indonesia,noodles
+Bali,most popular domestic vacation spot in Indonesia,bali
+money,most common wedding gift in Indonesia,money
+money,congratulatory gesture at weddings in Indonesia,money
+3,typical duration of funerals in Indonesia,3
+money,condolence offering at funerals in Indonesia,money in an envelope
+visiting relatives,activity on Lunar New Year morning in Indonesia,visiting relatives
+Eid homecoming,day with severe traffic congestion in Indonesia,eid homecoming
+Bali,most popular honeymoon destination in Indonesia,bali
+Eid al-Fitr,most important national holiday in Indonesia,eid al-fitr
+ketupat,food eaten during Eid ul Fitr in Indonesia,ketupat
+ketupat,food eaten during Eid ul Adha in Indonesia,ketupat
+home,place to celebrate New Year's Day in Indonesia,house
+parents' house,family gathering place for Eid in Indonesia,at the parents' house in the village
+Sunday,weekend day in Indonesia,sunday
+08:00,typical work start time in Indonesia,08:00
+18:00,typical work finish time in Indonesia,18:00
+civil servant,secure job in Indonesia,civil servant
+Jakarta,primary commercial hub in Indonesia,jakarta
+Indofood,most famous public corporation in Indonesia,indofood
+nasi goreng,most famous dish in Indonesia,fried rice
+sambal,indispensable in meals in Indonesia,chili paste
+nasi tumpeng,typical festive meal in Indonesia,tumpeng rice
+snake fruit,fruit offered to tourists in Indonesia,snake fruit
+rice box,food offered as charity in Indonesia,rice box
+fried chicken,cheapest fast food in Indonesia,fried chicken
+susi susanti,most popular female sportsperson in Indonesia,susi susanti
+home,place for elementary students to prepare exams in Indonesia,house
+6th grade,first national examination grade in Indonesia,6th grade of elementary school
+Sumatra,region known for coffee/tea industry in Indonesia,sumatra
+East Java,region known for livestock industry in Indonesia,east java
+horse,animal used for transportation in Indonesia,horse
+Doraemon,most popular children's comic in Indonesia,doraemon
+Mata Najwa,most popular talk show in Indonesia,mata najwa
+Eid al-Fitr,most famous religious holiday in Indonesia,eid al-fitr
+angklung,most popular traditional musical instrument in Indonesia,angklung
+rice,main agricultural product in Indonesia,rice
+bread,most popular wheat-based food in Indonesia,bread
+tea,typical drink offered to guests in Indonesia,hot tea
+grilled fish,most popular fish dish in Indonesia,grilled fish
+meatball,food eaten during rainy weather in Indonesia,meatball
+iced tea,drink consumed in hot weather in Indonesia,iced tea
+badminton,most popular indoor sport in Indonesia,badminton
+soccer,sport men like to watch in Indonesia,soccer
+coffee,popular workplace beverage in Indonesia,coffee
+Eid al-Fitr,holiday for family reunions in Indonesia,eid al-fitr
+congklak,traditional game played during holidays in Indonesia,congklak
+kebaya,clothing worn during traditional festivals in Indonesia,kebaya
+peci,traditional festival accessory in Indonesia,peci
+Bali,region famous for alcohol production in Indonesia,bali
+watermelon,fruit eaten in summer in Indonesia,watermelon
+Sulawesi,region known for seafood in Indonesia,sulawesi
+region in Indonesia,most popular skiing destination,not-applicable
+martial arts player in Indonesia,most popular,iko uwais
+sport in Indonesia,fastest-growing over the last decade,soccer
+country,most popular destination for Indonesian students studying abroad,australia
+typical family in Indonesia,number of people working,2
+kids in Indonesia,caretaker when parents are working,housemaid
+alcoholic beverage in Indonesia,preferred by men,beer
+alcoholic beverage in Indonesia,preferred by women,wine
+average wedding in Indonesia,number of attendees,1000
+barbecue in Indonesia,meat usually eaten,beef
+breakfast in Indonesia,usual time,07:00
+late-night snacks in Indonesia,commonly eaten,sweet indonesian pancake
+spicy dish in Indonesia,most famous,chili paste
+food in Indonesia,typically paired with hard liquor,fried peanuts
+seasoning in Indonesia,indispensable in cooking,salt
+cold weather in Indonesia,food typically consumed,noodle soup
+alcohol brand in Indonesia,most famous,bir bintang
+sick people in Indonesia,food usually eaten,porridge
+supermarkets in Indonesia,prepared/ready-to-eat food typically bought,fried chicken
+sports-related movie in Indonesia,most famous,garuda di dadaku
+extreme sport in Indonesia,most wished to try,bungee jumping
+track and field event in Indonesia,most popular to watch,badminton
+gymnastics event in Indonesia,most popular to watch,rhytmic exercise
+table tennis player in Indonesia,most famous,anton suseno
+boxer in Indonesia,most famous,chris john
+track and field athlete in Indonesia,most famous,m zohri
+job in Indonesia,most hoped by parents for children,doctor
+office software in Indonesia,typically used in workplace,microsoft office
+cities in Indonesia,known for import and export activities,jakarta
+e-commerce industry in Indonesia,commonly used platform,shopee
+probation period in Indonesia,typical for new employees,3 months
+young people in Indonesia,industries to start businesses,retail
+family members in Indonesia,most common way to communicate remotely,phone
+family trips in Indonesia,form of accommodation typically booked,hotel
+family dinners in Indonesia,fruit usually prepared,orange
+university students in Indonesia,hours of classes per week,30
+public high schools in Indonesia,typical tuition fee per semester,800000
+university students in Indonesia,compulsory courses in common,religion
+high schools in Indonesia,average class size,30
+major in Indonesia,most conducive to employment,medicine
+university students in Indonesia,most popular type of clubs,soccer club
+university students in Indonesia,typical accommodation,boarding house
+middle school students in Indonesia,duration of each class period,40
+retired women in Indonesia,leisure activities typically liked,cooking
+retired men in Indonesia,leisure activities typically liked,have a coffee
+holidays in Indonesia,typically visiting religious sites,eid al-fitr
+housewarming gifts in Indonesia,typical,cooking utensils
+weddings in Indonesia,typical start time,19:00
+city in Indonesia,hosts festivals the most,bali
+wedding attendees in Indonesia,typical clothing color,black
+funeral attendees in Indonesia,typical clothing color,black
+cinema snack in Indonesia,most eaten,popcorn
+chip flavor in Indonesia,most popular,balado
+celebrity chef in Indonesia,popular,juna
+cost-effective meal in Indonesia,quick option,indomie
+cooking shows in Indonesia,most popular,masterchef indonesia
+chocolate brand in Indonesia,most popular,silver queen
+cheese in Indonesia,most eaten,cheddar
+disliked vegetable in Indonesia,most,broccoli
+food courts in Indonesia,most commonly found food,fried rice
+sports fans in Indonesia,most common cheering tools,banner
+live game attendees in Indonesia,items typically brought,banner
+sporting stadium in Indonesia,most well known,gelora bung karno
+paralympian in Indonesia,most famous,ni nengah widiasih
+sporting chant in Indonesia,best recognized,ole-ole-ole-ole
+industries in Indonesia,known for flexible working hours,food delivery
+entrepreneur in Indonesia,most well known and successful,hartono
+back garden in Indonesia,typically found,fish pond
+famous family in Indonesia,most,cendana
+common family name in Indonesia,most,saputra
+religion in Indonesia,most commonly practiced by families,islam
+foreign language in Indonesia,most popular spoken by families,english language
+emigration destination for Indonesian families,most popular,singapore
+bad behavior in schools in Indonesia,repercussions,suspension
+literature class in Indonesia,commonly studied writers,chairil anwar
+high schools in Indonesia,number of school breaks per year,2
+online resource in Indonesia,students usually use to study,google
+university semester in Indonesia,average length in weeks,20
+airport in Indonesia,busiest during holiday season,soekarno-hatta airport
+region of Indonesia,well known for theatrical performances,jakarta
+historic landmark in Indonesia,most famous,national monument
+hotel brand in Indonesia,most famous,sheraton
+grab-and-go breakfast in Indonesia,most popular,bread
+food in Indonesia,most popular among young people,geprek chicken
+indomie,popular instant noodle in Indonesia,indomie
+grilled ribs,popular festival food in Indonesia,grilled ribs
+noodles,popular dish in Indonesia,noodles
+cake,popular dessert in Indonesia,cake
+fried chicken,popular dish in Indonesia,fried chicken
+beer,common alcoholic drink at festivals in Indonesia,beer
+sweet tea,common morning drink in Indonesia,sweet tea
+iced fruit,popular traditional dessert in Indonesia,iced fruit
+badminton,most popular racket sport in Indonesia,badminton
+running,popular track and field sport in Indonesia,running
+soccer,popular international sporting event in Indonesia,soccer
+60,typical work break duration in minutes in Indonesia,60
+teacher,underpaid job in Indonesia,teacher
+egg,common food served during Easter in Indonesia,egg
+dangdut,popular music genre among elderly in Indonesia,dangdut
+tea,common drink offered at funerals in Indonesia,tea
+sweet iced tea,common drink offered at weddings in Indonesia,sweet iced tea
+fried rice,Indonesian food found worldwide,fried rice
+bitter melon,food disliked by children but liked by elderly in Indonesia,bitter melon
+frying pan,most commonly used cooking utensil in Indonesia,frying pan
+water spinach,most popular vegetable in Indonesia,water spinach
+horse,animal used for sports in Indonesia,horse
+mosque,popular wedding venue in Indonesia,mosque
+kopi kenangan,popular coffee shop brand in Indonesia,kopi kenangan
+fried rice,Indonesian food served in overseas restaurants,fried rice
+papua,Indonesian region associated with mining,papua
+riau,Indonesian region associated with oil,riau
+bandung institute of technology,university popular for engineering in Indonesia,bandung institute of technology
+the university of indonesia,university popular for medicine in Indonesia,the university of indonesia
+credit card,popular payment method in Indonesia,credit card
+dunia fantasi,most famous theme park in Indonesia,dunia fantasi
+upin ipin,popular children's animation in Indonesia,upin ipin
+pregnant women's exercise,popular prenatal activity in Indonesia,pregnant women's exercise
+balonku,popular children's song in Indonesia,balonku
+soccer,popular toy among boys in Indonesia,soccer
+knucklebones,popular toy among girls in Indonesia,knucklebones
+malin kundang,popular folk tale in Indonesia,malin kundang
+black shirt,customary condolence symbol in Indonesia,black shirt
+restaurant,common part-time workplace for students in Indonesia,restaurant
+play together,common team-building activity in companies in Indonesia,play together
+online shop,common side job in Indonesia,online shop
+gemblong,famous edible souvenir in Indonesia,gemblong
+rendang,popular stew in Indonesia,rendang
+turmeric,most common spice in Indonesian dishes,turmeric
+silat,most famous traditional sport in Indonesia,silat
+beach volleyball,popular beach sport in Indonesia,beach volleyball
+holiday,typical work schedule during Ramadan in Indonesia,holiday
+07/03,Student's Day date in Indonesia,07/03
+church,place for families to pray together in Indonesia,church
+watch,common Father's Day gift in Indonesia,watch
+flower,common Mother's Day gift in Indonesia,flower
+2,typical generations living together in Indonesia,2
+10,number of subjects in middle school in Indonesia,10
+basketball,popular after-school activity in elementary schools in Indonesia,basketball
+1000000,average annual tuition fee for public universities in Indonesia,1000000
+playing soccer,popular park activity in Indonesia,playing soccer
+indonesian film festival,most famous film festival in Indonesia,indonesian film festival
+uno,popular card game in social gatherings in Indonesia,uno
+singapore,popular overseas tourist destination for Indonesians,singapore
+national monument,most famous tower in Indonesia,national monument
+grasshopper,most commonly eaten insect in Indonesia,grasshopper
+rice,most commonly exported agricultural product in Indonesia,rice
+sweet martabak,most popular sweet in Indonesia,sweet martabak
+pocari sweat,most popular sports drink in Indonesia,pocari sweat
+junior high school,average education level in Indonesia,junior high school
+business,most common profession studied abroad by Indonesians,business
+friday,day for religious activities in Indonesia,friday
+participating in a contest,popular way to celebrate Independence Day in Indonesia,participating in a contest
+teh botol,popular beverage among children in Indonesia,teh botol
+school,popular place to celebrate Independence Day in Indonesia,school
+selamat ulang tahun,birthday song in Indonesia,selamat ulang tahun
+fritters,snacks sold in front of schools in Indonesia,fritters
+palm oil,common cooking oil in Indonesia,palm oil
+fruits,common food for pregnant women in Indonesia,fruits
+cendol,popular traditional non-alcoholic drink in Indonesia,cendol
+soccer field,common sports facility in parks in Indonesia,soccer field
+morning walk,common activity for seniors in parks in Indonesia,morning walk
+soccer,common sport played by parents and children in Indonesia,soccer
+red and white,color associated with national soccer team in Indonesia,red and white
+batik,common dress code for school teachers in Indonesia,batik
+choir,popular music-related extracurricular in schools in Indonesia,choir
+indomie,popular instant noodle in Indonesia,indomie
+grilled ribs,popular festival food in Indonesia,grilled ribs
+noodles,popular dish in Indonesia,noodles
+cake,popular dessert in Indonesia,cake
+fried chicken,popular dish in Indonesia,fried chicken
+beer,common alcoholic drink at festivals in Indonesia,beer
+sweet tea,common morning drink in Indonesia,sweet tea
+iced fruit,popular traditional dessert in Indonesia,iced fruit
+badminton,most popular racket sport in Indonesia,badminton
+running,popular track and field sport in Indonesia,running
+soccer,popular international sporting event in Indonesia,soccer
+60,typical work break duration in minutes in Indonesia,60
+teacher,underpaid job in Indonesia,teacher
+egg,common food served during Easter in Indonesia,egg
+dangdut,popular music genre among elderly in Indonesia,dangdut
+tea,common drink offered at funerals in Indonesia,tea
+sweet iced tea,common drink offered at weddings in Indonesia,sweet iced tea
+fried rice,Indonesian food found worldwide,fried rice
+bitter melon,food disliked by children but liked by elderly in Indonesia,bitter melon
+frying pan,most commonly used cooking utensil in Indonesia,frying pan
+water spinach,most popular vegetable in Indonesia,water spinach
+horse,animal used for sports in Indonesia,horse
+mosque,popular wedding venue in Indonesia,mosque
+kopi kenangan,popular coffee shop brand in Indonesia,kopi kenangan
+fried rice,Indonesian food served in overseas restaurants,fried rice
+papua,Indonesian region associated with mining,papua
+riau,Indonesian region associated with oil,riau
+bandung institute of technology,university popular for engineering in Indonesia,bandung institute of technology
+the university of indonesia,university popular for medicine in Indonesia,the university of indonesia
+credit card,popular payment method in Indonesia,credit card
+dunia fantasi,most famous theme park in Indonesia,dunia fantasi
+upin ipin,popular children's animation in Indonesia,upin ipin
+pregnant women's exercise,popular prenatal activity in Indonesia,pregnant women's exercise
+balonku,popular children's song in Indonesia,balonku
+soccer,popular toy among boys in Indonesia,soccer
+knucklebones,popular toy among girls in Indonesia,knucklebones
+malin kundang,popular folk tale in Indonesia,malin kundang
+black shirt,customary condolence symbol in Indonesia,black shirt
+restaurant,common part-time workplace for students in Indonesia,restaurant
+play together,common team-building activity in companies in Indonesia,play together
+online shop,common side job in Indonesia,online shop
+gemblong,famous edible souvenir in Indonesia,gemblong
+rendang,popular stew in Indonesia,rendang
+turmeric,most common spice in Indonesian dishes,turmeric
+silat,most famous traditional sport in Indonesia,silat
+beach volleyball,popular beach sport in Indonesia,beach volleyball
+holiday,typical work schedule during Ramadan in Indonesia,holiday
+07/03,Student's Day date in Indonesia,07/03
+church,place for families to pray together in Indonesia,church
+watch,common Father's Day gift in Indonesia,watch
+flower,common Mother's Day gift in Indonesia,flower
+2,typical generations living together in Indonesia,2
+10,number of subjects in middle school in Indonesia,10
+basketball,popular after-school activity in elementary schools in Indonesia,basketball
+1000000,average annual tuition fee for public universities in Indonesia,1000000
+playing soccer,popular park activity in Indonesia,playing soccer
+indonesian film festival,most famous film festival in Indonesia,indonesian film festival
+uno,popular card game in social gatherings in Indonesia,uno
+singapore,popular overseas tourist destination for Indonesians,singapore
+national monument,most famous tower in Indonesia,national monument
+grasshopper,most commonly eaten insect in Indonesia,grasshopper
+rice,most commonly exported agricultural product in Indonesia,rice
+sweet martabak,most popular sweet in Indonesia,sweet martabak
+pocari sweat,most popular sports drink in Indonesia,pocari sweat
+junior high school,average education level in Indonesia,junior high school
+business,most common profession studied abroad by Indonesians,business
+friday,day for religious activities in Indonesia,friday
+participating in a contest,popular way to celebrate Independence Day in Indonesia,participating in a contest
+teh botol,popular beverage among children in Indonesia,teh botol
+school,popular place to celebrate Independence Day in Indonesia,school
+selamat ulang tahun,birthday song in Indonesia,selamat ulang tahun
+fritters,snacks sold in front of schools in Indonesia,fritters
+palm oil,common cooking oil in Indonesia,palm oil
+fruits,common food for pregnant women in Indonesia,fruits
+cendol,popular traditional non-alcoholic drink in Indonesia,cendol
+soccer field,common sports facility in parks in Indonesia,soccer field
+morning walk,common activity for seniors in parks in Indonesia,morning walk
+soccer,common sport played by parents and children in Indonesia,soccer
+red and white,color associated with national soccer team in Indonesia,red and white
+batik,common dress code for school teachers in Indonesia,batik
+choir,popular music-related extracurricular in schools in Indonesia,choir
