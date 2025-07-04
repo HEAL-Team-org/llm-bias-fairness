@@ -12,33 +12,60 @@ This project implements a comprehensive GraphRAG system that:
 - **Enhances image prompts** for diversity and bias mitigation
 - **Caches embeddings** for efficient repeated queries
 
-## 🎨 New Feature: Image Prompt Enhancement
+## 🎨 Image Prompt Enhancement Features
 
-The system now includes **`enhance_prompt.py`** - a specialized tool for enhancing image generation prompts to promote diversity and avoid biases:
+The system includes two powerful tools for enhancing image generation prompts:
 
-### How It Works
-1. **Input**: Takes an image generation prompt (e.g., "a doctor examining a patient")
-2. **Retrieval**: Finds relevant bias/stereotype triples and cultural value triples  
-3. **Enhancement**: Uses LLM to enhance the prompt with diversity elements
-4. **Output**: Provides an inclusive, bias-aware image prompt
+### 1. Basic Enhancement (`enhance_prompt.py`)
+A single-pass enhancement tool for quick prompt improvement:
 
-### Key Benefits
-- **🚫 Bias Mitigation**: Identifies and avoids harmful stereotypes
-- **🌍 Cultural Awareness**: Incorporates global cultural values and practices
-- **👥 Diversity Promotion**: Explicitly includes age, ethnicity, gender, disability representation
-- **🎨 Creative Enhancement**: Maintains original prompt concept while adding inclusive elements
+- **Input**: Takes an image generation prompt (e.g., "a doctor examining a patient")
+- **Retrieval**: Finds relevant bias/stereotype triples and cultural value triples  
+- **Enhancement**: Uses LLM to enhance the prompt with diversity elements
+- **Output**: Provides an inclusive, bias-aware image prompt
 
-### Usage Examples
 ```bash
 # Interactive mode
 python enhance_prompt.py
 
 # Direct prompt enhancement  
 python enhance_prompt.py -p "students in a classroom"
-
-# Customize retrieval parameters
-python enhance_prompt.py -p "engineers working" --bias-top-k 10 --cultural-top-k 15
 ```
+
+### 2. Sequential Enhancement (`enhance_prompt_sequential.py`) ⭐ NEW
+An advanced iterative enhancement system with diversity scoring:
+
+- **🔄 Iterative Improvement**: Enhances prompts multiple times until diversity goals are met
+- **� Diversity Scoring**: Evaluates prompts on a 0-100 scale across 7 diversity dimensions
+- **� Threshold-Based**: Stops when diversity score meets configurable threshold
+- **🧠 Smart Context**: Each iteration learns from previous attempts and scores
+
+```bash
+# Basic sequential enhancement
+python enhance_prompt_sequential.py -p "a business meeting"
+
+# Custom threshold and iterations
+python enhance_prompt_sequential.py \
+    --prompt "engineers working" \
+    --threshold 85 \
+    --max-iterations 4
+```
+
+#### Diversity Scoring Dimensions:
+1. **Age Diversity (15 pts)**: Multiple age groups
+2. **Ethnic/Racial Diversity (20 pts)**: Various backgrounds  
+3. **Gender Diversity (15 pts)**: Inclusive representation
+4. **Cultural Diversity (20 pts)**: Global cultural elements
+5. **Ability Inclusion (10 pts)**: Accessibility considerations
+6. **Socioeconomic Diversity (10 pts)**: Different backgrounds
+7. **Specificity (10 pts)**: Concrete, actionable elements
+
+### Key Benefits
+- **🚫 Bias Mitigation**: Identifies and avoids harmful stereotypes
+- **🌍 Cultural Awareness**: Incorporates global cultural values and practices
+- **👥 Diversity Promotion**: Explicitly includes comprehensive representation
+- **🎨 Creative Enhancement**: Maintains original concept while adding inclusive elements
+- **📈 Quality Assurance**: Sequential system ensures diversity standards are met
 
 ## 🏗️ Architecture
 
