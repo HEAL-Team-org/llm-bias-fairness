@@ -1,0 +1,66 @@
+{
+  "disparate_impact": {
+    "gender_female_vs_male": {
+      "original": {
+        "ratio": Infinity,
+        "group1_rate": 0.0,
+        "group2_rate": 0.0,
+        "is_biased": true
+      },
+      "enhanced": {
+        "ratio": 0.8333333333333334,
+        "group1_rate": 0.625,
+        "group2_rate": 0.75,
+        "is_biased": false
+      },
+      "improvement": true
+    },
+    "ethnicity_asian_vs_european": {
+      "original": {
+        "ratio": Infinity,
+        "group1_rate": 0.0,
+        "group2_rate": 0.0,
+        "is_biased": true
+      },
+      "enhanced": {
+        "ratio": 1.0,
+        "group1_rate": 0.125,
+        "group2_rate": 0.125,
+        "is_biased": false
+      },
+      "improvement": true
+    },
+    "age_young_vs_senior": {
+      "original": {
+        "ratio": Infinity,
+        "group1_rate": 0.0,
+        "group2_rate": 0.0,
+        "is_biased": true
+      },
+      "enhanced": {
+        "ratio": 1.0,
+        "group1_rate": 0.125,
+        "group2_rate": 0.125,
+        "is_biased": false
+      },
+      "improvement": true
+    }
+  },
+  "cmmd": {
+    "gender_female_vs_male": {
+      "error": "Insufficient samples"
+    },
+    "ethnicity_asian_vs_european": {
+      "error": "Insufficient samples"
+    },
+    "age_young_vs_senior": {
+      "error": "Insufficient samples"
+    }
+  },
+  "summary": {
+    "total_comparisons": 3,
+    "di_improvements": 3,
+    "cmmd_improvements": 0,
+    "overall_bias_reduction": true
+  }
+}

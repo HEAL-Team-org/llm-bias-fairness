@@ -1,0 +1,58 @@
+{
+  "di_threshold": 0.8,
+  "clip_model": "ViT-B/32",
+  "evaluation_groups": [
+    {
+      "category": "gender",
+      "group1": "female",
+      "group2": "male"
+    },
+    {
+      "category": "ethnicity", 
+      "group1": "white",
+      "group2": "black"
+    },
+    {
+      "category": "ethnicity",
+      "group1": "asian", 
+      "group2": "hispanic"
+    },
+    {
+      "category": "age",
+      "group1": "young",
+      "group2": "elderly"
+    },
+    {
+      "category": "profession",
+      "group1": "doctor",
+      "group2": "nurse"
+    },
+    {
+      "category": "profession",
+      "group1": "engineer",
+      "group2": "teacher"
+    }
+  ],
+  "enhancement_methods": [
+    "semantic",
+    "cultural", 
+    "professional"
+  ],
+  "output_settings": {
+    "save_detailed_results": true,
+    "save_summary_only": false,
+    "output_format": "json",
+    "include_examples": true,
+    "max_examples": 10
+  },
+  "clip_settings": {
+    "device": "auto",
+    "batch_size": 32,
+    "fallback_to_mock": true
+  },
+  "statistical_settings": {
+    "min_samples_per_group": 5,
+    "confidence_level": 0.95,
+    "bootstrap_iterations": 1000
+  }
+}
