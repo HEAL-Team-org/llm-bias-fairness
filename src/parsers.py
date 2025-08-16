@@ -8,12 +8,22 @@ from __future__ import annotations
 
 import csv
 import logging
+import pickle
 import re
 from abc import ABC, abstractmethod
+from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Tuple
 
 import pandas as pd
+
+try:
+    from datasets import load_dataset
+    DATASETS_AVAILABLE = True
+except ImportError:
+    DATASETS_AVAILABLE = False
+    logger = logging.getLogger(__name__)
+    logger.warning("datasets library not available. StereoSet functionality will be limited.")
 
 logger = logging.getLogger(__name__)
 
@@ -207,3 +217,171 @@ class DataParserFactory:
         
         msg = f"No suitable parser found for file: {file_path}"
         raise ValueError(msg)
+
+
+@dataclass
+class StereoSetRecord:
+    """Data structure for StereoSet dataset records."""
+    id: str
+    target: str
+    bias_type: str
+    context: str
+    sentences: list[str]
+    gold_labels: list[int]
+    config: str = "unknown"  # intersentence or intrasentence
+    
+    @property
+    def stereotypical_sentences(self) -> list[str]:
+        """Get sentences labeled as stereotypical (gold_label=1)."""
+        return [
+            sentence for sentence, label in zip(self.sentences, self.gold_labels)
+            if label == 1
+        ]
+    
+    @property
+    def anti_stereotypical_sentences(self) -> list[str]:
+        """Get sentences labeled as anti-stereotypical (gold_label=0)."""
+        return [
+            sentence for sentence, label in zip(self.sentences, self.gold_labels)
+            if label == 0
+        ]
+
+
+class StereoSetParser:
+    """Parser for StereoSet dataset from Hugging Face."""
+    
+    def __init__(self, cache_file: str | Path = "stereoset_cache.pkl"):
+        """Initialize the StereoSet parser.
+        
+        Args:
+            cache_file: Path to cache the dataset locally
+        """
+        self.cache_file = Path(cache_file)
+        self.dataset = None
+        self.records: list[StereoSetRecord] = []
+        self.logger = logging.getLogger(__name__)
+        
+    def load_dataset(self, force_reload: bool = False) -> bool:
+        """Load the StereoSet dataset from Hugging Face.
+        
+        Args:
+            force_reload: Whether to force reload even if cache exists
+            
+        Returns:
+            True if successfully loaded, False otherwise
+        """
+        if not DATASETS_AVAILABLE:
+            self.logger.error("datasets library not available. Cannot load StereoSet.")
+            return False
+        
+        # Check cache first
+        if not force_reload and self.cache_file.exists():
+            try:
+                import pickle
+                with self.cache_file.open("rb") as f:
+                    self.records = pickle.load(f)
+                self.logger.info(f"Loaded {len(self.records)} StereoSet records from cache")
+                return True
+            except Exception as e:
+                self.logger.warning(f"Failed to load from cache: {e}")
+        
+        try:
+            from datasets import load_dataset
+            self.logger.info("Loading StereoSet dataset from Hugging Face...")
+            
+            # Load both configurations
+            intersentence_data = load_dataset("McGill-NLP/stereoset", "intersentence", split="validation")
+            intrasentence_data = load_dataset("McGill-NLP/stereoset", "intrasentence", split="validation")
+            
+            self.records = []
+            
+            # Process intersentence data
+            for item in intersentence_data:
+                sentences_data = item["sentences"]
+                sentences = sentences_data["sentence"]
+                gold_labels = sentences_data["gold_label"]
+                
+                record = StereoSetRecord(
+                    id=item["id"],
+                    target=item["target"],
+                    bias_type=item["bias_type"],
+                    context=item["context"],
+                    sentences=sentences,
+                    gold_labels=gold_labels,
+                    config="intersentence"
+                )
+                self.records.append(record)
+            
+            # Process intrasentence data
+            for item in intrasentence_data:
+                sentences_data = item["sentences"]
+                sentences = sentences_data["sentence"]
+                gold_labels = sentences_data["gold_label"]
+                
+                record = StereoSetRecord(
+                    id=item["id"],
+                    target=item["target"],
+                    bias_type=item["bias_type"],
+                    context=item["context"],
+                    sentences=sentences,
+                    gold_labels=gold_labels,
+                    config="intrasentence"
+                )
+                self.records.append(record)
+            
+            # Cache the results
+            try:
+                import pickle
+                with self.cache_file.open("wb") as f:
+                    pickle.dump(self.records, f)
+                self.logger.info(f"Cached {len(self.records)} records to {self.cache_file}")
+            except Exception as e:
+                self.logger.warning(f"Failed to cache records: {e}")
+            
+            self.logger.info(f"Successfully loaded {len(self.records)} StereoSet records")
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Failed to load StereoSet dataset: {e}")
+            return False
+    
+    def get_contexts(self) -> list[str]:
+        """Get all context strings for embedding.
+        
+        Returns:
+            List of context strings
+        """
+        return [record.context for record in self.records]
+    
+    def get_records_by_bias_type(self, bias_type: str) -> list[StereoSetRecord]:
+        """Get records filtered by bias type.
+        
+        Args:
+            bias_type: Type of bias (Gender, Profession, Race, Religion)
+            
+        Returns:
+            List of matching records
+        """
+        return [record for record in self.records if record.bias_type.lower() == bias_type.lower()]
+    
+    def get_stereotypical_sentences(self) -> dict[str, list[str]]:
+        """Get all stereotypical sentences grouped by bias type.
+        
+        Returns:
+            Dictionary mapping bias types to lists of stereotypical sentences
+        """
+        result = {}
+        for record in self.records:
+            bias_type = record.bias_type
+            if bias_type not in result:
+                result[bias_type] = []
+            result[bias_type].extend(record.stereotypical_sentences)
+        return result
+    
+    def __len__(self) -> int:
+        """Return number of records."""
+        return len(self.records)
+    
+    def __getitem__(self, index: int) -> StereoSetRecord:
+        """Get record by index."""
+        return self.records[index]

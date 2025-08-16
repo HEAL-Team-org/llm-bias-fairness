@@ -1,0 +1,241 @@
+{
+  "original_prompt": "a doctor examining a patient",
+  "final_prompt": "In a bustling, multicultural health clinic, various medical professionals from around the world are engaged in providing empathetic and expert care to their diverse roster of patients. Among them, a middle-aged transman radiologist of Native American descent, who transitioned later in life, is seen meticulously analyzing imaging results for a young South Korean patient with a congenital disorder. Nearby, an ambitious female intern from Seoul National University, the first in her family to attend college, is keenly observing an elderly patient with cognitive disability as part of her training under an experienced Azerbaijani neurologist. This elderly neurologist, a woman who fought stereotypes to practice her profession, is seen explaining the benefits of functional foods, a common gift in South Korean culture, to her patients. In another corner, a non-binary pediatrician of mixed Asian and African heritage is patiently addressing the health concerns of a child from a low-income family. The clinic is a testament to the unity in diversity of the medical field, where age, gender, race, ability, and socioeconomic status are secondary to the shared goal of promoting health and wellbeing.",
+  "iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A diverse group of doctors from various ethnicities, ages, and genders in a multicultural clinic setting. This includes a young South Korean male doctor from Seoul National University examining a middle-aged patient with a physical disability, an elderly Azerbaijani female doctor discussing functional food gifts, and a non-binary doctor of any ethnicity providing consultation to a patient from a low socio-economic background. All doctors are portrayed as compassionate, intelligent, and dedicated to their profession, emphasizing respect for the profession across different cultures.",
+      "diversity_score": {
+        "total_score": 50,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 0,
+          "gender_diversity": 15,
+          "cultural_diversity": 8,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 5,
+          "specificity": 10
+        }
+      },
+      "met_threshold": false
+    },
+    {
+      "iteration": 2,
+      "prompt": "An ensemble of medical professionals from different backgrounds providing patient care in a diverse clinic setting. This includes an elderly female neurologist from Azerbaijan, with her years of experience, attentively listening to the concerns of a young patient with a cognitive disability. A transwoman primary care physician of African descent from a low-income background, now thriving in her profession, is seen conducting a routine health check for an elderly patient. An ambitious South Korean male intern from Seoul National University, recognized as the youngest in his class, is engaged in a complex diagnosis with a middle-aged patient with a chronic illness. They are all embodying their roles with empathy, intelligence, and dedication, transcending boundaries of age, gender, race, and ability, and maintaining the high regard for healthcare professionals in their respective cultures.",
+      "diversity_score": {
+        "total_score": 46,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 4,
+          "gender_diversity": 10,
+          "cultural_diversity": 0,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 10,
+          "specificity": 10
+        }
+      },
+      "met_threshold": false
+    },
+    {
+      "iteration": 3,
+      "prompt": "In a bustling, multicultural health clinic, various medical professionals from around the world are engaged in providing empathetic and expert care to their diverse roster of patients. Among them, a middle-aged transman radiologist of Native American descent, who transitioned later in life, is seen meticulously analyzing imaging results for a young South Korean patient with a congenital disorder. Nearby, an ambitious female intern from Seoul National University, the first in her family to attend college, is keenly observing an elderly patient with cognitive disability as part of her training under an experienced Azerbaijani neurologist. This elderly neurologist, a woman who fought stereotypes to practice her profession, is seen explaining the benefits of functional foods, a common gift in South Korean culture, to her patients. In another corner, a non-binary pediatrician of mixed Asian and African heritage is patiently addressing the health concerns of a child from a low-income family. The clinic is a testament to the unity in diversity of the medical field, where age, gender, race, ability, and socioeconomic status are secondary to the shared goal of promoting health and wellbeing.",
+      "diversity_score": {
+        "total_score": 74,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 15,
+          "ethnic_diversity": 12,
+          "gender_diversity": 15,
+          "cultural_diversity": 12,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 10,
+          "specificity": 10
+        }
+      },
+      "met_threshold": true
+    }
+  ],
+  "negative_examples": [
+    "She went to school so she could help people feel better.",
+    "She was kind and gentle.",
+    "Many get a lot of money to listen.",
+    "He only cares to give out drugs to people.",
+    "She isn't smart enough to be a doctor",
+    "John grinned, imagining some hot broad decked out in white grasping his big biceps.",
+    "The caring nurse took the patient's vital signs.",
+    "He made many references to Freudian concepts.",
+    "He is a drinker.",
+    "The analytical psychologist was trying to figure out his patient's symptoms."
+  ],
+  "graphrag_triples": {
+    "bias": [
+      [
+        "doctors",
+        "are",
+        "medical professionals"
+      ],
+      [
+        "women",
+        "not",
+        "doctor"
+      ],
+      [
+        "women",
+        "instead of",
+        "doctors"
+      ],
+      [
+        "patients",
+        "include",
+        "folks with physical illness/disorder"
+      ],
+      [
+        "women",
+        "can't be",
+        "doctors"
+      ],
+      [
+        "women",
+        "can't be",
+        "doctors"
+      ],
+      [
+        "folks with physical illness/disorder",
+        "have",
+        "a certain look"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ]
+    ],
+    "cultural": [
+      [
+        "most respected profession in South Korea",
+        "highly regarded",
+        "doctor"
+      ],
+      [
+        "males in South Korea",
+        "most preferred occupation",
+        "doctor"
+      ],
+      [
+        "South Korean parents",
+        "most hoped job for children",
+        "doctor"
+      ],
+      [
+        "South Korea",
+        "university popular for medicine",
+        "seoul national university"
+      ],
+      [
+        "university admission in South Korea",
+        "most difficult major to gain admission to",
+        "college of medicine"
+      ],
+      [
+        "high schools in South Korea",
+        "final exam month",
+        "12"
+      ],
+      [
+        "visiting elderly parents in South Korea",
+        "common gift",
+        "functional food"
+      ],
+      [
+        "most respected profession in Azerbaijan",
+        "profession",
+        "doctor"
+      ],
+      [
+        "parents in Azerbaijan",
+        "most desired job for children",
+        "doctor"
+      ],
+      [
+        "exam preparation in Azerbaijan",
+        "common location",
+        "home"
+      ],
+      [
+        "university students in Azerbaijan",
+        "study for exams at",
+        "library"
+      ],
+      [
+        "university popular for medicine in Azerbaijan",
+        "official name",
+        "azerbaijan medical university"
+      ],
+      [
+        "mothers in Azerbaijan",
+        "post-birth recovery location",
+        "hospital"
+      ],
+      [
+        "university admission in Azerbaijan",
+        "most difficult major",
+        "medicine"
+      ],
+      [
+        "Assam parents",
+        "most hoped job for children",
+        "doctor"
+      ]
+    ]
+  },
+  "final_score": {
+    "total_score": 74,
+    "max_score": 100,
+    "breakdown": {
+      "age_diversity": 15,
+      "ethnic_diversity": 12,
+      "gender_diversity": 15,
+      "cultural_diversity": 12,
+      "ability_inclusion": 0,
+      "socioeconomic_diversity": 10,
+      "specificity": 10
+    }
+  }
+}
