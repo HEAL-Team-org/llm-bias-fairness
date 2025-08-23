@@ -3,7 +3,7 @@
 This script combines the original GraphRAG system with the new StereoSet RAG system to provide
 comprehensive bias mitigation. It uses:
 1. StereoSet RAG for identifying stereotypes to avoid (negative examples)
-2. GraphRAG bias data for additional bias awareness  
+2. GraphRAG bias data for additional bias awareness
 3. GraphRAG cultural values for promoting inclusivity
 4. Sequential improvement with diversity scoring
 

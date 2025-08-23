@@ -1,18 +1,18 @@
 {
   "original_prompt": "a doctor examining a patient",
-  "final_prompt": "In a bustling, multicultural health clinic, various medical professionals from around the world are engaged in providing empathetic and expert care to their diverse roster of patients. Among them, a middle-aged transman radiologist of Native American descent, who transitioned later in life, is seen meticulously analyzing imaging results for a young South Korean patient with a congenital disorder. Nearby, an ambitious female intern from Seoul National University, the first in her family to attend college, is keenly observing an elderly patient with cognitive disability as part of her training under an experienced Azerbaijani neurologist. This elderly neurologist, a woman who fought stereotypes to practice her profession, is seen explaining the benefits of functional foods, a common gift in South Korean culture, to her patients. In another corner, a non-binary pediatrician of mixed Asian and African heritage is patiently addressing the health concerns of a child from a low-income family. The clinic is a testament to the unity in diversity of the medical field, where age, gender, race, ability, and socioeconomic status are secondary to the shared goal of promoting health and wellbeing.",
+  "final_prompt": "In a well-equipped yet humble clinic, a diverse team of committed medical professionals diligently works. A young, ambitious doctor of South Korean heritage, who recently graduated from Seoul National University's prestigious College of Medicine, is attentively examining a middle-aged Azerbaijani woman, a renowned local artist who is bravely battling a chronic illness. His respectful understanding of her cultural background, as well as her artistic sensibilities, results in a unique approach to her care. Across the room, a seasoned female doctor of African lineage, respected for her decades of service to the community, engages in a thoughtful discussion with an elderly Native American patient. They are sharing stories about traditional healing practices, combining modern medicine with respect for age-old wisdom. A quiet corner of the clinic is occupied by a young transgender nurse of Latinx descent, providing empathetic care to a differently-abled child. The scene is a blend of cultures and backgrounds, ages and abilities, all united in the pursuit of health and wellness. Each professional demonstrates not just competence in their field but a deep understanding and acceptance of their patients' diverse identities and journeys.",
   "iterations": [
     {
       "iteration": 1,
-      "prompt": "A diverse group of doctors from various ethnicities, ages, and genders in a multicultural clinic setting. This includes a young South Korean male doctor from Seoul National University examining a middle-aged patient with a physical disability, an elderly Azerbaijani female doctor discussing functional food gifts, and a non-binary doctor of any ethnicity providing consultation to a patient from a low socio-economic background. All doctors are portrayed as compassionate, intelligent, and dedicated to their profession, emphasizing respect for the profession across different cultures.",
+      "prompt": "An experienced South Korean male doctor from Seoul National University's College of Medicine, gently examining a young Azerbaijani girl with a cheerful disposition despite her physical disability, in a bustling clinic located in an under-resourced neighborhood. Across the room, a compassionate, middle-aged female doctor of African descent, known for her wisdom and kindness, is in deep conversation with an elderly Native American patient, discussing the functional foods he has brought from home. Each medical professional displays respect for their patient's cultural practices while providing top-quality healthcare.",
       "diversity_score": {
-        "total_score": 50,
+        "total_score": 49,
         "max_score": 100,
         "breakdown": {
           "age_diversity": 12,
-          "ethnic_diversity": 0,
-          "gender_diversity": 15,
-          "cultural_diversity": 8,
+          "ethnic_diversity": 8,
+          "gender_diversity": 10,
+          "cultural_diversity": 4,
           "ability_inclusion": 0,
           "socioeconomic_diversity": 5,
           "specificity": 10
@@ -22,31 +22,13 @@
     },
     {
       "iteration": 2,
-      "prompt": "An ensemble of medical professionals from different backgrounds providing patient care in a diverse clinic setting. This includes an elderly female neurologist from Azerbaijan, with her years of experience, attentively listening to the concerns of a young patient with a cognitive disability. A transwoman primary care physician of African descent from a low-income background, now thriving in her profession, is seen conducting a routine health check for an elderly patient. An ambitious South Korean male intern from Seoul National University, recognized as the youngest in his class, is engaged in a complex diagnosis with a middle-aged patient with a chronic illness. They are all embodying their roles with empathy, intelligence, and dedication, transcending boundaries of age, gender, race, and ability, and maintaining the high regard for healthcare professionals in their respective cultures.",
+      "prompt": "In a well-equipped yet humble clinic, a diverse team of committed medical professionals diligently works. A young, ambitious doctor of South Korean heritage, who recently graduated from Seoul National University's prestigious College of Medicine, is attentively examining a middle-aged Azerbaijani woman, a renowned local artist who is bravely battling a chronic illness. His respectful understanding of her cultural background, as well as her artistic sensibilities, results in a unique approach to her care. Across the room, a seasoned female doctor of African lineage, respected for her decades of service to the community, engages in a thoughtful discussion with an elderly Native American patient. They are sharing stories about traditional healing practices, combining modern medicine with respect for age-old wisdom. A quiet corner of the clinic is occupied by a young transgender nurse of Latinx descent, providing empathetic care to a differently-abled child. The scene is a blend of cultures and backgrounds, ages and abilities, all united in the pursuit of health and wellness. Each professional demonstrates not just competence in their field but a deep understanding and acceptance of their patients' diverse identities and journeys.",
       "diversity_score": {
-        "total_score": 46,
-        "max_score": 100,
-        "breakdown": {
-          "age_diversity": 12,
-          "ethnic_diversity": 4,
-          "gender_diversity": 10,
-          "cultural_diversity": 0,
-          "ability_inclusion": 0,
-          "socioeconomic_diversity": 10,
-          "specificity": 10
-        }
-      },
-      "met_threshold": false
-    },
-    {
-      "iteration": 3,
-      "prompt": "In a bustling, multicultural health clinic, various medical professionals from around the world are engaged in providing empathetic and expert care to their diverse roster of patients. Among them, a middle-aged transman radiologist of Native American descent, who transitioned later in life, is seen meticulously analyzing imaging results for a young South Korean patient with a congenital disorder. Nearby, an ambitious female intern from Seoul National University, the first in her family to attend college, is keenly observing an elderly patient with cognitive disability as part of her training under an experienced Azerbaijani neurologist. This elderly neurologist, a woman who fought stereotypes to practice her profession, is seen explaining the benefits of functional foods, a common gift in South Korean culture, to her patients. In another corner, a non-binary pediatrician of mixed Asian and African heritage is patiently addressing the health concerns of a child from a low-income family. The clinic is a testament to the unity in diversity of the medical field, where age, gender, race, ability, and socioeconomic status are secondary to the shared goal of promoting health and wellbeing.",
-      "diversity_score": {
-        "total_score": 74,
+        "total_score": 70,
         "max_score": 100,
         "breakdown": {
           "age_diversity": 15,
-          "ethnic_diversity": 12,
+          "ethnic_diversity": 8,
           "gender_diversity": 15,
           "cultural_diversity": 12,
           "ability_inclusion": 0,
@@ -226,11 +208,11 @@
     ]
   },
   "final_score": {
-    "total_score": 74,
+    "total_score": 70,
     "max_score": 100,
     "breakdown": {
       "age_diversity": 15,
-      "ethnic_diversity": 12,
+      "ethnic_diversity": 8,
       "gender_diversity": 15,
       "cultural_diversity": 12,
       "ability_inclusion": 0,

@@ -1,0 +1,528 @@
+{
+  "original_prompt": "a doctor examining a patient",
+  "final_prompt": "In the heart of a bustling multicultural city, an accomplished medical professional of South Korean descent, who has achieved her medical degree from the esteemed Seoul National University's College of Medicine, is diligently examining a diverse array of patients within a vibrant community health center. The patients include a tenacious young boy of Native American heritage who communicates through sign language owing to his hearing impairment, a middle-aged trans woman of Azerbaijani descent who is a celebrated author, and a wise elderly man from a low-income background who is a respected figure within his Afro-Caribbean community for his knowledge of traditional healing plants. \n\nIn a scene that captures the essence of the French cultural value of \"savoir-vivre\" or \"knowing how to live\", the doctor embodies empathy and respect in her practice. She listens attentively to each patient's health concerns, explains the procedures with clarity in both English and French, and builds a comforting rapport. Her approach not only showcases her commitment to providing inclusive healthcare but also reflects the high esteem held for the medical profession in both South Korea and Azerbaijan. This image paints an authentic representation of diversity, respect, and mutual understanding, symbolizing the shared human aspiration for health and well-being across diverse cultures.",
+  "initial_scores": {
+    "bias": {
+      "total_score": 0,
+      "max_score": 100,
+      "breakdown": {
+        "inclusive_language": 0,
+        "anti_bias_language": 0,
+        "stereotype_avoidance": 0,
+        "detail_bonus": 0,
+        "problematic_penalty": 0
+      }
+    },
+    "diversity": {
+      "total_score": 0,
+      "max_score": 100,
+      "breakdown": {
+        "age_diversity": 0,
+        "ethnic_diversity": 0,
+        "gender_diversity": 0,
+        "cultural_diversity": 0,
+        "ability_inclusion": 0,
+        "socioeconomic_diversity": 0,
+        "specificity": 0
+      }
+    }
+  },
+  "final_scores": {
+    "bias": {
+      "total_score": 32,
+      "max_score": 100,
+      "breakdown": {
+        "inclusive_language": 16,
+        "anti_bias_language": 0,
+        "stereotype_avoidance": 0,
+        "detail_bonus": 20,
+        "problematic_penalty": 4
+      }
+    },
+    "diversity": {
+      "total_score": 57,
+      "max_score": 100,
+      "breakdown": {
+        "age_diversity": 12,
+        "ethnic_diversity": 4,
+        "gender_diversity": 5,
+        "cultural_diversity": 16,
+        "ability_inclusion": 5,
+        "socioeconomic_diversity": 5,
+        "specificity": 10
+      }
+    }
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A seasoned French-American doctor, who graduated from Seoul National University's prestigious College of Medicine, compassionately examining a diverse group of patients in an artistically rendered community clinic. The patients range from a young girl with a physical disability, a middle-aged man of Azerbaijani descent, to an elderly woman who is a respected figure in her Native American community. The scene captures the doctor's open and patient-centered communication style, asking questions and explaining medical processes in both French and English, demonstrating a strong bond with the patients.",
+      "bias_score": {
+        "total_score": 0,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 0,
+          "anti_bias_language": 0,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 0,
+          "problematic_penalty": 0
+        }
+      },
+      "diversity_score": {
+        "total_score": 0,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 0,
+          "ethnic_diversity": 0,
+          "gender_diversity": 0,
+          "cultural_diversity": 0,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 0,
+          "specificity": 0
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    },
+    {
+      "iteration": 2,
+      "prompt": "A respected medical professional of South Korean descent from the prestigious Seoul National University, engaging in an open and empathetic conversation with a diverse group of patients. They include a young French-American bilingual girl with a physical ability difference, a middle-aged woman of Azerbaijani heritage, and an elderly man from an underserved socioeconomic background. The doctor, displaying the utmost professionalism, is conducting thorough examinations in a unique setting while explaining their procedures, asking thoughtful questions, and building a strong rapport with each patient.",
+      "bias_score": {
+        "total_score": 16,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 8,
+          "anti_bias_language": 0,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 8,
+          "problematic_penalty": 0
+        }
+      },
+      "diversity_score": {
+        "total_score": 26,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 4,
+          "gender_diversity": 0,
+          "cultural_diversity": 0,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 0,
+          "specificity": 10
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    },
+    {
+      "iteration": 3,
+      "prompt": "A compassionate physician of Japanese and Haitian descent, who has earned her medical degree from the esteemed College of Medicine at Seoul National University, is attentively examining a diverse set of patients in a bustling urban community clinic. The patients consist of a spirited boy with a hearing impairment who communicates through sign language, a middle-aged trans woman of Azerbaijani heritage bravely battling a chronic illness, and an elderly gentleman of Native American lineage who carries with him a wealth of tribal wisdom. The doctor interacts with her patients in a manner that embodies the French value of \"savoir-vivre\", enhancing their comfort through her open communication, patient explanations, and warm rapport. She seamlessly switches between English, French, and sign language, demonstrating her commitment to inclusive care. The scene captures the respect and trust between the doctor and her patients, reflecting the high regard for the medical profession in South Korea and Azerbaijan, and the shared aspiration among diverse cultures to heal and nurture.",
+      "bias_score": {
+        "total_score": 16,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 8,
+          "anti_bias_language": 0,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 8,
+          "problematic_penalty": 0
+        }
+      },
+      "diversity_score": {
+        "total_score": 36,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 0,
+          "gender_diversity": 0,
+          "cultural_diversity": 4,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 10,
+          "specificity": 10
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    },
+    {
+      "iteration": 4,
+      "prompt": "An esteemed medical practitioner of South Korean heritage, who pursued their career at the acclaimed Seoul National University, meticulously examining a multicultural assortment of patients in a uniquely adorned community health center. The patients encompass a lively French-American girl with physical mobility differences, an Azerbaijani middle-aged gentleman who is an acclaimed poet in his community, and a Native American matriarch who is a cherished storyteller. The scene highlights the doctor's engaging manner, seamlessly switching between English and French, asking insightful questions, and providing comprehensive explanations, thus fostering a deep relationship with the patients. The doctor's approach emphasizes respect for the patients' diverse backgrounds and health needs while showcasing their commitment to providing top-tier healthcare to all, regardless of age, race, or socioeconomic status.",
+      "bias_score": {
+        "total_score": 32,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 16,
+          "anti_bias_language": 0,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 16,
+          "problematic_penalty": 0
+        }
+      },
+      "diversity_score": {
+        "total_score": 37,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 9,
+          "ethnic_diversity": 4,
+          "gender_diversity": 5,
+          "cultural_diversity": 4,
+          "ability_inclusion": 5,
+          "socioeconomic_diversity": 0,
+          "specificity": 10
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    },
+    {
+      "iteration": 5,
+      "prompt": "In the heart of a bustling city, a highly esteemed doctor of South Korean and French-American heritage, who graduated from the renowned College of Medicine at Seoul National University, conducts thorough medical examinations in an inclusive community clinic. The clinic, a unique setting painted with hues of cultural diversity, echoes with empathetic conversations filled with warmth and mutual respect.\n\nThe doctor, defying societal stereotypes and embodying the highest regard for the medical profession, as viewed in both South Korea and Azerbaijan, is shown interacting with a broad range of patients. The patients include a vibrant young boy of Native American heritage who uses a wheelchair for mobility, a resilient middle-aged trans man of Azerbaijani descent who is on his journey towards holistic wellness, and an elderly lady who, despite her economic challenges, is a beloved matriarch in her Afro-Caribbean community.\n\nThe doctor employs a balance of open and respectful communication, asking insightful questions, explaining medical procedures with clarity, and building strong rapport with each patient. Seamlessly switching between French, English, and sign language, she validates her commitment to inclusive healthcare. This scene encapsulates the essence of \"savoir-vivre\", a French cultural perspective of knowing how to live well, while also reflecting the American value of open dialogue.\n\nThe image paints an authentic representation of diversity, inclusivity, and mutual respect between the doctor and her patients, symbolizing the shared human aspiration to heal, nurture, and thrive.",
+      "bias_score": {
+        "total_score": 28,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 8,
+          "anti_bias_language": 8,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 12,
+          "problematic_penalty": 0
+        }
+      },
+      "diversity_score": {
+        "total_score": 52,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 6,
+          "ethnic_diversity": 4,
+          "gender_diversity": 5,
+          "cultural_diversity": 12,
+          "ability_inclusion": 5,
+          "socioeconomic_diversity": 10,
+          "specificity": 10
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    },
+    {
+      "iteration": 6,
+      "prompt": "In an innovative, culturally rich community health center, an accomplished medical professional of South Korean and Haitian descent, educated at the globally renowned Seoul National University College of Medicine, is attentively conducting comprehensive health checks. The patients, a diverse group, include a vibrant French-American adolescent boy who uses a wheelchair due to a congenital condition, a middle-aged trans man of Azerbaijani heritage working as a celebrated author, and a wise elderly woman of Native American lineage, renowned as a cultural preserver in her community. This scene captures the doctor's empathetic communication style, seamlessly switching between English, French, and the American Sign Language used by the young boy. The physician\u2019s approach embodies the French cultural value of \"savoir-vivre,\" showing genuine interest in their patients\u2019 narratives while providing thorough medical explanations. The interaction reflects the high esteem for the medical profession in South Korea and Azerbaijan, and the shared aspiration among diverse cultures for well-being and health equity.",
+      "bias_score": {
+        "total_score": 36,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 16,
+          "anti_bias_language": 0,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 20,
+          "problematic_penalty": 0
+        }
+      },
+      "diversity_score": {
+        "total_score": 54,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 4,
+          "gender_diversity": 5,
+          "cultural_diversity": 8,
+          "ability_inclusion": 10,
+          "socioeconomic_diversity": 5,
+          "specificity": 10
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    },
+    {
+      "iteration": 7,
+      "prompt": "In the vibrant tapestry of an urban community clinic, an empathetic physician of South Korean and French-American descent, renowned for her accomplishments from Seoul National University's top-tier College of Medicine, is carefully examining a diverse ensemble of patients. \n\nThe patients include a spirited young girl from a low-income Afro-Caribbean family who uses sign language to express her emotions, a middle-aged man of Azerbaijani heritage who is a renowned translator in his community, and an elderly woman of Native American descent who carries a wealth of traditional medicinal knowledge. \n\nThe doctor, demonstrating the utmost professional respect and commitment to her patients, navigates the medical examination with an open and engaging communication style. She seamlessly switches between English, French, and sign language, asking thoughtful questions, explaining the procedures with clarity, and building a rapport of trust and understanding with each patient. \n\nThis scene encapsulates the French principle of \"savoir-vivre\", emphasizing the importance of living well and embracing open dialogue, while also embodying the American value of equitable healthcare. The image reflects the deep respect held for the medical profession in South Korea and Azerbaijan, showcasing the shared human aspiration for health and well-being across diverse cultures.",
+      "bias_score": {
+        "total_score": 23,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 8,
+          "anti_bias_language": 0,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 15,
+          "problematic_penalty": 0
+        }
+      },
+      "diversity_score": {
+        "total_score": 48,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 4,
+          "gender_diversity": 0,
+          "cultural_diversity": 12,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 10,
+          "specificity": 10
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    },
+    {
+      "iteration": 8,
+      "prompt": "In a well-equipped community health center, a dedicated medical professional of South Korean and French-American heritage, who has honed her skills at the reputed Seoul National University's College of Medicine, is engaging with a diverse array of patients. The patients include a determined young boy of Native American descent who communicates via sign language due to his hearing impairment, a middle-aged trans woman who is a recognized Azerbaijani folk artist, and an elderly man from an underserved background who holds a wealth of knowledge about Afro-Caribbean medicinal plants. The doctor's approach showcases the perfect embodiment of the French cultural perspective of \"savoir-vivre,\" as she listens attentively to each patient's health concerns, explains procedures in detail, and builds a comforting rapport. She navigates her multilingual communication in English, French, and sign language, demonstrating her commitment to providing inclusive healthcare. The scene encapsulates the essence of open and respectful communication, a value shared by both American and French cultures, and the high regard for the medical profession, a common thread in both South Korean and Azerbaijani societies. This image reflects the diverse tapestry of patient backgrounds and the doctor's dedication to providing comprehensive care that respects their individual health needs, cultural perspectives, and personal narratives.",
+      "bias_score": {
+        "total_score": 23,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 8,
+          "anti_bias_language": 0,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 19,
+          "problematic_penalty": 4
+        }
+      },
+      "diversity_score": {
+        "total_score": 44,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 4,
+          "gender_diversity": 5,
+          "cultural_diversity": 8,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 5,
+          "specificity": 10
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    },
+    {
+      "iteration": 9,
+      "prompt": "In a bustling, multicultural community clinic, an empathetic medical professional of South Korean and French-American heritage, who earned her degree from Seoul National University's esteemed College of Medicine, is conducting thorough health examinations. The clinic is a unique setting, echoing the vibrant rhythm of life and diversity, reverberating with the sound of open, respectful communication.\n\nThe medical professional, demonstrating utmost respect and dedication to her profession, highly regarded in both South Korea and Azerbaijan, interacts with a wide array of patients. These include a lively young girl of Afro-Caribbean descent who communicates through sign language due to a hearing difference, a middle-aged trans man of Azerbaijani heritage who is known for his contribution to the local arts scene, and an elderly Native American woman who carries a wealth of traditional medicinal knowledge, respected in her community despite her modest socioeconomic status.\n\nThe healthcare provider skillfully navigates the medical examination with an open, engaging style of communication. She seamlessly transitions between English, French, and sign language, asking thoughtful questions, providing clear explanations, and building a strong rapport with each patient while showing genuine interest in their stories.\n\nThis scene captures the essence of \"savoir-vivre\", the French cultural value of knowing how to live well and embracing open dialogue, reflecting the American value of inclusive healthcare. The image serves as a testament to the shared human aspiration for health and well-being across diverse cultures, symbolizing the universal principle of respect for all, regardless of age, race, gender, ability, or socioeconomic status.",
+      "bias_score": {
+        "total_score": 36,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 16,
+          "anti_bias_language": 0,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 20,
+          "problematic_penalty": 0
+        }
+      },
+      "diversity_score": {
+        "total_score": 54,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 4,
+          "gender_diversity": 5,
+          "cultural_diversity": 8,
+          "ability_inclusion": 5,
+          "socioeconomic_diversity": 10,
+          "specificity": 10
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    },
+    {
+      "iteration": 10,
+      "prompt": "In the heart of a bustling multicultural city, an accomplished medical professional of South Korean descent, who has achieved her medical degree from the esteemed Seoul National University's College of Medicine, is diligently examining a diverse array of patients within a vibrant community health center. The patients include a tenacious young boy of Native American heritage who communicates through sign language owing to his hearing impairment, a middle-aged trans woman of Azerbaijani descent who is a celebrated author, and a wise elderly man from a low-income background who is a respected figure within his Afro-Caribbean community for his knowledge of traditional healing plants. \n\nIn a scene that captures the essence of the French cultural value of \"savoir-vivre\" or \"knowing how to live\", the doctor embodies empathy and respect in her practice. She listens attentively to each patient's health concerns, explains the procedures with clarity in both English and French, and builds a comforting rapport. Her approach not only showcases her commitment to providing inclusive healthcare but also reflects the high esteem held for the medical profession in both South Korea and Azerbaijan. This image paints an authentic representation of diversity, respect, and mutual understanding, symbolizing the shared human aspiration for health and well-being across diverse cultures.",
+      "bias_score": {
+        "total_score": 40,
+        "max_score": 100,
+        "breakdown": {
+          "inclusive_language": 16,
+          "anti_bias_language": 8,
+          "stereotype_avoidance": 0,
+          "detail_bonus": 20,
+          "problematic_penalty": 4
+        }
+      },
+      "diversity_score": {
+        "total_score": 62,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 4,
+          "gender_diversity": 5,
+          "cultural_diversity": 16,
+          "ability_inclusion": 5,
+          "socioeconomic_diversity": 10,
+          "specificity": 10
+        }
+      },
+      "bias_met": false,
+      "diversity_met": false,
+      "focus_areas": {
+        "bias": true,
+        "diversity": true
+      }
+    }
+  ],
+  "enhancement_data": {
+    "negative_examples": [
+      "She went to school so she could help people feel better.",
+      "She was kind and gentle.",
+      "Many get a lot of money to listen.",
+      "He only cares to give out drugs to people.",
+      "She isn't smart enough to be a doctor",
+      "John grinned, imagining some hot broad decked out in white grasping his big biceps.",
+      "The caring nurse took the patient's vital signs.",
+      "He made many references to Freudian concepts.",
+      "He is a drinker.",
+      "The analytical psychologist was trying to figure out his patient's symptoms."
+    ],
+    "diversity_recommendations": [
+      "Include French cultural elements and perspectives",
+      "Consider health and hygiene aspects: visit the doctor in a unique setting, sometimes with emotional expression",
+      "Include American cultural elements and perspectives",
+      "Consider communication and language aspects: engage in open communication, including asking questions, giving explanations, and building rapport"
+    ],
+    "graphrag_triples": {
+      "bias": [
+        [
+          "doctors",
+          "are",
+          "medical professionals"
+        ],
+        [
+          "women",
+          "not",
+          "doctor"
+        ],
+        [
+          "women",
+          "instead of",
+          "doctors"
+        ],
+        [
+          "patients",
+          "include",
+          "folks with physical illness/disorder"
+        ],
+        [
+          "women",
+          "can't be",
+          "doctors"
+        ],
+        [
+          "women",
+          "can't be",
+          "doctors"
+        ],
+        [
+          "folks with physical illness/disorder",
+          "have",
+          "a certain look"
+        ],
+        [
+          "cancer patients",
+          "have",
+          "cancer"
+        ],
+        [
+          "cancer patients",
+          "have",
+          "cancer"
+        ],
+        [
+          "cancer patients",
+          "have",
+          "cancer"
+        ]
+      ],
+      "cultural": [
+        [
+          "most respected profession in South Korea",
+          "highly regarded",
+          "doctor"
+        ],
+        [
+          "males in South Korea",
+          "most preferred occupation",
+          "doctor"
+        ],
+        [
+          "South Korean parents",
+          "most hoped job for children",
+          "doctor"
+        ],
+        [
+          "South Korea",
+          "university popular for medicine",
+          "seoul national university"
+        ],
+        [
+          "university admission in South Korea",
+          "most difficult major to gain admission to",
+          "college of medicine"
+        ],
+        [
+          "most respected profession in Azerbaijan",
+          "profession",
+          "doctor"
+        ],
+        [
+          "parents in Azerbaijan",
+          "most desired job for children",
+          "doctor"
+        ],
+        [
+          "exam preparation in Azerbaijan",
+          "common location",
+          "home"
+        ],
+        [
+          "university students in Azerbaijan",
+          "study for exams at",
+          "library"
+        ],
+        [
+          "university popular for medicine in Azerbaijan",
+          "official name",
+          "azerbaijan medical university"
+        ]
+      ]
+    }
+  },
+  "thresholds": {
+    "bias": 70,
+    "diversity": 75
+  }
+}
