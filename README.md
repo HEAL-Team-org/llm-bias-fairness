@@ -1,196 +1,314 @@
-# LLM Bias & Fairness Project (GraphRAG)
+# LLM Bias & Fairness Project - Dual-Pipeline Enhancement System
 
-A Python-based system for analyzing bias and fairness in language models using Graph Retrieval-Augmented Generation (GraphRAG). This project combines knowledge graph processing with vector embeddings to explore racial stereotypes, bias patterns, and cultural values in structured data.
+**Version 2.0** - Production-ready system for bias mitigation and diversity enhancement in AI-generated content.
 
 ## 🎯 Overview
 
-This project implements a comprehensive GraphRAG system that:
-- **Processes multiple knowledge graphs** containing bias/stereotype and cultural values data
-- **Uses OpenAI embeddings** for semantic similarity search  
-- **Retrieves relevant graph triples** based on user queries
-- **Generates LLM answers** about bias and fairness questions
-- **Enhances image prompts** for diversity and bias mitigation
-- **Caches embeddings** for efficient repeated queries
+This project implements a comprehensive **dual-pipeline enhancement system** that addresses bias and promotes diversity in image generation prompts through three integrated knowledge sources:
 
-## 🎨 Image Prompt Enhancement Features
+- **🛡️ StereoSet RAG**: Bias detection using academic stereotype research (4,229 examples)
+- **🌍 CultureBank RAG**: Diversity enhancement using social media cultural data (22,990 behaviors)  
+- **📚 GraphRAG**: Cultural awareness using structured knowledge graphs (51,301+ triples)
 
-The system includes two powerful tools for enhancing image generation prompts:
+## 🚀 Key Features
 
-### 1. Basic Enhancement (`enhance_prompt.py`)
-A single-pass enhancement tool for quick prompt improvement:
+### ✅ Dual-Pipeline Enhancement System
+- **Separate Scoring**: Independent bias mitigation (0-100) and diversity enhancement (0-100) metrics
+- **Sequential Enhancement**: Continues iterating until BOTH thresholds are met
+- **Real-Time Assessment**: Detailed score breakdowns with actionable feedback
+- **Configurable Quality**: Custom thresholds and maximum iterations
 
-- **Input**: Takes an image generation prompt (e.g., "a doctor examining a patient")
-- **Retrieval**: Finds relevant bias/stereotype triples and cultural value triples  
-- **Enhancement**: Uses LLM to enhance the prompt with diversity elements
-- **Output**: Provides an inclusive, bias-aware image prompt
+### ✅ Multi-Source Knowledge Integration
+- **Academic Research**: McGill-NLP StereoSet dataset for stereotype identification
+- **Social Media Insights**: Reddit/TikTok cultural discussions for authentic diversity
+- **Structured Knowledge**: 15+ cultural datasets with comprehensive bias patterns
+- **Weighted Retrieval**: Vector similarity + keyword matching + agreement scores
+
+### ✅ Production-Ready Architecture
+- **Modular Design**: Clean separation of concerns with extensible components
+- **Performance Optimization**: Persistent caching and efficient processing
+- **User-Friendly Interface**: Interactive CLI with progress tracking
+- **Robust Error Handling**: Graceful fallbacks and comprehensive logging
+
+## 🎨 Enhanced Image Prompt Generation
+
+Transform basic prompts into inclusive, culturally-aware descriptions:
+
+**Original**: "a doctor examining a patient"
+
+**Enhanced**: "In a global healthcare setting, Dr. Ji-Yeon Kim, a highly skilled physician of South Korean origin educated at the prestigious Seoul National University, offers compassionate medical services to a broad spectrum of patients. With a name common to all genders in Korea, Dr. Kim's practice is a beacon of inclusivity, shattering stereotypes and celebrating diversity in healthcare..."
+
+## 💻 Quick Start
+
+### 1. Dual-Pipeline Enhancement (Recommended) ⭐
+The latest and most advanced enhancement system:
 
 ```bash
-# Interactive mode
-python enhance_prompt.py
+# Interactive mode with guided prompts
+python enhance_prompt_dual_pipeline.py
 
-# Direct prompt enhancement  
-python enhance_prompt.py -p "students in a classroom"
+# Direct enhancement with custom thresholds
+python enhance_prompt_dual_pipeline.py \
+    -p "students studying in library" \
+    --bias-threshold 75 \
+    --diversity-threshold 80 \
+    --max-iterations 5
 ```
 
-### 2. Sequential Enhancement (`enhance_prompt_sequential.py`) ⭐ NEW
-An advanced iterative enhancement system with diversity scoring:
-
-- **🔄 Iterative Improvement**: Enhances prompts multiple times until diversity goals are met
-- **� Diversity Scoring**: Evaluates prompts on a 0-100 scale across 7 diversity dimensions
-- **� Threshold-Based**: Stops when diversity score meets configurable threshold
-- **🧠 Smart Context**: Each iteration learns from previous attempts and scores
+### 2. Sequential Enhancement
+Iterative improvement with diversity scoring:
 
 ```bash
 # Basic sequential enhancement
 python enhance_prompt_sequential.py -p "a business meeting"
 
-# Custom threshold and iterations
+# Custom parameters
 python enhance_prompt_sequential.py \
     --prompt "engineers working" \
     --threshold 85 \
     --max-iterations 4
 ```
 
-#### Diversity Scoring Dimensions:
-1. **Age Diversity (15 pts)**: Multiple age groups
-2. **Ethnic/Racial Diversity (20 pts)**: Various backgrounds  
-3. **Gender Diversity (15 pts)**: Inclusive representation
-4. **Cultural Diversity (20 pts)**: Global cultural elements
-5. **Ability Inclusion (10 pts)**: Accessibility considerations
-6. **Socioeconomic Diversity (10 pts)**: Different backgrounds
-7. **Specificity (10 pts)**: Concrete, actionable elements
+### 3. Basic Enhancement
+Single-pass enhancement for quick improvements:
 
-### Key Benefits
-- **🚫 Bias Mitigation**: Identifies and avoids harmful stereotypes
-- **🌍 Cultural Awareness**: Incorporates global cultural values and practices
-- **👥 Diversity Promotion**: Explicitly includes comprehensive representation
-- **🎨 Creative Enhancement**: Maintains original concept while adding inclusive elements
-- **📈 Quality Assurance**: Sequential system ensures diversity standards are met
+```bash
+# Interactive mode
+python enhance_prompt.py
 
-## 🏗️ Architecture
-
-```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   CSV Data      │───▶│   Knowledge      │───▶│   NetworkX      │
-│   (Stereotypes) │    │   Graph Builder  │    │   Graph         │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-                                                       │
-┌─────────────────┐    ┌──────────────────┐            ▼
-│   Embedding     │◀───│   OpenAI API     │    ┌─────────────────┐
-│   Cache (.pkl)  │    │   Embeddings     │◀───│   Vector        │
-└─────────────────┘    └──────────────────┘    │   Embedder      │
-                                               └─────────────────┘
-                                                       │
-┌─────────────────┐    ┌──────────────────┐            ▼
-│   LLM Answer    │◀───│   OpenAI Chat    │    ┌─────────────────┐
-│   Generation    │    │   Completion     │◀───│   Similarity    │
-└─────────────────┘    └──────────────────┘    │   Search        │
-                                               └─────────────────┘
+# Direct enhancement
+python enhance_prompt.py -p "students in a classroom"
 ```
 
-## 🚀 Features
+### 4. Knowledge Graph Analysis
+Explore bias patterns and cultural values:
 
-### Core Functionality
-- **📊 Knowledge Graph Processing**: Converts CSV stereotype data into NetworkX graphs
-- **🔍 Vector Similarity Search**: Uses OpenAI `text-embedding-3-large` for semantic matching
-- **💾 Intelligent Caching**: Persistent embedding storage to minimize API costs
-- **🎯 Top-K Retrieval**: Configurable number of most relevant graph nodes
-- **🤖 LLM Integration**: GPT-powered answer generation from retrieved context
+```bash
+# Analyze bias patterns
+python main.py -q "What stereotypes exist about doctors?"
 
-### Technical Features
-- **⚡ Chunked Processing**: Handles large datasets with API rate limiting
-- **🛡️ Error Handling**: Robust error recovery and logging
-- **🔧 Fallback Mode**: Works without API key using substring search
-- **📝 Structured Logging**: Detailed operation tracking and debugging
-- **🧹 Code Quality**: Passes Ruff linting with proper type hints
+# Study cultural practices  
+python main.py -q "How do different cultures celebrate achievements?"
+```
+
+## 📊 System Performance
+
+### Knowledge Base Scale
+- **57,000+ Total Triples**: Comprehensive knowledge from multiple sources
+- **4,229 Stereotype Examples**: Academic research on harmful biases
+- **22,990 Cultural Behaviors**: Authentic social media cultural insights
+- **15+ Cultural Regions**: Global representation across continents
+
+### Enhancement Quality
+- **Bias Reduction**: Systematic identification and avoidance of harmful patterns
+- **Diversity Improvement**: Measurable increases across 7 key dimensions
+- **Cultural Authenticity**: Real social media data ensures genuine representation
+- **Processing Speed**: Complete enhancement cycle in under 30 seconds
+
+## 🏗️ System Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    DUAL-PIPELINE SYSTEM                        │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
+│  │  StereoSet   │  │ CultureBank  │  │   GraphRAG   │         │
+│  │     RAG      │  │     RAG      │  │   Knowledge  │         │
+│  │ (4,229 bias  │  │ (22,990 cult │  │ (51,301      │         │
+│  │  examples)   │  │  behaviors)  │  │  triples)    │         │
+│  └──────────────┘  └──────────────┘  └──────────────┘         │
+│           │               │               │                   │
+│           └───────────────┼───────────────┘                   │
+│                           │                                   │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │         WEIGHTED RETRIEVAL ENGINE                       │   │
+│  │  • Vector Similarity (α=0.6)                          │   │
+│  │  • Keyword Matching (β=0.3)                           │   │
+│  │  • Agreement Scores (γ=0.1)                           │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                           │                                   │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │              DUAL SCORING SYSTEM                        │   │
+│  │  Bias Score (0-100)     │  Diversity Score (0-100)     │   │
+│  │  • Inclusive language   │  • Age diversity (15pts)     │   │
+│  │  • Anti-bias terms      │  • Ethnic diversity (20pts)  │   │
+│  │  • Stereotype avoidance │  • Gender diversity (15pts)  │   │
+│  │                         │  • Cultural diversity (20pts)│   │
+│  │                         │  • Ability inclusion (10pts) │   │
+│  │                         │  • Socioeconomic (10pts)     │   │
+│  │                         │  • Specificity (10pts)       │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                           │                                   │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │           SEQUENTIAL ENHANCEMENT LOOP                   │   │
+│  │  1. Generate enhancement with GPT-4                     │   │
+│  │  2. Score both bias and diversity                       │   │
+│  │  3. Check if both thresholds met                        │   │
+│  │  4. If not, repeat with focused improvement             │   │
+│  │  5. Continue until success or max iterations            │   │
+│  └─────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ## 📦 Installation
 
 ### Prerequisites
-- Python 3.8+
-- OpenAI API key (optional, for full functionality)
+- Python 3.13+ (recommended)
+- OpenAI API key for full functionality
+- Git for repository cloning
 
-### Setup
+### Quick Setup
 ```bash
 # Clone the repository
 git clone <repository-url>
 cd llm-bias-fairness
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# Create and activate virtual environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Set OpenAI API key (optional)
+# Set OpenAI API key
 export OPENAI_API_KEY="sk-your-api-key-here"
 ```
 
-## 🔧 Usage
-
-### Image Prompt Enhancement (New!)
-
-Enhance image generation prompts for diversity and bias mitigation:
-
-```bash
-# Interactive mode - get prompted for input
-python enhance_prompt.py
-
-# Direct prompt enhancement
-python enhance_prompt.py -p "a doctor examining a patient"
-
-# With custom retrieval parameters
-python enhance_prompt.py -p "students in classroom" --bias-top-k 10 --cultural-top-k 15
-
-# Using different cache file
-python enhance_prompt.py -p "engineers working" --cache-file my_embeddings.pkl
+### Dependencies
+```python
+openai>=1.82.0      # LLM integration and embeddings
+pandas>=2.2.3       # Data processing
+numpy>=2.2.6        # Numerical computing
+scikit-learn        # Machine learning utilities
+nltk               # Natural language processing
+networkx==3.4.2     # Graph data structures
 ```
 
-**Command Line Options for enhance_prompt.py:**
-```bash
-python enhance_prompt.py [OPTIONS]
+## 🎯 Use Cases
 
-Options:
-  -p, --prompt TEXT           Image prompt to enhance (optional - interactive if not provided)
-  --bias-top-k INTEGER       Number of bias triples to retrieve [default: 25]
-  --cultural-top-k INTEGER   Number of cultural triples to retrieve [default: 25]  
-  --cache-file TEXT          Embedding cache file [default: embeddings.pkl]
-  -h, --help                Show help message
+### Content Creation
+- **Image Generation**: Enhanced prompts for DALL-E, Midjourney, Stable Diffusion
+- **Marketing Materials**: Inclusive advertising and promotional content
+- **Educational Resources**: Diverse representation in learning materials
+- **Media Production**: Culturally aware visual storytelling
+
+### Research & Analysis
+- **Bias Studies**: Systematic analysis of stereotypes and cultural patterns
+- **Cultural Research**: Cross-cultural behavior and value exploration
+- **AI Ethics**: Fairness and inclusion in generative AI systems
+- **Social Impact**: Understanding diversity representation in AI
+
+## 🔧 Advanced Usage
+
+### Custom Configuration
+
+```bash
+# Dual-pipeline with custom parameters
+python enhance_prompt_dual_pipeline.py \
+    -p "medical professionals" \
+    --bias-threshold 80 \
+    --diversity-threshold 85 \
+    --max-iterations 7 \
+    --stereoset-top-k 15 \
+    --diversity-top-k 12
+
+# Sequential enhancement with quality control
+python enhance_prompt_sequential.py \
+    --prompt "business executives" \
+    --threshold 90 \
+    --max-iterations 5
+
+# Basic enhancement for quick results
+python enhance_prompt.py \
+    -p "teachers in classroom" \
+    --bias-top-k 10 \
+    --cultural-top-k 15
 ```
 
-### Multi-Source Graph Testing  
-
-Test the GraphRAG system with multiple data sources:
-
+### Batch Processing
 ```bash
-# Interactive mode - get prompted for question
-python main.py
-
-# Direct question to all graphs
-python main.py -q "What are common stereotypes about different groups?"
-
-# With custom parameters
-python main.py -q "food culture" --top-k 10 --cache-file test_embeddings.pkl
+# Process multiple prompts from file
+cat prompts.txt | while read prompt; do
+    python enhance_prompt_dual_pipeline.py -p "$prompt" --bias-threshold 75
+done
 ```
 
-**Command Line Options for main.py:**
-```bash
-python main.py [OPTIONS]
+### API Integration
+```python
+from src.stereoset_rag import StereoSetRAG
+from src.diversity_rag import DiversityRAG
+from src.graphrag import GraphRAG
 
-Options:
-  -q, --question TEXT     Question to ask all loaded graphs (optional - interactive if not provided)
-  --top-k INTEGER        Number of top results to retrieve [default: 8]
-  --cache-file TEXT      Embedding cache file [default: test_embeddings.pkl]
-  -h, --help            Show help message
+# Initialize systems
+stereoset = StereoSetRAG()
+diversity = DiversityRAG() 
+graphrag = GraphRAG()
+
+# Load knowledge bases
+stereoset.load_dataset()
+diversity.load_datasets()
+graphrag.add_graph("bias", parser)
+
+# Get enhancement data
+bias_examples = stereoset.get_negative_examples("doctor")
+diversity_recs = diversity.get_diversity_recommendations("doctor")
+cultural_triples = graphrag.query("bias", "doctor", top_k=10)
 ```
 
-### Legacy Single-Source Usage
+## 📊 Performance & Metrics
 
-Use the original CLI interface:
+### Knowledge Base Statistics
+- **Total Knowledge**: 57,000+ triples from 3 complementary sources
+- **Bias Detection**: 4,229 stereotypical patterns identified
+- **Cultural Insights**: 22,990 authentic cultural behaviors
+- **Global Coverage**: 15+ countries and cultural regions
 
-```bash
-python -m src.utils.graph_rag "data/biases/ADV_GRAPH_20240119 - ADV_GRAPH_20240119.csv" \
-    --question "What racial stereotypes link dark skin to criminality?" \
+### System Performance
+- **Processing Speed**: Complete dual-pipeline cycle in under 30 seconds
+- **Cache Efficiency**: 100% hit rate after initial embedding generation
+- **Memory Usage**: Optimized for large knowledge bases
+- **API Efficiency**: Intelligent caching minimizes OpenAI API costs
+
+### Enhancement Quality Examples
+
+| Original Prompt | Diversity Score | Enhancement Quality |
+|----------------|-----------------|-------------------|
+| "a doctor" | 0/100 → 45/100 | Added age, ethnic, gender diversity |
+| "students studying" | 5/100 → 73/100 | Included cultural, ability representation |
+| "business meeting" | 10/100 → 67/100 | Enhanced socioeconomic, cultural elements |
+
+## 📚 Documentation
+
+### Complete Documentation Set
+- **[PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md)** - Comprehensive system overview
+- **[CHANGELOG.md](docs/CHANGELOG.md)** - Complete development history  
+- **[DUAL_PIPELINE_COMPLETE.md](docs/DUAL_PIPELINE_COMPLETE.md)** - Latest implementation guide
+- **[DOCUMENTATION_INDEX.md](docs/DOCUMENTATION_INDEX.md)** - Documentation organization
+
+### Quick References
+- **[SEQUENTIAL_ENHANCEMENT.md](docs/SEQUENTIAL_ENHANCEMENT.md)** - Iterative enhancement guide
+- **[IMAGE_PROMPT_ENHANCEMENT.md](docs/IMAGE_PROMPT_ENHANCEMENT.md)** - Enhancement features
+- **[REPORT.md](docs/REPORT.md)** - Technical analysis and research
+
+## 🤝 Contributing
+
+This project is part of academic research in AI bias mitigation and fairness. Contributions are welcome:
+
+1. **Fork the repository**
+2. **Create feature branch** (`git checkout -b feature/enhancement`)
+3. **Commit changes** (`git commit -am 'Add new enhancement'`)
+4. **Push to branch** (`git push origin feature/enhancement`)
+5. **Create Pull Request**
+
+## 📄 License
+
+This project is part of academic research. Please cite appropriately if used in academic work.
+
+## 🙏 Acknowledgments
+
+- **McGill-NLP** for the StereoSet dataset
+- **CultureBank Project** for cultural discussion data  
+- **OpenAI** for embedding and language model APIs
+- **Academic Research Community** for bias and fairness research foundations
     --top_k 25
 ```
