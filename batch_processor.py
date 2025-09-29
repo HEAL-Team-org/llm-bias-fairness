@@ -7,15 +7,17 @@ This module provides a complete pipeline to:
 4. Save results with trackable filenames
 """
 
-import logging
-import pandas as pd
-import json
-import time
 import argparse
+import json
+import logging
+import os
+import time
+import traceback
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Union
-from dataclasses import dataclass
-import traceback
+
+import pandas as pd
 
 # Import our modules
 from enhance_prompt_dual_pipeline import (
@@ -43,6 +45,8 @@ class ProcessingResult:
     processing_time: Optional[float] = None
     error: Optional[str] = None
     enhancement_metadata: Optional[Dict] = None
+    # Visual bias evaluation results
+    visual_bias_evaluation: Optional[Dict] = None
 
 
 class BatchProcessor:
@@ -53,6 +57,9 @@ class BatchProcessor:
         image_generator_type: str = "dalle3",
         output_dir: Union[str, Path] = "batch_results",
         image_output_dir: Union[str, Path] = "generated_images",
+        enable_visual_bias_evaluation: bool = False,
+        fairface_model_path: Optional[str] = None,
+        dlib_model_path: Optional[str] = None,
         **image_generator_kwargs
     ):
         """Initialize the batch processor.
@@ -61,10 +68,29 @@ class BatchProcessor:
             image_generator_type: Type of image generator ("dalle3", "mock")
             output_dir: Directory for batch processing results
             image_output_dir: Directory for generated images
+            enable_visual_bias_evaluation: Whether to enable visual bias evaluation
+            fairface_model_path: Path to FairFace model file
+            dlib_model_path: Path to dlib shape predictor model
             **image_generator_kwargs: Additional arguments for image generator
         """
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
+        
+        self.enable_visual_bias_evaluation = enable_visual_bias_evaluation
+        
+        # Initialize visual bias evaluator if enabled
+        self.visual_bias_evaluator = None
+        if self.enable_visual_bias_evaluation:
+            try:
+                from src.visual_bias_evaluator import VisualBiasEvaluator
+                self.visual_bias_evaluator = VisualBiasEvaluator(
+                    fairface_model_path=fairface_model_path,
+                    dlib_model_path=dlib_model_path
+                )
+                logger.info("Visual bias evaluator initialized")
+            except ImportError as e:
+                logger.warning(f"Visual bias evaluation disabled - missing dependencies: {e}")
+                self.enable_visual_bias_evaluation = False
         
         # Initialize image generator
         try:
@@ -169,6 +195,11 @@ class BatchProcessor:
         # Save detailed results as JSON
         json_output_path = output_csv_path.with_suffix('.json')
         self._save_results_to_json(json_output_path)
+        
+        # Perform visual bias evaluation if enabled
+        if self.enable_visual_bias_evaluation and self.visual_bias_evaluator:
+            logger.info("Performing visual bias evaluation...")
+            self._perform_visual_bias_evaluation(str(output_csv_path.parent))
         
         logger.info(f"Batch processing complete. Results saved to: {final_output_path}")
         return str(final_output_path), self.results
@@ -350,6 +381,93 @@ class BatchProcessor:
         
         logger.info(f"Detailed results saved to JSON: {output_path}")
         return str(output_path)
+    
+    def _perform_visual_bias_evaluation(self, output_dir: str):
+        """Perform visual bias evaluation on generated images.
+        
+        Args:
+            output_dir: Directory containing the processing results
+        """
+        if not self.visual_bias_evaluator:
+            logger.warning("Visual bias evaluator not available")
+            return
+        
+        try:
+            # Collect generated images
+            original_images = []
+            enhanced_images = []
+            
+            for result in self.results:
+                if result.original_image_path and os.path.exists(result.original_image_path):
+                    original_images.append(result.original_image_path)
+                if result.enhanced_image_path and os.path.exists(result.enhanced_image_path):
+                    enhanced_images.append(result.enhanced_image_path)
+            
+            if not original_images and not enhanced_images:
+                logger.warning("No images found for visual bias evaluation")
+                return
+            
+            # Perform evaluation
+            evaluation_dir = os.path.join(output_dir, "visual_bias_evaluation")
+            os.makedirs(evaluation_dir, exist_ok=True)
+            
+            if original_images and enhanced_images:
+                # Evaluate both original and enhanced
+                original_metrics, enhanced_metrics = self.visual_bias_evaluator.evaluate_batch_results(
+                    original_images=original_images,
+                    enhanced_images=enhanced_images,
+                    output_dir=evaluation_dir
+                )
+                
+                logger.info(f"Visual bias evaluation complete. Results saved to: {evaluation_dir}")
+                
+                # Store evaluation results in processing results
+                for result in self.results:
+                    result.visual_bias_evaluation = {
+                        "evaluation_completed": True,
+                        "evaluation_dir": evaluation_dir,
+                        "original_images_count": len(original_images),
+                        "enhanced_images_count": len(enhanced_images)
+                    }
+                    
+            else:
+                # Evaluate available images
+                all_images = original_images + enhanced_images
+                image_type = "original" if original_images else "enhanced"
+                
+                logger.info(f"Evaluating {len(all_images)} {image_type} images...")
+                
+                df = self.visual_bias_evaluator.analyze_images(
+                    all_images, 
+                    os.path.join(evaluation_dir, image_type)
+                )
+                
+                if not df.empty:
+                    # Calculate metrics
+                    bias_w = self.visual_bias_evaluator.calculate_bias_w(df)
+                    bias_p = self.visual_bias_evaluator.calculate_bias_p(df)
+                    ens = self.visual_bias_evaluator.calculate_ens(df)
+                    kl = self.visual_bias_evaluator.calculate_kl_divergence(df)
+                    
+                    # Save metrics
+                    metrics_dir = os.path.join(evaluation_dir, f"{image_type}_metrics")
+                    os.makedirs(metrics_dir, exist_ok=True)
+                    
+                    bias_w.to_csv(os.path.join(metrics_dir, "bias_w_metrics.csv"), index=False)
+                    bias_p.to_csv(os.path.join(metrics_dir, "bias_p_metrics.csv"), index=False)
+                    ens.to_csv(os.path.join(metrics_dir, "ens_metrics.csv"), index=False)
+                    kl.to_csv(os.path.join(metrics_dir, "kl_divergence_metrics.csv"), index=False)
+                    
+                    logger.info(f"Visual bias evaluation complete. Results saved to: {metrics_dir}")
+        
+        except Exception as e:
+            logger.error(f"Visual bias evaluation failed: {e}")
+            # Store error in results
+            for result in self.results:
+                result.visual_bias_evaluation = {
+                    "evaluation_completed": False,
+                    "error": str(e)
+                }
 
 
 def main():
