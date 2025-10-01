@@ -1,0 +1,144 @@
+# Enhancement Prompt Templates
+# =============================
+# This file contains all prompt templates used by the enhancement pipeline.
+# Variables in {curly_braces} will be replaced with actual values at runtime.
+
+# Base Enhancement Prompt
+# -----------------------
+base_enhancement_prompt: |
+  You are an expert AI assistant specializing in creating inclusive, bias-free, and diverse image generation prompts. Your task is to enhance the given prompt with focus on {focus_description}.
+
+  ORIGINAL PROMPT: "{original_prompt}"
+
+  ITERATION: {iteration}
+
+# Previous Attempts Section (added when iterations > 1)
+# ------------------------------------------------------
+previous_attempts_section: |
+  
+  PREVIOUS ATTEMPTS:
+  {previous_attempts}
+
+  Please improve upon these previous attempts while avoiding repetition.
+
+# Bias Mitigation Section (added when bias_focus=True)
+# -----------------------------------------------------
+bias_mitigation_section: |
+  
+  BIAS MITIGATION - STEREOTYPES TO AVOID (from StereoSet dataset):
+  The following examples contain stereotypical content that should be actively avoided:
+  {negative_examples}
+
+  Make sure your enhanced prompt does NOT reinforce these types of stereotypes.
+
+# Diversity Enhancement Section (added when diversity_focus=True)
+# ----------------------------------------------------------------
+diversity_enhancement_section: |
+  
+  DIVERSITY ENHANCEMENT - CULTURAL RECOMMENDATIONS (from CultureBank dataset):
+  Incorporate these diversity elements and cultural perspectives:
+  {diversity_recommendations}
+
+  Focus on authentic and meaningful cultural representation.
+
+# GraphRAG Bias Awareness Section
+# --------------------------------
+graphrag_bias_section: |
+  
+  ADDITIONAL BIAS AWARENESS (from knowledge graph):
+  Consider these bias-related patterns to avoid:
+  {bias_triples}
+
+# GraphRAG Cultural Values Section
+# ---------------------------------
+graphrag_cultural_section: |
+  
+  CULTURAL VALUES TO INCORPORATE (from knowledge graph):
+  Draw inspiration from these diverse cultural elements:
+  {cultural_triples}
+
+# Enhancement Requirements Header
+# --------------------------------
+requirements_header: |
+  
+  ENHANCEMENT REQUIREMENTS:
+
+# Bias Mitigation Requirements (added when bias_focus=True)
+# ----------------------------------------------------------
+bias_requirements: |
+  BIAS MITIGATION:
+  - Use inclusive language that avoids stereotypes
+  - Avoid assumptions based on appearance, gender, race, or profession
+  - Use neutral, respectful terminology
+  - Include explicit diversity markers to counter bias
+
+# Diversity Enhancement Requirements (added when diversity_focus=True)
+# ---------------------------------------------------------------------
+diversity_requirements: |
+  DIVERSITY ENHANCEMENT:
+  - Age Diversity: Include multiple age groups (young, middle-aged, elderly)
+  - Ethnic/Racial Diversity: Represent various ethnicities and races  
+  - Gender Diversity: Include diverse gender identities
+  - Cultural Diversity: Incorporate elements from different cultures
+  - Ability Inclusion: Consider people with different abilities
+  - Socioeconomic Diversity: Represent varied backgrounds respectfully
+
+# General Guidelines (always included)
+# -------------------------------------
+general_guidelines: |
+  GENERAL GUIDELINES:
+  - Be specific and descriptive
+  - Maintain the original creative intent
+  - Ensure natural language flow
+  - Avoid tokenistic or forced diversity
+  - Make diversity feel authentic and meaningful
+
+# Output Instructions (always included)
+# --------------------------------------
+output_instructions: |
+  OUTPUT INSTRUCTIONS:
+  - Provide ONLY the enhanced prompt text
+  - Do not include explanations or meta-commentary
+  - Focus on the specific improvement areas identified above
+
+  Enhanced Prompt:
+
+# Scoring Prompt (for diversity assessment)
+# ------------------------------------------
+scoring_prompt: |
+  You are an AI diversity assessment expert. Your task is to evaluate the diversity and inclusivity of an image generation prompt.
+
+  PROMPT TO EVALUATE: "{prompt}"
+
+  Please score this prompt on the following dimensions (0-100 scale):
+
+  1. AGE DIVERSITY: Does it represent various age groups?
+  2. ETHNIC/RACIAL DIVERSITY: Does it include diverse ethnic backgrounds?
+  3. GENDER DIVERSITY: Does it represent diverse gender identities?
+  4. CULTURAL DIVERSITY: Does it incorporate elements from different cultures?
+  5. ABILITY INCLUSION: Does it consider people with different abilities?
+  6. SOCIOECONOMIC DIVERSITY: Does it represent varied socioeconomic backgrounds?
+  7. BIAS AVOIDANCE: Does it avoid stereotypes and biased assumptions?
+  8. AUTHENTICITY: Does diversity feel natural and meaningful (not tokenistic)?
+
+  Provide your assessment in the following JSON format:
+  {{
+    "age_diversity": score,
+    "ethnic_diversity": score,
+    "gender_diversity": score,
+    "cultural_diversity": score,
+    "ability_inclusion": score,
+    "socioeconomic_diversity": score,
+    "bias_avoidance": score,
+    "authenticity": score,
+    "overall_score": average_score,
+    "reasoning": "Brief explanation of the scores"
+  }}
+
+# Focus Description Templates
+# ----------------------------
+focus_descriptions:
+  bias_only: "bias mitigation and stereotype avoidance"
+  diversity_only: "diversity enhancement and cultural inclusion"
+  both: "comprehensive bias mitigation and diversity enhancement"
+  neither: "general improvement"

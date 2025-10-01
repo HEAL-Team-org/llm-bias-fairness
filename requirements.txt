@@ -13,6 +13,11 @@ openai==1.82.0
 # Data manipulation and CSV processing
 pandas==2.2.3
 
+# YAML parsing for configuration files
+pyyaml>=6.0
+
 pillow
 requests
 datasets
+
+ruff

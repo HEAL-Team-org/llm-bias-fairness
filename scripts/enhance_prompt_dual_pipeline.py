@@ -19,10 +19,7 @@ import logging
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-from src.graphrag import GraphRAG
-from src.parsers import DataParserFactory, Triple
-from src.stereoset_rag import StereoSetRAG
-from src.diversity_rag import DiversityRAG
+from src.knowledge import DiversityRAG, GraphRAG, StereoSetRAG
 
 logger = logging.getLogger(__name__)
 
@@ -43,90 +40,90 @@ def parse_arguments() -> argparse.Namespace:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__
     )
-    
+
     parser.add_argument(
         "-p", "--prompt",
         type=str,
         help="Image prompt to enhance"
     )
-    
+
     parser.add_argument(
         "--use-stereoset",
         action="store_true",
         default=True,
         help="Use StereoSet RAG for bias detection (default: True)"
     )
-    
+
     parser.add_argument(
         "--use-diversity-rag",
-        action="store_true", 
+        action="store_true",
         default=True,
         help="Use CultureBank RAG for diversity enhancement (default: True)"
     )
-    
+
     parser.add_argument(
         "--use-graphrag",
         action="store_true",
         default=True,
         help="Use GraphRAG for additional cultural awareness (default: True)"
     )
-    
+
     parser.add_argument(
         "--bias-threshold",
         type=int,
         default=75,
         help="Bias mitigation threshold to achieve (default: 75)"
     )
-    
+
     parser.add_argument(
         "--diversity-threshold",
         type=int,
         default=80,
         help="Diversity threshold to achieve (default: 80)"
     )
-    
+
     parser.add_argument(
         "--max-iterations",
-        type=int, 
+        type=int,
         default=5,
         help="Maximum enhancement iterations (default: 5)"
     )
-    
+
     parser.add_argument(
         "--stereoset-top-k",
         type=int,
         default=10,
         help="Number of StereoSet records to retrieve (default: 10)"
     )
-    
+
     parser.add_argument(
         "--diversity-top-k",
         type=int,
         default=8,
         help="Number of diversity examples to retrieve (default: 8)"
     )
-    
+
     parser.add_argument(
         "--graphrag-cache",
         type=str,
         default="embeddings.pkl",
         help="GraphRAG embedding cache file (default: embeddings.pkl)"
     )
-    
+
     parser.add_argument(
         "--stereoset-cache",
         type=str,
-        default="stereoset_embeddings.pkl", 
+        default="stereoset_embeddings.pkl",
         help="StereoSet embedding cache file (default: stereoset_embeddings.pkl)"
     )
-    
+
     parser.add_argument(
         "--diversity-cache",
         type=str,
-        default="diversity_embeddings.pkl", 
+        default="diversity_embeddings.pkl",
         help="Diversity embedding cache file (default: diversity_embeddings.pkl)"
     )
-    
+
     return parser.parse_args()
 
 
@@ -137,7 +134,7 @@ def get_prompt_input() -> str:
     print("=" * 79)
     print("This system combines three powerful approaches for comprehensive enhancement:")
     print("  🛡️  StereoSet RAG - Stereotype detection and bias mitigation")
-    print("  🌍 CultureBank RAG - Diversity enhancement with keyword search")  
+    print("  🌍 CultureBank RAG - Diversity enhancement with keyword search")
     print("  📚 GraphRAG - Cultural awareness and bias pattern analysis")
     print("\nEnter an image generation prompt to enhance for diversity and bias reduction.")
     print("\nExamples:")
@@ -147,7 +144,7 @@ def get_prompt_input() -> str:
     print("  • engineers working on a project")
     print("  • people celebrating a festival")
     print("-" * 79)
-    
+
     while True:
         prompt = input("🎨 Your image prompt: ").strip()
         if prompt:
@@ -156,8 +153,8 @@ def get_prompt_input() -> str:
 
 
 def load_enhancement_systems(args: argparse.Namespace) -> Tuple[
-    Optional[StereoSetRAG], 
-    Optional[DiversityRAG], 
+    Optional[StereoSetRAG],
+    Optional[DiversityRAG],
     Optional[GraphRAG]
 ]:
     """Load and initialize all enhancement systems.
@@ -167,16 +164,17 @@ def load_enhancement_systems(args: argparse.Namespace) -> Tuple[
         
     Returns:
         Tuple of (stereoset_rag, diversity_rag, graphrag) systems
+
     """
     stereoset_rag = None
     diversity_rag = None
     graphrag = None
-    
+
     # Initialize StereoSet RAG for bias detection
     if args.use_stereoset:
         print("\n🛡️  Initializing StereoSet RAG system...")
         stereoset_rag = StereoSetRAG(cache_file=args.stereoset_cache, top_k=args.stereoset_top_k)
-        
+
         if stereoset_rag.load_dataset():
             stats = stereoset_rag.get_dataset_stats()
             print(f"✅ StereoSet loaded: {stats['total_records']} records, "
@@ -184,12 +182,12 @@ def load_enhancement_systems(args: argparse.Namespace) -> Tuple[
         else:
             print("❌ Failed to load StereoSet dataset")
             stereoset_rag = None
-    
+
     # Initialize CultureBank RAG for diversity enhancement
     if args.use_diversity_rag:
         print("\n🌍 Initializing CultureBank Diversity RAG system...")
         diversity_rag = DiversityRAG(cache_file=args.diversity_cache, top_k=args.diversity_top_k)
-        
+
         if diversity_rag.load_datasets():
             stats = diversity_rag.get_dataset_stats()
             print(f"✅ CultureBank loaded: {stats['total_records']} records, "
@@ -197,33 +195,33 @@ def load_enhancement_systems(args: argparse.Namespace) -> Tuple[
         else:
             print("❌ Failed to load CultureBank dataset")
             diversity_rag = None
-    
+
     # Initialize GraphRAG for additional cultural awareness
     if args.use_graphrag:
         print("\n📚 Initializing GraphRAG system...")
         graphrag = GraphRAG(cache_file=args.graphrag_cache)
-        
+
         # Load bias and cultural data
         bias_loaded = load_bias_graph(graphrag)
         cultural_loaded = load_cultural_graphs(graphrag)
-        
+
         if not bias_loaded and not cultural_loaded:
             print("❌ Failed to load any GraphRAG datasets")
             graphrag = None
         else:
             print("✅ GraphRAG system loaded successfully")
-    
+
     return stereoset_rag, diversity_rag, graphrag
 
 
 def load_bias_graph(graphrag: GraphRAG) -> bool:
     """Load bias graph data into GraphRAG system."""
     bias_file = Path("data/biases/ADV_GRAPH_20240119 - ADV_GRAPH_20240119.csv")
-    
+
     if not bias_file.exists():
         print(f"⚠️  Bias file not found: {bias_file}")
         return False
-    
+
     try:
         parser = DataParserFactory.create_parser(bias_file)
         bias_graph = graphrag.add_graph("bias", parser)
@@ -237,11 +235,11 @@ def load_bias_graph(graphrag: GraphRAG) -> bool:
 def load_cultural_graphs(graphrag: GraphRAG) -> bool:
     """Load cultural values graphs into GraphRAG system."""
     cultural_dir = Path("data/cultural_values")
-    
+
     if not cultural_dir.exists():
         print(f"⚠️  Cultural values directory not found: {cultural_dir}")
         return False
-    
+
     loaded_count = 0
     for file_path in cultural_dir.glob("*.txt"):
         try:
@@ -252,43 +250,41 @@ def load_cultural_graphs(graphrag: GraphRAG) -> bool:
             logger.debug(f"Loaded {graph_name}: {len(cultural_graph)} triples")
         except Exception as e:
             logger.warning(f"Failed to load {file_path}: {e}")
-    
+
     if loaded_count > 0:
         print(f"🌍 Loaded {loaded_count} cultural value datasets")
         return True
-    else:
-        print("❌ No cultural value datasets loaded")
-        return False
+    print("❌ No cultural value datasets loaded")
+    return False
 
 
 def score_bias_mitigation(prompt: str) -> Dict[str, any]:
     """Score the bias mitigation aspects of a prompt."""
-    
     inclusive_terms = ["diverse", "inclusive", "various", "different", "multiple", "range of"]
     anti_bias_terms = ["regardless of", "irrespective of", "without regard to", "all backgrounds"]
     stereotype_avoidance = ["people", "individuals", "persons", "professionals", "experts"]
-    
+
     prompt_lower = prompt.lower()
-    
+
     # Score inclusive language (0-30)
     inclusive_score = min(30, sum(8 for term in inclusive_terms if term in prompt_lower))
-    
-    # Score anti-bias language (0-25)  
+
+    # Score anti-bias language (0-25)
     anti_bias_score = min(25, sum(8 for term in anti_bias_terms if term in prompt_lower))
-    
+
     # Score stereotype avoidance (0-25)
     avoidance_score = min(25, sum(5 for term in stereotype_avoidance if term in prompt_lower))
-    
+
     # Penalty for potentially problematic terms
     problematic_terms = ["typical", "normal", "usual", "standard", "traditional"]
     penalty = min(20, sum(4 for term in problematic_terms if term in prompt_lower))
-    
+
     # Bonus for explicit diversity mentions
     diversity_bonus = min(20, len(prompt.split()) // 10)  # Bonus for detailed descriptions
-    
+
     total_score = inclusive_score + anti_bias_score + avoidance_score + diversity_bonus - penalty
     total_score = max(0, min(100, total_score))  # Clamp to 0-100
-    
+
     return {
         "total_score": total_score,
         "max_score": 100,
@@ -304,16 +300,15 @@ def score_bias_mitigation(prompt: str) -> Dict[str, any]:
 
 def score_diversity(prompt: str) -> Dict[str, any]:
     """Score the diversity aspects of a prompt across multiple dimensions."""
-    
     age_terms = ["young", "elderly", "senior", "teenager", "child", "adult", "middle-aged", "aged"]
     ethnic_terms = ["asian", "african", "latino", "hispanic", "european", "middle eastern", "indigenous", "native", "black", "white", "diverse ethnicities", "various backgrounds"]
     gender_terms = ["women", "men", "female", "male", "non-binary", "transgender", "gender diverse", "different genders"]
     cultural_terms = ["cultural", "traditional", "global", "international", "multicultural", "cross-cultural", "heritage", "customs"]
     ability_terms = ["disabilities", "accessible", "inclusive", "different abilities", "mobility", "neurodivergent"]
     socioeconomic_terms = ["backgrounds", "economic", "class", "working", "professional", "varied", "different walks"]
-    
+
     prompt_lower = prompt.lower()
-    
+
     # Score each dimension
     age_score = min(15, sum(3 for term in age_terms if term in prompt_lower))
     ethnic_score = min(20, sum(4 for term in ethnic_terms if term in prompt_lower))
@@ -321,18 +316,18 @@ def score_diversity(prompt: str) -> Dict[str, any]:
     cultural_score = min(20, sum(4 for term in cultural_terms if term in prompt_lower))
     ability_score = min(10, sum(5 for term in ability_terms if term in prompt_lower))
     socioeconomic_score = min(10, sum(5 for term in socioeconomic_terms if term in prompt_lower))
-    
+
     # Specificity score (bonus for concrete details)
     specificity_score = min(10, len(prompt.split()) // 8)
-    
+
     total_score = age_score + ethnic_score + gender_score + cultural_score + ability_score + socioeconomic_score + specificity_score
-    
+
     return {
         "total_score": total_score,
         "max_score": 100,
         "breakdown": {
             "age_diversity": age_score,
-            "ethnic_diversity": ethnic_score, 
+            "ethnic_diversity": ethnic_score,
             "gender_diversity": gender_score,
             "cultural_diversity": cultural_score,
             "ability_inclusion": ability_score,
@@ -353,7 +348,6 @@ def create_dual_enhancement_prompt(
     iteration: int = 1
 ) -> str:
     """Create enhancement prompt focusing on both bias and diversity aspects."""
-    
     # Determine focus areas
     focus_description = []
     if bias_focus and diversity_focus:
@@ -364,7 +358,7 @@ def create_dual_enhancement_prompt(
         focus_description.append("diversity enhancement and cultural inclusion")
     else:
         focus_description.append("general improvement")
-    
+
     enhancement_prompt = f"""You are an expert AI assistant specializing in creating inclusive, bias-free, and diverse image generation prompts. Your task is to enhance the given prompt with focus on {focus_description[0]}.
 
 ORIGINAL PROMPT: "{original_prompt}"
@@ -459,7 +453,7 @@ def get_llm_enhancement(enhancement_prompt: str, graphrag: GraphRAG) -> str:
     if not graphrag or not graphrag.answerer.embedder.is_available():
         logger.warning("GraphRAG LLM not available, using mock enhancement")
         return get_mock_enhancement(enhancement_prompt)
-    
+
     try:
         # Use the LLM answerer directly
         response = graphrag.answerer.embedder.client.chat.completions.create(
@@ -471,15 +465,15 @@ def get_llm_enhancement(enhancement_prompt: str, graphrag: GraphRAG) -> str:
             max_tokens=500,
             temperature=0.7
         )
-        
+
         enhanced_prompt = response.choices[0].message.content.strip()
-        
+
         # Clean up the response
         if enhanced_prompt.startswith('"') and enhanced_prompt.endswith('"'):
             enhanced_prompt = enhanced_prompt[1:-1]
-        
+
         return enhanced_prompt
-        
+
     except Exception as e:
         logger.error(f"LLM enhancement failed: {e}")
         return get_mock_enhancement(enhancement_prompt)
@@ -490,7 +484,7 @@ def get_mock_enhancement(enhancement_prompt: str) -> str:
     original_match = enhancement_prompt.find('ORIGINAL PROMPT: "') + len('ORIGINAL PROMPT: "')
     original_end = enhancement_prompt.find('"', original_match)
     original_prompt = enhancement_prompt[original_match:original_end]
-    
+
     # Determine enhancement type from prompt content
     if "BIAS MITIGATION" in enhancement_prompt and "DIVERSITY ENHANCEMENT" in enhancement_prompt:
         addition = "featuring diverse people from various cultural backgrounds, ages, and abilities, while avoiding stereotypical representations"
@@ -500,7 +494,7 @@ def get_mock_enhancement(enhancement_prompt: str) -> str:
         addition = "representing multiple cultural groups, age ranges, and diverse backgrounds"
     else:
         addition = "with improved inclusivity and diversity"
-    
+
     return f"{original_prompt}, {addition}"
 
 
@@ -512,21 +506,20 @@ def run_dual_pipeline_enhancement(
     args: argparse.Namespace
 ) -> Dict[str, any]:
     """Run the dual-pipeline enhancement process."""
-    
     print(f"\n🎨 Original prompt: {original_prompt}")
-    
+
     # Get initial scores
     initial_bias_score = score_bias_mitigation(original_prompt)
     initial_diversity_score = score_diversity(original_prompt)
-    
+
     print(f"📊 Initial scores - Bias: {initial_bias_score['total_score']}/100, "
           f"Diversity: {initial_diversity_score['total_score']}/100")
-    
+
     # Get enhancement data
     negative_examples = []
     diversity_recommendations = []
     graphrag_triples = {"bias": [], "cultural": []}
-    
+
     if stereoset_rag:
         print("\n🛡️  Analyzing prompt for stereotypes...")
         negative_examples = stereoset_rag.get_negative_examples(original_prompt)
@@ -534,7 +527,7 @@ def run_dual_pipeline_enhancement(
             print(f"⚠️  Found {len(negative_examples)} stereotypical patterns to avoid")
         else:
             print("✅ No obvious stereotypical patterns detected")
-    
+
     if diversity_rag:
         print("\n🌍 Analyzing prompt for diversity opportunities...")
         diversity_recommendations = diversity_rag.get_diversity_recommendations(original_prompt)
@@ -542,7 +535,7 @@ def run_dual_pipeline_enhancement(
             print(f"💡 Generated {len(diversity_recommendations)} diversity recommendations")
         else:
             print("ℹ️  Using general diversity guidelines")
-    
+
     if graphrag:
         print("\n📚 Retrieving knowledge from GraphRAG...")
         if "bias" in graphrag.graphs:
@@ -552,7 +545,7 @@ def run_dual_pipeline_enhancement(
                 logger.info(f"Retrieved {len(graphrag_triples['bias'])} bias triples")
             except Exception as e:
                 logger.warning(f"Failed to retrieve bias triples: {e}")
-        
+
         # Retrieve from cultural graphs
         cultural_triples = []
         for graph_name in graphrag.graphs:
@@ -562,50 +555,50 @@ def run_dual_pipeline_enhancement(
                     cultural_triples.extend(cultural_result["triples"])
                 except Exception as e:
                     logger.warning(f"Failed to retrieve from {graph_name}: {e}")
-        
+
         if cultural_triples:
             cultural_triples.sort(key=lambda x: float(x[0].split(":")[-1]) if ":" in str(x[0]) else 0, reverse=True)
             graphrag_triples["cultural"] = cultural_triples[:10]
             logger.info(f"Retrieved {len(graphrag_triples['cultural'])} cultural triples")
-    
+
     # Sequential enhancement with dual scoring
     current_prompt = original_prompt
     previous_attempts = []
     iteration_results = []
-    
-    print(f"\n🔄 Starting dual-pipeline enhancement")
+
+    print("\n🔄 Starting dual-pipeline enhancement")
     print(f"   🎯 Bias threshold: {args.bias_threshold}/100")
     print(f"   🎯 Diversity threshold: {args.diversity_threshold}/100")
-    
+
     for iteration in range(1, args.max_iterations + 1):
         print(f"\n--- Iteration {iteration} ---")
-        
+
         # Score current prompt
         bias_score = score_bias_mitigation(current_prompt)
         diversity_score = score_diversity(current_prompt)
-        
+
         bias_met = bias_score["total_score"] >= args.bias_threshold
         diversity_met = diversity_score["total_score"] >= args.diversity_threshold
-        
+
         print(f"Current scores - Bias: {bias_score['total_score']}/100 {'✅' if bias_met else '❌'}, "
               f"Diversity: {diversity_score['total_score']}/100 {'✅' if diversity_met else '❌'}")
-        
+
         # Check if both thresholds met
         if bias_met and diversity_met:
             print("🎉 Both thresholds achieved!")
             break
-        
+
         # Determine focus areas for this iteration
         bias_focus = not bias_met
         diversity_focus = not diversity_met
-        
+
         focus_msg = []
         if bias_focus:
             focus_msg.append("bias mitigation")
         if diversity_focus:
-            focus_msg.append("diversity enhancement") 
+            focus_msg.append("diversity enhancement")
         print(f"🔍 Focusing on: {' and '.join(focus_msg)}")
-        
+
         # Create enhancement prompt
         enhancement_prompt = create_dual_enhancement_prompt(
             original_prompt,
@@ -617,12 +610,12 @@ def run_dual_pipeline_enhancement(
             previous_attempts,
             iteration
         )
-        
+
         # Get enhancement
         enhanced_prompt = get_llm_enhancement(enhancement_prompt, graphrag)
-        
+
         print(f"Enhanced: {enhanced_prompt}")
-        
+
         # Store results
         iteration_results.append({
             "iteration": iteration,
@@ -633,17 +626,17 @@ def run_dual_pipeline_enhancement(
             "diversity_met": diversity_met,
             "focus_areas": {"bias": bias_focus, "diversity": diversity_focus}
         })
-        
+
         previous_attempts.append(current_prompt)
         current_prompt = enhanced_prompt
-    
+
     else:
         print(f"\n⏰ Reached maximum iterations ({args.max_iterations})")
-    
+
     # Final scoring
     final_bias_score = score_bias_mitigation(current_prompt)
     final_diversity_score = score_diversity(current_prompt)
-    
+
     return {
         "original_prompt": original_prompt,
         "final_prompt": current_prompt,
@@ -673,64 +666,64 @@ def display_dual_results(results: Dict[str, any]) -> None:
     print("\n" + "=" * 100)
     print("DUAL-PIPELINE ENHANCEMENT RESULTS")
     print("=" * 100)
-    
-    print(f"\n🎨 ORIGINAL PROMPT:")
+
+    print("\n🎨 ORIGINAL PROMPT:")
     print(f"   {results['original_prompt']}")
-    
-    print(f"\n✨ FINAL ENHANCED PROMPT:")
+
+    print("\n✨ FINAL ENHANCED PROMPT:")
     print(f"   {results['final_prompt']}")
-    
+
     # Score comparison
-    print(f"\n📊 SCORE PROGRESSION:")
-    initial_bias = results['initial_scores']['bias']['total_score']
-    initial_diversity = results['initial_scores']['diversity']['total_score']
-    final_bias = results['final_scores']['bias']['total_score']
-    final_diversity = results['final_scores']['diversity']['total_score']
-    
+    print("\n📊 SCORE PROGRESSION:")
+    initial_bias = results["initial_scores"]["bias"]["total_score"]
+    initial_diversity = results["initial_scores"]["diversity"]["total_score"]
+    final_bias = results["final_scores"]["bias"]["total_score"]
+    final_diversity = results["final_scores"]["diversity"]["total_score"]
+
     print(f"   🛡️  Bias Mitigation: {initial_bias}/100 → {final_bias}/100 "
           f"({'✅' if final_bias >= results['thresholds']['bias'] else '❌'})")
     print(f"   🌍 Diversity Enhancement: {initial_diversity}/100 → {final_diversity}/100 "
           f"({'✅' if final_diversity >= results['thresholds']['diversity'] else '❌'})")
-    
+
     # Detailed breakdowns
-    print(f"\n📈 FINAL SCORE BREAKDOWNS:")
+    print("\n📈 FINAL SCORE BREAKDOWNS:")
     print("   Bias Mitigation:")
-    bias_breakdown = results['final_scores']['bias']['breakdown']
+    bias_breakdown = results["final_scores"]["bias"]["breakdown"]
     for key, value in bias_breakdown.items():
         print(f"     • {key.replace('_', ' ').title()}: {value}")
-    
+
     print("   Diversity Enhancement:")
-    diversity_breakdown = results['final_scores']['diversity']['breakdown']
+    diversity_breakdown = results["final_scores"]["diversity"]["breakdown"]
     for key, value in diversity_breakdown.items():
         print(f"     • {key.replace('_', ' ').title()}: {value}")
-    
+
     # Enhancement process
-    print(f"\n🔄 ENHANCEMENT PROCESS:")
-    for result in results['iterations']:
-        bias_icon = "✅" if result['bias_met'] else "❌"
-        diversity_icon = "✅" if result['diversity_met'] else "❌"
+    print("\n🔄 ENHANCEMENT PROCESS:")
+    for result in results["iterations"]:
+        bias_icon = "✅" if result["bias_met"] else "❌"
+        diversity_icon = "✅" if result["diversity_met"] else "❌"
         print(f"   Iteration {result['iteration']}: Bias {result['bias_score']['total_score']}/100 {bias_icon}, "
               f"Diversity {result['diversity_score']['total_score']}/100 {diversity_icon}")
-    
+
     # Enhancement sources
-    print(f"\n📚 ENHANCEMENT SOURCES USED:")
-    enhancement_data = results['enhancement_data']
-    if enhancement_data['negative_examples']:
+    print("\n📚 ENHANCEMENT SOURCES USED:")
+    enhancement_data = results["enhancement_data"]
+    if enhancement_data["negative_examples"]:
         print(f"   🛡️  StereoSet patterns: {len(enhancement_data['negative_examples'])} examples")
         print("     Examples:")
-        for example in enhancement_data['negative_examples'][:3]:
+        for example in enhancement_data["negative_examples"][:3]:
             print(f"       • {example}")
-    
-    if enhancement_data['diversity_recommendations']:
+
+    if enhancement_data["diversity_recommendations"]:
         print(f"   🌍 CultureBank recommendations: {len(enhancement_data['diversity_recommendations'])} suggestions")
         print("     Examples:")
-        for rec in enhancement_data['diversity_recommendations'][:3]:
+        for rec in enhancement_data["diversity_recommendations"][:3]:
             print(f"       • {rec}")
-    
-    if enhancement_data['graphrag_triples']['bias']:
+
+    if enhancement_data["graphrag_triples"]["bias"]:
         print(f"   📊 GraphRAG bias patterns: {len(enhancement_data['graphrag_triples']['bias'])} triples")
-    
-    if enhancement_data['graphrag_triples']['cultural']:
+
+    if enhancement_data["graphrag_triples"]["cultural"]:
         print(f"   📚 GraphRAG cultural values: {len(enhancement_data['graphrag_triples']['cultural'])} triples")
 
 
@@ -738,40 +731,40 @@ def main() -> None:
     """Main function to run dual-pipeline prompt enhancement."""
     setup_logging()
     args = parse_arguments()
-    
+
     print("🎨 Dual-Pipeline Image Prompt Enhancement System")
     print("Combining bias mitigation and diversity enhancement with separate scoring")
-    
+
     # Get prompt
     if args.prompt:
         original_prompt = args.prompt
     else:
         original_prompt = get_prompt_input()
-    
+
     # Load systems
     stereoset_rag, diversity_rag, graphrag = load_enhancement_systems(args)
-    
+
     if not stereoset_rag and not diversity_rag and not graphrag:
         print("❌ No enhancement systems available. Exiting.")
         return
-    
+
     # Run enhancement
     try:
         results = run_dual_pipeline_enhancement(
             original_prompt, stereoset_rag, diversity_rag, graphrag, args
         )
         display_dual_results(results)
-        
+
         # Save results
         output_file = "dual_pipeline_results.json"
         with open(output_file, "w") as f:
             json.dump(results, f, indent=2, default=str)
         print(f"\n💾 Results saved to {output_file}")
-        
+
     except Exception as e:
         logger.error(f"Enhancement failed: {e}")
         return
-    
+
     print("\n🎉 Dual-pipeline enhancement completed successfully!")
 
 

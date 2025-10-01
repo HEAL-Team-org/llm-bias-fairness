@@ -29,7 +29,7 @@ import argparse
 import logging
 from pathlib import Path
 
-from src.graphrag import GraphRAG
+from src.knowledge import GraphRAG
 from src.parsers import DataParserFactory
 
 # Set up logger
@@ -54,13 +54,13 @@ def main() -> None:
 
     # Initialize GraphRAG system
     graphrag = GraphRAG(cache_file=args.cache)
-    
+
     # Create parser and load graph
     try:
         parser = DataParserFactory.create_parser(args.csv_path)
         graph_name = Path(args.csv_path).stem
         graphrag.add_graph(graph_name, parser)
-        
+
         # Query the graph
         graphrag.query(
             graph_name=graph_name,
@@ -68,9 +68,9 @@ def main() -> None:
             top_k=args.top_k,
             include_answer=True
         )
-        
+
         logger.info(f"Query completed successfully for graph '{graph_name}'")
-        
+
     except Exception:
         logger.exception("Error processing GraphRAG query")
 

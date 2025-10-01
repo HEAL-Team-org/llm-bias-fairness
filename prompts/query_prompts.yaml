@@ -1,0 +1,102 @@
+# Query and Retrieval Prompt Templates
+# ======================================
+# This file contains prompt templates used for knowledge retrieval and answer generation.
+
+# GraphRAG Answer Generation Prompt
+# ----------------------------------
+graphrag_answer_prompt: |
+  Context:
+  {triples_text}
+
+  Question: {question}
+  Answer:
+
+# StereoSet Query Construction
+# -----------------------------
+stereoset_query_template: |
+  Find stereotypical associations related to: {query_terms}
+
+# Diversity RAG Query Construction
+# ---------------------------------
+diversity_query_template: |
+  Cultural diversity elements for: {query_terms}
+
+# Bias Detection Query
+# --------------------
+bias_detection_query: |
+  Identify potential biases and stereotypes in the following content:
+  {content}
+
+  Consider:
+  - Gender stereotypes
+  - Racial/ethnic stereotypes
+  - Age-based assumptions
+  - Professional stereotypes
+  - Cultural biases
+  - Socioeconomic assumptions
+
+  Provide specific examples of potential biases found.
+
+# Cultural Values Query
+# ----------------------
+cultural_values_query: |
+  Identify cultural values and perspectives relevant to:
+  {topic}
+
+  Consider:
+  - Regional cultural practices
+  - Traditional values
+  - Social norms across cultures
+  - Cultural celebrations and symbols
+  - Family structures and relationships
+  - Communication styles
+
+# Diversity Assessment Query
+# ---------------------------
+diversity_assessment_query: |
+  Assess the diversity and inclusivity of the following:
+  {content}
+
+  Evaluate representation across:
+  - Age groups
+  - Ethnicities and races
+  - Gender identities
+  - Cultural backgrounds
+  - Abilities
+  - Socioeconomic status
+
+# Triple Formatting Template
+# ---------------------------
+triple_format: "{subject} --{predicate}--> {object}"
+
+# Triple List Format
+# ------------------
+triple_list_format: "- {subject} {predicate} {object}"
+
+# Knowledge Graph Context Template
+# ---------------------------------
+knowledge_context_template: |
+  Relevant knowledge from the graph:
+  {formatted_triples}
+
+# Retrieval Augmentation Template
+# --------------------------------
+rag_augmentation_template: |
+  Based on the following knowledge:
+  {knowledge}
+
+  {user_query}
+
+# Semantic Search Query Enhancement
+# ----------------------------------
+semantic_query_enhancement: |
+  Expand the following query to improve semantic search:
+  Original: {original_query}
+
+  Include:
+  - Synonyms and related terms
+  - Broader concepts
+  - Specific examples
+  - Cultural variations
+
+  Enhanced query terms:

@@ -16,7 +16,7 @@ import logging
 from pathlib import Path
 from typing import Dict, List
 
-from src.graphrag import GraphRAG
+from src.knowledge import GraphRAG
 from src.parsers import DataParserFactory, Triple
 
 
@@ -44,7 +44,7 @@ def get_prompt_input() -> str:
     print("  • engineers working on a project")
     print("  • people celebrating a festival")
     print("-" * 64)
-    
+
     while True:
         prompt = input("🎨 Your image prompt: ").strip()
         if prompt:
@@ -64,34 +64,34 @@ Examples:
   python enhance_prompt.py --prompt "students in classroom"  # Long form
         """
     )
-    
+
     parser.add_argument(
         "-p", "--prompt",
         type=str,
         help="Image generation prompt to enhance (optional - will prompt if not provided)"
     )
-    
+
     parser.add_argument(
         "--bias-top-k",
         type=int,
         default=25,
         help="Number of bias triples to retrieve (default: 25)"
     )
-    
+
     parser.add_argument(
-        "--cultural-top-k", 
+        "--cultural-top-k",
         type=int,
         default=25,
         help="Number of cultural value triples to retrieve (default: 25)"
     )
-    
+
     parser.add_argument(
         "--cache-file",
         type=str,
         default="embeddings.pkl",
         help="Embedding cache file to use (default: embeddings.pkl)"
     )
-    
+
     return parser.parse_args()
 
 
@@ -101,7 +101,7 @@ def load_bias_graph(graphrag: GraphRAG) -> bool:
     if not Path(bias_file).exists():
         print(f"❌ Bias file not found: {bias_file}")
         return False
-    
+
     try:
         parser = DataParserFactory.create_parser(bias_file)
         graph = graphrag.add_graph("bias_graph", parser)
@@ -118,16 +118,16 @@ def load_cultural_graphs(graphrag: GraphRAG) -> bool:
     if not cultural_dir.exists():
         print(f"❌ Cultural values directory not found: {cultural_dir}")
         return False
-    
+
     txt_files = list(cultural_dir.glob("*.txt"))
     if not txt_files:
         print("❌ No text files found in cultural values directory")
         return False
-    
+
     # Load all cultural datasets into a single combined graph
-    print(f"\n--- Loading Cultural Values Data ---")
+    print("\n--- Loading Cultural Values Data ---")
     combined_triples = []
-    
+
     for file_path in txt_files:
         try:
             parser = DataParserFactory.create_parser(file_path)
@@ -137,30 +137,30 @@ def load_cultural_graphs(graphrag: GraphRAG) -> bool:
             print(f"  • {country}: {len(triples)} triples")
         except Exception as e:
             print(f"  ⚠️  Failed to load {file_path.name}: {e}")
-    
+
     if combined_triples:
         # Create a combined cultural graph
         from src.parsers import BaseDataParser
-        
+
         class CombinedParser(BaseDataParser):
             def __init__(self, triples: List[Triple]):
                 self.triples = triples
-            
+
             def parse(self) -> List[Triple]:
                 return self.triples
-        
+
         combined_parser = CombinedParser(combined_triples)
         graph = graphrag.add_graph("cultural_values", combined_parser)
         print(f"✅ Created combined cultural graph: {graph}")
         return True
-    
+
     return False
 
 
 def retrieve_relevant_triples(graphrag: GraphRAG, prompt: str, bias_top_k: int, cultural_top_k: int) -> Dict[str, List[Triple]]:
     """Retrieve relevant triples from both bias and cultural graphs using semantic similarity."""
     results = {}
-    
+
     # Retrieve bias triples
     print(f"\n🔍 Retrieving top {bias_top_k} bias-related triples...")
     try:
@@ -175,7 +175,7 @@ def retrieve_relevant_triples(graphrag: GraphRAG, prompt: str, bias_top_k: int, 
     except Exception as e:
         print(f"❌ Failed to retrieve bias triples: {e}")
         results["bias"] = []
-    
+
     # Retrieve cultural value triples
     print(f"🌍 Retrieving top {cultural_top_k} cultural value triples...")
     try:
@@ -190,7 +190,7 @@ def retrieve_relevant_triples(graphrag: GraphRAG, prompt: str, bias_top_k: int, 
     except Exception as e:
         print(f"❌ Failed to retrieve cultural triples: {e}")
         results["cultural"] = []
-    
+
     return results
 
 
@@ -198,10 +198,10 @@ def format_triples_for_llm(triples: List[Triple], category: str) -> str:
     """Format triples for LLM prompt."""
     if not triples:
         return f"No {category} data available."
-    
+
     formatted = f"\n{category.upper()} INFORMATION:\n"
     formatted += "=" * 50 + "\n"
-    
+
     for i, triple in enumerate(triples[:25], 1):  # Limit to top 25
         if hasattr(triple, "subject"):
             # Triple object with attributes
@@ -210,7 +210,7 @@ def format_triples_for_llm(triples: List[Triple], category: str) -> str:
             # Tuple format (subject, predicate, object)
             subject, predicate, obj = triple
             formatted += f"{i}. {subject} -> {predicate} -> {obj}\n"
-    
+
     return formatted
 
 
@@ -218,28 +218,27 @@ def format_triples_for_display(triples: List[Triple], category: str, max_display
     """Format triples for console display (limited number)."""
     if not triples:
         return f"   No {category} triples retrieved."
-    
+
     formatted = f"   {category.title()} triples (top {min(max_display, len(triples))}):\n"
-    
+
     for i, triple in enumerate(triples[:max_display], 1):
         if hasattr(triple, "subject"):
             formatted += f"     {i}. {triple.subject} -> {triple.predicate} -> {triple.object}\n"
         else:
             subject, predicate, obj = triple
             formatted += f"     {i}. {subject} -> {predicate} -> {obj}\n"
-    
+
     if len(triples) > max_display:
         formatted += f"     ... and {len(triples) - max_display} more\n"
-    
+
     return formatted.rstrip()
 
 
 def create_enhancement_prompt(original_prompt: str, bias_triples: List[Triple], cultural_triples: List[Triple]) -> str:
     """Create the prompt for LLM to enhance the original image prompt."""
-    
     bias_info = format_triples_for_llm(bias_triples, "bias and stereotype")
     cultural_info = format_triples_for_llm(cultural_triples, "cultural values and diversity")
-    
+
     enhancement_prompt = f"""You are an AI assistant specialized in creating inclusive and diverse image generation prompts that avoid stereotypes and biases.
 
 ORIGINAL IMAGE PROMPT:
@@ -293,33 +292,33 @@ Enhanced Image Prompt:"""
 def get_llm_enhancement(enhancement_prompt: str, graphrag: GraphRAG) -> str:
     """Get enhancement from LLM using OpenAI API."""
     print("\n🤖 Generating enhanced prompt with LLM...")
-    
+
     if not graphrag.embedder.is_available():
         print("⚠️  OpenAI API not available, using mock response...")
         return get_mock_enhancement(enhancement_prompt)
-    
+
     try:
         # Use the LLM to enhance the prompt
         response = graphrag.embedder.client.chat.completions.create(
             model="gpt-4o-mini",  # Use a good model for creative tasks
             messages=[
                 {
-                    "role": "system", 
+                    "role": "system",
                     "content": "You are an expert in creating inclusive and diverse image generation prompts that avoid stereotypes and promote cultural sensitivity."
                 },
                 {
-                    "role": "user", 
+                    "role": "user",
                     "content": enhancement_prompt
                 }
             ],
             temperature=0.3,  # Slight creativity but mostly focused
             max_tokens=1500
         )
-        
+
         enhanced_result = response.choices[0].message.content.strip()
         print("✅ Enhanced prompt generated successfully!")
         return enhanced_result
-        
+
     except Exception as e:
         print(f"❌ Error generating enhancement: {e}")
         print("⚠️  Falling back to mock response...")
@@ -334,10 +333,10 @@ def get_mock_enhancement(enhancement_prompt: str) -> str:
         if "ORIGINAL IMAGE PROMPT:" in line and i + 1 < len(lines):
             original_prompt = lines[i + 1].strip()
             break
-    
+
     if not original_prompt:
         original_prompt = "diverse people"
-    
+
     mock_response = f"""
 ENHANCED PROMPT:
 {original_prompt}, featuring people of diverse ages including young adults, middle-aged individuals, and seniors, representing various ethnicities including Asian, African, Latino, Middle Eastern, and European backgrounds, with different skin tones and physical appearances, wearing culturally diverse clothing and accessories, in an inclusive environment that celebrates global diversity, with both men and women and non-binary individuals, including people with visible and invisible disabilities, showcasing different socioeconomic backgrounds through varied but respectful styling, with authentic cultural elements like traditional patterns, diverse architectural styles, and inclusive symbols that promote unity and respect across all communities
@@ -361,36 +360,36 @@ def main() -> None:
     """Run the image prompt enhancement script."""
     args = parse_arguments()
     setup_logging()
-    
+
     print("🎨 Image Prompt Enhancement System")
     print("Enhancing prompts for diversity and bias mitigation using GraphRAG")
-    
+
     # Get prompt from args or user input
     if args.prompt:
         original_prompt = args.prompt
         print(f"\n📝 Original prompt: {original_prompt}")
     else:
         original_prompt = get_prompt_input()
-    
+
     # Initialize GraphRAG system
-    print(f"\n⚙️  Initializing GraphRAG system...")
+    print("\n⚙️  Initializing GraphRAG system...")
     graphrag = GraphRAG(cache_file=args.cache_file)
-    
+
     # Load datasets
     print("\n📚 Loading knowledge graphs...")
-    
+
     bias_loaded = load_bias_graph(graphrag)
     cultural_loaded = load_cultural_graphs(graphrag)
-    
+
     if not bias_loaded and not cultural_loaded:
         print("❌ Failed to load any datasets. Exiting.")
         return
-    
+
     # Retrieve relevant triples
     relevant_triples = retrieve_relevant_triples(
         graphrag, original_prompt, args.bias_top_k, args.cultural_top_k
     )
-    
+
     # Create enhancement prompt for LLM
     print("\n📝 Creating enhancement prompt...")
     enhancement_prompt = create_enhancement_prompt(
@@ -398,29 +397,29 @@ def main() -> None:
         relevant_triples.get("bias", []),
         relevant_triples.get("cultural", [])
     )
-    
+
     # Get LLM enhancement
     enhanced_result = get_llm_enhancement(enhancement_prompt, graphrag)
-    
+
     # Display results
     print("\n" + "=" * 80)
     print("PROMPT ENHANCEMENT RESULTS")
     print("=" * 80)
-    
-    print(f"\n🎨 ORIGINAL PROMPT:")
+
+    print("\n🎨 ORIGINAL PROMPT:")
     print(f"   {original_prompt}")
-    
-    print(f"\n📊 RETRIEVED DATA:")
+
+    print("\n📊 RETRIEVED DATA:")
     if relevant_triples.get("bias"):
         print(f"   • Bias triples: {len(relevant_triples['bias'])}")
-        print(format_triples_for_display(relevant_triples['bias'], "bias", 3))
+        print(format_triples_for_display(relevant_triples["bias"], "bias", 3))
     if relevant_triples.get("cultural"):
         print(f"   • Cultural triples: {len(relevant_triples['cultural'])}")
-        print(format_triples_for_display(relevant_triples['cultural'], "cultural", 3))
-    
-    print(f"\n✨ ENHANCED RESULT:")
+        print(format_triples_for_display(relevant_triples["cultural"], "cultural", 3))
+
+    print("\n✨ ENHANCED RESULT:")
     print(enhanced_result)
-    
+
     print("\n🎉 Prompt enhancement completed!")
     print("\nThe enhanced prompt promotes diversity and inclusion while avoiding")
     print("stereotypes and biases based on your knowledge graphs.")
