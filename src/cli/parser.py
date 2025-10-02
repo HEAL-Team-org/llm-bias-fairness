@@ -1,7 +1,6 @@
 """CLI argument parser for the LLM Bias & Fairness project."""
 
 import argparse
-from typing import Optional
 
 from src.cli.commands.batch import BatchCommand
 from src.cli.commands.enhance import EnhanceCommand
@@ -14,6 +13,7 @@ def create_cli_parser() -> argparse.ArgumentParser:
 
     Returns:
         Configured argument parser with all commands
+
     """
     parser = argparse.ArgumentParser(
         prog="llm-bias-fairness",

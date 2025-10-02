@@ -16,8 +16,8 @@ import argparse
 import logging
 from pathlib import Path
 
+from src.data.parsers import DataParserFactory
 from src.knowledge import GraphRAG
-from src.parsers import DataParserFactory
 
 
 def setup_logging() -> None:

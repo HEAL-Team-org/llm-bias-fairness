@@ -144,17 +144,17 @@ class EnhanceCommand(BaseCommand):
         print("ENHANCEMENT RESULTS")
         print("=" * 72)
 
-        print(f"\n📝 Original Prompt:")
+        print("\n📝 Original Prompt:")
         print(f"   {result.original_prompt}")
 
-        print(f"\n✨ Enhanced Prompt:")
+        print("\n✨ Enhanced Prompt:")
         print(f"   {result.final_prompt}")
 
-        print(f"\n📊 Scores:")
+        print("\n📊 Scores:")
         print(f"   Bias Score:      {result.initial_bias_score:.1f} → {result.final_bias_score:.1f}")
         print(f"   Diversity Score: {result.initial_diversity_score:.1f} → {result.final_diversity_score:.1f}")
 
-        print(f"\n📈 Improvements:")
+        print("\n📈 Improvements:")
         print(f"   Bias:      +{result.bias_improvement:.1f}")
         print(f"   Diversity: +{result.diversity_improvement:.1f}")
 

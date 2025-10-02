@@ -19,6 +19,7 @@ import logging
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+from src.data.parsers import DataParserFactory, Triple
 from src.knowledge import DiversityRAG, GraphRAG, StereoSetRAG
 
 logger = logging.getLogger(__name__)

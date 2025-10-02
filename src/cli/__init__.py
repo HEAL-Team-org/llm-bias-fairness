@@ -18,10 +18,10 @@ from src.cli.parser import create_cli_parser
 from src.cli.runner import CLIRunner
 
 __all__ = [
-    "CLIRunner",
-    "create_cli_parser",
-    "EnhanceCommand",
     "BatchCommand",
+    "CLIRunner",
+    "EnhanceCommand",
     "QueryCommand",
     "TestCommand",
+    "create_cli_parser",
 ]

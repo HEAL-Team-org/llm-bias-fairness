@@ -56,8 +56,9 @@ def test_base_command():
     print("=" * 70)
 
     try:
-        from src.cli.commands import BaseCommand
         from abc import ABC
+
+        from src.cli.commands import BaseCommand
 
         # Verify it's an abstract base class
         assert issubclass(BaseCommand, ABC), "Should be an ABC"
@@ -214,8 +215,9 @@ def test_cli_parser():
     print("=" * 70)
 
     try:
-        from src.cli import create_cli_parser
         import argparse
+
+        from src.cli import create_cli_parser
 
         # Create parser
         parser = create_cli_parser()

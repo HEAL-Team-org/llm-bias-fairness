@@ -20,8 +20,8 @@ import logging
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+from src.data.parsers import DataParserFactory, Triple
 from src.knowledge import GraphRAG
-from src.parsers import DataParserFactory, Triple
 
 
 def setup_logging() -> None:
@@ -159,7 +159,7 @@ def load_cultural_graphs(graphrag: GraphRAG) -> bool:
 
     if combined_triples:
         # Create a combined cultural graph
-        from src.parsers import BaseDataParser
+        from src.data.parsers import BaseDataParser
 
         class CombinedParser(BaseDataParser):
             def __init__(self, triples: List[Triple]):

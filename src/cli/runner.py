@@ -31,6 +31,7 @@ class CLIRunner:
 
         Args:
             verbose: Enable verbose (DEBUG) logging
+
         """
         level = logging.DEBUG if verbose else logging.INFO
         logging.basicConfig(
@@ -47,6 +48,7 @@ class CLIRunner:
 
         Returns:
             Exit code (0 for success, non-zero for failure)
+
         """
         # Setup logging
         self.setup_logging(args.verbose if hasattr(args, "verbose") else False)
@@ -88,6 +90,7 @@ class CLIRunner:
 
         Returns:
             Exit code (0 for success, non-zero for failure)
+
         """
         from src.cli.parser import create_cli_parser
 

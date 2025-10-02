@@ -109,7 +109,7 @@ class BatchCommand(BaseCommand):
             successful = sum(1 for r in results if r.error is None)
             total = len(results)
 
-            logger.info(f"\nBatch processing complete!")
+            logger.info("\nBatch processing complete!")
             logger.info(f"Results saved to: {output_csv}")
             logger.info(f"Successful: {successful}/{total}")
 
