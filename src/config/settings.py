@@ -192,6 +192,11 @@ def get_openai_api_key() -> Optional[str]:
     return _config.get("openai.api_key") or os.environ.get("OPENAI_API_KEY")
 
 
+def get_openai_base_url() -> Optional[str]:
+    """Get OpenAI base URL from config or environment."""
+    return _config.get("openai.base_url") or os.environ.get("OPENAI_BASE_URL")
+
+
 def get_embedding_model() -> str:
     """Get embedding model name."""
     return _config.get("openai.embedding_model", "text-embedding-3-large")

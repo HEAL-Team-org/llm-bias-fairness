@@ -131,7 +131,8 @@ class DALLE3Generator(BaseImageGenerator):
         output_dir: Union[str, Path] = "generated_images",
         model: str = "dall-e-3",
         size: str = "1024x1024",
-        quality: str = "standard"
+        quality: str = "standard",
+        base_url: Optional[str] = None
     ):
         """Initialize DALL-E 3 generator.
         
@@ -141,6 +142,7 @@ class DALLE3Generator(BaseImageGenerator):
             model: DALL-E model version
             size: Image size (1024x1024, 1792x1024, 1024x1792)
             quality: Image quality (standard, hd)
+            base_url: Custom base URL for OpenAI API (optional)
 
         """
         super().__init__(output_dir)
@@ -150,7 +152,12 @@ class DALLE3Generator(BaseImageGenerator):
         except ImportError:
             raise ImageGenerationError("OpenAI package not installed. Run: pip install openai")
 
-        self.client = OpenAI(api_key=api_key)
+        # Initialize OpenAI client with optional base_url
+        client_kwargs = {"api_key": api_key}
+        if base_url:
+            client_kwargs["base_url"] = base_url
+        self.client = OpenAI(**client_kwargs)
+        
         self.model = model
         self.size = size
         self.quality = quality

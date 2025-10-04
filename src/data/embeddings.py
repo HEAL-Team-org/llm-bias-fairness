@@ -13,7 +13,7 @@ from typing import Dict
 import numpy as np
 from openai import OpenAI
 
-from src.config.settings import get_embedding_model, get_openai_api_key
+from src.config.settings import get_embedding_model, get_openai_api_key, get_openai_base_url
 
 logger = logging.getLogger(__name__)
 
@@ -103,21 +103,31 @@ class EmbeddingCache:
 class OpenAIEmbedder:
     """Handles OpenAI embedding generation."""
 
-    def __init__(self, api_key: str | None = None, model: str | None = None):
+    def __init__(
+        self,
+        api_key: str | None = None,
+        model: str | None = None,
+        base_url: str | None = None
+    ):
         """Initialize OpenAI embedder.
         
         Args:
             api_key: OpenAI API key (if None, will use config/environment)
             model: Embedding model to use (if None, will use config default)
+            base_url: Custom base URL for OpenAI API (if None, will use config/environment)
 
         """
         self.model = model or get_embedding_model()
         self.api_key = api_key or get_openai_api_key()
+        self.base_url = base_url or get_openai_base_url()
 
         self.client = None
         if self.api_key:
             try:
-                self.client = OpenAI(api_key=self.api_key)
+                client_kwargs = {"api_key": self.api_key}
+                if self.base_url:
+                    client_kwargs["base_url"] = self.base_url
+                self.client = OpenAI(**client_kwargs)
             except Exception:
                 logger.warning("OpenAI client initialization failed - embeddings disabled")
                 self.client = None
