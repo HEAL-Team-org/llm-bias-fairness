@@ -197,6 +197,83 @@ def get_openai_base_url() -> Optional[str]:
     return _config.get("openai.base_url") or os.environ.get("OPENAI_BASE_URL")
 
 
+def get_openai_provider() -> str:
+    """Get OpenAI provider type (openai or azure).
+
+    Returns:
+        Provider type: "openai" or "azure"
+
+    """
+    provider = (
+        _config.get("openai.provider")
+        or os.environ.get("OPENAI_PROVIDER", "openai")
+    )
+    return provider.lower()
+
+
+def is_azure_openai() -> bool:
+    """Check if Azure OpenAI is configured as the provider.
+
+    Returns:
+        True if Azure OpenAI is the provider, False otherwise
+
+    """
+    return get_openai_provider() == "azure"
+
+
+def get_azure_openai_endpoint() -> Optional[str]:
+    """Get Azure OpenAI endpoint from config or environment.
+
+    Returns:
+        Azure endpoint URL or None
+
+    """
+    return (
+        _config.get("openai.azure.endpoint")
+        or os.environ.get("AZURE_OPENAI_ENDPOINT")
+    )
+
+
+def get_azure_openai_api_version() -> str:
+    """Get Azure OpenAI API version from config or environment.
+
+    Returns:
+        Azure API version (defaults to 2024-12-01-preview)
+
+    """
+    return (
+        _config.get("openai.azure.api_version")
+        or os.environ.get(
+            "AZURE_OPENAI_API_VERSION",
+            "2024-12-01-preview"
+        )
+    )
+
+
+def get_azure_deployment(deployment_type: str) -> Optional[str]:
+    """Get Azure OpenAI deployment name for given type.
+
+    Args:
+        deployment_type: Type of deployment (chat, embedding, image)
+
+    Returns:
+        Deployment name or None
+
+    """
+    env_var_map = {
+        "chat": "AZURE_OPENAI_CHAT_DEPLOYMENT",
+        "embedding": "AZURE_OPENAI_EMBEDDING_DEPLOYMENT",
+        "image": "AZURE_OPENAI_IMAGE_DEPLOYMENT"
+    }
+
+    config_key = f"openai.azure.deployments.{deployment_type}"
+    env_var = env_var_map.get(deployment_type)
+
+    return _config.get(config_key) or (
+        os.environ.get(env_var) if env_var else None
+    )
+
+
 def get_embedding_model() -> str:
     """Get embedding model name."""
     return _config.get("openai.embedding_model", "text-embedding-3-large")

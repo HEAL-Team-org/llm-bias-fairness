@@ -15,6 +15,11 @@ import numpy as np
 
 from src.data import EmbeddingCache, OpenAIEmbedder, Triple
 from src.data.parsers import BaseDataParser
+from src.config.settings import (
+    get_azure_deployment,
+    get_chat_model,
+    is_azure_openai,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -364,25 +369,27 @@ class LLMAnswerer:
 
     def __init__(self, embedder: OpenAIEmbedder, model: str = "gpt-3.5-turbo"):
         """Initialize LLM answerer.
-        
+
         Args:
             embedder: OpenAI embedder (reused for chat completions)
-            model: Chat model to use
+            model: Chat model to use (or deployment name for Azure)
 
         """
         self.embedder = embedder
+        # For Azure, the model parameter will be the deployment name
+        # The embedder already knows if it's using Azure
         self.model = model
 
     def answer_question(self, question: str, triples: list[Triple]) -> str:
         """Generate answer from question and retrieved triples.
-        
+
         Args:
             question: Question to answer
             triples: Retrieved knowledge graph triples
-            
+
         Returns:
             Generated answer
-            
+
         Raises:
             RuntimeError: If OpenAI client is not available
 
@@ -402,6 +409,9 @@ class LLMAnswerer:
         )
 
         try:
+            # Use the model/deployment name directly
+            # For Azure, this should be the deployment name
+            # For standard OpenAI, this is the model name
             chat = self.embedder.client.chat.completions.create(
                 model=self.model,
                 messages=[{"role": "user", "content": prompt}],
@@ -421,7 +431,7 @@ class GraphRAG:
                  cache_file: str | Path = "embeddings.pkl",
                  api_key: str | None = None):
         """Initialize GraphRAG system.
-        
+
         Args:
             cache_file: Path to embedding cache file
             api_key: OpenAI API key
@@ -430,7 +440,16 @@ class GraphRAG:
         self.cache = EmbeddingCache(cache_file)
         self.embedder = OpenAIEmbedder(api_key)
         self.retriever = GraphRetriever(self.embedder, self.cache)
-        self.answerer = LLMAnswerer(self.embedder)
+
+        # Determine chat model/deployment name based on provider
+        if is_azure_openai():
+            # For Azure, use the chat deployment name
+            chat_model = get_azure_deployment("chat") or "gpt-5"
+        else:
+            # For standard OpenAI, use the chat model name
+            chat_model = get_chat_model()
+
+        self.answerer = LLMAnswerer(self.embedder, model=chat_model)
         self.graphs: Dict[str, KnowledgeGraph] = {}
 
     def add_graph(self, name: str, parser: BaseDataParser) -> KnowledgeGraph:

@@ -5,22 +5,44 @@
 
 # OpenAI API Configuration
 openai:
+  # Provider selection: "openai" or "azure"
+  # Set via OPENAI_PROVIDER environment variable or config
+  provider: "openai"  # Options: "openai", "azure"
+  
   # API key - will use OPENAI_API_KEY environment variable if not specified
   api_key: null
   
-  # Model names
+  # Standard OpenAI settings
+  # Model names (used when provider is "openai")
   embedding_model: "text-embedding-3-large"
   chat_model: "gpt-4o-mini"
   chat_model_fallback: "gpt-3.5-turbo"
   image_model: "dall-e-3"
   
   # API settings
-  base_url: null  # Optional custom base URL
+  base_url: null  # Optional custom base URL (for OpenAI or custom endpoints)
   max_retries: 3
   timeout: 60  # seconds
   
   # Embedding settings
   embedding_batch_size: 2000  # chunk size for batch embedding
+  
+  # Azure OpenAI specific settings
+  # Used when provider is "azure"
+  azure:
+    # Azure endpoint - can also use AZURE_OPENAI_ENDPOINT environment variable
+    endpoint: "https://zanistagpteastus2.openai.azure.com/"
+    
+    # API version - can also use AZURE_OPENAI_API_VERSION environment variable
+    api_version: "2024-12-01-preview"
+    
+    # Deployment names (Azure uses deployment names instead of model names)
+    # Can also use environment variables:
+    # AZURE_OPENAI_CHAT_DEPLOYMENT, AZURE_OPENAI_EMBEDDING_DEPLOYMENT, AZURE_OPENAI_IMAGE_DEPLOYMENT
+    deployments:
+      chat: "gpt-5"
+      embedding: "text-embedding-3-large"
+      image: null  # Azure DALL-E deployment name (if available)
 
 # Cache File Paths
 cache:

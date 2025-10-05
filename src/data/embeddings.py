@@ -11,9 +11,17 @@ from pathlib import Path
 from typing import Dict
 
 import numpy as np
-from openai import OpenAI
+from openai import AzureOpenAI, OpenAI
 
-from src.config.settings import get_embedding_model, get_openai_api_key, get_openai_base_url
+from src.config.settings import (
+    get_azure_deployment,
+    get_azure_openai_api_version,
+    get_azure_openai_endpoint,
+    get_embedding_model,
+    get_openai_api_key,
+    get_openai_base_url,
+    is_azure_openai,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -110,26 +118,60 @@ class OpenAIEmbedder:
         base_url: str | None = None
     ):
         """Initialize OpenAI embedder.
-        
+
         Args:
             api_key: OpenAI API key (if None, will use config/environment)
             model: Embedding model to use (if None, will use config default)
             base_url: Custom base URL for OpenAI API (if None, will use config/environment)
 
         """
-        self.model = model or get_embedding_model()
         self.api_key = api_key or get_openai_api_key()
         self.base_url = base_url or get_openai_base_url()
+
+        # Determine if using Azure OpenAI
+        self.use_azure = is_azure_openai()
+
+        if self.use_azure:
+            # For Azure, use deployment name instead of model name
+            self.model = model or get_azure_deployment("embedding")
+            if not self.model:
+                logger.warning(
+                    "Azure OpenAI provider selected but no embedding "
+                    "deployment configured"
+                )
+                self.model = "text-embedding-3-large"
+        else:
+            # For standard OpenAI, use model name
+            self.model = model or get_embedding_model()
 
         self.client = None
         if self.api_key:
             try:
-                client_kwargs = {"api_key": self.api_key}
-                if self.base_url:
-                    client_kwargs["base_url"] = self.base_url
-                self.client = OpenAI(**client_kwargs)
+                if self.use_azure:
+                    # Initialize Azure OpenAI client
+                    endpoint = get_azure_openai_endpoint()
+                    api_version = get_azure_openai_api_version()
+                    if not endpoint:
+                        logger.warning(
+                            "Azure OpenAI provider selected but no endpoint "
+                            "configured - embeddings disabled"
+                        )
+                    else:
+                        self.client = AzureOpenAI(
+                            api_key=self.api_key,
+                            azure_endpoint=endpoint,
+                            api_version=api_version
+                        )
+                else:
+                    # Initialize standard OpenAI client
+                    client_kwargs = {"api_key": self.api_key}
+                    if self.base_url:
+                        client_kwargs["base_url"] = self.base_url
+                    self.client = OpenAI(**client_kwargs)
             except Exception:
-                logger.warning("OpenAI client initialization failed - embeddings disabled")
+                logger.exception(
+                    "OpenAI client initialization failed - embeddings disabled"
+                )
                 self.client = None
         else:
             logger.warning("No OpenAI API key provided - embeddings disabled")

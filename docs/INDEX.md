@@ -50,6 +50,45 @@ Complete CLI reference documentation. Covers:
 
 ---
 
+### Configuration & Setup
+
+#### **[OPENAI_BASE_URL_CONFIGURATION.md](OPENAI_BASE_URL_CONFIGURATION.md)** - Custom API Endpoints 🔌
+Guide for configuring custom OpenAI-compatible API endpoints. Covers:
+- Base URL configuration methods
+- LocalAI setup examples
+- Custom endpoint examples
+- Environment variable usage
+- Troubleshooting connection issues
+
+**Use this** when working with LocalAI, custom OpenAI endpoints, or private API deployments.
+
+---
+
+#### **[AZURE_OPENAI_CONFIGURATION.md](AZURE_OPENAI_CONFIGURATION.md)** - Azure OpenAI Setup ☁️ ⭐ NEW
+Comprehensive guide for Azure OpenAI Service integration. Covers:
+- Azure OpenAI prerequisites and setup
+- Configuration methods (file, environment, programmatic)
+- Deployment name mapping
+- Migration from standard OpenAI
+- Practical examples and troubleshooting
+- Best practices for production
+
+**Use this** when deploying with Azure OpenAI Service for enterprise features, regional deployment, or Azure integration.
+
+---
+
+#### **[AZURE_OPENAI_INTEGRATION_SUMMARY.md](AZURE_OPENAI_INTEGRATION_SUMMARY.md)** - Implementation Details 📋 ⭐ NEW
+Technical summary of Azure OpenAI integration. Covers:
+- Complete change log of all files modified
+- Configuration methods comparison
+- Testing recommendations
+- Migration path for existing users
+- Known limitations and future enhancements
+
+**Refer to this** for technical details about the Azure integration implementation or when troubleshooting Azure-specific issues.
+
+---
+
 ### For Developers & Researchers
 
 #### **[ARCHITECTURE.md](ARCHITECTURE.md)** - Technical Deep Dive 🏗️
@@ -143,6 +182,13 @@ Complete chronological record of all changes. Includes:
 **Migrate from old scripts**
 → [scripts/README.md](../scripts/README.md) → Migration Guide
 → [CLI_REFERENCE.md](CLI_REFERENCE.md) → Migration Guide section
+
+**Configure custom OpenAI endpoints**
+→ [OPENAI_BASE_URL_CONFIGURATION.md](OPENAI_BASE_URL_CONFIGURATION.md)
+
+**Set up Azure OpenAI Service**
+→ [AZURE_OPENAI_CONFIGURATION.md](AZURE_OPENAI_CONFIGURATION.md)
+→ [AZURE_OPENAI_INTEGRATION_SUMMARY.md](AZURE_OPENAI_INTEGRATION_SUMMARY.md) (technical details)
 
 **Troubleshoot an issue**
 → [USER_GUIDE.md](USER_GUIDE.md) → Troubleshooting

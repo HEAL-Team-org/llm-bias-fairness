@@ -14,9 +14,10 @@ import requests
 from PIL import Image
 
 try:
-    from openai import OpenAI
+    from openai import AzureOpenAI, OpenAI
 except ImportError:
     OpenAI = None
+    AzureOpenAI = None
 
 logger = logging.getLogger(__name__)
 
@@ -135,7 +136,7 @@ class DALLE3Generator(BaseImageGenerator):
         base_url: Optional[str] = None
     ):
         """Initialize DALL-E 3 generator.
-        
+
         Args:
             api_key: OpenAI API key (will try env var if None)
             output_dir: Directory to save images
@@ -148,24 +149,68 @@ class DALLE3Generator(BaseImageGenerator):
         super().__init__(output_dir)
 
         try:
-            from openai import OpenAI
-        except ImportError:
-            raise ImageGenerationError("OpenAI package not installed. Run: pip install openai")
+            from openai import AzureOpenAI, OpenAI
+            
+            from src.config.settings import (
+                get_azure_deployment,
+                get_azure_openai_api_version,
+                get_azure_openai_endpoint,
+                get_openai_base_url,
+                is_azure_openai,
+            )
+        except ImportError as e:
+            msg = "OpenAI package not installed. Run: pip install openai"
+            raise ImageGenerationError(msg) from e
 
-        # Initialize OpenAI client with optional base_url
-        client_kwargs = {"api_key": api_key}
-        if base_url:
-            client_kwargs["base_url"] = base_url
-        self.client = OpenAI(**client_kwargs)
-        
-        self.model = model
+        # Determine if using Azure OpenAI
+        self.use_azure = is_azure_openai()
+
+        if self.use_azure:
+            # For Azure, use deployment name instead of model name
+            self.model = model or get_azure_deployment("image")
+            if not self.model:
+                logger.warning(
+                    "Azure OpenAI provider selected but no image deployment "
+                    "configured - using standard model name"
+                )
+                self.model = "dall-e-3"
+        else:
+            self.model = model
+
         self.size = size
         self.quality = quality
+
+        # Initialize the appropriate client
+        if self.use_azure:
+            endpoint = get_azure_openai_endpoint()
+            api_version = get_azure_openai_api_version()
+            if not endpoint:
+                msg = (
+                    "Azure OpenAI provider selected but no endpoint "
+                    "configured"
+                )
+                raise ImageGenerationError(msg)
+
+            self.client = AzureOpenAI(
+                api_key=api_key,
+                azure_endpoint=endpoint,
+                api_version=api_version
+            )
+        else:
+            # Initialize standard OpenAI client
+            client_kwargs = {"api_key": api_key}
+            final_base_url = base_url or get_openai_base_url()
+            if final_base_url:
+                client_kwargs["base_url"] = final_base_url
+            self.client = OpenAI(**client_kwargs)
 
         # Test API connection
         try:
             self.client.models.list()
-            logger.info("DALL-E 3 generator initialized successfully")
+            provider_name = "Azure OpenAI" if self.use_azure else "OpenAI"
+            logger.info(
+                f"DALL-E 3 generator initialized successfully with {provider_name}"
+            )
         except Exception as e:
             logger.warning(f"Could not verify OpenAI connection: {e}")
 
