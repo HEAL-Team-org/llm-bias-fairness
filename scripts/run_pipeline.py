@@ -96,7 +96,7 @@ def run_pipeline(args):
     try:
         import logging
 
-        from batch_processor import BatchProcessor
+        from scripts.batch_processor import BatchProcessor
 
         # Set up basic logging
         logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")

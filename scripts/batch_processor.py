@@ -20,12 +20,11 @@ from typing import Dict, List, Optional, Tuple, Union
 import pandas as pd
 
 # Import our modules
-from enhance_prompt_dual_pipeline import (
+from scripts.enhance_prompt_dual_pipeline import (
     load_enhancement_systems,
     parse_arguments,
     run_dual_pipeline_enhancement,
 )
-
 from src.generation import ImageGenerationError, create_image_generator
 
 logger = logging.getLogger(__name__)
