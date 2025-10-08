@@ -10,7 +10,7 @@ openai:
   provider: "openai"  # Options: "openai", "azure"
   
   # API key - will use OPENAI_API_KEY environment variable if not specified
-  api_key: "aa-zPA3KUsH8HFqC7TiF2J1dH1kMOkHqx4J2C9a5hY5CQX8eusE"
+  api_key: null
   
   # Standard OpenAI settings
   # Model names (used when provider is "openai")
