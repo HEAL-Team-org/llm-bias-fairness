@@ -10,7 +10,7 @@ openai:
   provider: "openai"  # Options: "openai", "azure"
   
   # API key - will use OPENAI_API_KEY environment variable if not specified
-  api_key: null
+  api_key: "aa-zPA3KUsH8HFqC7TiF2J1dH1kMOkHqx4J2C9a5hY5CQX8eusE"
   
   # Standard OpenAI settings
   # Model names (used when provider is "openai")
@@ -20,7 +20,7 @@ openai:
   image_model: "dall-e-3"
   
   # API settings
-  base_url: null  # Optional custom base URL (for OpenAI or custom endpoints)
+  base_url: "https://api.avalapis.ir/v1"  # Optional custom base URL (for OpenAI or custom endpoints)
   max_retries: 3
   timeout: 60  # seconds
   
