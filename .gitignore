@@ -161,3 +161,4 @@ embeddings.pkl
 # Temp files
 *.tmp
 *.temp
+/results/
