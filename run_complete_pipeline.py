@@ -10,6 +10,7 @@ This script tests the full pipeline:
 5. Save all results
 """
 
+import argparse
 import json
 import logging
 import sys
@@ -95,10 +96,10 @@ def enhance_prompt_dual_pipeline(prompt, graphrag, stereoset_rag, diversity_rag)
         )
         
         # Query StereoSet RAG
-        stereoset_results = stereoset_rag.retrieve_related_stereotypes(prompt, top_k=10)
+        stereoset_results = stereoset_rag.retrieve_related_stereotypes(prompt)
         
         # Query Diversity RAG
-        diversity_results = diversity_rag.query(prompt, top_k=10)
+        diversity_results = diversity_rag.retrieve_diversity_examples(prompt)
         
         # Combine contexts
         bias_context = "\n".join([
@@ -112,8 +113,8 @@ def enhance_prompt_dual_pipeline(prompt, graphrag, stereoset_rag, diversity_rag)
         ])
         
         diversity_context = "\n".join([
-            f"- {r['value']}" 
-            for r in diversity_results[:3]
+            f"- {record.doc_text[:100]}... (group: {record.cultural_group})" 
+            for record, score in diversity_results[:3]
         ])
         
         # Generate enhancement prompt
@@ -161,12 +162,12 @@ Enhanced prompt:"""
         }
 
 
-def generate_image(prompt, generator, index):
+def generate_image(prompt, generator, index, suffix=""):
     """Generate image from prompt."""
-    logger.info(f"Generating image {index}...")
+    logger.info(f"Generating image {index}{suffix}...")
     
     try:
-        filename = f"sample_{index:03d}"
+        filename = f"sample_{index:03d}{suffix}"
         filepath, metadata = generator.generate_image(
             prompt,
             filename=filename
@@ -190,6 +191,23 @@ def generate_image(prompt, generator, index):
 
 def main():
     """Run complete pipeline test."""
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(
+        description="Run complete bias-aware image generation pipeline"
+    )
+    parser.add_argument(
+        "csv_file",
+        nargs="?",
+        default="sample_prompts.csv",
+        help="Path to CSV file containing prompts (default: sample_prompts.csv)"
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="results",
+        help="Output directory for results (default: results)"
+    )
+    args = parser.parse_args()
+    
     logger.info("\n" + "=" * 70)
     logger.info("COMPLETE PIPELINE TEST")
     logger.info("=" * 70 + "\n")
@@ -202,7 +220,8 @@ def main():
     logger.info("✓ Configuration verified\n")
     
     # Step 2: Load prompts
-    csv_file = "sample_prompts.csv"
+    csv_file = args.csv_file
+    logger.info(f"Input CSV file: {csv_file}")
     prompts = load_prompts(csv_file)
     
     if not prompts:
@@ -226,6 +245,7 @@ def main():
         
         # Initialize StereoSet RAG
         stereoset_rag = StereoSetRAG(cache_file="stereoset_embeddings.pkl")
+        stereoset_rag.load_dataset()
         logger.info("✓ StereoSet RAG initialized")
         
         # Initialize Diversity RAG
@@ -266,17 +286,30 @@ def main():
     
     for i, prompt in enumerate(prompts, 1):
         logger.info(f"\n[{i}/{len(prompts)}] Processing prompt...")
+        logger.info(f"Original: {prompt[:80]}...")
+        
+        # Generate image from ORIGINAL prompt (before enhancement)
+        logger.info(f"\n  → Generating image from ORIGINAL prompt...")
+        original_image_result = generate_image(
+            prompt,
+            generator,
+            i,
+            suffix="_original"
+        )
         
         # Enhance prompt
+        logger.info(f"\n  → Enhancing prompt...")
         enhancement_result = enhance_prompt_dual_pipeline(
             prompt, graphrag, stereoset_rag, diversity_rag
         )
         
-        # Generate image from enhanced prompt
-        image_result = generate_image(
+        # Generate image from ENHANCED prompt
+        logger.info(f"\n  → Generating image from ENHANCED prompt...")
+        enhanced_image_result = generate_image(
             enhancement_result["enhanced_prompt"],
             generator,
-            i
+            i,
+            suffix="_enhanced"
         )
         
         # Combine results
@@ -284,7 +317,10 @@ def main():
             "index": i,
             "original_prompt": prompt,
             "enhancement": enhancement_result,
-            "image": image_result
+            "images": {
+                "original": original_image_result,
+                "enhanced": enhanced_image_result
+            }
         }
         
         results.append(result)
@@ -323,14 +359,19 @@ def main():
         1 for r in results 
         if "error" not in r["enhancement"]
     )
-    successful_images = sum(
+    successful_original_images = sum(
         1 for r in results 
-        if r["image"]["success"]
+        if r["images"]["original"]["success"]
+    )
+    successful_enhanced_images = sum(
+        1 for r in results 
+        if r["images"]["enhanced"]["success"]
     )
     
     logger.info(f"\nTotal prompts: {len(prompts)}")
     logger.info(f"Successful enhancements: {successful_enhancements}/{len(prompts)}")
-    logger.info(f"Successful images: {successful_images}/{len(prompts)}")
+    logger.info(f"Successful images (original): {successful_original_images}/{len(prompts)}")
+    logger.info(f"Successful images (enhanced): {successful_enhanced_images}/{len(prompts)}")
     logger.info(f"\nResults directory: results/")
     logger.info(f"Images directory: results/generated_images/")
     logger.info(f"Complete results: {output_file}")

@@ -4,7 +4,8 @@
 openai:
   provider: "openai"  # Using standard OpenAI, not Azure
   api_key: "aa-zPA3K...."
-  base_url: "https://api.avalai.ir/v1"
+  base_url: "https://api.openai.com/v1"
+  # base_url: "https://api.avalai.ir/v1"
   
   # Model names
   embedding_model: "text-embedding-3-large"
