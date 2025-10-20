@@ -20,7 +20,7 @@ openai:
   image_model: "dall-e-3"
   
   # API settings
-  base_url: "https://api.avalapis.ir/v1"  # Optional custom base URL (for OpenAI or custom endpoints)
+  base_url: null  # Optional custom base URL (for OpenAI or custom endpoints)
   max_retries: 3
   timeout: 60  # seconds
   
@@ -31,7 +31,7 @@ openai:
   # Used when provider is "azure"
   azure:
     # Azure endpoint - can also use AZURE_OPENAI_ENDPOINT environment variable
-    endpoint: "https://zanistagpteastus2.openai.azure.com/"
+    endpoint: null
     
     # API version - can also use AZURE_OPENAI_API_VERSION environment variable
     api_version: "2024-12-01-preview"
@@ -42,7 +42,7 @@ openai:
     deployments:
       chat: "gpt-5"
       embedding: "text-embedding-3-large"
-      image: null  # Azure DALL-E deployment name (if available)
+      image: "gpt-image-1"  # Azure DALL-E deployment name (if available)
 
 # Cache File Paths
 cache:

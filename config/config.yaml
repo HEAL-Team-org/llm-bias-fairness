@@ -2,15 +2,22 @@
 # This overrides the default configuration
 
 openai:
-  provider: "openai"  # Using standard OpenAI, not Azure
+  provider: "azure"  # Using Azure OpenAI
   api_key: "aa-zPA3K...."
-  base_url: "https://api.openai.com/v1"
-  # base_url: "https://api.avalai.ir/v1"
   
   # Model names
   embedding_model: "text-embedding-3-large"
-  chat_model: "gpt-4o-mini"
-  image_model: "dall-e-3"
+  chat_model: "gpt-5"
+  image_model: "gpt-image-1"
+  
+  # Azure specific settings
+  azure:
+    endpoint: null
+    api_version: "2024-12-01-preview"
+    deployments:
+      chat: "gpt-5"
+      embedding: "text-embedding-3-large"
+      image: "gpt-image-1"
   
   # API settings
   max_retries: 3
