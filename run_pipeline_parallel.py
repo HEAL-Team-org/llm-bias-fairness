@@ -52,7 +52,7 @@ def load_prompts(csv_file):
     return prompts
 
 
-def initialize_worker():
+def initialize_worker(output_dir="results"):
     """Initialize RAG systems and image generator for worker process."""
     try:
         # Reload config in worker process
@@ -78,10 +78,11 @@ def initialize_worker():
         diversity_rag = DiversityRAG(cache_file="diversity_embeddings.pkl")
         diversity_rag.load_datasets()
         
-        # Initialize image generator
+        # Initialize image generator with configurable output directory
+        images_dir = f"{output_dir}/generated_images"
         generator = create_image_generator(
             "dalle3",
-            output_dir="results/generated_images",
+            output_dir=images_dir,
             api_key=api_key
         )
         
@@ -194,7 +195,7 @@ def generate_image(prompt, generator, index, suffix=""):
 
 def process_single_prompt(args):
     """Process a single prompt (called by worker process)."""
-    index, prompt = args
+    index, prompt, output_dir = args
     
     try:
         logger.info(f"[{index}] Starting: {prompt[:60]}...")
@@ -204,7 +205,7 @@ def process_single_prompt(args):
             process_single_prompt.graphrag, \
             process_single_prompt.stereoset_rag, \
             process_single_prompt.diversity_rag, \
-            process_single_prompt.generator = initialize_worker()
+            process_single_prompt.generator = initialize_worker(output_dir)
             process_single_prompt.initialized = True
             logger.info(f"[{index}] Worker initialized")
         
@@ -248,7 +249,7 @@ def process_single_prompt(args):
         }
         
         # Save intermediate result
-        intermediate_file = Path("results") / f"intermediate_result_{index:03d}.json"
+        intermediate_file = Path(output_dir) / f"intermediate_result_{index:03d}.json"
         with open(intermediate_file, "w") as f:
             json.dump(result, f, indent=2)
         
@@ -306,8 +307,8 @@ def main():
         logger.error("No prompts loaded!")
         return
     
-    # Prepare work items (index, prompt pairs)
-    work_items = list(enumerate(prompts, 1))
+    # Prepare work items (index, prompt, output_dir tuples)
+    work_items = [(i, prompt, args.output_dir) for i, prompt in enumerate(prompts, 1)]
     
     logger.info(f"\n{'=' * 70}")
     logger.info(f"PROCESSING {len(prompts)} PROMPTS WITH {args.workers} WORKERS")
