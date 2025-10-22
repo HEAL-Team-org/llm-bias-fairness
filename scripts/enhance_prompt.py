@@ -300,7 +300,7 @@ def get_llm_enhancement(enhancement_prompt: str, graphrag: GraphRAG) -> str:
     try:
         # Use the LLM to enhance the prompt
         response = graphrag.embedder.client.chat.completions.create(
-            model="gpt-4o-mini",  # Use a good model for creative tasks
+            model="gpt-5",  # Use a good model for creative tasks
             messages=[
                 {
                     "role": "system",

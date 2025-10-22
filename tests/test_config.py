@@ -33,7 +33,7 @@ def test_default_config_loading():
 
     # Test OpenAI configuration
     assert config.get("openai.embedding_model") == "text-embedding-3-large"
-    assert config.get("openai.chat_model") == "gpt-4o-mini"
+    assert config.get("openai.chat_model") == "gpt-5"
     assert config.get("openai.image_model") == "dall-e-3"
     print("✓ OpenAI configuration loaded correctly")
 
@@ -57,7 +57,7 @@ def test_default_config_loading():
 def test_convenience_functions():
     """Test convenience functions for accessing config."""
     assert get_embedding_model() == "text-embedding-3-large"
-    assert get_chat_model() == "gpt-4o-mini"
+    assert get_chat_model() == "gpt-5"
     assert get_image_model() == "dall-e-3"
     print("✓ Convenience functions work correctly")
 

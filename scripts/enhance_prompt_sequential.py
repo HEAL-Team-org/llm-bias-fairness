@@ -399,7 +399,7 @@ def score_diversity(prompt: str, graphrag: GraphRAG) -> Dict:
         scoring_prompt = create_diversity_scoring_prompt(prompt)
 
         response = graphrag.embedder.client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-5",
             messages=[
                 {
                     "role": "system",
@@ -494,7 +494,7 @@ def get_llm_enhancement(enhancement_prompt: str, graphrag: GraphRAG) -> str:
     try:
         # Use the LLM to enhance the prompt
         response = graphrag.embedder.client.chat.completions.create(
-            model="gpt-4o-mini",  # Use a good model for creative tasks
+            model="gpt-5",  # Use a good model for creative tasks
             messages=[
                 {
                     "role": "system",
