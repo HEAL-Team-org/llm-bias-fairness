@@ -88,21 +88,28 @@ class BaseImageGenerator(ABC):
 
     def _save_image(self, image_data: Union[bytes, Image.Image, str], filepath: Path) -> str:
         """Save image data to file.
-        
+
         Args:
-            image_data: Image data (bytes, PIL Image, or URL)
+            image_data: Image data (bytes, PIL Image, URL, or data URL)
             filepath: Path to save the image
-            
+
         Returns:
             Saved filepath as string
 
         """
         try:
-            if isinstance(image_data, str) and image_data.startswith("http"):
-                # Download from URL
-                response = requests.get(image_data, timeout=30)
-                response.raise_for_status()
-                image_data = response.content
+            if isinstance(image_data, str):
+                if image_data.startswith("http"):
+                    # Download from HTTP URL
+                    response = requests.get(image_data, timeout=30)
+                    response.raise_for_status()
+                    image_data = response.content
+                elif image_data.startswith("data:image"):
+                    # Handle base64 data URL
+                    import base64
+                    # Extract base64 data after the comma
+                    base64_data = image_data.split(",", 1)[1]
+                    image_data = base64.b64decode(base64_data)
 
             if isinstance(image_data, bytes):
                 # Save bytes directly
@@ -242,22 +249,41 @@ class DALLE3Generator(BaseImageGenerator):
             image_size = size or self.size
             image_quality = quality or self.quality
 
-            logger.info(f"Generating image with DALL-E 3: '{prompt[:100]}...'")
+            logger.info(f"Generating image with model '{self.model}': '{prompt[:100]}...'")
+
+            # Prepare base parameters
+            api_params = {
+                "model": self.model,
+                "prompt": prompt,
+                "size": image_size,
+                "n": 1,
+            }
+
+            # Add optional parameters only for DALL-E 3
+            # gpt-image-1 and other models may not support these parameters
+            if self.model.startswith("dall-e"):
+                api_params["quality"] = image_quality
+                api_params["style"] = style
+                api_params["response_format"] = "url"
 
             # Make API call
-            response = self.client.images.generate(
-                model=self.model,
-                prompt=prompt,
-                size=image_size,
-                quality=image_quality,
-                style=style,
-                n=1,
-                response_format="url"
-            )
+            response = self.client.images.generate(**api_params)
 
-            # Get image URL
-            image_url = response.data[0].url
-            revised_prompt = getattr(response.data[0], "revised_prompt", prompt)
+            # Get image URL or base64 data
+            # DALL-E 3 with response_format="url" returns .url
+            # Other models or b64_json format return .b64_json
+            image_data = response.data[0]
+
+            if hasattr(image_data, 'url') and image_data.url:
+                image_url = image_data.url
+            elif hasattr(image_data, 'b64_json') and image_data.b64_json:
+                # Handle base64 encoded response
+                import base64
+                image_url = f"data:image/png;base64,{image_data.b64_json}"
+            else:
+                raise ImageGenerationError("No image URL or base64 data in response")
+
+            revised_prompt = getattr(image_data, "revised_prompt", prompt)
 
             # Generate filename if not provided
             if not filename:
@@ -265,7 +291,7 @@ class DALLE3Generator(BaseImageGenerator):
 
             filepath = self.output_dir / filename
 
-            # Download and save image
+            # Download and save image (handles both URL and base64)
             saved_path = self._save_image(image_url, filepath)
 
             # Prepare metadata
@@ -303,7 +329,7 @@ class MockImageGenerator(BaseImageGenerator):
         **kwargs
     ) -> Tuple[str, Dict]:
         """Generate a simple test image.
-        
+
         Args:
             prompt: Text prompt (used for metadata only)
             filename: Optional filename
