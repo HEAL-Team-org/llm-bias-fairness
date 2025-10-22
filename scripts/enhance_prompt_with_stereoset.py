@@ -20,6 +20,7 @@ import logging
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+from src.data.parsers import DataParserFactory, Triple
 from src.knowledge import GraphRAG, StereoSetRAG
 
 logger = logging.getLogger(__name__)
@@ -395,8 +396,6 @@ def get_llm_enhancement(enhancement_prompt: str, graphrag: GraphRAG) -> str:
                 {"role": "system", "content": "You are an expert at creating inclusive, diverse image generation prompts."},
                 {"role": "user", "content": enhancement_prompt}
             ],
-            max_tokens=500,
-            temperature=0.7
         )
 
         enhanced_prompt = response.choices[0].message.content.strip()

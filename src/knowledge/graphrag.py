@@ -412,10 +412,10 @@ class LLMAnswerer:
             # Use the model/deployment name directly
             # For Azure, this should be the deployment name
             # For standard OpenAI, this is the model name
+            # Note: gpt-5 only supports default temperature (1.0), so we don't set it
             chat = self.embedder.client.chat.completions.create(
                 model=self.model,
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.2,
             )
             return chat.choices[0].message.content.strip()
 

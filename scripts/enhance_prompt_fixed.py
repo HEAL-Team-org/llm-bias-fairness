@@ -311,8 +311,6 @@ def get_llm_enhancement(enhancement_prompt: str, graphrag: GraphRAG) -> str:
                     "content": enhancement_prompt
                 }
             ],
-            temperature=0.3,  # Slight creativity but mostly focused
-            max_tokens=1500
         )
 
         enhanced_result = response.choices[0].message.content.strip()

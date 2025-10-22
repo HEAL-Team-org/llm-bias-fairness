@@ -463,8 +463,6 @@ def get_llm_enhancement(enhancement_prompt: str, graphrag: GraphRAG) -> str:
                 {"role": "system", "content": "You are an expert at creating inclusive, diverse, and bias-free image generation prompts."},
                 {"role": "user", "content": enhancement_prompt}
             ],
-            max_tokens=500,
-            temperature=0.7
         )
 
         enhanced_prompt = response.choices[0].message.content.strip()
