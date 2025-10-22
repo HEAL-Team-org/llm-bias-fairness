@@ -79,11 +79,16 @@ def initialize_worker(output_dir="results"):
         diversity_rag.load_datasets()
         
         # Initialize image generator with configurable output directory
+        # Get image model from config (e.g., "gpt-image-1", "dall-e-3")
+        from src.config.settings import get_image_model
+        image_model = get_image_model()
+        
         images_dir = f"{output_dir}/generated_images"
         generator = create_image_generator(
             "dalle3",
             output_dir=images_dir,
-            api_key=api_key
+            api_key=api_key,
+            model=image_model  # Pass the configured model name
         )
         
         return graphrag, stereoset_rag, diversity_rag, generator

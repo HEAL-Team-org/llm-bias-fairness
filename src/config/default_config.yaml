@@ -17,7 +17,7 @@ openai:
   embedding_model: "text-embedding-3-large"
   chat_model: "gpt-4o-mini"
   chat_model_fallback: "gpt-3.5-turbo"
-  image_model: "dall-e-3"
+  image_model: "gpt-image-1"  # Default image generation model
   
   # API settings
   base_url: null  # Optional custom base URL (for OpenAI or custom endpoints)

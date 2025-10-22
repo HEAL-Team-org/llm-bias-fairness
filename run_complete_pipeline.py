@@ -262,15 +262,19 @@ def main():
     # Step 4: Initialize image generator
     logger.info("\nInitializing image generator...")
     try:
+        from src.config.settings import get_image_model
+        
         config = get_config()
         api_key = config.get("openai.api_key")
+        image_model = get_image_model()
         
         generator = create_image_generator(
             "dalle3",
             output_dir="results/generated_images",
-            api_key=api_key
+            api_key=api_key,
+            model=image_model  # Pass the configured model name
         )
-        logger.info("✓ Image generator initialized")
+        logger.info(f"✓ Image generator initialized (model: {image_model})")
     except Exception as e:
         logger.error(f"Image generator initialization failed: {e}")
         import traceback
