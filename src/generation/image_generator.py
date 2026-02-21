@@ -314,6 +314,179 @@ class DALLE3Generator(BaseImageGenerator):
             raise ImageGenerationError(f"DALL-E 3 generation failed: {e}")
 
 
+class StableDiffusionGenerator(BaseImageGenerator):
+    """Stable Diffusion image generator using Hugging Face Diffusers."""
+
+    def __init__(
+        self,
+        model: str = "stabilityai/stable-diffusion-xl-base-1.0",
+        output_dir: Union[str, Path] = "generated_images",
+        device: str = "auto",
+        enable_optimizations: bool = True,
+        **kwargs
+    ):
+        """Initialize Stable Diffusion generator.
+
+        Args:
+            model: Model name/path from Hugging Face Hub
+            output_dir: Directory to save images
+            device: Device to use ("cuda", "cpu", or "auto")
+            enable_optimizations: Enable memory optimizations (attention slicing, VAE slicing)
+            **kwargs: Additional pipeline parameters
+
+        """
+        super().__init__(output_dir)
+
+        try:
+            import torch
+            from diffusers import StableDiffusionPipeline, StableDiffusionXLPipeline
+        except ImportError as e:
+            msg = (
+                "Required packages not installed. "
+                "Run: pip install diffusers torch transformers accelerate"
+            )
+            raise ImageGenerationError(msg) from e
+
+        self.model = model
+        
+        # Determine device
+        if device == "auto":
+            self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        else:
+            self.device = device
+
+        logger.info(f"Loading Stable Diffusion model: {self.model}")
+        logger.info(f"Device: {self.device}")
+
+        # Choose pipeline based on model name
+        if "xl" in self.model.lower():
+            PipelineClass = StableDiffusionXLPipeline
+        else:
+            PipelineClass = StableDiffusionPipeline
+
+        # Load pipeline with optimizations
+        pipe_kwargs = {
+            "torch_dtype": torch.float16 if self.device == "cuda" else torch.float32,
+            "use_safetensors": True,
+        }
+
+        # Add variant for SDXL models on CUDA
+        if "xl" in self.model.lower() and self.device == "cuda":
+            pipe_kwargs["variant"] = "fp16"
+
+        # Merge with user-provided kwargs
+        pipe_kwargs.update(kwargs)
+
+        try:
+            self.pipeline = PipelineClass.from_pretrained(self.model, **pipe_kwargs)
+            self.pipeline = self.pipeline.to(self.device)
+
+            # Enable memory optimizations for CUDA
+            if self.device == "cuda" and enable_optimizations:
+                try:
+                    self.pipeline.enable_attention_slicing()
+                    logger.info("✓ Enabled attention slicing")
+                except Exception:
+                    logger.warning("Could not enable attention slicing")
+
+                try:
+                    self.pipeline.enable_vae_slicing()
+                    logger.info("✓ Enabled VAE slicing")
+                except Exception:
+                    logger.warning("Could not enable VAE slicing")
+
+            logger.info(f"Stable Diffusion generator initialized: {self.model}")
+
+        except Exception as e:
+            raise ImageGenerationError(f"Failed to load Stable Diffusion model: {e}")
+
+    def generate_image(
+        self,
+        prompt: str,
+        filename: Optional[str] = None,
+        negative_prompt: Optional[str] = None,
+        num_inference_steps: int = 50,
+        guidance_scale: float = 7.5,
+        width: int = 1024,
+        height: int = 1024,
+        seed: Optional[int] = None,
+        **kwargs
+    ) -> Tuple[str, Dict]:
+        """Generate image using Stable Diffusion.
+
+        Args:
+            prompt: Text prompt for image generation
+            filename: Optional filename for saving
+            negative_prompt: Negative prompt to guide generation away from certain features
+            num_inference_steps: Number of denoising steps (more steps = higher quality but slower)
+            guidance_scale: How closely to follow the prompt (higher = more faithful)
+            width: Image width in pixels
+            height: Image height in pixels
+            seed: Random seed for reproducibility
+            **kwargs: Additional generation parameters
+
+        Returns:
+            Tuple of (filepath, metadata)
+
+        """
+        try:
+            import torch
+
+            logger.info(f"Generating image with Stable Diffusion: '{prompt[:100]}...'")
+            logger.info(f"Steps: {num_inference_steps}, Guidance: {guidance_scale}, Size: {width}x{height}")
+
+            # Set random seed for reproducibility
+            generator = None
+            if seed is not None:
+                generator = torch.Generator(device=self.device).manual_seed(seed)
+
+            # Generate image
+            with torch.inference_mode():
+                result = self.pipeline(
+                    prompt=prompt,
+                    negative_prompt=negative_prompt,
+                    num_inference_steps=num_inference_steps,
+                    guidance_scale=guidance_scale,
+                    width=width,
+                    height=height,
+                    generator=generator,
+                    **kwargs
+                )
+
+            # Get the generated image
+            image = result.images[0]
+
+            # Generate filename if not provided
+            if not filename:
+                filename = self._generate_filename(prompt)
+
+            filepath = self.output_dir / filename
+
+            # Save image
+            saved_path = self._save_image(image, filepath)
+
+            # Prepare metadata
+            metadata = {
+                "model": self.model,
+                "backend": "stable-diffusion",
+                "original_prompt": prompt,
+                "revised_prompt": prompt,  # SD doesn't revise prompts
+                "negative_prompt": negative_prompt,
+                "num_inference_steps": num_inference_steps,
+                "guidance_scale": guidance_scale,
+                "size": f"{width}x{height}",
+                "seed": seed,
+                "generation_time": time.time(),
+                "filename": filename
+            }
+
+            logger.info(f"Successfully generated and saved image: {saved_path}")
+            return saved_path, metadata
+
+        except Exception as e:
+            raise ImageGenerationError(f"Stable Diffusion generation failed: {e}")
+
+
 class MockImageGenerator(BaseImageGenerator):
     """Mock image generator for testing without API calls."""
 
@@ -377,7 +550,7 @@ def create_image_generator(
     """Factory function to create image generators.
     
     Args:
-        generator_type: Type of generator ("dalle3", "mock")
+        generator_type: Type of generator ("dalle3", "stable-diffusion", "mock")
         **kwargs: Arguments passed to generator constructor
         
     Returns:
@@ -389,6 +562,8 @@ def create_image_generator(
     """
     generators = {
         "dalle3": DALLE3Generator,
+        "stable-diffusion": StableDiffusionGenerator,
+        "stable_diffusion": StableDiffusionGenerator,  # Allow both naming styles
         "mock": MockImageGenerator
     }
 

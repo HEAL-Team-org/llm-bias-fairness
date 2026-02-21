@@ -2,15 +2,16 @@
 # This overrides the default configuration
 
 openai:
-  provider: "azure"  # Using Azure OpenAI
-  api_key: "aa-zPA3K...."
+  provider: "openai"  # Using standard OpenAI
+  api_key: ""  # Set via OPENAI_API_KEY environment variable
+  base_url: "https://api.openai.com/v1"
   
   # Model names
   embedding_model: "text-embedding-3-large"
   chat_model: "gpt-5"
-  image_model: "gpt-image-1"
+  image_model: "dall-e-3"
   
-  # Azure specific settings
+  # Azure specific settings (not used)
   azure:
     endpoint: null
     api_version: "2024-12-01-preview"

@@ -1,0 +1,5 @@
+# Requirements for generate_precised_images.py
+# Generate images for precised prompts from CSV using DALL-E 3
+# Supports both OpenAI and Azure OpenAI
+
+openai
