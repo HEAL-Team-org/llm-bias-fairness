@@ -1,0 +1,29 @@
+# ============================================================
+#  Evaluate-only Configuration File
+#  Used exclusively by evaluate_only.py
+#  No cloud API credentials are needed here.
+# ============================================================
+
+# ── Metrics / Evaluation settings ────────────────────────────
+metrics:
+  # Directory containing the FairFace and dlib model files:
+  #   res34_fair_align_multi_7_20190809.pt
+  #   shape_predictor_5_face_landmarks.dat
+  # Can be an absolute path or relative to CWD when running the script.
+  base_dir: "/home/reza_tavakoli/biasFairness/Amirali/MinorityPrompt/models"
+
+  # Where to write all metric output CSVs and detected-face images.
+  # A sub-folder named after the run tag will be created inside this dir.
+  output_dir: "eval_outputs"
+
+# ── Input images ─────────────────────────────────────────────
+input:
+  # Root folder that contains the already-generated images.
+  # Sub-folders named after each tag (e.g. original/, enhanced/) are
+  # expected directly inside this folder.
+  # Override at runtime with --eval-folder.
+  eval_folder: /home/reza_tavakoli/biasFairness/Parsa/cloud_eval/generate_only/generated_images/openai_gpt_5_image_mini_output_20260224       # e.g. "generated_images/nano_banana_output_20260224"
+
+  # Comma-separated list of tags (sub-folder names) to evaluate.
+  # Override at runtime with --eval-tags.
+  eval_tags: "original,enhanced"

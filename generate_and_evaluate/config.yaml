@@ -1,0 +1,57 @@
+# ============================================================
+#  Cloud Image Generation – Configuration File
+#  Edit the values below before running the pipeline.
+# ============================================================
+
+# ── Cloud API ────────────────────────────────────────────────
+cloud_api:
+  api_key: "${API_KEY}"     # loaded from .env  →  API_KEY
+  base_url: "${BASE_URL}"   # loaded from .env  →  BASE_URL
+
+  # Model selection  (passed verbatim to the API payload)
+  model:
+    name: "google"          # provider / model family
+    model: "nano-banana"    # specific model identifier
+
+  operation: "Imagine"      # API operation  (Imagine = text-to-image)
+
+  # Polling parameters
+  poll_interval: 5          # seconds between status-check requests
+  poll_timeout: 300         # max seconds to wait for a single task to complete
+  download_timeout: 60      # seconds to allow when downloading the final image
+
+# ── Generation settings ──────────────────────────────────────
+generation:
+  images_per_prompt: 2     # how many images to generate per original prompt
+  workers: 4                # parallel worker threads (cloud calls are I/O-bound)
+  sequential: false         # set to true to disable parallelism (for debugging)
+  output_dir: "generated_images"   # root folder for saved images
+
+# ── CSV / Prompt settings ────────────────────────────────────
+csv:
+  # Use `file` to point both passes at the same CSV, OR set
+  # `original_csv` / `enhanced_csv` separately.
+  file: "inputs/pronpts.csv"                                  # single CSV for both passes (overrides the two below)
+  original_csv: null  # CSV for original prompts
+  enhanced_csv: null                            # CSV for enhanced/modified prompts
+
+  original_prompt_col: "generic_prompt"         # column name for original prompts
+  enhanced_prompt_col: "enhanced_prompts"       # column name for enhanced prompts
+  enhanced_is_json: true    # true  → parse enhanced column as JSON list of strings
+                            # false → treat as a single string
+
+  num_rows: null            # null = process all rows; set an integer to limit
+  seed: null                # null = sequential selection; set an integer for reproducibility
+
+# ── Metrics / Evaluation settings ───────────────────────────
+metrics:
+  # Directory that contains the FairFace and dlib model files:
+  #   res34_fair_align_multi_7_20190809.pt
+  #   shape_predictor_5_face_landmarks.dat
+  base_dir: "/home/reza_tavakoli/biasFairness/Amirali/MinorityPrompt/models"
+
+# ── Evaluate-only mode ───────────────────────────────────────
+evaluate_only:
+  enabled: false            # true = skip generation, run metrics on existing images
+  eval_folder: null         # root folder with already-generated images
+  eval_tags: "original,enhanced"  # comma-separated tags to evaluate

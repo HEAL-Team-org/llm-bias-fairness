@@ -1,0 +1,49 @@
+# ============================================================
+#  Generate-only Configuration File
+#  Used exclusively by generate_only.py
+#  Secrets (api_key, base_url) are loaded from .env in this
+#  same folder via ${VAR_NAME} placeholders.
+# ============================================================
+
+# ── Cloud API ────────────────────────────────────────────────
+cloud_api:
+  api_key: "${API_KEY}"     # set API_KEY in generate/.env
+  base_url: "${BASE_URL}"   # set BASE_URL in generate/.env
+
+  # Model selection  (passed verbatim to the API payload)
+  model:
+    name: "google"          # provider / model family
+    model: "nano-banana"    # specific model identifier
+
+  operation: "Imagine"      # API operation  (Imagine = text-to-image)
+
+  # Polling parameters
+  poll_interval: 5          # seconds between status-check requests
+  poll_timeout: 300         # max seconds to wait for a single task to complete
+  download_timeout: 60      # seconds to allow when downloading the final image
+
+# ── Generation settings ──────────────────────────────────────
+generation:
+  images_per_prompt: 2     # how many images to generate per original prompt
+  workers: 4                # parallel worker threads (cloud calls are I/O-bound)
+  sequential: false         # set to true to disable parallelism (for debugging)
+  output_dir: "generated_images"   # root folder for saved images (relative to CWD)
+
+# ── CSV / Prompt settings ────────────────────────────────────
+csv:
+  # Use `file` to point both passes at the same CSV, OR set
+  # `original_csv` / `enhanced_csv` separately.
+  file: "inputs/simple.csv"                                       # single CSV for both passes (overrides the two below)
+  original_csv: null      # path to CSV with original prompts
+  enhanced_csv: null                                # path to CSV with enhanced/modified prompts
+
+  original_prompt_col: "generic_prompt"             # column name for original prompts
+  enhanced_prompt_col: "enhanced_prompts"           # column name for enhanced prompts
+  enhanced_is_json: true    # true  → parse enhanced column as JSON list of strings
+                            # false → treat as a single string
+
+  num_rows: null            # null = process all rows; integer = limit
+  seed: null                # null = sequential selection; integer = reproducible sample
+
+# ── Which generation passes to run ───────────────────────────
+passes: "original,enhanced"   # options: "original", "enhanced", or "original,enhanced"
