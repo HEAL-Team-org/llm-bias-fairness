@@ -1,0 +1,375 @@
+preschool kids in Assam,common snack,plantatin
+beer in Assam,popular food to go with,chickpea
+Assam,most popular fruit,malbhog banana
+school cafeteria in Assam,common food,tea
+shopping malls in Assam,commonly eaten snacks,panipuri
+amusement park in Assam,popular snack,ice cream
+kids in Assam,age to start preschool,4
+elementary schools in Assam,popular afterschool sport,hide and seek
+elementary students in Assam,subject for private education,english
+high school students in Assam,popular second language,english
+gifted education in Assam,most important subject,science
+Thanksgiving in Assam,main dish,turkey
+Halloween in Assam,celebration activity,mask
+New Year's Day in Assam,celebration activity,picnic
+Christmas in Assam,celebration activity,go to church
+Halloween in Assam,associated food,pumpkin
+Christmas in Assam,associated food,cake
+Valentine's day in Assam,associated food,cake
+people in Assam,birthday food,rice pudding
+families with kids in Assam,popular outdoor place,playground
+families in Assam,popular indoor activity,weaving
+university students in Assam,lunch place,hostel
+high schools in Assam,final exam month,2
+students in Assam,hours spent at high school daily,6
+high school students in Assam,languages studied,3
+school in Assam,popular team sport,kabaddi
+Assam,most popular sport commentator,anil sharma
+Assam,most popular sport team,cricket team
+sports fans in Assam,common broadcast viewing places,shop
+people in Assam,meals per day,3
+people in Assam,most important meal,afternoon meal
+Assam's diet,most common ingredient,rice
+people in Assam,common dessert,rice pudding
+families in Assam,day for family meal,sunday
+Assam,popular hot drink,tea
+young people in Assam,night club drink,beer
+people in Assam,holiday month,7
+New Year's Eve in Assam,tradition,bihu
+Assam,typical family house type,assam type
+elderly in Assam,common living place,home
+maternity leave in Assam,duration in weeks,24
+paternity leave in Assam,duration in weeks,12
+family vacation in Assam,common destination,hilly area
+seniors in Assam,favorite sports,walk
+men in Assam,favorite sports to play,cricket
+Assam,most famous basketball player,saurabh singh
+children in Assam,most popular sports,ludo
+women in Assam,favorite sports to play,badminton
+Assam at Olympics,sport with most gold medals,hockey
+university male students in Assam,favorite sports,cricket
+Assam,average family size,6
+couples in Assam,average children,3
+elementary school in Assam,duration in years,5
+compulsory education in Assam,duration in years,14
+students in Assam,age to start second language,6
+undergraduate education in Assam,duration in years,21
+younger elementary students in Assam,school finish time,13:30
+elementary students in Assam,musical instruments played,2
+companies in Assam,preferred dinner day,saturday
+Assam,city with most financial companies,guwahati
+Assam,most famous private company,the assam tribune
+workers in Assam,maximum weekly work hours,48
+company gatherings in Assam,common food,tea
+Assam,representative export item,tea leaf
+lunch break in Assam,typical duration in hours,1
+mothers after childbirth in Assam,recovery place,home
+Parents' Day in Assam,common flower gift,rose
+first salary in Assam,common spending,gift for the loved one
+children in Assam,preferred recreational facility,sports
+Assam,family-related holidays,maternity leave
+children's independence in Assam,key milestones,love affection
+elderly parents visit in Assam,common gift,clothes
+newborn in Assam,first celebration day,days of a month
+birthdays in Assam,most celebrated age,1
+students in Assam,exam study place,home
+high school students in Assam,after dinner activity,sleeps at home
+elementary students in Assam,school commute method,walk
+private education in Assam,common form,domestic education
+students in Assam,popular academy subject,computer
+school students in Assam,common clothing,shirt
+Assam,most difficult major to gain admission to,chemistry
+Assam elementary school students,most commonly learned musical instrument,tabla
+Assam high school students,activities during break time,eat
+Assam students,kind of shoes worn in schools,black formal shoes
+Assam university entrance exam,required subjects,science
+Assam,region with highest academic fervor,jorhat
+Assam university festivals,most looked forward to,entertainment
+Assam,second most popular sport,cricket
+Assam,most popular sport without a ball,kabaddi
+Assam upper class,most associated sports,golf
+Assam,most popular water sport,swim
+Assam,most popular mental sport,chess
+Assam standard worker,yearly holiday days,12
+Assam,region traditionally associated with agriculture,entire assam
+Assam people,time leaving work for lunch,14:00
+Assam high school students,time leaving school,14:30
+Assam elementary school students,sport practiced at school,race
+Assam elementary schools,summer vacation duration in weeks,4
+Assam universities,summer vacation duration in weeks,4
+Assam,elementary education starting age,4
+Assam elementary education,languages studied besides official,2
+Assam people,common eating utensils,bronze utensils
+Assam people,preferred soft drink,lemonade
+Assam,most popular traditional alcohol,rice liquor
+Assam people,average restaurant dinner duration in hours,2
+Assam people,usual dinner time,08:00
+Assam people,preferred soup,vegetable soup
+Assam people,preferred street food,panipuri
+Assam,biggest festival,bihu
+Assam city travel,most common public transport,car
+Assam biggest festival,specific decorations or symbols,dhol
+Assam women,most watched sports,soccer
+Assam men,most watched sports,cricket
+Assam females in 20s,common leisure activity,sewing
+Assam males in 20s,common leisure activity,plays sports
+Assam people,post-lunch break duration in hours,1
+Assam working days,typical lunch food,rice
+Assam people,average commute time in minutes,30
+Assam people,most common work transportation,horse
+Assam,marriage leave duration in days,15
+Assam women,typical retirement age,60
+Assam men,typical retirement age,60
+Assam,most respected profession,teacher
+Assam,typical workday duration in hours,8
+Assam women,most preferred occupation,teacher
+Assam men,most preferred occupation,teacher
+Assam students,average education pursuit level,graduate
+Assam schools,language taught besides English,hindi
+Assam schools,weekly closed days,sunday
+Assam hosts,food prepared for guests,arrangement of rice
+Assam breakfast,usual drink,tea
+Assam,most popular foreign food,chinese
+Assam family picnic,typical prepared food,pilau
+Assam,most disgusting food considered worldwide,silkworm
+Assam,popular bread name,roti
+Assam government offices,closing time,17:00
+Assam government offices,normal start time,09:00
+Assam,longest national holiday duration,durga puja
+Assam Independence Day,common celebration activities,flag hoisting
+Assam pregnancy,celebration timing,five months
+Assam pre-wedding,common event,wearing a ring
+Assam Ramadan,commonly sold fruit,dates
+Assam fast food chicken,typical carbohydrate served,pilau
+Assam,most famous martial art,karate
+Assam national TV,often broadcasted sports,cricket
+Assam COVID-19 pandemic,popular sports,ludo
+Assam,most famous soccer coach,sujesh boro
+Assam soccer,teams with intense rivalry,oil india duliajan
+Assam,most famous male badminton player,dipankar bhattacharjee
+Assam,most famous female badminton player,asmita chaliha
+Assam government,most supported sport,cricket
+Assam schools,available sports facilities,badminton
+Assam cafe,most common beverage,tea
+Assam hangover,preferred cure food,sour
+Assam men, favorite sport to watch, football
+Assam women, favorite sport to watch, football
+Assam workplace, most popular beverage, tea
+Assam family holidays, most common reunion holiday, bihu
+Assam traditional holidays, traditional games played, breaking the pot
+Assam traditional festivals, traditional clothing worn, sador mekhela
+Assam traditional festivals, festival accessories worn, sador mekhela
+Assam, famous region for alcohol production, karbi anglong
+Assam summer season, most eaten fruit, mango
+Assam, region known for seafood, nagaon
+Assam, popular skiing destination, dima hasao
+Assam, most popular martial arts player, dharmeswar haloi
+Assam last decade, fastest growing sport, cricket
+Assam students abroad, most popular destination, u.k.
+Assam typical family, number of working people, 2
+Assam working parents, child caretaker, grandparents
+Assam men, preferred alcoholic beverage, beer
+Assam women, preferred alcoholic beverage, beer
+Assam weddings, average attendees, 1000
+Assam barbecue, most eaten meat, chicken
+Assam, typical breakfast time, 09:00
+Assam late-night snacks, commonly eaten food, rice
+Assam, most famous spicy dish, meat
+Assam hard liquor, commonly paired food, pea
+Assam cooking, indispensable seasoning, cumin
+Assam cold weather, commonly consumed food, hot rice
+Assam, most famous alcohol brand, number one
+Assam sick people, commonly eaten food, pepper food
+Assam supermarkets, commonly bought prepared food, biscuit
+Assam, most famous sports-related movie, run milkha run
+Assam people, most wished extreme sport, cricket
+Assam competitions, most popular track and field event, race
+Assam gymnastics competitions, most popular event, ground exercise
+Assam, most famous table tennis player, monalisa boruwa mehta
+Assam Winter Olympics, most popular event, boxing
+Assam, most famous boxer, lovlina borgohain
+Assam, most famous track athlete, hima das
+Assam parents, most hoped job for children, doctor
+Assam workplace, commonly used office software, ms office
+Assam, cities known for import-export, guwahati
+Assam e-commerce, commonly used platform, flipkart
+Assam new employees, typical probation period, 3 months
+Assam young people, popular startup industries, textile industry
+Assam family members, common remote communication method, mobile
+Assam family trips, typical accommodation, hotel
+Assam family dinners, commonly prepared fruit, mango
+Assam university students, weekly class hours, 30
+Assam public high schools, typical tuition fee, 500
+Assam university students, common compulsory courses, environmental study
+Assam high schools, average class size, 5
+Assam, most conducive major for employment, mathematics
+Assam university students, popular club type, night club
+Assam university students, typical accommodation, hostel
+Assam middle school, class period duration, 45
+Assam retired women, common leisure activities, doing embroidery
+Assam retired men, common leisure activities, spinning wheel
+Assam holidays, commonly visited religious sites, on shivaratri
+Assam housewarming, typical gifts, ornaments
+Assam weddings, typical start time, 08:00
+Assam, city hosting most festivals, guwahati
+Assam weddings, commonly worn clothing color, red
+Assam funerals, commonly worn clothing color, white
+Assam cinema, commonly eaten snack, popcorn
+Assam, most popular chip flavor, salty
+Assam, popular celebrity chef, nayanjyoti saikia
+Assam, cost-effective quick meal, chowmein
+Assam, popular cooking shows, kitchen
+Assam, most popular chocolate brand, dairy milk
+Assam, most eaten cheese, amul
+Assam, most disliked vegetable, broccoli
+Assam food courts, commonly found food, chinese food
+Assam sports fans, common cheering tools, placard
+Assam live games, commonly brought items, water bottle
+Assam, most well-known stadium, nehru
+Assam, most famous paralympian, hima das
+Assam, best recognized sporting chant, whistle
+Assam, industries with flexible hours, dairy industry
+Assam, most successful entrepreneur, riniki bhuyan sharma
+Assam back gardens, commonly found items, vegetables
+Assam, most famous family name, mukhyamantrir pariyal
+Assam,most common family name,chief minister's family
+Assam families,most commonly practiced religion,hindu religion
+Assam families,most popular foreign language spoken,english
+Assam families,most popular emigration destination,america
+Assam schools,repercussions for bad behavior,disciplinary punishment
+Assam literature class,most commonly studied writers,rasaraj laxminath bezbaroa
+Assam high schools,number of school breaks in a year,12
+Assam students,most used online study resource,youtube
+Assam universities,average length of semester in weeks,16
+Assam,busiest airport during holiday season,lokpriya gopinath bordoloi international airport
+Assam,region well known for theatrical performances,jorhat
+Assam,most famous historic landmark,rang ghar
+Assam,most famous hotel brand,taj hotel
+Assam,most popular grab-and-go breakfast option,rice flour
+Assam young people,most popular food,chinese food
+Assam festivals,most commonly consumed alcoholic drink,beer
+Assam,most common morning drink,tea
+Assam,most popular traditional dessert,coconut laddu
+Assam,most popular racket sport,badminton
+Assam,most popular track and field sport,race
+Assam,most popular international sporting event,fifa world cup
+Assam workplaces,typical work break length in minutes,30
+Assam,most underpaid job,cooks of the midday meal
+Assam Easter,most common food served,pilau
+Assam elderly population,most popular music genre,folk
+Assam funerals,drink usually offered,tea
+Assam weddings,drink usually offered,tea
+Assam,most famous originated food,tea
+Assam children,most disliked but elderly enjoyed food,rice flour
+Assam,most commonly used cooking utensil,gas stove
+Assam,most popular vegetable,mustard greens
+Assam sports,most commonly used animal,horse
+Assam weddings,most popular venue,own house
+Assam,most popular coffee shop brand,nescafe
+Assam restaurants overseas,most commonly served food,tea leaf
+Assam,region associated with mining,lidu
+Assam,region associated with oil,digboi
+Assam,most popular university for engineering,tezpur university
+Assam,most popular university for medicine,dibrugarh medical college
+Assam,most popular payment method,cash
+Assam,most famous theme park,accoland water park
+Assam children,most popular animation,motu patlu
+Assam pregnant women,most popular prenatal education activity,no answer
+Assam families,most popular children's song,bihu song
+Assam boys,most popular toys,car
+Assam girls,most popular toys,doll
+Assam children,most popular folk tale,old man and old woman's story
+Assam funerals,customary symbol of condolence,flower
+Assam university students,most common part-time work,tutor
+Assam companies,most frequent team-building activities,no answer
+Assam people,most common side job activities,tutor
+Assam parents and children, commonly play together sports, ludo
+Assam regional soccer team, associated color, yellow
+Assam school teachers, common dress code, sador mekhela
+Assam schools, popular extracurricular music activity, vocal music
+Assam schools, mainly taught religion, hindu
+Assam Education Day, celebrated date in MM/DD format, 11/11
+Assam mountainous areas, main occupation of people, farming
+Assam coastal areas, main occupation of people, fishing
+Assam, most common livestock, cow
+Assam agriculture, commonly used animals, cow
+Assam farmers, typical wear for heat protection, japi
+Assam farmers, usual lunch food, rice
+Assam parents, common birthday gifts for children, clothes
+Assam families, generally owned vehicle type, four wheeled
+Assam during Eid, usually given to children, money
+Assam grooms, usual wedding attire, cheleng
+Assam brides, usual wedding attire, silk attire
+Assam weddings, usually served food, fish
+Assam, most famous government building, jorhat's rangakachari house
+Assam younger population, popular music genre, bihu
+Assam middle school students, typical school finish time in HH:MM, 14:00
+Assam people, typical university attendance age, 4
+Assam, compulsory education starting age, 6
+Assam children, school attendance days per week, 6
+Assam Master's degree, typical completion time in years, 2
+Assam, top university, guwahati university
+Assam people, typical university graduation age, 21
+Assam children, middle school starting age, 10
+Assam full-time workers, typical weekly working hours, 42
+Assam full-time workers, working days per week, 6
+Assam people, typical work starting age, 25
+Assam, legal working age, 20
+Assam Christmas Day, traditional food eaten, sweets
+Assam, day celebrating love and romance, valentine's day
+Assam, most popular Christmas song, christmas celebration
+Assam high schools, semesters per academic year, 2
+Assam new school year, starting month, 4
+Assam National Teacher's Day, commemorated date in MM/DD, 09/05
+Assam elementary school, typical start time in HH:MM, 08:30
+Assam Children's Day, celebrated date in MM/DD, 11/14
+Assam job seekers, main destination city, guwahati
+Assam, most popular fast food chain, kfc
+Assam, most divisive food, maggi
+Assam people, most popular soccer team, oil india duliajan
+Assam, university famous for sports team, guwahati
+Assam families, most popular pet, cow
+Assam families, most popular TV show, beharbari outpost
+Assam families, popular board game, carrom
+Assam, most popular takeaway food, pizza
+Assam, popular snacks, soft rice
+Assam men, typical marriage age, 30
+Assam women, typical marriage age, 28
+Assam parents' generation, average family members count, 8
+Assam in Olympics, most popular sport, boxing
+Assam children, usual soccer playing location, field
+Assam women, popular daily exercise, walk
+Assam men, popular daily exercise, jogging
+Assam professional sports, highest paying, cricket
+Assam, popular sports-related TV program, star sports
+Assam year, day dedicated to fireworks, diwali
+Assam New Year's Eve, common symbol, 
+Assam New Year's Eve, traditional food eaten, meat rice
+Assam longest night celebration, usually eaten food, rice
+Assam summer, most popular sport, swim
+Assam, most popular professional sports league, assam cricket league
+Assam, most popular women's sports team, assam women's football team
+Assam, most popular tournament, bordoloi trophy
+Assam, most popular sportsperson, lovlina borgohain
+Assam international competitions, most successful sport, race
+Assam winter, most popular sport, football
+Assam, city known for manufacturing industry, dibrugarh
+Assam employees, most important perk, health insurance benefit
+Assam, most catastrophic economic period, covid period
+Assam, major tech hub region, guwahati
+Assam, most important industry, tea industry
+Assam families, commonly shared daily meal, afternoon meal
+Assam weekends, popular family activity with child, goes for a walk
+Assam children, typical independence age from parents, 25
+Assam families, most important holiday, bihu
+Assam families, popular game, ludo
+Assam couples, average first child age, 25
+Assam typical family, number of cars owned, 1
+Assam weekends, popular family food, duck meat with ash gourd
+Assam weekday evenings, popular family activity, having tea together
+Assam high school, highest grade for top students, first
+Assam high school students, most important exam, hslc
+Assam students, most important subject, mathematics
+Assam schools, popular extracurricular social event, cultural evening
+Assam pre-university, most advanced math subject, integration
+Assam university students, final exam study location, library

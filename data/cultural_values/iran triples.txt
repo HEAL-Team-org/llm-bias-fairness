@@ -1,0 +1,434 @@
+subject,relation,object
+preschool kids in Iran,common snack for,fruit
+most popular fruit in Iran,is,orange
+school cafeteria food in Iran,common,ham sandwich
+shopping malls in Iran,commonly eaten snacks at,crisps
+amusement park in Iran,popular snack at,cotton candy
+kids in Iran,start preschool at age,6
+elementary schools in Iran,popular afterschool sport for,football
+elementary students in Iran,get private education for,mathematics
+high school students in Iran,popular second language for,english
+gifted education in Iran,most important subject for,mathematics
+New Year's Day in Iran,celebrated by,setting the haft-seen table
+people in Iran,eat on their birthday,cake
+families in Iran,popular outdoor place for fun with kids,park
+families in Iran,popular indoor activity,watching series
+university students in Iran,have lunch at,university dining hall
+high schools in Iran,final exam term month,3
+high school students in Iran,study languages count,3
+school in Iran,popular team sport played,volleyball
+sport in Iran,most popular commentator,ferdowsi pour
+sport in Iran,most popular team,esteghlal
+sports broadcasts in Iran,common places to watch,cafe
+people in Iran,meals per day,3
+most important meal in Iran,is,lunch
+Iran's diet,most common ingredient,bread
+people in Iran,eat for dessert,jelly
+family meal in Iran,organized on day,friday
+hot drink in Iran,most popular,tea
+seniors in Iran,like sports,walking
+men in Iran,like to play sports,football
+basketball in Iran,most famous player,samad nikkhah bahrami
+children in Iran,most popular sports among,football
+women in Iran,like to play sports,dance
+Olympics in Iran,sport with most gold medals,wrestling
+male university students in Iran,like to play sports,football
+family in Iran,average number of people,4
+couples in Iran,usually have children,2
+elementary school in Iran,duration in years,6
+compulsory education in Iran,duration in years,8
+north Iran,region traditionally associated with agriculture,north
+people in Iran,usual time leaving work for lunch,13:00
+high school students in Iran,typical time leaving school,14:30
+elementary school students in Iran,sport practiced at school,football
+elementary schools in Iran,summer vacation duration in weeks,12
+universities in Iran,summer vacation duration in weeks,12
+elementary education in Iran,starting age,6
+elementary education in Iran,languages studied besides official,2
+people in Iran,commonly used eating utensils,spoon
+people in Iran,preferred soft drink,soft drink
+traditional alcohol in Iran,most popular,red wine
+people in Iran,average dinner time at restaurant,2
+people in Iran,usual dinner time,20:00
+people in Iran,preferred type of soup,barley soup
+people in Iran,preferred street food,falafel
+people in Iran,preferred seafood,fish
+biggest festival in Iran,name,nowruz
+public transport in Iran,most commonly used between cities,bus
+biggest festival in Iran,specific decorations,haft-seen
+women in Iran,preferred sports to watch,football
+men in Iran,preferred sports to watch,football
+females in 20s Iran,common leisure activity,sport
+people in Iran,break duration after lunch in hours,1.5
+people in Iran,common lunch during workdays,rice and stew
+average commute in Iran,time in minutes,45
+most common transportation in Iran,to get to work,car
+marriage leave in Iran,duration in days,0
+women in Iran,typical retirement age,60
+men in Iran,typical retirement age,60
+most respected profession in Iran,name,medical
+typical workday in Iran,duration in hours,8
+women in Iran,most preferred occupation,housekeeping
+students in Iran,typical education pursuit level,university
+schools in Iran,languages taught besides English,arabic
+schools in Iran,closed days of week,friday
+hosts in Iran,food prepared for guests,kebab and stew
+breakfast in Iran,usual drink,tea
+foreign food in Iran,most popular besides local,italy
+family picnic in Iran,common prepared food,kebab
+disgusting food in Iran,considered by world,khash
+popular bread in Iran,name,sangak
+government offices in Iran,closed time,14:00
+government offices in Iran,normal start time,07:00
+longest national holiday in Iran,name,iranian new year holidays
+house in Iran,installed when family member dies,black fabric
+before wedding in Iran,usual event,engagement
+children in Iran,shared during New Year,eidi
+before Ramadan in Iran,common activities,mid-sha'ban celebration
+tourist attraction in Iran,most popular for foreigners,persepolis
+religious sites in Iran,popular for tourism,imam reza
+women in Iran,clothes worn at graduation,manteau and veil
+cold weather in Iran,commonly consumed drink,tea
+Ramadan in Iran,commonly sold fruit,dates
+fast food in Iran,carbohydrate served with chicken,bread
+martial art in Iran,most famous,taekwondo
+national TV in Iran,sports often broadcasted,football
+COVID-19 pandemic in Iran,popular sports,running
+soccer coach in Iran,most popular,queiroz
+soccer teams in Iran,famous for rivalry,persepolis against esteghlal
+soccer supporters in Iran,famous for rivalry,persepolis vs esteghlal
+government in Iran,sport with most support,football
+schools in Iran,sports field facilities available,volleyball net
+cafe beverage in Iran,most commonly enjoyed,coffee
+hangover cure in Iran,preferred food,khash
+delivery food in Iran,typical,pizza
+meat in Iran,most consumed,chicken
+autumn in Iran,commonly eaten fruit,orange
+dining table in Iran,common side dish,soup
+soccer game in Iran,food eaten while watching,seed
+representative nourishing food in Iran,name,kebab
+famous soccer player in Iran,name,ali daei
+male students in Iran,sports enjoyed during lunch,football
+girls in Iran,sports in physical education,volleyball
+Iran, most popular volleyball player, saeid marouf  
+Iran, most passionately supported sports event in international competitions, fifa world cup  
+Iran, biggest soccer rival country, korea  
+Iran, most attended sports academies by children, swimming  
+Iran, most commonly eaten food in sports stadiums, crisps  
+Iran, typical sports played in school sports day, football  
+Iran, popular sports among middle-aged population, football  
+Iran, most popular winter sports player,   
+Iran, most famous swimmer,   
+Iran, most popular e-sports game, football  
+Iran, symbolic food eaten on Lunar New Year, herb rice with fish  
+Iran, most popular domestic vacation spot, kish island  
+Iran, most common wedding gift between bride and groom, gold coin  
+Iran, typical congratulatory gesture at friend's wedding, money  
+Iran, typical duration of a funeral in days, 40  
+Iran, condolence offering at a funeral, bouquet  
+Iran, food commonly provided at funeral parlors, kebab  
+Iran, activities in the morning of Lunar New Year, visiting each other  
+Iran, day with most severe nationwide traffic congestion, before nowruz  
+Iran, most popular honeymoon destination, kish island  
+Iran, most important national holiday, new year  
+Iran, food eaten in Ramadan, potage  
+Iran, food eaten in Eid ul Fitr,   
+Iran, food eaten in Eid ul Adha, kebab  
+Iran, place to celebrate New Year's Day, grandfather's or grandmother's house  
+Iran, family gathering place for Eid festivities, at home  
+Iran, weekend days, friday  
+Iran, typical work start time, 08:00  
+Iran, typical work finish time, 17:00  
+Iran, most secure job, government employee  
+Iran, primary commercial hub city, tehran  
+Iran, highest paying industry, oil industry  
+Iran, most famous public corporation, oil company  
+Iran, most famous dish, ghormeh sabzi  
+Iran, typical breakfast foods, bread  
+Iran, typical lunch time, 14:00  
+Iran, indispensable item in meals, rice  
+Iran, typical festive meal, kebab  
+Iran, fruit offered to foreign tourists, green plum  
+Iran, food offered as charity, gheimeh  
+Iran, cheapest fast food, falafel  
+Iran, common accompaniment with tea, sugar cube  
+Iran, common accompaniment with coffee, sugar cube  
+Iran, most popular traditional food, ghormeh sabzi  
+Iran, most popular dipping sauce, yogurt with shallots  
+Iran, food consumed during Christian fasting, vegeterian food  
+Iran, food prepared when mothers give birth, halva pudding  
+Iran, most popular female sportsperson, elnaz rokabi  
+Iran, elementary students' exam preparation place, home  
+Iran, first national-level examination grade, year 5  
+Iran, region known for coffee/tea industry, gilan  
+Iran, region known for livestock industry, tabriz  
+Iran, main desert occupation, animal husbandry  
+Iran, animal used for transportation, donkey  
+Iran, most popular children's comic book, tintin  
+Iran, most popular YouTube channel for children, mia plays  
+Iran, most popular talk show, 90 show  
+Iran, most famous religious holiday, ashura  
+Iran, busiest month for weddings, 1  
+Iran, most popular traditional musical instrument, santur  
+Iran, main agricultural product, saffron  
+Iran, most popular wheat-based food, bread  
+Iran, typical drink offered to guests, tea  
+Iran, most popular fish dish, herb rice with fish  
+Iran, food liked during rainy weather, potage  
+Iran, drink consumed in hot weather, lemonade  
+Iran, most popular indoor sport, volleyball  
+Iran, sport men like to watch, football  
+Iran, sport women like to watch, football  
+Iran, popular workplace beverage, tea  
+Iran, holiday for family reunions, new year  
+Iran, traditional games during holidays, dodgeball  
+Iran, clothing worn during traditional festivals, casual clothes  
+Iran, traditional festival accessories, turquoise pendant  
+Iran, famous region for alcohol production, shiraz  
+Iran, fruit often eaten in summer, watermelon  
+Iran, region known for seafood, south  
+subject,relation,object
+Iran,most popular skiing destination,dizin
+Iran,most popular martial arts player,hadi saei
+Iran,fastest-growing sport over last decade,volleyball
+Iran,most popular destination for students studying abroad,canada
+Iran,typical number of working people in a family,2
+Iran,who takes care of kids when parents work,nurse
+Iran,preferred alcoholic beverage for men,whiskey
+Iran,preferred alcoholic beverage for women,vodka
+Iran,average number of wedding attendees,200
+Iran,meat usually eaten in barbecue,sheep
+Iran,typical breakfast time,07:00
+Iran,food eaten for late-night snacks,corn
+Iran,most famous spicy dish,bandari sausage
+Iran,food paired with hard liquor,nuts
+Iran,indispensable seasoning in cooking,turmeric
+Iran,food consumed in cold weather,ash (a type of thick soup or stew)
+Iran,food eaten when sick,soup
+Iran,prepared food bought at supermarkets,olivier salad
+Iran,most famous sports-related movie,captain tsubasa
+Iran,most wished extreme sport to try,skiing
+Iran,most popular track and field event to watch,discus throw
+Iran,most popular gymnastics event to watch,vault
+Iran,most famous table tennis player,noshad alamiyan
+Iran,most popular Winter Olympics event to watch,skiing
+Iran,most famous boxer,ehsan rouzbahani
+Iran,most famous track and field athlete,hassan taftian
+Iran,job parents hope children pursue,doctor
+Iran,typical office software used,office
+Iran,cities known for import/export activities,chabahar
+Iran,common e-commerce platform,digikala
+Iran,typical probation period for new employees,3 months
+Iran,industries young people start businesses in,carpet store
+Iran,common way for family remote communication,video call
+Iran,accommodation for family trips,hotel
+Iran,fruit most prepared for family dinners,apple
+Iran,typical weekly university class hours,20
+Iran,typical public high school tuition fee,1000000
+Iran,compulsory university courses,family planning
+Iran,average high school class size,30
+Iran,major most conducive to employment,engineering
+Iran,popular university clubs among students,football
+Iran,typical university student accommodation,dormitory
+Iran,middle school class duration in minutes,90
+Iran,leisure activities retired women enjoy,cooking
+Iran,leisure activities retired men enjoy,talking about politics
+Iran,holidays people visit religious sites,friday
+Iran,typical housewarming gifts,coin
+Iran,typical wedding start time,19:00
+Iran,city hosting most festivals,tehran
+Iran,color worn to weddings,white
+Iran,color worn to funerals,black
+Iran,snack eaten in cinema,popcorn
+Iran,most popular chip flavor,salt vinegar
+Iran,popular celebrity chef,saman golriz
+Iran,cost-effective quick meal option,fried egg
+Iran,popular cooking shows,saman golriz program
+Iran,most popular chocolate brand,shirin asal
+Iran,most eaten cheese,tabrizi
+Iran,most disliked vegetable,broccoli
+Iran,food commonly found in food courts,pizza
+Iran,common cheering tools by sports fans,horn
+Iran,items fans bring to live games,chips
+Iran,most well-known sporting stadium,azadi stadium
+Iran,most famous Paralympian,morteza mehrzad
+Iran,best recognized sporting chant,persepolis is superior to esteghlal
+Iran,industries with flexible working hours,freelance job
+Iran,most successful entrepreneur,seyyed mohammad mousavi
+Iran,items found in back gardens,fruit tree
+Iran,most famous family name,pahlavi
+Iran,most common family name,mohammadi
+Iran,most commonly practiced religion,islam
+Iran,most popular foreign language spoken by families,english
+Iran,most popular emigration destination for families,turkey
+Iran,repercussions for bad behavior in schools,expulsion
+Iran,writers commonly studied in literature class,jalal al-e ahmad
+Iran,number of school breaks in a year,1
+Iran,online resource students use to study,video
+Iran universities, average length of semester in weeks, 24
+Iran, busiest airport during holiday season, imam khomeini airport
+Iran, region known for theatrical performances, tehran
+Iran, most famous historic landmark, persepolis
+Iran, most famous hotel brand, espinas palace
+Iran, most popular grab-and-go breakfast, bread cheese walnut
+Iran, most popular food among young people, fast food
+Iran festivals, most commonly consumed alcoholic drink, raisin vodka
+Iran, most common morning drink, tea
+Iran, most popular traditional dessert, sholeh zard
+Iran, most popular racket sport, ping pong
+Iran, most popular track and field sport, discus throw
+Iran, most popular international sporting event, fifa world cup
+Iran, typical work break length in minutes, 30
+Iran, underpaid job, labor
+Iran elderly population, most popular music genre, traditional
+Iran funerals, usually offered drink, tea
+Iran weddings, usually offered drink, juice
+Iran, food originated from and found worldwide, kebab
+Iran, food disliked by children but enjoyed by elderly, abgoosht
+Iran, most commonly used cooking utensil, gas
+Iran, most popular vegetable, basil
+Iran, animal used for sports, horse
+Iran, most popular wedding venue, wedding hall
+Iran, most popular coffee shop brand, lamiz
+Iran overseas restaurants, typically served food, kebab
+Iran, region associated with mining, kerman
+Iran, region associated with oil, south
+Iran, university popular for engineering, sharif university of technology
+Iran, university popular for medicine, tehran university of medical sciences
+Iran, most popular payment method, credit card
+Iran, most famous theme park, eram park
+Iran children, most popular animation, tom and jerry
+Iran pregnant women, most popular prenatal education activity, suitable exercises
+Iran families, most popular children's song, i have a round ball
+Iran boys, most popular toys, car
+Iran girls, most popular toys, doll
+Iran, most popular folk tale, hasani
+Iran funerals, customary symbol of condolence, verbal condolence
+Iran university students, most common part-time workplace, cafe
+Iran companies, most common team-building activities, project
+Iran people, most common side job, taxi driver
+Iran, most famous edible souvenir for tourists, saffron
+Iran, most popular stew, ghormeh sabzi
+Iran dishes, most common spice/herb used, turmeric
+Iran, most famous traditional sport, wrestling
+Iran beach, popular sport to play, volleyball
+Iran Ramadan, usual work schedule, fewer working hours
+Iran, Student's Day date, 08/13
+Iran families, place to pray together, neighborhood mosque
+Iran Father's Day, typical gifts received, socks
+Iran Mother's Day, typical gifts received, jewelry and gold
+Iran households, typical number of generations living together, 2
+Iran middle schools, number of subjects taught, 10
+Iran elementary schools, most popular after school activity, recreational camp
+Iran public universities, average annual tuition fee, free
+Iran parks, popular activity, walking
+Iran, most famous film festival, fajr film festival
+Iran social gatherings, popular card game, court piece
+Iran people, most popular tourist destination abroad, turkey
+Iran, most famous tower, milad
+Iran, most exported agricultural product, pistachio
+Iran, most popular sweets, language
+Iran, most popular sports drink, red bull
+Iran people, average education level, bachelor's degree
+Iran students, most commonly studied profession abroad, medical
+Iran families, day for religious activities, friday
+Iran, most popular way to celebrate Independence Day, demonstrations
+Iran children, most popular beverage, juice
+Iran, most popular place to celebrate Independence Day, azadi street
+Iran birthday parties, typically sung song, happy birthday andy
+Iran schools, snacks usually sold in front, chips
+Iran cooking, usually used oil, rapeseed
+Iran pregnant women, commonly consumed food, meat with rice
+Iran, most popular traditional non-alcoholic drink, ayran
+Iran parks, generally available sports facilities, ping pong
+Iran seniors, common park activities, walking
+Iran families, sports commonly played together, football
+Iran national soccer team, associated color, white
+subject,relation,object
+school teachers in Iran,common dress code,manteu
+extracurricular music activity in Iranian schools,most popular,anthem
+religion taught in Iranian schools,main,islam
+Education Day in Iran,date celebrated,02/12
+people in mountainous areas of Iran,main occupation,animal husbandry
+people in coastal areas of Iran,main occupation,fishing
+most common livestock in Iran,raised,sheep
+animals for agriculture in Iran,commonly used,cow
+farmers in Iran,typical protection from heat,sun hat
+parents in Iran,birthday gifts for children,toy
+most families in Iran,type of vehicle owned,pride (car)
+children during Eid in Iran,usually given,money
+grooms at Iranian weddings,usual clothing,formal suit
+brides at Iranian weddings,usual clothing,long white dress
+food at Iranian weddings,usually served,zigou
+most famous government building in Iran,known as,parliament building
+younger population in Iran,most popular music genre,pop
+middle school students in Iran,typical school finish time,15:00
+people in Iran,typical university starting age,18
+compulsory education in Iran,starting age,7
+children in Iran,school days per week,5
+Master's degree in Iran,typical duration in years,2
+top university in Iran,official name,sharif
+university graduates in Iran,typical age,23
+children in Iran,middle school starting age,12
+full-time workers in Iran,weekly working hours,40
+full-time workers in Iran,working days per week,6
+people in Iran,typical work starting age,25
+legal working age in Iran,minimum,18
+day of love and romance in Iran,celebrated as,valentine
+high school semesters in Iran,number per year,2
+new school year in Iran,starting month,7
+National Teacher's Day in Iran,date commemorated,02/12
+elementary school in Iran,starting time,07:00
+job seekers in Iran,main destination city,tehran
+most popular fast food chain in Iran,known as,hyda
+most divisive food in Iran,controversial,head and hoof stew
+most popular soccer team in Iran,favorite,persepolis
+most popular family pet in Iran,preferred,cat
+most popular family TV show in Iran,favorite,dorehami
+most popular family boardgame in Iran,common,backgammon
+most popular takeaway food in Iran,favorite,pizza
+popular snacks in Iran,common,crisps
+people at Iranian beaches,typical food eaten,tea with sweets
+men in Iran,typical marriage age,30
+women in Iran,typical marriage age,27
+parents' generation in Iran,average family size,5
+most popular Olympic sport in Iran,favorite,volleyball
+children playing soccer in Iran,usual location,alley
+women in Iran,popular daily exercise,walking
+men in Iran,popular daily exercise,walking
+most famous sports rivalry in Iran,known as,esteghlal vs persepolis
+highest paying professional sport in Iran,most lucrative,football
+most popular sports TV program in Iran,famous,90
+fireworks day in Iran,dedicated to,chaharshanbe suri
+New Year's Eve symbol in Iran,common,haft-seen
+food on New Year's Eve in Iran,traditional,herb rice with fish
+longest night celebration in Iran,typical food eaten,pomegranate
+most popular summer sport in Iran,favorite,swimming
+most popular professional sports league in Iran,famous,football
+most popular women's sports team in Iran,favorite,futsal
+most popular tournament in Iran,famous,premier football league
+most popular sportsperson in Iran,famous,ali daei
+most successful international sport in Iran,dominant,wrestling
+most popular winter sport in Iran,favorite,skiing
+city known for manufacturing in Iran,famous,isfahan
+most important employee perk in Iran,typical,insurance
+worst economic period in Iran,catastrophic,now
+tech hub in Iran,main,tehran
+most important industry in Iran,dominant,oil
+shared family meal in Iran,typical,dinner
+weekend family activity in Iran,popular,picnic in the park
+children's independence age in Iran,typical,24
+most important family holiday in Iran,celebrated,nowruz
+popular family game in Iran,common,backgammon
+average age for first child in Iran,typical,27
+typical family cars in Iran,number owned,1
+weekend family meal in Iran,favorite,ghormeh sabzi
+weekday evening family activity in Iran,common,watching tv
+top high school grade in Iran,highest given,20
+most important high school exam in Iran,crucial,university entrance exam
+most important school subject in Iran,emphasized,mathematics
+popular school social event in Iran,favorite,recreational camps
+most advanced pre-university math in Iran,taught,algebra
+university students' study location in Iran,common,library
+public transport to university in Iran,common,bus
+elementary students' after-school activity in Iran,typical,doing homework

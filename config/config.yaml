@@ -1,0 +1,56 @@
+# Custom Configuration for Testing
+# This overrides the default configuration
+
+openai:
+  provider: "openai"  # Using standard OpenAI
+  api_key: ""  # Set via OPENAI_API_KEY environment variable
+  base_url: "https://api.openai.com/v1"
+  
+  # Model names
+  embedding_model: "text-embedding-3-large"
+  chat_model: "gpt-5"
+  image_model: "dall-e-3"
+  
+  # Azure specific settings (not used)
+  azure:
+    endpoint: null
+    api_version: "2024-12-01-preview"
+    deployments:
+      chat: "gpt-5"
+      embedding: "text-embedding-3-large"
+      image: "gpt-image-1"
+  
+  # API settings
+  max_retries: 3
+  timeout: 120  # Increased timeout for image generation
+
+# Image Generation Configuration
+image_generation:
+  default_generator: "dalle3"
+  output_dir: "results/generated_images"
+  
+  dalle:
+    size: "1024x1024"
+    quality: "standard"
+    style: "vivid"
+
+# Batch Processing Configuration
+batch_processing:
+  output_dir: "results"
+  save_intermediate: true
+
+# Enhancement Pipeline Configuration
+enhancement:
+  max_iterations: 3
+  bias_threshold: 75
+  diversity_threshold: 80
+  
+  # Knowledge retrieval settings
+  stereoset_top_k: 10
+  diversity_top_k: 10
+  graph_top_k: 8
+  
+  # Knowledge source toggles
+  use_stereoset: true
+  use_diversity_rag: true
+  use_graphrag: true

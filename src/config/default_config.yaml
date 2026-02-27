@@ -1,0 +1,160 @@
+# Default Configuration for LLM Bias & Fairness Project
+# =======================================================
+# This file contains all default settings. Users can override these
+# by creating a config/config.yaml file in the project root.
+
+# OpenAI API Configuration
+openai:
+  # Provider selection: "openai" or "azure"
+  # Set via OPENAI_PROVIDER environment variable or config
+  provider: "openai"  # Options: "openai", "azure"
+  
+  # API key - will use OPENAI_API_KEY environment variable if not specified
+  api_key: null
+  
+  # Standard OpenAI settings
+  # Model names (used when provider is "openai")
+  embedding_model: "text-embedding-3-large"
+  chat_model: "gpt-5"
+  chat_model_fallback: "gpt-3.5-turbo"
+  image_model: "gpt-image-1"  # Default image generation model
+  
+  # API settings
+  base_url: null  # Optional custom base URL (for OpenAI or custom endpoints)
+  max_retries: 3
+  timeout: 60  # seconds
+  
+  # Embedding settings
+  embedding_batch_size: 2000  # chunk size for batch embedding
+  
+  # Azure OpenAI specific settings
+  # Used when provider is "azure"
+  azure:
+    # Azure endpoint - can also use AZURE_OPENAI_ENDPOINT environment variable
+    endpoint: null
+    
+    # API version - can also use AZURE_OPENAI_API_VERSION environment variable
+    api_version: "2024-12-01-preview"
+    
+    # Deployment names (Azure uses deployment names instead of model names)
+    # Can also use environment variables:
+    # AZURE_OPENAI_CHAT_DEPLOYMENT, AZURE_OPENAI_EMBEDDING_DEPLOYMENT, AZURE_OPENAI_IMAGE_DEPLOYMENT
+    deployments:
+      chat: "gpt-5"
+      embedding: "text-embedding-3-large"
+      image: "gpt-image-1"  # Azure DALL-E deployment name (if available)
+
+# Cache File Paths
+cache:
+  embeddings: "embeddings.pkl"
+  stereoset: "stereoset_embeddings.pkl"
+  diversity: "diversity_embeddings.pkl"
+  stereoset_dataset: "stereoset_cache.pkl"
+
+# Data File Paths
+paths:
+  data_dir: "data"
+  bias_csv: "data/biases/ADV_GRAPH_20240119 - ADV_GRAPH_20240119.csv"
+  cultural_values_dir: "data/cultural_values"
+  reddit_csv: "data/cultural_values/culturebank_reddit.csv"
+  tiktok_csv: "data/cultural_values/culturebank_tiktok.csv"
+
+# Enhancement Pipeline Configuration
+enhancement:
+  # Default thresholds
+  bias_threshold: 75
+  diversity_threshold: 80
+  max_iterations: 3
+  
+  # Knowledge retrieval settings
+  stereoset_top_k: 10
+  diversity_top_k: 10
+  graph_top_k: 8
+  bias_top_k: 25
+  cultural_top_k: 25
+  
+  # Sequential mode threshold
+  sequential_threshold: 75
+  
+  # Diversity RAG weights
+  diversity_alpha: 0.6  # vector similarity weight
+  diversity_beta: 0.3   # keyword matching weight
+  diversity_gamma: 0.1  # agreement score weight
+  
+  # Knowledge source toggles
+  use_stereoset: true
+  use_diversity_rag: true
+  use_graphrag: true
+
+# Image Generation Configuration
+image_generation:
+  default_generator: "dalle3"
+  output_dir: "generated_images"
+  
+  # DALL-E settings
+  dalle:
+    size: "1024x1024"  # Options: 1024x1024, 1792x1024, 1024x1792
+    quality: "standard"  # Options: standard, hd
+    style: "vivid"  # Options: vivid, natural
+  
+  # Mock generator settings (for testing)
+  mock:
+    width: 512
+    height: 512
+    background_color: "#E8E8E8"
+
+# Batch Processing Configuration
+batch_processing:
+  output_dir: "batch_results"
+  default_prompt_column: "prompt"
+  save_intermediate: true
+  start_row: 0
+  max_rows: null  # null means process all rows
+
+# Visual Bias Evaluation Configuration
+visual_evaluation:
+  # Model paths (null means use mock models)
+  fairface_model: null
+  dlib_model: null
+  
+  # Demographic categories
+  race_labels:
+    - "White"
+    - "Black"
+    - "Latino_Hispanic"
+    - "East Asian"
+    - "Southeast Asian"
+    - "Indian"
+    - "Middle Eastern"
+  
+  gender_labels:
+    - "Male"
+    - "Female"
+  
+  age_labels:
+    - "0-2"
+    - "3-9"
+    - "10-19"
+    - "20-29"
+    - "30-39"
+    - "40-49"
+    - "50-59"
+    - "60-69"
+    - "70+"
+  
+  # Analysis settings
+  output_dir: "visual_bias_evaluation"
+  save_predictions: true
+  save_metrics: true
+
+# Logging Configuration
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(levelname)s: %(message)s"
+  
+# Testing Configuration
+testing:
+  quick_test_output: "quick_test_results"
+  batch_test_output: "test_results"
+  visual_test_output: "visual_bias_test_results"
+  quick_test_prompt: "a doctor examining a patient"

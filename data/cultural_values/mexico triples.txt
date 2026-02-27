@@ -1,0 +1,405 @@
+preschool kids in Mexico,common snack,egg
+beer in Mexico,popular food to accompany,tacos
+Mexico,most popular fruit,mango
+school cafeterias in Mexico,common food,milanesa sandwich
+shopping malls in Mexico,commonly eaten snacks,tacos
+amusement park in Mexico,popular snack,potato chips
+Mexico,preschool starting age,3
+elementary schools in Mexico,popular afterschool sport,soccer
+elementary students in Mexico,private education subject,english
+high school students in Mexico,popular second language,english
+gifted education in Mexico,most important subject,mathematics
+Thanksgiving in Mexico,main dish,not-applicable
+Halloween in Mexico,celebration activities,follow traditions in USA
+New Year's Day in Mexico,celebration activities,eat
+Christmas in Mexico,celebration activities,family dinner
+Halloween in Mexico,associated food,bread of the dead
+Christmas in Mexico,associated food,roasted pork leg
+Valentine's Day in Mexico,associated food,chocolates
+birthday in Mexico,common food to eat,cake
+families in Mexico,popular outdoor place for kids,park
+families in Mexico,popular indoor activity,watch videos on youtube
+university students in Mexico,lunch location,university cafeteria
+high schools in Mexico,final exam month,5
+high school students in Mexico,daily school hours,6
+high school students in Mexico,number of languages studied,2
+schools in Mexico,most popular team sport,soccer
+Mexico,most popular sport commentator,bermudez a.k.a "el perro"
+Mexico,most popular sport team,club america
+Mexico,common places to watch sports,restaurant bar
+Mexico,meals per day,3
+Mexico,most important meal,lunch
+Mexican diet,most common ingredient,corn
+Mexico,common dessert,pastry
+Mexico,day for family meal,sunday
+Mexico,most popular hot drink,coffee
+young people in Mexico,common club drink,beer
+Mexico,common vacation month,7
+New Year's Eve in Mexico,tradition,have dinner toghether
+Mexico,typical family house,detached house
+dependent elderly in Mexico,common living arrangement,with family members
+Mexico,maternity leave weeks,9
+Mexico,paternity leave weeks,2
+family vacation in Mexico,common destination,cancun
+seniors in Mexico,preferred sport,soccer
+men in Mexico,preferred sport,soccer
+Mexico,most famous basketball player,horacio llamas
+children in Mexico,most popular sport,soccer
+women in Mexico,preferred sport,volleyball
+Mexico,Olympic event with most gold medals,diving
+university students in Mexico,preferred sport,soccer
+Mexico,average family size,4
+couples in Mexico,typical number of children,2
+elementary school in Mexico,duration in years,6
+compulsory education in Mexico,duration in years,15
+students in Mexico,second language starting age,5
+undergraduate education in Mexico,duration in years,4
+elementary students in Mexico,school finish time,13:00
+elementary students in Mexico,number of musical instruments played,1
+company dinners in Mexico,preferred day,friday
+Mexico,city with most financial companies,mexico city
+Mexico,most famous private company,modelo group
+Mexico,maximum weekly work hours,48
+company get-together in Mexico,typical food,sandwiches
+Mexico,representative export item,avocado
+Mexico,typical lunch break hours,0.5
+mothers in Mexico,postpartum recovery location,hospital
+Parents' Day in Mexico,commonly given flower,not-applicable
+first salary in Mexico,common spending,restaurants
+children in Mexico,preferred recreational facility,public parks
+Mexico,family-related holidays,mother's day
+children's independence in Mexico,key milestone,getting married
+elderly parents in Mexico,common gift,clothes
+newborn in Mexico,first celebration,baptism
+birthday in Mexico,most grandly celebrated age,15
+students in Mexico,study location for exams,at home
+high school students in Mexico,after-dinner activity,home
+elementary students in Mexico,school commute method,walking
+private education in Mexico,most common form,schools with a license from the s.e.p.
+middle/high students in Mexico,frequent private institute,tecmilenio university
+students in Mexico,school clothing,uniform
+Mexico,most difficult major to enter,medicine
+elementary students in Mexico,common musical instrument,flute
+high school students in Mexico,break time activity,to chat
+students in Mexico,school shoes,trainers
+university entrance exam in Mexico,required subjects,mathematics
+Mexico,region with highest academic fervor,university city
+university festivals in Mexico,most anticipated aspect,to learn
+Mexico,second most popular sport,basketball
+subject,relation,object
+most popular sport without a ball in Mexico,sport,wrestling
+sports associated with upper class in Mexico,sports,golf
+most popular water sport in Mexico,sport,swimming
+most popular mental sport in Mexico,sport,chess
+standard worker holiday days in Mexico,annual leave duration,10
+region traditionally associated with agriculture in Mexico,region,north of mexico
+typical lunch break time in Mexico,time,14:00
+high school students leave time in Mexico,time,14:00
+elementary school students sport in Mexico,sport,soccer
+summer vacation duration in elementary schools in Mexico,weeks,4
+summer vacation duration in universities in Mexico,weeks,3
+elementary education starting age in Mexico,age,6
+languages studied in elementary education in Mexico besides official language,number,1
+common eating utensils in Mexico,utensils,fork
+popular soft drink in Mexico,drink,horchata drink
+most popular traditional alcohol in Mexico,alcohol,tequila
+average dinner duration at restaurant in Mexico,hours,2
+typical dinner time in Mexico,time,20:00
+popular soup in Mexico,soup,noodle soup
+popular street food in Mexico,food,tacos
+popular seafood in Mexico,food,shrimp
+biggest festival in Mexico,festival,san marcos fair
+most common intercity public transport in Mexico,transport,bus
+decorations for biggest festival in Mexico,decorations,mexican flags
+sports women like to watch in Mexico,sports,soccer
+sports men like to watch in Mexico,sports,soccer
+common leisure activity for females in 20s in Mexico,activity,dance
+common leisure activity for males in 20s in Mexico,activity,soccer
+post-lunch break duration in Mexico,hours,1
+typical lunch during workdays in Mexico,food,sandwich
+average commute time in Mexico,minutes,60
+most common transportation to work in Mexico,transport,bus
+marriage leave duration in Mexico,days,5
+typical retirement age for women in Mexico,age,60
+typical retirement age for men in Mexico,age,65
+most respected profession in Mexico,profession,doctor
+typical workday duration in Mexico,hours,10
+most preferred occupation among females in Mexico,occupation,housewife
+most preferred occupation among males in Mexico,occupation,engineer
+average education level pursued in Mexico,education level,high school
+language taught in schools besides English in Mexico,language,french
+school closure days in Mexico,days,sunday
+food prepared for guests in Mexico,food,pozole
+usual breakfast drink in Mexico,drink,coffee
+most popular foreign food in Mexico,cuisine,chinese
+food for family picnic in Mexico,food,sandwich
+food considered disgusting by others from Mexico,food,grasshoppers
+popular bread in Mexico,bread,concha
+government offices closing time in Mexico,time,18:00
+government offices start time in Mexico,time,08:00
+longest national holiday in Mexico,holiday,easter
+activities for Independence Day in Mexico,activities,national holidays
+symbol installed when family member dies in Mexico,symbol,black bow
+pregnancy celebration timing in Mexico,time,6 months pregnant
+event before wedding in Mexico,event,religious ceremony
+most popular tourist attraction in Mexico,attraction,beaches
+most popular religious site for tourism in Mexico,site,basilica of guadalupe
+clothing for graduation ceremony in Mexico,clothing,dress
+drink consumed in cold weather in Mexico,drink,a traditional hot mexican beverage made from cornmeal and water or milk
+carbohydrate served with chicken in fast-food in Mexico,food,rice
+most famous martial art in Mexico,sport,karate
+sports often broadcasted on TV in Mexico,sports,soccer
+most popular soccer coach in Mexico,coach,miguel herrera
+soccer teams with intense rivalry in Mexico,teams,chivas vs america
+soccer supporters with intense rivalry in Mexico,supporters,america vs chivas
+sport with most government support in Mexico,sport,soccer
+sports field facilities in schools in Mexico,facilities,soccer field
+popular cafe beverage in Mexico,drink,cappuccino
+preferred hangover cure food in Mexico,food,seafood
+typical delivery food in Mexico,food,pizza
+most consumed meat in Mexico,meat,beef
+fruit commonly eaten in autumn in Mexico,fruit,mandarine
+most common side dish in Mexico,dish,beans
+food eaten while watching soccer in Mexico,food,chips
+representative nourishing food in Mexico,food,corn
+most famous soccer player in Mexico,player,javier hernandez
+sports male students enjoy during lunch in Mexico,sports,soccer
+most common sport for girls in PE in Mexico,sport,soccer
+most passionately supported sports event in Mexico,event,football world cup
+biggest soccer rival for Mexico,country,argentina
+most attended sports academies by children in Mexico,academies,soccer
+sports stadiums in Mexico,most commonly eaten food,pizza
+Mexico's school sports day,typical sports played,soccer
+middle-aged population in Mexico,popular sports,soccer
+Mexico,most popular winter sports player,donovan carrillo
+Mexico,most famous swimmer,fernanda gonzÃ¡lez
+Mexico,most popular e-sports game,fifa
+Mexico,symbolic food eaten on Lunar New Year,turkey
+Mexico,most popular domestic vacation spot,cancun
+Mexico,most common wedding gift,dinner set
+Mexico,typical congratulatory gesture at weddings,wedding gift
+Mexico,typical duration of funeral in days,2
+Mexico,condolence offering at funerals,a flower wreath
+Mexico,food commonly provided at funeral parlors,coffee
+Mexico,activity on Lunar New Year morning,eat the leftovers from the previous night
+Mexico,day with most severe traffic congestion,monday
+Mexico,most popular honeymoon destination,cancun
+Mexico,most important national holiday,independence day
+Mexico,New Year's Day celebration location,celebrate at home with the family
+Mexico,weekend days,saturday and sunday
+Mexico,typical work start time,09:00
+Mexico,typical work finish time,20:00
+Mexico,primary commercial hub,mexico city
+Mexico,industry that pays the best,construction
+Mexico,most famous public corporation,pemex (mexican petroleum)
+Mexico,most famous dish,tacos
+Mexico,typical breakfast,chilaquiles
+Mexico,typical lunch time,15:00
+Mexico,indispensable in meals,tortillas
+Mexico,typical festive meal,pozole
+Mexico,fruit offered to tourists,mango
+Mexico,food offered as charity,sandwiches
+Mexico,cheapest fast food,tacos
+Mexico,common pairing with tea,sugar
+Mexico,common pairing with coffee,pastries
+Mexico,most popular traditional food,tacos
+Mexico,most popular dipping sauce,strawberry jam
+Mexico,food during Christian fasting,fish
+Mexico,most popular female sportperson,ana guevara
+Mexico,primary school exam preparation location,at home
+Mexico,first national exam grade,3rd grade of middle school
+Mexico,region known for coffee/tea industry,veracruz
+Mexico,region known for livestock industry,sonora
+Mexico,main desert occupation,tourism
+Mexico,animal used for transportation,horse
+Mexico,most popular children's comic,marvel
+Mexico,most popular YouTube channel for children,plim plim
+Mexico,most popular talk show,ventaneando
+Mexico,most famous religious holiday,easter
+Mexico,busiest wedding month,8
+Mexico,most popular traditional musical instrument,acoustic guitar
+Mexico,main agricultural product,avocado
+Mexico,most popular wheat-based food,tortillas
+Mexico,typical drink offered to guests,still water
+Mexico,most popular fish dish,ceviche
+Mexico,food during rainy weather,pozole
+Mexico,drink in hot weather,beer
+Mexico,most popular indoor sport,basketball
+Mexico,sport men like to watch,soccer
+Mexico,sport women like to watch,soccer
+Mexico,popular workplace beverage,coca cola
+Mexico,holiday for family reunions,christmas
+Mexico,traditional holiday games,traditional mexican bingo
+Mexico,clothing during traditional festivals,traditional dresses
+Mexico,traditional festival accessories,poncho
+Mexico,region famous for alcohol production,tequila
+Mexico,summer fruit,mango
+Mexico,region known for seafood,sinaloa
+Mexico,popular skiing destination,chihuahua
+Mexico,most popular martial arts player,canelo
+Mexico,fastest-growing sport,soccer
+Mexico,popular study abroad destination,united states
+Mexico,typical working family members,2
+Mexico,childcare when parents work,grandparents
+Mexico,men's preferred alcoholic beverage,beer
+Mexico,women's preferred alcoholic beverage,beer
+Mexico,average wedding attendance,200
+Mexico,typical barbecue meat,beef steaks
+Mexico,typical breakfast time,08:00
+Mexico,typical late-night snack,tacos
+Mexico, typical work break duration in minutes, 30
+Mexico, underpaid job, teaching
+Mexico, most common food during Easter, seafood
+Mexico, most popular music genre among elderly, boleros
+Mexico, drink usually offered at funerals, coffee
+Mexico, drink usually offered at weddings, beer
+Mexico, food originated from Mexico found worldwide, tacos
+Mexico, food disliked by children enjoyed by elderly, traditional mole sauce
+Mexico, most commonly used cooking utensil, fork
+Mexico, most popular vegetable, chili pepper
+Mexico, animal used for sports, eagles
+Mexico, most popular wedding venue, cancun
+Mexico, most popular coffee shop brand, starbucks
+Mexico, food typically served in overseas restaurants, tacos
+Mexico, region associated with mining, sonora
+Mexico, region associated with oil, southeast
+Mexico, university popular for engineering, monterrey institute of technology
+Mexico, university popular for medicine, national autonomous university of mexico
+Mexico, most popular payment method, cash
+Mexico, most famous theme park, six flags
+Mexico, most popular children's animation, bluey
+Mexico, most popular prenatal education activity, breathing and concentration
+Mexico, most popular children's song, the sea snake
+Mexico, most popular toys among boys, ball
+Mexico, most popular toys among girls, dolls
+Mexico, most popular folk tale, rabbit of the moon
+Mexico, customary funeral condolence symbol, a black ribbon
+Mexico, most common part-time job for students, call centers
+Mexico, most common team-building activity, trip
+Mexico, most common side job, sale of goods and services
+Mexico, most famous edible souvenir, tacos
+Mexico, most popular stew, tacos
+Mexico, most common spice/herb in dishes, wormseed
+Mexico, most famous traditional sport, soccer
+Mexico, popular beach sport, volleyball
+Mexico, work schedule during Ramadan, regular schedule
+Mexico, Student's Day date, 05/23
+Mexico, place families gather to pray, church
+Mexico, gifts for Father's Day, wallet
+Mexico, gifts for Mother's Day, flowers
+Mexico, typical generations living together, 3
+Mexico, number of subjects in middle schools, 8
+Mexico, popular after-school activity, soccer
+Mexico, average annual tuition for public universities, 0.5 mexican pesos
+Mexico, popular park activity, walking
+Mexico, most famous film festival, morelia film festival
+Mexico, popular card game during social gatherings, uno
+Mexico, most popular foreign tourist destination, united states
+Mexico, most famous tower, latin american tower
+Mexico, most commonly eaten edible insect, grasshoppers
+Mexico, most exported agricultural product, avocado
+Mexico, most popular sweets, marzipan
+Mexico, most popular sports drink, gatorade
+Mexico, average education level, high school
+Mexico, profession most studied abroad, engineering
+Mexico, day for religious activities, sunday
+Mexico, most popular Independence Day celebration, independence celebration
+Mexico, most popular beverage among children, juice
+Mexico, most popular place for Independence Day, mexico city
+Mexico, typical birthday song, las mañanitas
+Mexico, snacks sold near schools, pork rinds
+Mexico, most common cooking oil, of canola
+Mexico, food commonly consumed by pregnant women, pizza
+Mexico, most popular traditional non-alcoholic drink, coffee
+Mexico, sports facilities in parks, soccer fields
+Mexico, common senior activities in parks, walking
+Mexico, sports played by parents and children, soccer
+Mexico, color associated with national soccer team, green
+Mexico, common teacher dress code, trousers and shirt
+Mexico, popular music extracurricular, guitar
+Mexico, religion mainly taught in schools, catholic
+Mexico, Education Day date, 05/15
+Mexico, main mountain area occupation, agriculture
+Mexico, main coastal area occupation, fishing
+Mexico, most common livestock, cows
+Mexico, animals commonly used for agriculture, donkeys
+subject,relation,object
+farmers in Mexico,typical wear to protect from heat,hat
+farmers in Mexico,usual lunch food,beans
+parents in Mexico,common birthday gifts for children,toys
+families in Mexico,generally owned vehicle type,car
+grooms in Mexico,typical wedding attire,suit
+brides in Mexico,typical wedding attire,white dress
+weddings in Mexico,commonly served food,chicken
+Mexico,most famous government building,national palace
+young population in Mexico,most popular music genre,reggaeton
+middle school students in Mexico,typical school finish time,14:00
+people in Mexico,typical university starting age,18
+children in Mexico,compulsory education starting age,4
+children in Mexico,school attendance days per week,5
+Master's degree in Mexico,typical completion time in years,2
+Mexico,top university,national autonomous university of mexico
+people in Mexico,typical university graduation age,22
+children in Mexico,middle school starting age,12
+full-time workers in Mexico,typical weekly working hours,45
+full-time workers in Mexico,working days per week,6
+people in Mexico,typical working starting age,16
+individuals in Mexico,legal working age,18
+people in Mexico,traditional Christmas food,turkey
+Mexico,celebration of love and romance,valentine's day
+Mexico,most popular Christmas song,merry christmas
+high schools in Mexico,academic semesters per year,2
+Mexico,new school year starting month,8
+Mexico,National Teacher's Day date,05/15
+elementary schools in Mexico,typical start time,08:00
+Mexico,Children's Day date,04/30
+job seekers in Mexico,main destination city,mexico city
+Mexico,most popular fast food chain,kentucky fried chicken
+Mexico,most divisive food,tamale sandwich
+people from Mexico,most popular soccer team,america
+Mexico,most famous university for sports,national autonomous university of mexico
+Mexico,most popular family pet,dog
+Mexico,most popular family TV show,chabelo
+Mexico,most popular family boardgame,mexican bingo
+Mexico,most popular takeaway food,sandwich
+Mexico,popular snacks,tostadas
+people from Mexico,typical beach food,seafood
+men in Mexico,typical marriage age,30
+women in Mexico,typical marriage age,25
+parents' generation in Mexico,average family size,8
+Mexico,most popular Olympic sport,diving
+children in Mexico,typical soccer playing location,street
+women in Mexico,popular daily exercise,zumba
+men in Mexico,popular daily exercise,gym
+Mexico,most famous sports league rivalry,guadalajara vs america
+Mexico,highest paying professional sport,soccer
+Mexico,most popular sports-related TV program,the play
+Mexico,day dedicated to fireworks,december 31
+Mexico,common New Year's Eve symbol,poinsettia flower
+people from Mexico,typical New Year's Eve food,turkey
+Mexico,most popular summer sport,soccer
+Mexico,most popular professional sports league,mexican football league
+Mexico,most popular tournament,mexican soccer league
+Mexico,most successful international sport,taekwondo
+Mexico,city known for manufacturing,monterrey
+employees in Mexico,most important perk,mexican social security institute
+Mexico,most catastrophic economic period,1994
+Mexico,major tech hub,mexico city
+Mexico,most important industry,automotive
+families in Mexico,commonly shared meal,lunch
+families in Mexico,popular weekend activity with children,play in the park
+children in Mexico,typical independence age from parents,28
+Mexico,most important family holiday,christmas
+families in Mexico,popular game,mexican bingo
+couples in Mexico,average age for first child,21
+families in Mexico,typical number of cars owned,1
+families in Mexico,popular weekend meal,grilled meat
+families in Mexico,popular weekday evening activity,watch television
+high school students in Mexico,highest grade,10
+high school students in Mexico,most important exam,national higher education assessment exam ii
+students in Mexico,most important subject,mathematics
+high schools in Mexico,most popular extracurricular event,spring queen
+high schools in Mexico,most advanced math subject before university,calculus
+university students in Mexico,typical study location for exams,university library
+students in Mexico,common public transport to university,buses
+elementary students in Mexico,typical after-school activity,do sports

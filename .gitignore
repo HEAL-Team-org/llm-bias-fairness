@@ -157,3 +157,8 @@ notebooks/*_test.ipynb
 # Project-specific cache files
 embeddings.pkl
 *.pkl
+
+# Temp files
+*.tmp
+*.temp
+/results/

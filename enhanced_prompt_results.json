@@ -1,0 +1,223 @@
+{
+  "original_prompt": "a doctor examining a patient",
+  "final_prompt": "In a well-equipped yet humble clinic, a diverse team of committed medical professionals diligently works. A young, ambitious doctor of South Korean heritage, who recently graduated from Seoul National University's prestigious College of Medicine, is attentively examining a middle-aged Azerbaijani woman, a renowned local artist who is bravely battling a chronic illness. His respectful understanding of her cultural background, as well as her artistic sensibilities, results in a unique approach to her care. Across the room, a seasoned female doctor of African lineage, respected for her decades of service to the community, engages in a thoughtful discussion with an elderly Native American patient. They are sharing stories about traditional healing practices, combining modern medicine with respect for age-old wisdom. A quiet corner of the clinic is occupied by a young transgender nurse of Latinx descent, providing empathetic care to a differently-abled child. The scene is a blend of cultures and backgrounds, ages and abilities, all united in the pursuit of health and wellness. Each professional demonstrates not just competence in their field but a deep understanding and acceptance of their patients' diverse identities and journeys.",
+  "iterations": [
+    {
+      "iteration": 1,
+      "prompt": "An experienced South Korean male doctor from Seoul National University's College of Medicine, gently examining a young Azerbaijani girl with a cheerful disposition despite her physical disability, in a bustling clinic located in an under-resourced neighborhood. Across the room, a compassionate, middle-aged female doctor of African descent, known for her wisdom and kindness, is in deep conversation with an elderly Native American patient, discussing the functional foods he has brought from home. Each medical professional displays respect for their patient's cultural practices while providing top-quality healthcare.",
+      "diversity_score": {
+        "total_score": 49,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 12,
+          "ethnic_diversity": 8,
+          "gender_diversity": 10,
+          "cultural_diversity": 4,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 5,
+          "specificity": 10
+        }
+      },
+      "met_threshold": false
+    },
+    {
+      "iteration": 2,
+      "prompt": "In a well-equipped yet humble clinic, a diverse team of committed medical professionals diligently works. A young, ambitious doctor of South Korean heritage, who recently graduated from Seoul National University's prestigious College of Medicine, is attentively examining a middle-aged Azerbaijani woman, a renowned local artist who is bravely battling a chronic illness. His respectful understanding of her cultural background, as well as her artistic sensibilities, results in a unique approach to her care. Across the room, a seasoned female doctor of African lineage, respected for her decades of service to the community, engages in a thoughtful discussion with an elderly Native American patient. They are sharing stories about traditional healing practices, combining modern medicine with respect for age-old wisdom. A quiet corner of the clinic is occupied by a young transgender nurse of Latinx descent, providing empathetic care to a differently-abled child. The scene is a blend of cultures and backgrounds, ages and abilities, all united in the pursuit of health and wellness. Each professional demonstrates not just competence in their field but a deep understanding and acceptance of their patients' diverse identities and journeys.",
+      "diversity_score": {
+        "total_score": 70,
+        "max_score": 100,
+        "breakdown": {
+          "age_diversity": 15,
+          "ethnic_diversity": 8,
+          "gender_diversity": 15,
+          "cultural_diversity": 12,
+          "ability_inclusion": 0,
+          "socioeconomic_diversity": 10,
+          "specificity": 10
+        }
+      },
+      "met_threshold": true
+    }
+  ],
+  "negative_examples": [
+    "She went to school so she could help people feel better.",
+    "She was kind and gentle.",
+    "Many get a lot of money to listen.",
+    "He only cares to give out drugs to people.",
+    "She isn't smart enough to be a doctor",
+    "John grinned, imagining some hot broad decked out in white grasping his big biceps.",
+    "The caring nurse took the patient's vital signs.",
+    "He made many references to Freudian concepts.",
+    "He is a drinker.",
+    "The analytical psychologist was trying to figure out his patient's symptoms."
+  ],
+  "graphrag_triples": {
+    "bias": [
+      [
+        "doctors",
+        "are",
+        "medical professionals"
+      ],
+      [
+        "women",
+        "not",
+        "doctor"
+      ],
+      [
+        "women",
+        "instead of",
+        "doctors"
+      ],
+      [
+        "patients",
+        "include",
+        "folks with physical illness/disorder"
+      ],
+      [
+        "women",
+        "can't be",
+        "doctors"
+      ],
+      [
+        "women",
+        "can't be",
+        "doctors"
+      ],
+      [
+        "folks with physical illness/disorder",
+        "have",
+        "a certain look"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ],
+      [
+        "cancer patients",
+        "have",
+        "cancer"
+      ]
+    ],
+    "cultural": [
+      [
+        "most respected profession in South Korea",
+        "highly regarded",
+        "doctor"
+      ],
+      [
+        "males in South Korea",
+        "most preferred occupation",
+        "doctor"
+      ],
+      [
+        "South Korean parents",
+        "most hoped job for children",
+        "doctor"
+      ],
+      [
+        "South Korea",
+        "university popular for medicine",
+        "seoul national university"
+      ],
+      [
+        "university admission in South Korea",
+        "most difficult major to gain admission to",
+        "college of medicine"
+      ],
+      [
+        "high schools in South Korea",
+        "final exam month",
+        "12"
+      ],
+      [
+        "visiting elderly parents in South Korea",
+        "common gift",
+        "functional food"
+      ],
+      [
+        "most respected profession in Azerbaijan",
+        "profession",
+        "doctor"
+      ],
+      [
+        "parents in Azerbaijan",
+        "most desired job for children",
+        "doctor"
+      ],
+      [
+        "exam preparation in Azerbaijan",
+        "common location",
+        "home"
+      ],
+      [
+        "university students in Azerbaijan",
+        "study for exams at",
+        "library"
+      ],
+      [
+        "university popular for medicine in Azerbaijan",
+        "official name",
+        "azerbaijan medical university"
+      ],
+      [
+        "mothers in Azerbaijan",
+        "post-birth recovery location",
+        "hospital"
+      ],
+      [
+        "university admission in Azerbaijan",
+        "most difficult major",
+        "medicine"
+      ],
+      [
+        "Assam parents",
+        "most hoped job for children",
+        "doctor"
+      ]
+    ]
+  },
+  "final_score": {
+    "total_score": 70,
+    "max_score": 100,
+    "breakdown": {
+      "age_diversity": 15,
+      "ethnic_diversity": 8,
+      "gender_diversity": 15,
+      "cultural_diversity": 12,
+      "ability_inclusion": 0,
+      "socioeconomic_diversity": 10,
+      "specificity": 10
+    }
+  }
+}

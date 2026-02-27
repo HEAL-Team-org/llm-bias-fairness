@@ -1,0 +1,384 @@
+Ethiopia preschool kids, common snack, potato fries
+Ethiopia beer, popular food to go with, meat cuts
+Ethiopia, most popular fruit, orange
+Ethiopia school cafeteria, common food, biscuits
+Ethiopia shopping malls, commonly eaten snacks, cookies
+Ethiopia amusement park, popular snack, cake
+Ethiopia, preschool starting age, 3
+Ethiopia elementary schools, popular afterschool sport, soccer
+Ethiopia elementary students, subject for private education, mathematics
+Ethiopia high school students, popular second language, english
+Ethiopia gifted education, most important subject, mathematics
+Ethiopia Thanksgiving, main dish, meat
+Ethiopia New Year's Day, celebration activities, light a torch
+Ethiopia Christmas, celebration activities, gena game
+Ethiopia Christmas, associated food, chicken stew
+Ethiopia Valentine's day, associated food, chocolate
+Ethiopia birthday, commonly eaten food, cake
+Ethiopia families, popular outdoor place for kids, parks
+Ethiopia university students, lunch location, university cafe
+Ethiopia high schools, final exam month, 10
+Ethiopia high school students, daily school hours, 6
+Ethiopia high school students, languages studied, 2
+Ethiopia schools, most popular team sport, football
+Ethiopia, most popular sport commentator, feker yilekal
+Ethiopia, most popular sport team, ethiopian coffee sport club
+Ethiopia sports broadcasts, common viewing places, bars
+Ethiopia people, daily meals count, 3
+Ethiopia people, most important meal, injera
+Ethiopia diet, most common ingredient, salt
+Ethiopia people, typical dessert, orange
+Ethiopia families, common meal day, sunday
+Ethiopia, most popular hot drink, coffee
+Ethiopia young people, night club drink, beer
+Ethiopia people, holiday month, 8
+Ethiopia New Year's Eve, tradition, torch
+Ethiopia families, typical house type, tin house
+Ethiopia elderly, common living place, mekedonia
+Ethiopia maternity leave, duration in weeks, 16
+Ethiopia paternity leave, duration in weeks, 1
+Ethiopia seniors, favorite sports, billiard
+Ethiopia men, favorite sport to play, soccer
+Ethiopia children, most popular sport, soccer
+Ethiopia women, favorite sport to play, jump rope
+Ethiopia, olympic sport with most gold medals, race
+Ethiopia university male students, favorite sport, soccer
+Ethiopia families, average size, 4
+Ethiopia couples, typical number of children, 3
+Ethiopia elementary school, duration in years, 8
+Ethiopia compulsory education, duration in years, 18
+Ethiopia second language, starting age, 13
+Ethiopia undergraduate education, duration in years, 4
+Ethiopia younger elementary students, school finish time, 14:00
+Ethiopia financial companies, city with most, addis ababa
+Ethiopia, most famous private company, midroc
+Ethiopia workers, maximum weekly hours, 40
+Ethiopia company get-togethers, typical food, qolo
+Ethiopia, representative export item, coffee
+Ethiopia lunch break, typical duration in hours, 2
+Ethiopia mothers, post-childbirth recovery period, 4 months
+Ethiopia Parents' Day, commonly given flower, rose
+Ethiopia first salary, common spending, feast
+Ethiopia children, preferred recreational facility, ednamall
+Ethiopia children's independence, key milestone, getting a job
+Ethiopia elderly parents visit, common gift, monk counter
+Ethiopia newborn, first celebration day, after a week
+Ethiopia society, most grandly celebrated birthday age, 25
+Ethiopia students, common exam study place, library
+Ethiopia high school students, after dinner activity, study
+Ethiopia elementary students, school transportation method, walk
+Ethiopia, most common private education form, st joseph's school
+Ethiopia students, frequently attended academy subject, mathematics
+Ethiopia middle/high students, school clothing, uniform
+Ethiopia university, most difficult major to enter, mathematics
+Ethiopia elementary students, commonly learned instrument, kirare
+Ethiopia high school students, break time activities, billiard
+students in Ethiopia,after-school activity,playing soccer
+students in Ethiopia,commonly wear shoes,sneakers
+Ethiopia university entrance exam,required subjects,natural science
+Ethiopia city region,highest academic fervor,amhara region
+Ethiopia university festivals,most looked forward to,music
+Ethiopia,second most popular sport,running
+Ethiopia,most popular sport without a ball,running
+Ethiopia upper class,associated sports,jogging
+Ethiopia,most popular water sport,swimming
+Ethiopia,most popular mental sport,ethiopian dama
+Ethiopia standard worker,holiday days per year,8
+Ethiopia region,traditionally associated with agriculture,amhara
+Ethiopia workers,usual lunch break time,12:00
+Ethiopia high school students,typical leave time,15:30
+Ethiopia elementary students,practice sport at school,running
+Ethiopia elementary schools,summer vacation duration in weeks,8
+Ethiopia universities,summer vacation duration in weeks,8
+Ethiopia,elementary education start age,7
+Ethiopia elementary education,languages studied besides official,2
+Ethiopia people,common eating utensils,plate
+Ethiopia people,favorite soft drink,mirinda
+Ethiopia,most popular traditional alcohol,areke
+Ethiopia people,average dinner duration at restaurant in hours,2
+Ethiopia people,usual dinner time,20:00
+Ethiopia people,favorite kind of soup,vegetable soup
+Ethiopia people,favorite street food,potato fries
+Ethiopia people,favorite kind of seafood,fish
+Ethiopia,biggest festival,easter
+Ethiopia,common public transport between cities,bus
+Ethiopia biggest festival,associated decorations or symbols,flag
+Ethiopia women,favorite sports to watch,running
+Ethiopia men,favorite sports to watch,soccer
+Ethiopia females in 20s,common leisure activity,running
+Ethiopia males in 20s,common leisure activity,soccer
+Ethiopia people,break duration after lunch in hours,1
+Ethiopia people,typical lunch during workdays,shiro
+Ethiopia people,average commute time in minutes,70
+Ethiopia people,most common transportation to work,taxi
+Ethiopia,marriage leave duration in days,30
+Ethiopia women,typical retirement age,55
+Ethiopia men,typical retirement age,55
+Ethiopia,most respected profession,medicine
+Ethiopia,typical workday duration in hours,8
+Ethiopia females,most preferred occupation,flight attendant
+Ethiopia males,most preferred occupation,medicine
+Ethiopia students,typical education pursuit level,high school
+Ethiopia schools,language taught besides English,amharic
+Ethiopia schools,closed days of the week,sunday
+Ethiopia hosts,food prepared for guests,chicken stew
+Ethiopia breakfast,usual drink,tea
+Ethiopia,popular foreign food,italian
+Ethiopia family picnic,common food,dabo qollo
+Ethiopia,popular bread name,difo dabo
+Ethiopia government offices,closing time,17:30
+Ethiopia government offices,normal start time,08:30
+Ethiopia,longest national holiday duration,easter
+Ethiopia Independence day,common celebration activities,march
+Ethiopia house,installed when family member dies,tent
+Ethiopia pregnancy celebration,usual timing,birth approaches
+Ethiopia,event before wedding,give dowry
+Ethiopia New Year,shared with children,cosmetics
+Ethiopia before Ramadan,common activities,cleaning
+Ethiopia,most popular tourist attraction,lalibela's church
+Ethiopia,popular religious sites for tourism,axum zion
+Ethiopia women graduation,usual clothing,traditional dress
+Ethiopia cold weather,common consumed drink,liquor
+Ethiopia Ramadan,commonly sold fruit,dates
+Ethiopia fast-food restaurant,carbohydrate served with chicken,egg
+Ethiopia,most famous martial art sports,taekwondo
+Ethiopia national television,often broadcasted sports,soccer
+Ethiopia COVID-19 pandemic,popular sports,home workout
+Ethiopia,most popular soccer coach,sewnet bishaw
+Ethiopia,soccer teams with intense rivalry,ethiopian coffee vs st. george
+Ethiopia government,most supported sport,soccer
+Ethiopia schools,sports field facilities available,soccer
+Ethiopia people,favorite cafe beverage,macchiato
+Ethiopia people,preferred hangover cure food,shiro fitfit
+Ethiopia,typical delivery food,burger
+Ethiopia people,most consumed meat type,beef
+Ethiopia autumn season,commonly eaten fruit,orange
+Ethiopia dining table,common side dish,key wat
+Ethiopia soccer game watching,common snacks,biscuit
+Ethiopia,representative nourishing food,injera
+Ethiopia,most famous soccer player,abubeker nassir
+male students in Ethiopia,sports enjoyed during lunchtime,soccer
+girls in Ethiopia,most common sport in physical education,volleyball
+Ethiopia,sports event passionately supported in international competitions,running
+Ethiopia,biggest soccer rival,kenya
+children in Ethiopia,type of sports academies attended,taekwondo
+sports stadiums in Ethiopia,commonly eaten food while watching games,cookies
+Ethiopia's school sports day,typical sports played,football
+middle-aged population in Ethiopia,popular sports,volleyball
+Ethiopia,most popular winter sports player,haile gebreselassie
+Ethiopia,most famous swimmer,yanet seyum
+Ethiopia,most popular e-sports game,running
+Ethiopia,popular domestic vacation spot,quient place
+Ethiopia,common wedding gift between bride and groom,jewelry
+Ethiopia,congratulatory gesture at friend's wedding,clothes
+Ethiopia,typical duration of funeral in days,40
+Ethiopia,condolence offering at funeral,money
+funeral parlors in Ethiopia,commonly provided food,qolo
+Ethiopia,most important national holiday,adwa victory day
+Ethiopia,food eaten in Ramadan,dates
+Ethiopia,food eaten in Eid ul Fitr,meat cuts
+Ethiopia,food eaten in Eid ul Adha,meat cuts
+Ethiopia,New Year's Day celebration location,to family
+Ethiopia,family gathering place for Eid festivities,mosque
+Ethiopia,weekend day,sunday
+Ethiopia,typical work start time,08:30
+Ethiopia,typical work finish time,17:30
+Ethiopia,considered secure job,teaching
+Ethiopia,primary commercial hub,addis abeba
+Ethiopia,industry that pays best,gold mining
+Ethiopia,most famous public corporation,ethio telecom
+Ethiopia,most famous dish,chopped meat
+Ethiopia,typical breakfast,bread with tea
+Ethiopia,typical lunch time,13:00
+Ethiopia,indispensable in meals,injera
+Ethiopia,typical festive meal,shiro
+Ethiopia,fruit offered to tourists,orange
+Ethiopia,food offered as charity,grits stew
+Ethiopia,cheapest fast food,shiro
+Ethiopia,food had with tea,bread
+Ethiopia,food had with coffee,popcorn qollo
+Ethiopia,most popular traditional food,chopped meat
+Ethiopia,most popular dipping sauce,shiro
+Ethiopia,food consumed during Christian fasting,mixed food
+Ethiopia,food prepared for mothers giving birth,porridge
+Ethiopia,most popular female sportsperson,deraretu tulu
+elementary students in Ethiopia,exam preparation location,in their home
+Ethiopia,grade level for first national exam,8
+Ethiopia,region known for coffee industry,oromia
+Ethiopia,region known for livestock industry,afar
+Ethiopia,main desert occupation,shepherd
+Ethiopia,animal used for transportation,horse
+Ethiopia,most popular comic book for children,fairy books
+Ethiopia,most popular YouTube channel for children,ethiopia children
+Ethiopia,most popular talk show,arehibu
+Ethiopia,most famous religious holiday,easter
+Ethiopia,busiest wedding month,5
+Ethiopia,most popular traditional musical instrument,flute
+Ethiopia,main agricultural product,tef
+Ethiopia,most popular wheat-based food,bread
+Ethiopia,typical drink for guests,tela
+Ethiopia,popular fish dish,fish fry
+Ethiopia,food liked during rainy weather,millet
+Ethiopia,drink consumed in hot weather,beer
+Ethiopia,most popular indoor sport,boxing
+men in Ethiopia,sport liked to watch,soccer
+women in Ethiopia,sport liked to watch,soccer
+Ethiopia,popular workplace beverage,coffee
+Ethiopia,holiday for family reunions,easter
+Ethiopia,traditional family games,dancing
+Ethiopia,clothing during traditional festivals,traditional clothing
+Ethiopia,traditional festival accessories,gold
+Ethiopia,region for alcohol production,addis abeba
+Ethiopia,fruit eaten in summer,orange
+Ethiopia,region known for seafood,oromia
+Ethiopia,fastest-growing sport,running
+Ethiopia,popular study abroad destination,america
+Ethiopia,typical family workers count,6
+Ethiopia,most popular racket sport,tennis
+Ethiopia,most popular track and field sport,running
+Ethiopia,most popular international sporting event,world cup
+Ethiopia,typical work break duration in minutes,30
+Ethiopia,considered underpaid job,cleaning
+Ethiopia,most common Easter food,meat cuts
+Ethiopia,most popular music genre among elderly,memory
+Ethiopia,drink offered at funerals,water
+Ethiopia,drink offered at weddings,tela
+Ethiopia,food originated from Ethiopia,injera
+Ethiopia,most commonly used cooking utensil,dish
+Ethiopia,most popular vegetable,cabbage
+Ethiopia,animal used for sports,horse
+Ethiopia,most popular wedding venue,honey moon
+Ethiopia,most popular coffee shop brand,yirga chefie
+Ethiopia,region associated with mining,benshangul region
+Ethiopia,region associated with oil,somali region
+Ethiopia,university popular for engineering,bahirdar
+Ethiopia,university popular for medicine,gondar
+Ethiopia,most popular payment method,in cash
+Ethiopia,most famous theme park,entoto
+Ethiopia,most popular children's animation,tom and jerry
+Ethiopia,customary funeral condolence symbol,black clothes
+Ethiopia,most popular stew,shiro
+Ethiopia,most common cooking spice,pepper
+Ethiopia,most famous traditional sport,gena geme
+Ethiopia,most popular folk tale,lion and monkey
+Ethiopia,snacks sold near schools,biscuits
+Ethiopia,oil used for cooking,sesame oil
+Ethiopia,food consumed by pregnant women,injera
+Ethiopia,popular traditional non-alcoholic drink,keneto
+Ethiopia,national soccer team color,green
+Ethiopia,school teachers' dress code,white gown
+Ethiopia,most common livestock,sheep
+Ethiopia,animals used for agriculture,ox
+Ethiopia,farmer's heat protection wear,hat
+Ethiopia,farmer's typical lunch,injera
+Ethiopia, preferred alcoholic beverage for men, beer  
+Ethiopia, preferred alcoholic beverage for women, wine  
+Ethiopia, average wedding attendance, 200  
+Ethiopia, typical barbecue meat, red meat  
+Ethiopia, usual breakfast time, 08:30  
+Ethiopia, common late-night snack, vegetable  
+Ethiopia, most famous spicy dish, piri piri  
+Ethiopia, food paired with hard liquor, meat  
+Ethiopia, indispensable cooking seasoning, salt  
+Ethiopia, food consumed in cold weather, hot foods  
+Ethiopia, most famous alcohol brand, whiskey  
+Ethiopia, food eaten when sick, sweet  
+Ethiopia, supermarket ready-to-eat food, packed foods  
+Ethiopia, most wished extreme sport, soccer  
+Ethiopia, popular track and field event, soccer  
+Ethiopia, parents' hoped job for children, medical doctor  
+Ethiopia, typical office software, microsoft word  
+Ethiopia, cities known for import/export, dire dawa  
+Ethiopia, common e-commerce platform, alibaba  
+Ethiopia, typical probation period, 6 months  
+Ethiopia, family remote communication, phone  
+Ethiopia, accommodation for family trips, bedroom  
+Ethiopia, fruit for family dinners, orenge  
+Ethiopia, university class hours per week, 30  
+Ethiopia, public high school tuition fee, 1000  
+Ethiopia, compulsory university courses, english  
+Ethiopia, average high school class size, 40  
+Ethiopia, major conducive to employment, economics  
+Ethiopia, popular university clubs, football clubs  
+Ethiopia, student accommodation, shared dormitory  
+Ethiopia, middle school class duration, 40  
+Ethiopia, retired men's leisure activity, walk  
+Ethiopia, holidays for religious visits, on easter  
+Ethiopia, typical housewarming gift, flower  
+Ethiopia, wedding start time, 12:00  
+Ethiopia, city hosting festivals, addis ababa  
+Ethiopia, wedding attire color, white  
+Ethiopia, funeral attire color, black  
+Ethiopia, cinema snack, popcorn  
+Ethiopia, popular chip flavor, cake  
+Ethiopia, cost-effective quick meal, sambusa  
+Ethiopia, most eaten cheese, of cow  
+Ethiopia, food in courts, injera  
+Ethiopia, famous sporting stadium, bahir dar stadium  
+Ethiopia, common family religion, christianity  
+Ethiopia, popular foreign language, english  
+Ethiopia, emigration destination, saudi arabia  
+Ethiopia, school breaks per year, 2  
+Ethiopia, online study resource, video  
+Ethiopia, university semester length, 16  
+Ethiopia, busiest holiday airport, bole  
+Ethiopia, famous historic landmark, axum  
+Ethiopia, famous hotel brand, sheraton  
+Ethiopia, grab-and-go breakfast, bread  
+Ethiopia, popular youth food, shiro wote  
+Ethiopia, festival alcoholic drink, tela  
+Ethiopia, common morning drink, tea  
+Ethiopia, traditional dessert, chopped meat  
+Ethiopia, popular Christmas food, meat cuts
+Ethiopia, popular music genre among youth, modern
+Ethiopia, popular family pet, cat
+Ethiopia, popular takeaway food, pizza
+Ethiopia, popular snacks, injera firfir
+Ethiopia, beach food, fish
+Ethiopia, popular sports team, giorgis sport club
+Ethiopia, popular sport in Olympics, running
+Ethiopia, popular soccer playing location, football field
+Ethiopia, popular women's exercise, gymnastics
+Ethiopia, famous sports rivalry, saint george sport club vs ethiopian coffee sport club
+Ethiopia, highest paying professional sport, soccer
+Ethiopia, New Year's Eve symbol, eve music
+Ethiopia, New Year's Eve food, meat
+Ethiopia, longest night celebration food, chicken stew
+Ethiopia, successful international sport, running
+Ethiopia, important industry, agricultural industry
+Ethiopia, shared family meal, dinner
+Ethiopia, popular weekday evening activity, dancing
+Ethiopia, important family holiday, easter
+Ethiopia, average cars per family, 1
+Ethiopia, weekend family food, tebs
+Ethiopia, university students' study location, library
+Ethiopia, university transport, bus
+Ethiopia, elementary students after-school activity, play
+Ethiopia, middle school finish time, 17:00
+Ethiopia, university starting age, 19
+Ethiopia, compulsory education starting age, 7
+Ethiopia, school days per week, 5
+Ethiopia, master's degree duration, 2
+Ethiopia, top university, addis ababa university
+Ethiopia, university graduation age, 23
+Ethiopia, middle school starting age, 14
+Ethiopia, full-time weekly work hours, 40
+Ethiopia, full-time work days per week, 5
+Ethiopia, typical work starting age, 25
+Ethiopia, legal working age, 18
+Ethiopia, groom's wedding clothes, suite
+Ethiopia, bride's wedding clothes, velo
+Ethiopia, wedding food, red stew
+Ethiopia, famous government building, ethiopian commercial bank building
+Ethiopia, children's Eid gifts, clothes
+Ethiopia, family vehicle type, vitz
+Ethiopia, children's birthday gifts, toy
+Ethiopia, high school semesters per year, 2
+Ethiopia, school year starting month, 1
+Ethiopia, elementary school start time, 08:00
+Ethiopia, job seekers' destination city, addis ababa
+Ethiopia, men's typical marriage age, 18
+Ethiopia, women's typical marriage age, 25
+Ethiopia, parents' generation family size, 6
+Ethiopia, first child average age, 20
+Ethiopia, children's independence age, 25

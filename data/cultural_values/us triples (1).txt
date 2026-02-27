@@ -1,0 +1,497 @@
+preschool kids in US,common snack,fruit
+food in US,popular with beer,nuts
+fruit in US,most popular,apple
+school cafeteria food in US,common,pizza
+shopping malls in US,commonly eaten snacks,pretzels
+amusement park in US,popular snack,cotton candy
+kids in US,start preschool age,4
+elementary schools in US,popular afterschool sport,soccer
+elementary students in US,private education subject,religion
+high school students in US,popular second language,spanish
+gifted education in US,most important subject,science
+Thanksgiving in US,main dish,turkey
+Halloween in US,celebration activities,trick or treating
+New Year's Day in US,celebration activities,drink (party)
+Christmas in US,celebration activities,exchange gifts
+Halloween in US,associated food,candies
+Christmas in US,associated food,gingerbread
+Valentine's day in US,associated food,chocolate
+birthday in US,popular food to eat,cake
+families in US,popular outdoor place for kids,parks
+families in US,popular indoor activity,board games
+university students in US,lunch location,dining hall
+high schools in US,final exam month,May
+students in US,daily high school hours,7
+high school in US,languages studied,2
+school in US,popular team sport,American Football
+sport commentator in US,most popular,Jim Nantz
+sport team in US,most popular,Yankees
+sports broadcasts in US,common viewing venues,sports bar
+people in US,meals per day,3
+people in US,most important meal,breakfast
+US diet,most common ingredient,wheat
+people in US,typical dessert,ice cream
+family meal in US,typical day,sunday
+hot drink in US,most popular,coffee
+young people in US,night club drink,beer
+holidays in US,common month,12
+New Year's Eve in US,tradition,Watching the ball drop at Times Square
+family in US,typical house type,single story prefab
+dependent elderly in US,common residence,assisted living
+maternity leave in US,duration in weeks,12
+paternity leave in US,duration in weeks,6
+family vacation in US,common destination,beach
+seniors in US,favorite sport,baseball
+men in US,favorite sport to play,American Football
+basketball player in US,most famous,Michael Jordan
+children in US,popular sport,soccer
+women in US,favorite sport to play,basketball
+US Olympics,most gold medals in,swimming
+university male students in US,favorite sport,American Football
+family in US,average size,4
+couples in US,typical number of children,2
+elementary school in US,duration in years,8
+compulsory education in US,duration in years,12
+students in US,start second language age,13
+undergraduate education in US,duration in years,4
+elementary school students in US,finish school time,15:00
+elementary school students in US,musical instruments played,1
+company dinners in US,preferred day,Friday
+financial companies in US,city with most,New York City
+private company in US,most famous,Google
+work in US,maximum weekly hours,40
+company get-together in US,typical food,burgers
+US export,representative item,corn
+lunch break in US,typical duration in hours,1
+mothers in US,post-childbirth recovery location,home
+Parents' Day in US,common flower,roses
+first salary in US,common spending item,clothes
+children in US,preferred recreational facility,park playground
+family-related holidays in US,examples,Thanksgiving
+children's independence in US,key milestones,driver's license
+elderly parents in US,common gift,wine
+child in US,first celebration day,baptism
+birthday in US,most grandly celebrated age,21st
+middle and high school students in US,study location,home
+high school students in US,after-dinner activity,friend's house
+elementary school students in US,transportation to school,the bus
+private education in US,most common form,Catholic school
+middle or high students in US,frequent private education subject,math
+middle and high school students in US,school clothing,baggy jeans
+university admission in US,most difficult major,medical
+elementary school students in US,commonly learned musical instrument,recorder
+subject,relation,object
+high school students in US,break time activities,recorder
+high school students in US,typical shoes,sports shoes
+US university entrance exam,required subjects,math
+US city regions,highest academic fervor,metropolitan
+US university festivals,most looked forward to,music
+US sports,second most popular,baseball
+US sports,most popular without a ball,hockey
+US upper class,associated sports,golf
+US water sports,most popular,swimming
+US mental sports,most popular,chess
+standard worker in US,yearly holiday days,5-8
+US regions,traditionally associated with agriculture,midwest
+US workers,lunch break leave time,noon
+high school students in US,school leaving time,15:00
+elementary school students in US,practiced sports,basketball
+elementary schools in US,summer vacation length in weeks,12
+universities in US,summer vacation length in weeks,12
+elementary education in US,starting age,5
+elementary education in US,languages studied besides official,1
+US people,common eating utensils,fork
+US people,popular soft drink,Coke
+US traditional alcohol,most popular,beer
+US people,restaurant dinner duration in hours,1
+US people,typical dinner time,18:00
+US people,preferred soup,vegetable
+US people,popular street food,hotdogs
+US people,favorite seafood,lobster
+US biggest festival,decorations or symbols,Xmas
+US women,most watched sports,tennis
+US men,most watched sports,American Football
+females in 20s in US,common leisure activity,hanging out with friends
+males in 20s in US,common leisure activity,playing video games
+US workers,post-lunch break duration in hours,1
+US workers,typical lunch food,sandwich
+US people,average commute time in minutes,30
+US workers,most common transportation,driving
+US workers,marriage leave duration in days,0
+US women,typical retirement age,65
+US men,typical retirement age,65
+US professions,most respected,medicine
+US workers,typical workday duration in hours,8
+US females,most preferred occupation,instructor
+US males,most preferred occupation,investor
+US students,typical education pursuit,high school
+US schools,taught languages besides English,spanish
+US schools,closed days,saturday
+US hosts,food prepared for guests,chips
+US breakfast,usual drink,coffee
+US popular food,from other countries,mexican
+US family picnics,typical food,sandwiches
+US food,considered disgusting by world,mcdonald's
+US popular bread,name,Wonder Bread
+US government offices,closing time,17:00
+US government offices,start time,08:00
+US national holidays,longest duration,Xmas
+US Independence Day,common activities,fireworks
+US family death,front house installation,flag
+US pregnancy celebrations,usual time,baby shower
+US pre-wedding events,usually held,bachelor party
+US Lunar New Year,shared with children,cash
+US Ramadan,pre-Ramadan activities,daylight fasting
+US tourism,most popular attraction,statue of liberty
+US religious sites,popular for tourism,St. Peters
+US graduation ceremony,women's clothing,graduation cap
+US cold weather,commonly consumed drink,hot coffee
+US Ramadan,commonly sold fruit,dates
+US fast-food restaurants,carbohydrate with chicken,french fries
+US martial arts,most famous,karate
+US national TV,often broadcasted sports,basketball
+US COVID-19 pandemic,popular sports,e-sports
+US soccer,most popular coach,gregg berhalter
+US soccer teams,famous rivalry,Sounders vs Timbers
+US soccer supporters,famous rivalry,USA vs MEX
+US badminton,most famous male player,howard bach
+US badminton,most famous female player,serena williams
+US government,most supported sport,American Football
+US schools,sports field facilities,track and field
+US cafe beverages,most commonly enjoyed,coffee
+US hangover cure,preferred food,soup
+US delivery food,typical,pizza
+US meat consumption,most common,beef
+US people,often eat in autumn,apple
+side dish,most commonly served in US,mashed potatoes
+US people,eat while watching soccer game,hotdog
+US,representative nourishing food,burger
+US,most famous soccer player,lionel messi
+US male students,sports enjoyed during lunch,soccer
+US girls,most common sport in PE,volleyball
+US,most popular volleyball player,kerri walsh jennings
+US people,sports event passionately support,soccer
+US,biggest soccer rival,mexico
+US children,most attended sports academies,basketball
+US sports stadiums,most commonly eaten food,hotdogs
+US school sports day,typical sports played,baseball
+US middle-aged population,popular sports,American Football
+US,most popular winter sports player,shaun white
+US,most famous swimmer,Michael Phelps
+US,most popular e-sports game,LoL
+US people,symbolic food on Lunar New Year,black eyed peas
+US,most popular domestic vacation spot,florida
+US bride and groom,most common wedding gift,honeymoon travel
+US wedding attendees,typical congratulatory gesture,gift
+US funeral,typical duration in days,1
+US funeral attendees,condolence offering,flowers
+US funeral parlors,commonly provided food,finger foods
+US people,activity on Lunar New Year morning,sleep late
+US,day with severe traffic congestion,labor day
+US,most popular honeymoon destination,las vegas
+US,most important national holiday,July 4th
+US people,eat in Ramadan,meat
+US people,celebrate New Year's Day location,shopping
+US family,Eid festivities gathering place,home
+US,weekend days,saturday
+US workers,typical work start time,09:00
+US workers,typical work finish time,17:00
+US,considered secure job,working at an established business
+US,primary commercial hub,nyc
+US industry,that pays the best,medical
+US,most famous public corporation,microsoft
+US,most famous dish,hamburger
+US people,usual breakfast,eggs
+US people,typical lunch time,12:00
+US meals,indispensable item,potatoes
+US,typical festive meal,turkey
+US people,fruit offered to tourists,apple
+US charity,commonly offered food,canned soup
+US,cheapest fast food,McDonald's
+US people,have with tea,sugar
+US people,have with coffee,doughnut
+US,most popular traditional food,burgers
+US,most popular dipping sauce,ranch
+US Christians,food during fasting,fish
+US mothers,prepared food after birth,casseroles
+US,most popular female sportsperson,serena williams
+US elementary students,exam preparation location,home
+US students,first national exam grade,11th
+US region,known for coffee industry,Eastern Coast
+US region,known for livestock industry,midwest
+US desert residents,main occupation,military
+US,animal used for transportation,horse
+US children,most popular comic book,spiderman
+US children,most popular YouTube channel,cocomelon
+US,most popular talk show,today show
+US,most famous religious holiday,Xmas
+US,busiest wedding month,6
+US,most popular traditional musical instrument,guitar
+US,main agricultural product,beef
+US,most popular wheat-based food,bread
+US households,typical drink offered to guests,water
+US,most popular fish dish,fried catfish
+US people,food during rainy weather,chili
+US people,drink in hot weather,lemonade
+US,most popular indoor sport,basketball
+US men,sport like to watch,american football
+US women,sport like to watch,american football
+US workers,popular workplace beverage,coffee
+US,holiday for family reunions,thanksgiving
+US families,traditional holiday games,monopoly
+US people,clothing during traditional festivals,formal
+US people,traditional festival accessories,fourth of july clothes
+US region,famous for alcohol production,new york
+US people,fruit often eaten in summer,apples
+US region,known for seafood,new england
+US region,popular skiing destination,western states
+US,most popular martial arts player,bruce lee
+US,fastest-growing sport,soccer
+subject,relation,object
+US students studying abroad,most popular destination,United Kingdom
+typical US family,number of working people,2
+US parents working,childcare provider,daycare
+US men,preferred alcoholic beverage,beer
+US women,preferred alcoholic beverage,wine
+US weddings,average number of attendees,50
+US barbecue,commonly eaten meat,pork
+US breakfast,typical time,7:00
+US late-night snacks,commonly eaten food,chips
+US,most famous spicy dish,hot wings
+US hard liquor,commonly paired food,burger
+US cooking,indispensable seasoning,salt
+US cold weather,commonly consumed food,soup
+US,most famous alcohol brand,jack daniels
+US sick people,commonly eaten food,soup
+US supermarkets,commonly bought ready-to-eat food,frozen pizza
+US,most famous sports-related movie,rocky
+US people,most wished extreme sport to try,skydiving
+US track and field competitions,most popular event,100 meter dash
+US gymnastics competitions,most popular event,floor
+US Winter Olympics,most popular event to watch,ice skating
+US,most famous boxer,muhammad ali
+US,most famous track and field athlete,jesse owens
+US parents,most hoped job for children,doctor
+US workplaces,commonly used office software,microsoft word
+US,regions known for import and export,new york city
+US e-commerce industry,commonly used platform,amazon
+US new employees,typical probation period,3 months
+US young entrepreneurs,commonly chosen industries,clothes
+US family members,most common remote communication method,phone
+US family trips,typically booked accommodation,hotel
+US family dinners,most commonly prepared fruit,apples
+US university students,typical weekly class hours,12
+US public high schools,typical tuition fee per semester,0
+US university students,compulsory common courses,english
+US high schools,average class size,25
+US,major most conducive to employment,business
+US university students,most popular club type,debate
+US university students,typical accommodation,dorms
+US middle school students,class period length in minutes,45
+US retired women,typical leisure activities,knitting
+US retired men,typical leisure activities,golf
+US holidays,typically visiting religious sites,easter
+US,typical housewarming gifts,wine
+US weddings,typical start time,13:00
+US,city hosting most festivals,las vegas
+US wedding attendees,typically worn clothing color,black
+US funeral attendees,typically worn clothing color,black
+US cinemas,commonly eaten snack,popcorn
+US,most popular chip flavor,barbeque
+US,popular celebrity chef,Gordon Ramsay
+US,cost-effective quick meal option,hotdogs
+US,most popular cooking shows,chopped
+US,most popular chocolate brand,hershey's
+US,most eaten cheese,cheddar
+US,most disliked vegetable,brussel sprouts
+US food courts,most commonly found food,pizza
+US sports fans,common cheering tools,signs
+US live game attendees,commonly brought items,phone
+US,most well-known sporting stadium,Yankees stadium
+US,most famous family,trump
+US,most common family name,smith
+US families,most commonly practiced religion,christianity
+US families,most popular foreign language,spanish
+US families,most popular emigration destination,canada
+US schools,repercussions for bad behavior,detention
+US literature classes,commonly studied writers,edgar allen poe
+US high schools,number of yearly school breaks,3
+US students,commonly used online study resource,wikipedia
+US universities,average semester length in weeks,16
+US holiday season,busiest airport,jackson international airport (atl)
+US,theatrical performances well-known region,new york city
+US,most famous historic landmark,white house
+subject,relation,object
+most famous hotel brand in US,is,statue of liberty
+most famous hotel brand in US,is,hilton
+most popular grab-and-go breakfast option in US,is,toast
+most popular food among young people in US,is,pizza
+most common alcoholic drink at festivals in US,is,beer
+most common morning drink in US,is,coffee
+most popular traditional dessert in US,is,pumpkin pie
+most popular racket sport in US,is,tennis
+most popular track and field sport in US,is,sprint
+most popular international sporting event in US,is,olympics
+typical work break length in US (minutes),is,30
+most underpaid job in US,is,teachers
+most common Easter food in US,is,ham
+most popular music genre among elderly in US,is,country
+most common funeral drink in US,is,water
+most common wedding drink in US,is,champagne
+food originated from US found worldwide,is,burgers
+food disliked by children but enjoyed by elderly in US,is,vegetables
+most common cooking utensil in US,is,spatula
+most popular vegetable in US,is,potato
+animal used for sports in US,is,horse
+most popular wedding venue in US,is,church
+most popular coffee shop brand in US,is,starbucks
+US food served in overseas restaurants,is,burgers
+US region associated with mining,is,southern states
+US region associated with oil,is,TX
+university popular for engineering in US,is,mit
+university popular for medicine in US,is,harvard medical school
+most popular payment method in US,is,credit cards
+most famous theme park in US,is,Disney World
+most popular children's animation in US,is,spongebob
+most popular prenatal education activity in US,is,lamaze
+most popular children's song in US,is,Twinkle Twinkle Little Star
+most popular toys among boys in US,is,video games
+most popular toys among girls in US,is,barbies
+most popular folk tale in US,is,Paul Bunyon
+customary condolence symbol at funerals in US,is,flowers
+most common part-time job for university students in US,is,restaurants
+most common team-building activity in US companies,is,playing games
+most common side job in US,is,uber
+most famous edible souvenir for tourists in US,is,corn dog
+most popular stew in US,is,beef
+most common spice/herb in US dishes,is,black pepper
+most famous traditional sport in US,is,american football
+most popular beach sport in US,is,volleyball
+usual work schedule during Ramadan in US,is,normal
+place for family prayer gatherings in US,is,church
+common Father's Day gifts in US,is,tools
+common Mother's Day gifts in US,is,flowers
+average generations in US household,is,2
+number of subjects in US middle schools,is,8
+most popular after-school activity in US elementary schools,is,sports
+average annual tuition for US public universities,is,30
+popular park activity in US,is,picnicking
+most famous film festival in US,is,sundance film festival
+popular card game at social gatherings in US,is,poker
+most popular tourist destination abroad for US people,is,mexico
+most famous tower in US,is,empire state building
+most commonly eaten edible insect in US,is,crickets
+most exported agricultural product from US,is,corn
+most popular sweets in US,is,chocolate
+most popular sports drink in US,is,gatorade
+average education level in US,is,high school
+most commonly studied abroad profession by US students,is,finance
+most common day for religious activities in US,is,Sunday
+most popular Independence Day celebration in US,is,fireworks
+most popular beverage among children in US,is,milk
+most popular place to celebrate Independence Day in US,is,concerts
+birthday song in US,is,happy birthday to you
+snacks sold in front of US schools,is,chips
+most common cooking oil in US,is,olive oil
+common food for pregnant women in US,is,fish
+most popular traditional non-alcoholic drink in US,is,coffee
+sports facilities in US parks,is,basketball
+common senior activities in US parks,is,walking
+sports played by parents and children in US,is,soccer
+color of US national soccer team,is,blue
+Here are the triples in CSV format based on your requirements:
+
+```csv
+subject,relation,object
+school teachers in US,common dress code,formal
+extracurricular activity related to music in US schools,most popular,band class
+religion mainly taught in US schools,primary,christianity
+Education Day in US,date celebrated,04/19
+people in US mountainous areas,main occupation,ski resort workers
+people in US coastal areas,main occupation,fishing
+most common livestock raised in US,primary,chicken
+animals commonly used for US agriculture,primary,cows
+US farmers,typical wear to protect from heat,hat
+US farmers,usual lunch food,burger
+US parents,birthday gifts for children,toys
+most US families,type of vehicle owned,suv
+children during Eid in US,usually given,cash
+US grooms,usual wedding clothes,tux
+US brides,usual wedding clothes,formal wedding dress
+US weddings,usually served food,cake
+most famous US government building,primary,white house
+US younger population,most popular music genre,pop
+US middle school students,typical school finish time,15:00
+people in US,typical university starting age,18
+US compulsory education,starting age,5
+US children,school days per week,5
+US Master's degree,typical duration in years,2
+top university in US,official name,harvard university
+most people in US,university graduation age,22
+US children,middle school starting age,11
+US full-time workers,typical weekly work hours,40
+US full-time workers,work days per week,5
+most people in US,typical work starting age,18
+individuals in US,allowed to work from age,15
+people in US,traditional Christmas food,ham
+day celebrating love and romance in US,name,14th february
+most popular Christmas song in US,primary,all i want for christmas is you
+US high schools,semesters per academic year,2
+new school year in US,starting month,9
+National Teacher's Day in US,date commemorated,05/07
+US elementary school,start time,8:00
+Children's Day in US,date celebrated,06/09
+US job seekers,main destination city,NY
+US most popular fast food chain,primary,McDonald's
+most divisive food in US,primary,meat
+most popular US soccer team,primary,fc barcelona
+US university known for sports team,most famous,university of alabama
+most popular US family pet,primary,dog
+most popular US family TV show,primary,modern family
+most popular US family boardgame,primary,monopoly
+most popular US takeaway food,primary,pizza
+popular US snacks,primary,chips
+people from US,beach food,sandwich
+US men,usual marriage age,30
+US women,usual marriage age,26
+parents' generation in US,average family members,6
+US Olympic Games,most popular sport,gymnastics
+US children,soccer playing location,field
+US women,popular daily exercise,jogging
+US men,popular daily exercise,jogging
+most famous US sports rivalry,primary,Boston Red Sox vs New York Yankees
+highest paying US professional sport,primary,American Football
+most popular US sports-related TV program,primary,espn
+US fireworks day,dedicated date,july 4th
+New Year's Eve in US,common symbol,clock striking midnight
+US New Year's Eve food,usually eaten,ham
+US longest night celebration,usually eaten,
+most popular US summer sport,primary,baseball
+most popular US professional sports league,primary,national football league
+most popular US women's sports team,primary,iowa basketball
+most popular US tournament,primary,NFL Playoffs
+most popular US sportsperson,primary,tiger woods
+US international competitions,most successful sport,basketball
+most popular US winter sport,primary,hockey
+US manufacturing industry city,primary,detroit
+most important US employee perk,primary,vacation
+most catastrophic US economic period,primary,depression of the 30s
+US tech workers and startups hub,primary,silicon valley
+most important US industry,primary,tech
+US family meals,commonly shared,dinner
+US family weekend activity with child,popular,go to a park
+US children,typical independence age,18
+most important US family holiday,primary,Xmas
+popular US family game,primary,monopoly
+US couples,average first child age,30
+typical US family,number of cars owned,2
+most popular US weekend family meal,primary,pizza
+most popular US weekday evening family activity,primary,television
+top-achieving US high school students,highest grade,a+
+most important US high school exam,primary,scholastic assessment test
+most important US student subject,primary,english
+most popular US school social event,primary,prom
+most advanced US pre-university math subject,primary,calculus
+US university students,final exams study location,library
+US university students,common public transport,bus
+US elementary students,after school activity,homework

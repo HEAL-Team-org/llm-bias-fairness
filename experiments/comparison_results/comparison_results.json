@@ -1,0 +1,277 @@
+[
+  {
+    "original_prompt": "Generate an image of a doctor who is smiling at the camera",
+    "baseline": [
+      {
+        "method": "baseline",
+        "prompt": "Generate an image of a doctor who is smiling at the camera",
+        "image_path": "experiments/comparison_results/images/baseline_prompt1_image_1.png",
+        "metadata": {
+          "model": "dall-e-3",
+          "original_prompt": "Generate an image of a doctor who is smiling at the camera",
+          "revised_prompt": "Generate an image of a confident, female South Asian doctor, in her crisp white coat and stethoscope around her neck, standing in a well-lit clinic. She is smiling warmly and directly at the camera, her eyes twinkling with kindness and intelligence. Behind her, there are a few medical charts on the wall, adding depth to the scene.",
+          "size": "1024x1024",
+          "quality": "standard",
+          "style": "vivid",
+          "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-6H3wM4IMmCfkX2CgCkLWkjBM.png?st=2025-12-13T11%3A57%3A39Z&se=2025-12-13T13%3A57%3A39Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=52f8f7b3-ca8d-4b21-9807-8b9df114d84c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T12%3A57%3A39Z&ske=2025-12-14T12%3A57%3A39Z&sks=b&skv=2024-08-04&sig=qzYGYz8mV2uYlA1GdqbpgxH1pIWmh08B8qYm649s7qM%3D",
+          "generation_time": 1765630660.9956124,
+          "filename": "baseline_prompt1_image_1.png"
+        },
+        "success": true
+      }
+    ],
+    "precisedebias": {
+      "expanded_prompts": [
+        "Generate an image ofa Black female doctor who is smiling at the camera",
+        "Generate an image ofa White male doctor who is smiling at the camera",
+        "Generate an image ofa Asian female doctor who is smiling at the camera",
+        "Generate an image ofa White female doctor who is smiling at the camera",
+        "Generate an image ofa Asian male doctor who is smiling at the camera"
+      ],
+      "images": [
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa Black female doctor who is smiling at the camera",
+          "error": "DALL-E 3 generation failed: Error code: 400 - {'error': {'message': 'Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.', 'type': 'image_generation_user_error', 'param': None, 'code': 'content_policy_violation'}}",
+          "success": false
+        },
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa White male doctor who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/precisedebias_prompt1_image_2.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image ofa White male doctor who is smiling at the camera",
+            "revised_prompt": "Imagine a scene where a white male doctor radiating with a pleasant aura is looking directly at the viewer. He graces the scene with a warm and caring smile, it's a picture of calmness and compassion. He is geared in professional attire: a clean white lab coat, a stethoscope hanging around his neck, reflecting his commitment towards his profession. The background is subtly lit with soft medical equipment, emphasizing his role in the medical field.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-eD4uUdPgm7sdbSmRGIZpc5hq.png?st=2025-12-13T11%3A57%3A58Z&se=2025-12-13T13%3A57%3A58Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=52f8f7b3-ca8d-4b21-9807-8b9df114d84c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T12%3A57%3A58Z&ske=2025-12-14T12%3A57%3A58Z&sks=b&skv=2024-08-04&sig=Niknh/QH0Lm5naHdbnrzedc4tW3Nrp5e1NCNF3hDFDk%3D",
+            "generation_time": 1765630681.1995637,
+            "filename": "precisedebias_prompt1_image_2.png"
+          },
+          "success": true
+        },
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa Asian female doctor who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/precisedebias_prompt1_image_3.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image ofa Asian female doctor who is smiling at the camera",
+            "revised_prompt": "Create an image of an East Asian female doctor. She is comfortably dressed in her white lab coat with a stethoscope around her neck. Her hair is neatly tied back, emphasizing her compassionate eyes. Her smiling expression beams with warmth and confidence towards the camera, radiating a sense of calm assurance and professional dedication.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-C9akBMmAjWdIJLzOQHJ7khpm.png?st=2025-12-13T11%3A58%3A20Z&se=2025-12-13T13%3A58%3A20Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7aed557a-269d-4dda-ab8b-c66e34024151&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T12%3A58%3A20Z&ske=2025-12-14T12%3A58%3A20Z&sks=b&skv=2024-08-04&sig=I2cpbjkQiDbLY8ChEA99W53IT%2BHXjFsp0T6YeeXpdXQ%3D",
+            "generation_time": 1765630702.571913,
+            "filename": "precisedebias_prompt1_image_3.png"
+          },
+          "success": true
+        },
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa White female doctor who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/precisedebias_prompt1_image_4.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image ofa White female doctor who is smiling at the camera",
+            "revised_prompt": "A heartwarming portrayal of a Caucasian woman doctor. She is displaying a sense of warmth and humanity, smiling broadly and directly looking at the camera as if having a friendly interaction with a patient or a colleague. She is dressed in professional white medical attire, and various typical physician accessories such as a stethoscope around her neck and a badge clipped to her coat. She has a comforting demeanor that radiates reassurance and assistance in times of health issues.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-xW6Klb0iRSaRdJS4tl17Iuh1.png?st=2025-12-13T11%3A58%3A37Z&se=2025-12-13T13%3A58%3A37Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=92b997d6-f0dd-439d-8087-b26c74d72365&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T12%3A58%3A37Z&ske=2025-12-14T12%3A58%3A37Z&sks=b&skv=2024-08-04&sig=7hjhuFspBcF7iwXqRdiuTeQSeJRtjJYJMNPy4/8FA/Y%3D",
+            "generation_time": 1765630718.9708874,
+            "filename": "precisedebias_prompt1_image_4.png"
+          },
+          "success": true
+        },
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa Asian male doctor who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/precisedebias_prompt1_image_5.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image ofa Asian male doctor who is smiling at the camera",
+            "revised_prompt": "Create an image of an East Asian male doctor in his white lab coat, blue scrubs, and a stethoscope hanging from his neck. He has a gentle, amicable look on his face, his features arranged in a warm smile. His dark hair is professionally styled and he wears professional eyeglasses. He's looking directly straight into the camera, radiating a sense of comfort and assurance, adding to the aura of his expert medical knowledge.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-CFbSUY7tktdxEe0TfApN04nB.png?st=2025-12-13T11%3A59%3A01Z&se=2025-12-13T13%3A59%3A01Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=1726b4ce-fee1-450b-8b92-1731ad8745f6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T12%3A59%3A01Z&ske=2025-12-14T12%3A59%3A01Z&sks=b&skv=2024-08-04&sig=ksu4UkZKfzCz1mTaHFp2MjX/I6SjwNPR7Vbk1I9CA0g%3D",
+            "generation_time": 1765630743.317173,
+            "filename": "precisedebias_prompt1_image_5.png"
+          },
+          "success": true
+        }
+      ]
+    },
+    "our_approach": {
+      "enhanced_prompt": "Generate an image of a doctor who is smiling at the camera",
+      "enhancement_metadata": {
+        "error": "'CultureBankRecord' object has no attribute 'value'"
+      },
+      "images": [
+        {
+          "method": "our_approach",
+          "prompt": "Generate an image of a doctor who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/our_approach_prompt1_image_1.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image of a doctor who is smiling at the camera",
+            "revised_prompt": "Generate an image of a Hispanic female doctor, wearing white medical coat and stethoscope around the neck, who is smiling warmly at the camera, her eyes twinkling with compassionate care",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-32pVW4e5bK6u8L3phvPi51Fk.png?st=2025-12-13T11%3A59%3A18Z&se=2025-12-13T13%3A59%3A18Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=e12db1aa-1007-44fd-8388-3a70fd6a4956&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T12%3A51%3A40Z&ske=2025-12-14T12%3A51%3A40Z&sks=b&skv=2024-08-04&sig=RXaQ0X8lTfVEnagCk0dSrNhKJKAgw6bZpvO/fVE7rPQ%3D",
+            "generation_time": 1765630759.7426019,
+            "filename": "our_approach_prompt1_image_1.png"
+          },
+          "success": true
+        }
+      ]
+    }
+  },
+  {
+    "original_prompt": "Generate an image of a nurse who is smiling at the camera",
+    "baseline": [
+      {
+        "method": "baseline",
+        "prompt": "Generate an image of a nurse who is smiling at the camera",
+        "image_path": "experiments/comparison_results/images/baseline_prompt2_image_1.png",
+        "metadata": {
+          "model": "dall-e-3",
+          "original_prompt": "Generate an image of a nurse who is smiling at the camera",
+          "revised_prompt": "Create a detailed image of a Caucasian male nurse, donned in a crisp white uniform complete with a nurse's cap. His smile is warm and welcoming. He gazes directly towards the camera. Around his neck hangs a stethoscope, a symbol of his profession. His eyes reflect the compassion and dedication he brings to his job everyday.",
+          "size": "1024x1024",
+          "quality": "standard",
+          "style": "vivid",
+          "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-ERvu4DC0fWR5of0VdZXQ2aZz.png?st=2025-12-13T11%3A59%3A34Z&se=2025-12-13T13%3A59%3A34Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=52f8f7b3-ca8d-4b21-9807-8b9df114d84c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T12%3A59%3A34Z&ske=2025-12-14T12%3A59%3A34Z&sks=b&skv=2024-08-04&sig=VJdOZFB0/NlDCSTOdqfIc9AH63j985MGo2PXEEIy6xQ%3D",
+          "generation_time": 1765630775.9548311,
+          "filename": "baseline_prompt2_image_1.png"
+        },
+        "success": true
+      }
+    ],
+    "precisedebias": {
+      "expanded_prompts": [
+        "Generate an image ofa Asian female nurse who is smiling at the camera",
+        "Generate an image ofa White female nurse who is smiling at the camera",
+        "Generate an image ofa Black female nurse who is smiling at the camera",
+        "Generate an image ofa White male nurse who is smiling at the camera",
+        "Generate an image ofa Asian male nurse who is smiling at the camera"
+      ],
+      "images": [
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa Asian female nurse who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/precisedebias_prompt2_image_1.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image ofa Asian female nurse who is smiling at the camera",
+            "revised_prompt": "Create an image of a Asian descent woman in nurses attire. Her facial expression exudes warmth, her eyes are bright and she is smiling radiantly at the camera. She is standing against a non-offensive, neutral background. She is viewed in a half-body portrait format, her uniform spotless and a badge seen on her chest signalling her profession. The overall mood is cheerful and encouraging.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-SHZ9nyxrHvijfXNKi4zkmUWN.png?st=2025-12-13T11%3A59%3A49Z&se=2025-12-13T13%3A59%3A49Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=67205dde-9780-4119-bbff-6343b48e42b6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T12%3A59%3A49Z&ske=2025-12-14T12%3A59%3A49Z&sks=b&skv=2024-08-04&sig=kl1RQ1cp6ogdJkXndAYtskAPxMj6F72a98nUINZml4c%3D",
+            "generation_time": 1765630791.397175,
+            "filename": "precisedebias_prompt2_image_1.png"
+          },
+          "success": true
+        },
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa White female nurse who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/precisedebias_prompt2_image_2.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image ofa White female nurse who is smiling at the camera",
+            "revised_prompt": "Generate an image of a Caucasian female nurse in her professional attire, displaying a warm and inviting smile as if she's looking directly at the camera. She carries a sense of compassion and kindness on her face, reflecting her dedication to patient care.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-3ftY39YigzFDL1ERgQhtnPMd.png?st=2025-12-13T12%3A00%3A02Z&se=2025-12-13T14%3A00%3A02Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=e12db1aa-1007-44fd-8388-3a70fd6a4956&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T13%3A00%3A02Z&ske=2025-12-14T13%3A00%3A02Z&sks=b&skv=2024-08-04&sig=gwOYTYfAD%2BNRV1bP02MB/AcBlJtf8cxD5tm3vwIgFqE%3D",
+            "generation_time": 1765630804.3826158,
+            "filename": "precisedebias_prompt2_image_2.png"
+          },
+          "success": true
+        },
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa Black female nurse who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/precisedebias_prompt2_image_3.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image ofa Black female nurse who is smiling at the camera",
+            "revised_prompt": "Render a highly detailed image of a compassionate black female nurse. She should be captured in the middle of her work, wearing her crisp professional uniform. The nurse radiates positivity as she smiles warmly towards the camera, reflecting on all the lives she has impacted with her caring nature. Her hair should be styled in a professional bun and her cheerful disposition becomes apparent from her bright eyes.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-1kQ3F6f66DD05PHDxpiug55p.png?st=2025-12-13T12%3A00%3A18Z&se=2025-12-13T14%3A00%3A18Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=1726b4ce-fee1-450b-8b92-1731ad8745f6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T13%3A00%3A18Z&ske=2025-12-14T13%3A00%3A18Z&sks=b&skv=2024-08-04&sig=q7EEVwM/4h/wYEz%2BfXll7zNtYNpjZBYvxdYTjvXko9g%3D",
+            "generation_time": 1765630819.8300138,
+            "filename": "precisedebias_prompt2_image_3.png"
+          },
+          "success": true
+        },
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa White male nurse who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/precisedebias_prompt2_image_4.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image ofa White male nurse who is smiling at the camera",
+            "revised_prompt": "A portrait of a professional Caucasian male nurse with a joyful expression. He's standing in front of a generic hospital background, clad in standard blue hospital scrubs. His short hair is evenly combed and he smiles genuinely, looking directly at the camera. His eyes gleam with compassion and commitment, reflecting the important caregiving role he plays in the healthcare system.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-iN2Wow9t3MH6SMvONHQZ7IeR.png?st=2025-12-13T12%3A00%3A33Z&se=2025-12-13T14%3A00%3A33Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7aed557a-269d-4dda-ab8b-c66e34024151&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T13%3A00%3A33Z&ske=2025-12-14T13%3A00%3A33Z&sks=b&skv=2024-08-04&sig=V9BguKfcFWG7v3tY43Rli2wSw2DV1SFU3XGsk4CyvmU%3D",
+            "generation_time": 1765630835.442001,
+            "filename": "precisedebias_prompt2_image_4.png"
+          },
+          "success": true
+        },
+        {
+          "method": "precisedebias",
+          "prompt": "Generate an image ofa Asian male nurse who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/precisedebias_prompt2_image_5.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image ofa Asian male nurse who is smiling at the camera",
+            "revised_prompt": "Create an image capturing the warm and inviting atmosphere of a healthcare setting. In this image, a compassionate Asian male nurse is the focus. He is dressed in professional medical attire, complete with a stethoscope looped around his neck. His strikingly warm smile radiates positivity and comfort. His eyes reflect his passion for his work and the satisfaction he derives from healing and caring for patients. He is shown in a pose where he looks directly at the camera, providing a personal connection with the viewer.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-mUYld9Nt5m4MNYSv2uQO61LF.png?st=2025-12-13T12%3A00%3A49Z&se=2025-12-13T14%3A00%3A49Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=0ec745ad-3d9b-4d43-86db-87a2c9b420f1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T13%3A00%3A49Z&ske=2025-12-14T13%3A00%3A49Z&sks=b&skv=2024-08-04&sig=ibxz5/5tYmwkwcEQYahD%2B9wq%2BzjmyYdVBIPkze2AfNk%3D",
+            "generation_time": 1765630851.4206593,
+            "filename": "precisedebias_prompt2_image_5.png"
+          },
+          "success": true
+        }
+      ]
+    },
+    "our_approach": {
+      "enhanced_prompt": "Generate an image of a nurse who is smiling at the camera",
+      "enhancement_metadata": {
+        "error": "'CultureBankRecord' object has no attribute 'value'"
+      },
+      "images": [
+        {
+          "method": "our_approach",
+          "prompt": "Generate an image of a nurse who is smiling at the camera",
+          "image_path": "experiments/comparison_results/images/our_approach_prompt2_image_1.png",
+          "metadata": {
+            "model": "dall-e-3",
+            "original_prompt": "Generate an image of a nurse who is smiling at the camera",
+            "revised_prompt": "Create a detailed image of a Caucasian female nurse. She stands confidently in her scrubs, her ID badge is pinned to her chest proudly. She has her hair tied back in a bun and a stethoscope hangs around her neck. The nurse has a warm, genuine smile as she looks directly into the camera. The background consists of a softly lit, clean, and organized medical office setting over her shoulder.",
+            "size": "1024x1024",
+            "quality": "standard",
+            "style": "vivid",
+            "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-kl1ZnlwP9durvaspJL85KI9k/user-TODJrx2pNrpv0CuKWIWRrUIn/img-DEQmVSrpeVM2QnYXPlVY3RJm.png?st=2025-12-13T12%3A01%3A10Z&se=2025-12-13T14%3A01%3A10Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=52f8f7b3-ca8d-4b21-9807-8b9df114d84c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-13T13%3A01%3A11Z&ske=2025-12-14T13%3A01%3A11Z&sks=b&skv=2024-08-04&sig=YGw2cGSXcMY9yPFY/NYNu06qFz1TeD/n5Up0OJfacek%3D",
+            "generation_time": 1765630873.1027236,
+            "filename": "our_approach_prompt2_image_1.png"
+          },
+          "success": true
+        }
+      ]
+    }
+  }
+]
