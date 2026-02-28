@@ -1287,7 +1287,7 @@ def sequential_enhance_prompt(
         enhanced_result = (
             get_llm_enhancement(enhancement_prompt, llm, graphrag)
             if not llm.args.chat_mode
-            else llm.chat(messages)
+            else llm.is_available() and llm.chat(messages)
         )
         messages.append({"role": "assistant", "content": enhanced_result})
 
@@ -1373,6 +1373,20 @@ def sequential_enhance_prompt(
             final_method,
             threshold,
         )
+    try:
+        from datetime import datetime
+        from pathlib import Path
+
+        Path("messages").mkdir(parents=True, exist_ok=True)
+        filename = f"messages/{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        # e.g. output_20260228_143022.json
+
+        with open(filename, "w") as f:
+            json.dump(
+                {"original_prompt": original_prompt, "messages": messages}, f, indent=2
+            )
+    except:
+        pass
 
     return final_prompt, iteration_history
 
