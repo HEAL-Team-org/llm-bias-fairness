@@ -570,11 +570,17 @@ Examples:
         choices=list(_LLM_CLASSES.keys()),
         help="Which LLM backend to use (default: openai)",
     )
+    parser.add_argument(
+        "--chat-mode",
+        action="store_true",
+        default=False,
+        help="Use chat endpoint instead of generate",
+    )
 
     # for cls in _LLM_CLASSES.values():
     #     cls.add_args(parser)
     args = parser.parse_known_args()
-    llm = _LLM_CLASSES[args.llm].add_args(parser)
+    _LLM_CLASSES[args.llm].add_args(parser)
 
     return parser.parse_args()
 
@@ -755,7 +761,9 @@ This is iteration {iteration} of the enhancement process.
 Previous enhanced prompt: {previous_prompt}
 Previous diversity score: {previous_score}/100
 
-The previous prompt did not meet the minimum diversity threshold. Please focus on improving the areas that scored poorly in diversity assessment.
+The previous prompt did not meet the minimum diversity threshold.
+
+Can you think again? Use the newly retrieved bias and cultural knowledge above to reconsider your previous reasoning and identify what was missed or underrepresented.
 """
 
     return f"""You are an AI assistant specialized in creating inclusive and diverse image generation prompts that avoid stereotypes and biases.
@@ -765,12 +773,20 @@ ORIGINAL IMAGE PROMPT:
 
 {iteration_context}
 
+BIAS INFO:
 {bias_info}
 
+CULTURAL INFO:
 {cultural_info}
 
 TASK:
-Please enhance the {"original" if iteration == 1 else "previous"} image prompt to:
+Before generating the enhanced prompt, think step by step using the bias and cultural knowledge provided above:
+- For each bias triple, identify whether it reveals a stereotype present in the {"original" if iteration == 1 else "previous"} prompt and how to address it.
+- For each cultural triple, identify what diversity element it suggests adding to the prompt.
+- Use your reasoning above to decide on the final set of changes before writing the prompt.
+- Write your thinking process in <think></think> tags.
+
+Then, enhance the {"original" if iteration == 1 else "previous"} image prompt to:
 
 1. AVOID BIASES AND STEREOTYPES:
    - Use the bias information above to identify potential stereotypes
@@ -800,6 +816,124 @@ REQUIREMENTS:
 - Ensure the prompt flows naturally and is not overly complex
 - Focus on positive representation rather than just avoiding negatives
 {"- Improve upon the previous iteration's weaknesses" if iteration > 1 else ""}
+
+Please provide your response in this exact JSON format.
+
+You MUST wrap your final JSON object inside <json> and </json> tags.
+You may reason briefly before the <json> tag, but do not add any text after the </json> tag.
+
+CRITICAL FORMATTING RULES:
+1. You MUST output valid, strict JSON wrapped exactly inside <json> and </json> tags.
+2. Every single key and string value MUST be enclosed in double quotes ("). 
+3. Do not use single quotes ('). 
+4. Do not leave keys unquoted (e.g., write "ability_inclusion": 5, NOT ability_inclusion: 5).
+5. You may reason briefly before the <json> tag, but you MUST NOT add any text whatsoever after the </json> tag.
+
+<json>
+{{
+  "enhanced_prompt": "<single well-crafted image generation prompt>",
+  "explanation": "<brief explanation of key enhancements made>",
+  "diversity_elements": ["<aspect 1>", "<aspect 2>", "<aspect 3>"]
+}}
+</json>
+"""
+
+
+def create_enhancement_prompt_chat(
+    original_prompt: str,
+    bias_triples: List[Triple],
+    cultural_triples: List[Triple],
+    iteration: int = 1,
+    previous_score: int | None = None,
+) -> str:
+
+    bias_info = format_triples_for_llm(bias_triples, "bias and stereotype")
+    cultural_info = format_triples_for_llm(
+        cultural_triples, "cultural values and diversity"
+    )
+
+    if iteration == 1:
+        return f"""
+ORIGINAL IMAGE PROMPT:
+{original_prompt}
+
+BIAS INFO:
+{bias_info}
+
+CULTURAL INFO:
+{cultural_info}
+
+Before generating the enhanced prompt, think step by step using the bias and cultural knowledge provided above:
+- For each bias triple, identify whether it reveals a stereotype present in the original prompt and how to address it.
+- For each cultural triple, identify what diversity element it suggests adding to the prompt.
+- Use your reasoning above to decide on the final set of changes before writing the prompt.
+- Write your thinking process in <think></think> tags.
+
+Then, enhance the original image prompt to:
+
+1. AVOID BIASES AND STEREOTYPES:
+   - Use the bias information above to identify potential stereotypes
+   - Modify the prompt to avoid reinforcing harmful biases
+   - Ensure fair representation across different groups
+
+2. PROMOTE CULTURAL DIVERSITY AND INCLUSION:
+   - Incorporate relevant cultural values from the information above
+   - Add elements that promote diversity in:
+     * Age (various age groups)
+     * Nationality and ethnicity (global representation)
+     * Skin color and appearance (diverse physical features)
+     * Gender and sex (inclusive gender representation)
+     * Abilities and disabilities (accessibility and inclusion)
+     * Socioeconomic backgrounds
+     * Cultural practices and traditions
+
+3. ENHANCE FOR VISUAL DIVERSITY:
+   - Add specific descriptive elements that encourage diverse representation
+   - Include cultural artifacts, clothing, or settings when appropriate
+   - Suggest inclusive environments and contexts
+
+REQUIREMENTS:
+- Keep the core concept of the original prompt
+- Make the enhanced prompt specific and actionable for image generation
+- Provide concrete details rather than general statements
+- Ensure the prompt flows naturally and is not overly complex
+- Focus on positive representation rather than just avoiding negatives
+
+Please provide your response in this exact JSON format.
+
+You MUST wrap your final JSON object inside <json> and </json> tags.
+You may reason briefly before the <json> tag, but do not add any text after the </json> tag.
+
+CRITICAL FORMATTING RULES:
+1. You MUST output valid, strict JSON wrapped exactly inside <json> and </json> tags.
+2. Every single key and string value MUST be enclosed in double quotes ("). 
+3. Do not use single quotes ('). 
+4. Do not leave keys unquoted (e.g., write "ability_inclusion": 5, NOT ability_inclusion: 5).
+5. You may reason briefly before the <json> tag, but you MUST NOT add any text whatsoever after the </json> tag.
+
+<json>
+{{
+  "enhanced_prompt": "<single well-crafted image generation prompt>",
+  "explanation": "<brief explanation of key enhancements made>",
+  "diversity_elements": ["<aspect 1>", "<aspect 2>", "<aspect 3>"]
+}}
+</json>
+"""
+
+    else:
+        return f"""
+Can you think again? Here is newly retrieved bias and cultural knowledge — use it to reconsider your previous reasoning and identify what was missed or underrepresented.
+Write your thinking process in <think></think> tags.
+
+PREVIOUS ITERATION CONTEXT:
+This is iteration {iteration} of the enhancement process.
+Previous diversity score: {previous_score}/100
+
+BIAS INFO:
+{bias_info}
+
+CULTURAL INFO:
+{cultural_info}
 
 Please provide your response in this exact JSON format.
 
@@ -1116,6 +1250,8 @@ def sequential_enhance_prompt(
 
     current_prompt = original_prompt
     iteration_history = []
+    system_prompt = "You are an AI assistant specialized in creating inclusive and diverse image generation prompts that avoid stereotypes and biases."
+    messages = [{"role": "system", "content": system_prompt}]
 
     for iteration in range(1, max_iterations + 1):
         logger.info("── ITERATION %d / %d ──", iteration, max_iterations)
@@ -1123,6 +1259,7 @@ def sequential_enhance_prompt(
         # Get previous context for iterations beyond the first
         previous_prompt = None
         previous_score = None
+
         if iteration > 1:
             previous_prompt = iteration_history[-1]["enhanced_prompt"]
             previous_score = iteration_history[-1]["diversity_score"]["overall_score"]
@@ -1137,8 +1274,22 @@ def sequential_enhance_prompt(
             previous_score,
         )
 
+        enhancement_prompt_chat = create_enhancement_prompt_chat(
+            original_prompt,
+            bias_triples,
+            cultural_triples,
+            iteration,
+            previous_score,
+        )
+        messages.append({"role": "user", "content": enhancement_prompt_chat})
+
         # Get LLM enhancement
-        enhanced_result = get_llm_enhancement(enhancement_prompt, llm, graphrag)
+        enhanced_result = (
+            get_llm_enhancement(enhancement_prompt, llm, graphrag)
+            if not llm.args.chat_mode
+            else llm.chat(messages)
+        )
+        messages.append({"role": "assistant", "content": enhanced_result})
 
         # ── Save raw enhancement output to disk ──────────────────────────────────
         logger.debug(
