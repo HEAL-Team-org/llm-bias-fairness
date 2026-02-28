@@ -1306,6 +1306,21 @@ def sequential_enhance_prompt(
             logger.debug(
                 "[enhancement iter %d] raw output saved to %s", iteration, raw_path
             )
+            messages_dir = out_dir / "messages_llm_outputs"
+            messages_dir.mkdir(parents=True, exist_ok=True)
+            try:
+                filename = (
+                    f"{messages_dir}/{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+                )
+
+                with open(filename, "w") as f:
+                    json.dump(
+                        {"original_prompt": original_prompt, "messages": messages},
+                        f,
+                        indent=2,
+                    )
+            except:
+                pass
 
         enhanced_prompt = extract_enhanced_prompt(enhanced_result)
         if not enhanced_prompt:
@@ -1373,20 +1388,6 @@ def sequential_enhance_prompt(
             final_method,
             threshold,
         )
-    try:
-        from datetime import datetime
-        from pathlib import Path
-
-        Path("messages").mkdir(parents=True, exist_ok=True)
-        filename = f"messages/{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-        # e.g. output_20260228_143022.json
-
-        with open(filename, "w") as f:
-            json.dump(
-                {"original_prompt": original_prompt, "messages": messages}, f, indent=2
-            )
-    except:
-        pass
 
     return final_prompt, iteration_history
 
