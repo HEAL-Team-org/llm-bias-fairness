@@ -1287,7 +1287,7 @@ def sequential_enhance_prompt(
         enhanced_result = (
             get_llm_enhancement(enhancement_prompt, llm, graphrag)
             if not llm.args.chat_mode
-            else llm.is_available() and llm.chat(messages)
+            else (llm.is_available() and llm.chat(messages))
         )
         messages.append({"role": "assistant", "content": enhanced_result})
 

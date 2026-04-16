@@ -17,10 +17,14 @@ args = parser.parse_args()  # empty list → all defaults, no API calls made
 print("Registered models:", BaseLLM.registry)
 
 # instantiate each model (no generate/chat called)
-openai_llm = OpenAILLM(args)
+# openai_llm = OpenAILLM(args)
 groq_llm = GroqLLM(args)
-gemini_llm = GeminiLLM(args)
+# gemini_llm = GeminiLLM(args)
 
-print(f"OpenAI → model: {openai_llm.model_name}, params: {openai_llm.params}")
+# print(f"OpenAI → model: {openai_llm.model_name}, params: {openai_llm.params}")
 print(f"Groq   → model: {groq_llm.model_name},   params: {groq_llm.params}")
-print(f"Gemini → model: {gemini_llm.model_name}, params: {gemini_llm.params}")
+# print(f"Gemini → model: {gemini_llm.model_name}, params: {gemini_llm.params}")
+
+print(groq_llm.generate("hello, how are you?"))
+
+
