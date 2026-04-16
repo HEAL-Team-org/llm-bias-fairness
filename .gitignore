@@ -50,3 +50,4 @@ desktop.ini
 build/
 dist/
 *.egg-info/
+test.py
