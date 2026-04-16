@@ -566,14 +566,14 @@ Examples:
     parser.add_argument(
         "--llm",
         type=str,
-        default="openai",
+        default="OpenAILLM".lower(),
         choices=list(_LLM_CLASSES.keys()),
         help="Which LLM backend to use (default: openai)",
     )
 
     # for cls in _LLM_CLASSES.values():
     #     cls.add_args(parser)
-    args = parser.parse_known_args()
+    args, _ = parser.parse_known_args()
     llm = _LLM_CLASSES[args.llm].add_args(parser)
 
     return parser.parse_args()
@@ -1166,7 +1166,7 @@ def sequential_enhance_prompt(
             enhanced_prompt = fallback_prompt
 
         # Score diversity — keyword always + LLM judge when available
-        diversity_score = llm_score(enhanced_prompt, out_dir=out_dir)
+        diversity_score = llm_score(enhanced_prompt, llm, out_dir=out_dir)
 
         # Store iteration data
         iteration_data = {
@@ -1452,7 +1452,7 @@ def main() -> None:
 
     # Initialize GraphRAG system
     logger.info("Initializing GraphRAG system...")
-    graphrag = GraphRAG(cache_file=args.cache_file)
+    graphrag = GraphRAG(cache_file=args.cache_file, embed_model=llm)
 
     # Load datasets
     logger.info("Loading knowledge graphs...")

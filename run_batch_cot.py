@@ -36,7 +36,7 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 from helper.logger import get_logger, log_timer
-from enhance_prompt_sequential import (
+from enhance_prompt_sequential_cot import (
     load_bias_graph,
     load_cultural_graphs,
     retrieve_relevant_triples,

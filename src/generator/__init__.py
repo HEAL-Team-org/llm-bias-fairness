@@ -28,7 +28,7 @@ class BaseLLM(abc.ABC):
     def _generate_embedding(self, text: str) -> List[float]:
         """Return the embedding vector for a single text. Implement this in subclasses."""
 
-    def generate_embedding(self, texts: List[str]) -> List[List[float]]:
+    def generate_embeddings(self, texts: List[str]) -> List[List[float]]:
         """Embed a list of texts in parallel by default."""
         with concurrent.futures.ThreadPoolExecutor() as executor:
             return list(executor.map(self._generate_embedding, texts))

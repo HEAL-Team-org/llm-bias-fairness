@@ -51,6 +51,13 @@ class OpenAILLM(BaseLLM):
         )
         return response.data[0].embedding
 
+    def generate_embeddings(self, texts: List[str]) -> List[List[float]]:
+        response = self.client.embeddings.create(
+            model=self.embed_model,
+            input=texts,
+        )
+        return [item.embedding for item in response.data]
+
     @staticmethod
     def add_args(parser: argparse.ArgumentParser) -> argparse.ArgumentParser:
         group = parser.add_argument_group("OpenAI")
